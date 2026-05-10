@@ -97,6 +97,49 @@
       }
       a.cta.secondary:hover { background: var(--panel); }
 
+      section.shots {
+        margin: 24px 0 60px;
+      }
+      .shot-rail {
+        display: flex;
+        gap: 18px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 8px 8px 24px;
+        margin: 0 -8px;
+        -webkit-overflow-scrolling: touch;
+      }
+      .shot-rail::-webkit-scrollbar { height: 6px; }
+      .shot-rail::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
+      .shot {
+        flex: 0 0 240px;
+        scroll-snap-align: start;
+      }
+      .shot img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 18px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 12px 32px -12px rgba(15, 23, 42, 0.16);
+      }
+      .shot-caption {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      @media (min-width: 900px) {
+        .shot-rail {
+          display: grid;
+          grid-template-columns: repeat(5, 1fr);
+          gap: 16px;
+          overflow: visible;
+          padding: 0;
+          margin: 0;
+        }
+        .shot { flex: none; }
+      }
+
       section.features {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -149,6 +192,7 @@
       <a href="/" class="brand">Flashcard Guru</a>
       <nav>
         <a href="/anki-remote">Anki Remote</a>
+        <a href="/blog/">Blog</a>
         <a href="/support">Support</a>
       </nav>
     </header>
@@ -159,6 +203,31 @@
         <p class="lead">Turn books, PDFs, and notes into focused flashcards on iPhone. Import directly from Anki, generate study notes with AI, and review with FSRS scheduling.</p>
         <a class="cta" href="https://apps.apple.com/app/flashcardguru/id6757980593">Get it on the App Store</a>
         <a class="cta secondary" href="/anki-remote">Free Anki Remote →</a>
+      </section>
+
+      <section class="shots" aria-label="Screenshots">
+        <div class="shot-rail">
+          <div class="shot">
+            <img src="/assets/screenshots/decks-home.png" alt="Decks home with imported Anki decks" loading="lazy">
+            <div class="shot-caption">Anki decks, imported as-is</div>
+          </div>
+          <div class="shot">
+            <img src="/assets/screenshots/ai-panel.png" alt="AI study notes panel inside the reader" loading="lazy">
+            <div class="shot-caption">AI notes from any PDF</div>
+          </div>
+          <div class="shot">
+            <img src="/assets/screenshots/reader.png" alt="PDF reader with highlights" loading="lazy">
+            <div class="shot-caption">Reader with highlights</div>
+          </div>
+          <div class="shot">
+            <img src="/assets/screenshots/review-answer.png" alt="Review session showing the answer" loading="lazy">
+            <div class="shot-caption">FSRS-scheduled review</div>
+          </div>
+          <div class="shot">
+            <img src="/assets/screenshots/stats.png" alt="Stats dashboard" loading="lazy">
+            <div class="shot-caption">Daily progress stats</div>
+          </div>
+        </div>
       </section>
 
       <section class="features">
