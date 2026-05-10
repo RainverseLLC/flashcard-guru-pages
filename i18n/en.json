@@ -26,20 +26,58 @@
     "shotRail": {
       "label": "Screenshots",
       "items": [
-        { "src": "/assets/screenshots/decks-home.png", "alt": "Decks home with imported Anki decks", "caption": "Anki decks, imported as-is" },
-        { "src": "/assets/screenshots/ai-panel.png", "alt": "AI study notes panel inside the reader", "caption": "AI notes from any PDF" },
-        { "src": "/assets/screenshots/reader.png", "alt": "PDF reader with highlights", "caption": "Reader with highlights" },
-        { "src": "/assets/screenshots/review-answer.png", "alt": "Review session showing the answer", "caption": "FSRS-scheduled review" },
-        { "src": "/assets/screenshots/stats.png", "alt": "Stats dashboard", "caption": "Daily progress stats" }
+        {
+          "src": "/assets/screenshots/decks-home.png",
+          "alt": "Decks home with imported Anki decks",
+          "caption": "Anki decks, imported as-is"
+        },
+        {
+          "src": "/assets/screenshots/ai-panel.png",
+          "alt": "AI study notes panel inside the reader",
+          "caption": "AI notes from any PDF"
+        },
+        {
+          "src": "/assets/screenshots/reader.png",
+          "alt": "PDF reader with highlights",
+          "caption": "Reader with highlights"
+        },
+        {
+          "src": "/assets/screenshots/review-answer.png",
+          "alt": "Review session showing the answer",
+          "caption": "FSRS-scheduled review"
+        },
+        {
+          "src": "/assets/screenshots/stats.png",
+          "alt": "Stats dashboard",
+          "caption": "Daily progress stats"
+        }
       ]
     },
     "features": [
-      { "title": "Import from Anki", "body": "Drop in any <code>.apkg</code> or <code>.colpkg</code> package — decks, notes, scheduling state, and media all migrate intact, powered by Anki's own parser." },
-      { "title": "AI study notes from PDFs", "body": "Highlight a passage, pick a template, generate review-ready notes. You stay in control of what gets sent to AI providers — no surprises." },
-      { "title": "FSRS-powered review", "body": "Every card schedules itself with the FSRS algorithm — tighter intervals when you're shaky, wider when you're solid." },
-      { "title": "Wireless Anki Remote", "body": "Drive Anki Desktop reviews from your iPhone over Wi-Fi. Free companion add-on, works with cheap 8BitDo controllers AnkiMobile won't pair with. <a href=\"{{prefix}}/anki-remote\">Set up →</a>" },
-      { "title": "Privacy by default", "body": "Your decks and notes live on your device. AI requests only fire when you explicitly start a generation, with full disclosure of what gets sent. <a href=\"/privacy\">Privacy policy</a>" },
-      { "title": "Localized in 8 languages", "body": "English, Simplified &amp; Traditional Chinese, Japanese, Korean, German, French, Spanish — all features, not just menus." }
+      {
+        "title": "Import from Anki",
+        "body": "Drop in any <code>.apkg</code> or <code>.colpkg</code> package — decks, notes, scheduling state, and media all migrate intact, powered by Anki's own parser."
+      },
+      {
+        "title": "AI study notes from PDFs",
+        "body": "Highlight a passage, pick a template, generate review-ready notes. You stay in control of what gets sent to AI providers — no surprises."
+      },
+      {
+        "title": "FSRS-powered review",
+        "body": "Every card schedules itself with the FSRS algorithm — tighter intervals when you're shaky, wider when you're solid."
+      },
+      {
+        "title": "Wireless Anki Remote",
+        "body": "Drive Anki Desktop reviews from your iPhone over Wi-Fi. Free companion add-on, works with cheap 8BitDo controllers AnkiMobile won't pair with. <a href=\"{{prefix}}/anki-remote\">Set up →</a>"
+      },
+      {
+        "title": "Privacy by default",
+        "body": "Your decks and notes live on your device. AI requests only fire when you explicitly start a generation, with full disclosure of what gets sent. <a href=\"/privacy\">Privacy policy</a>"
+      },
+      {
+        "title": "Localized in 8 languages",
+        "body": "English, Simplified &amp; Traditional Chinese, Japanese, Korean, German, French, Spanish — all features, not just menus."
+      }
     ]
   },
   "ankiRemote": {
@@ -64,13 +102,69 @@
       ],
       "step3Tail": "That's it. Open any deck on your Mac and your iPhone takes over."
     },
+    "visualGuide": {
+      "title": "Real setup screenshots",
+      "intro": "Follow the same flow shown in these screenshots: install the add-on in Anki Desktop, restart Anki, open the QR pairing window, then scan it from Flashcard Guru.",
+      "items": [
+        {
+          "step": "1",
+          "title": "Open Anki add-ons",
+          "body": "On your Mac, open Anki and choose <code>Tools → Add-ons</code>.",
+          "alt": "Anki Tools menu with Add-ons selected"
+        },
+        {
+          "step": "2",
+          "title": "Enter the add-on code",
+          "body": "Click <strong>Get Add-ons…</strong>, paste <code>1196082853</code>, then confirm.",
+          "alt": "Anki Add-ons dialog with Get Add-ons and the code entry field"
+        },
+        {
+          "step": "3",
+          "title": "Restart Anki",
+          "body": "After the install succeeds, restart Anki so Flashcard Guru Remote appears in the Tools menu.",
+          "alt": "Anki Add-ons success dialog after installing Flashcard Guru Remote"
+        },
+        {
+          "step": "4",
+          "title": "Show the QR code on your Mac",
+          "body": "Open Anki again and choose <code>Tools → Connect Phone (Flashcard Guru Remote)…</code>.",
+          "alt": "Anki Tools menu with Connect Phone selected"
+        },
+        {
+          "step": "5",
+          "title": "Open Anki Remote on iPhone",
+          "body": "In Flashcard Guru, go to <code>Settings → Anki Remote</code>.",
+          "image": "/assets/anki-remote/iphone-settings.png",
+          "alt": "Flashcard Guru Settings screen showing the Anki Remote row"
+        },
+        {
+          "step": "6",
+          "title": "Pair with Mac",
+          "body": "Tap <strong>Pair with Mac</strong>, scan the QR code on your Mac, and the connection is ready.",
+          "image": "/assets/anki-remote/iphone-pair-with-mac.png",
+          "alt": "Flashcard Guru Anki Remote screen showing Pair with Mac"
+        }
+      ]
+    },
     "actions": {
       "title": "What you can drive remotely",
       "items": [
-        { "title": "Show Answer", "desc": "Flip the current card." },
-        { "title": "Again / Hard / Good / Easy", "desc": "All four ratings." },
-        { "title": "Replay audio", "desc": "For decks with media." },
-        { "title": "Undo", "desc": "Roll back the last rating." }
+        {
+          "title": "Show Answer",
+          "desc": "Flip the current card."
+        },
+        {
+          "title": "Again / Hard / Good / Easy",
+          "desc": "All four ratings."
+        },
+        {
+          "title": "Replay audio",
+          "desc": "For decks with media."
+        },
+        {
+          "title": "Undo",
+          "desc": "Roll back the last rating."
+        }
       ]
     },
     "controllers": {
@@ -99,11 +193,26 @@
     "faq": {
       "title": "FAQ",
       "items": [
-        { "q": "Does this work with AnkiMobile (the official iOS Anki app)?", "a": "No. This is the companion to <strong>Flashcard Guru</strong>, our standalone iOS flashcard app. The add-on talks WebSocket to Flashcard Guru on your iPhone, not to AnkiMobile." },
-        { "q": "Why isn't this just a Bluetooth keyboard like StudyRemote?", "a": "iOS doesn't allow third-party apps to act as Bluetooth HID peripherals — that limitation is platform-level, not something we can work around. The Wi-Fi WebSocket route lets us deliver the same review actions without that restriction." },
-        { "q": "Does it work on Windows or Linux?", "a": "Probably yes — the Python add-on is cross-platform — but we only actively QA on macOS. Anki 2.1.55+ on Qt6 builds is the minimum supported version." },
-        { "q": "How do I update the add-on?", "a": "Anki Desktop checks for add-on updates automatically. <code>Tools → Add-ons</code> shows the version; <code>Check for Updates</code> pulls newer ones from AnkiWeb." },
-        { "q": "Is the iOS app open source?", "a": "The <strong>add-on</strong> is open source under <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>. The iOS app itself stays closed-source." }
+        {
+          "q": "Does this work with AnkiMobile (the official iOS Anki app)?",
+          "a": "No. This is the companion to <strong>Flashcard Guru</strong>, our standalone iOS flashcard app. The add-on talks WebSocket to Flashcard Guru on your iPhone, not to AnkiMobile."
+        },
+        {
+          "q": "Why isn't this just a Bluetooth keyboard like StudyRemote?",
+          "a": "iOS doesn't allow third-party apps to act as Bluetooth HID peripherals — that limitation is platform-level, not something we can work around. The Wi-Fi WebSocket route lets us deliver the same review actions without that restriction."
+        },
+        {
+          "q": "Does it work on Windows or Linux?",
+          "a": "Probably yes — the Python add-on is cross-platform — but we only actively QA on macOS. Anki 2.1.55+ on Qt6 builds is the minimum supported version."
+        },
+        {
+          "q": "How do I update the add-on?",
+          "a": "Anki Desktop checks for add-on updates automatically. <code>Tools → Add-ons</code> shows the version; <code>Check for Updates</code> pulls newer ones from AnkiWeb."
+        },
+        {
+          "q": "Is the iOS app open source?",
+          "a": "The <strong>add-on</strong> is open source under <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>. The iOS app itself stays closed-source."
+        }
       ]
     },
     "source": {

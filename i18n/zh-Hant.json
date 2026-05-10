@@ -26,20 +26,58 @@
     "shotRail": {
       "label": "應用截圖",
       "items": [
-        { "src": "/assets/screenshots/decks-home.png", "alt": "已匯入的 Anki 牌組首頁", "caption": "Anki 牌組完整遷移" },
-        { "src": "/assets/screenshots/ai-panel.png", "alt": "閱讀器中的 AI 筆記面板", "caption": "PDF 一鍵產生筆記" },
-        { "src": "/assets/screenshots/reader.png", "alt": "帶反白的 PDF 閱讀器", "caption": "反白即學習" },
-        { "src": "/assets/screenshots/review-answer.png", "alt": "複習介面顯示答案", "caption": "FSRS 智慧調度" },
-        { "src": "/assets/screenshots/stats.png", "alt": "學習統計頁面", "caption": "每日進度看得到" }
+        {
+          "src": "/assets/screenshots/decks-home.png",
+          "alt": "已匯入的 Anki 牌組首頁",
+          "caption": "Anki 牌組完整遷移"
+        },
+        {
+          "src": "/assets/screenshots/ai-panel.png",
+          "alt": "閱讀器中的 AI 筆記面板",
+          "caption": "PDF 一鍵產生筆記"
+        },
+        {
+          "src": "/assets/screenshots/reader.png",
+          "alt": "帶反白的 PDF 閱讀器",
+          "caption": "反白即學習"
+        },
+        {
+          "src": "/assets/screenshots/review-answer.png",
+          "alt": "複習介面顯示答案",
+          "caption": "FSRS 智慧調度"
+        },
+        {
+          "src": "/assets/screenshots/stats.png",
+          "alt": "學習統計頁面",
+          "caption": "每日進度看得到"
+        }
       ]
     },
     "features": [
-      { "title": "從 Anki 完整遷移", "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 套件拖進來——牌組、筆記、複習進度、媒體檔案全部完整遷移,底層使用 Anki 自家解析器。" },
-      { "title": "PDF 一鍵產生 AI 筆記", "body": "劃一段,選範本,產生可直接複習的筆記。哪些資料被傳送給 AI 服務商完全透明,你來決定——沒有意外。" },
-      { "title": "FSRS 演算法複習", "body": "每張卡片用 FSRS 演算法獨立調度——不熟的間隔短,掌握了的間隔長。" },
-      { "title": "無線 Anki 遙控器", "body": "用 iPhone 透過 Wi-Fi 控制 Mac/PC 上 Anki Desktop 的複習。免費搭配外掛,支援 AnkiMobile 不識別的廉價 8BitDo 手把。<a href=\"{{prefix}}/anki-remote\">設定教學 →</a>" },
-      { "title": "隱私預設保護", "body": "牌組和筆記儲存在你自己的裝置上。AI 請求只在你主動觸發時才送出,會完整告知傳送的內容。<a href=\"/privacy\">隱私政策</a>" },
-      { "title": "8 種語言完整在地化", "body": "英文、簡繁中文、日文、韓文、德文、法文、西文——所有功能都在地化,不只是選單。" }
+      {
+        "title": "從 Anki 完整遷移",
+        "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 套件拖進來——牌組、筆記、複習進度、媒體檔案全部完整遷移,底層使用 Anki 自家解析器。"
+      },
+      {
+        "title": "PDF 一鍵產生 AI 筆記",
+        "body": "劃一段,選範本,產生可直接複習的筆記。哪些資料被傳送給 AI 服務商完全透明,你來決定——沒有意外。"
+      },
+      {
+        "title": "FSRS 演算法複習",
+        "body": "每張卡片用 FSRS 演算法獨立調度——不熟的間隔短,掌握了的間隔長。"
+      },
+      {
+        "title": "無線 Anki 遙控器",
+        "body": "用 iPhone 透過 Wi-Fi 控制 Mac/PC 上 Anki Desktop 的複習。免費搭配外掛,支援 AnkiMobile 不識別的廉價 8BitDo 手把。<a href=\"{{prefix}}/anki-remote\">設定教學 →</a>"
+      },
+      {
+        "title": "隱私預設保護",
+        "body": "牌組和筆記儲存在你自己的裝置上。AI 請求只在你主動觸發時才送出,會完整告知傳送的內容。<a href=\"/privacy\">隱私政策</a>"
+      },
+      {
+        "title": "8 種語言完整在地化",
+        "body": "英文、簡繁中文、日文、韓文、德文、法文、西文——所有功能都在地化,不只是選單。"
+      }
     ]
   },
   "ankiRemote": {
@@ -64,13 +102,69 @@
       ],
       "step3Tail": "搞定。在 Mac 上開啟任意牌組,iPhone 立即接手。"
     },
+    "visualGuide": {
+      "title": "實際設定截圖",
+      "intro": "照著這些截圖走：先在 Anki Desktop 安裝外掛並重新啟動，再開啟 QR code 配對視窗，最後用 Flashcard Guru 掃描連線。",
+      "items": [
+        {
+          "step": "1",
+          "title": "開啟 Anki 外掛管理",
+          "body": "在 Mac 上開啟 Anki，選擇 <code>工具 → 外掛</code>。",
+          "alt": "Anki 工具選單中選取外掛"
+        },
+        {
+          "step": "2",
+          "title": "輸入外掛代碼",
+          "body": "點擊 <strong>取得外掛…</strong>，輸入 <code>1196082853</code>，然後確認。",
+          "alt": "Anki 外掛視窗中輸入外掛代碼"
+        },
+        {
+          "step": "3",
+          "title": "重新啟動 Anki",
+          "body": "安裝成功後重新啟動 Anki，Flashcard Guru Remote 會出現在工具選單裡。",
+          "alt": "Anki 外掛安裝成功提示"
+        },
+        {
+          "step": "4",
+          "title": "在 Mac 顯示 QR code",
+          "body": "重新開啟 Anki，選擇 <code>工具 → 連接手機（Flashcard Guru Remote）…</code>。",
+          "alt": "Anki 工具選單中選取連接手機"
+        },
+        {
+          "step": "5",
+          "title": "在 iPhone 開啟 Anki Remote",
+          "body": "在 Flashcard Guru 進入 <code>設定 → Anki Remote</code>。",
+          "image": "/assets/anki-remote/iphone-settings.png",
+          "alt": "Flashcard Guru 設定頁面中的 Anki Remote 入口"
+        },
+        {
+          "step": "6",
+          "title": "與 Mac 配對",
+          "body": "點擊 <strong>Pair with Mac</strong>，掃描 Mac 上的 QR code，即可完成連線。",
+          "image": "/assets/anki-remote/iphone-pair-with-mac.png",
+          "alt": "Flashcard Guru Anki Remote 頁面中的 Pair with Mac"
+        }
+      ]
+    },
     "actions": {
       "title": "可遙控的操作",
       "items": [
-        { "title": "顯示答案", "desc": "翻當前卡片。" },
-        { "title": "重來 / 困難 / 良好 / 簡單", "desc": "完整四檔評分。" },
-        { "title": "重播音訊", "desc": "適用於有媒體的牌組。" },
-        { "title": "復原", "desc": "回退上一次評分。" }
+        {
+          "title": "顯示答案",
+          "desc": "翻當前卡片。"
+        },
+        {
+          "title": "重來 / 困難 / 良好 / 簡單",
+          "desc": "完整四檔評分。"
+        },
+        {
+          "title": "重播音訊",
+          "desc": "適用於有媒體的牌組。"
+        },
+        {
+          "title": "復原",
+          "desc": "回退上一次評分。"
+        }
       ]
     },
     "controllers": {
@@ -99,11 +193,26 @@
     "faq": {
       "title": "常見問題",
       "items": [
-        { "q": "這個能配合 AnkiMobile(官方 iOS Anki app)使用嗎?", "a": "不能。這是 <strong>Flashcard Guru</strong> 的伴侶——我們獨立的 iOS 卡片應用。外掛透過 WebSocket 和 Flashcard Guru 通訊,不和 AnkiMobile 通訊。" },
-        { "q": "為什麼不像 StudyRemote 那樣直接做藍牙鍵盤?", "a": "iOS 不允許第三方應用作為藍牙 HID 周邊——這是 Apple 平台級限制,不是某個 app 能繞開的。所以我們走 Wi-Fi WebSocket,達到同樣的複習操控效果。" },
-        { "q": "能在 Windows 或 Linux 上用嗎?", "a": "應該可以——Python 外掛本身跨平台——但我們只在 macOS 上做主動 QA。最低支援 Anki 2.1.55+(Qt6 版本)。" },
-        { "q": "怎麼更新外掛?", "a": "Anki Desktop 自動檢查外掛更新。<code>工具 → 外掛</code> 顯示版本號,<code>檢查更新</code> 從 AnkiWeb 拉取新版。" },
-        { "q": "iOS app 是開源的嗎?", "a": "<strong>外掛</strong>開源,採用 <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>。iOS app 本身保持閉源。" }
+        {
+          "q": "這個能配合 AnkiMobile(官方 iOS Anki app)使用嗎?",
+          "a": "不能。這是 <strong>Flashcard Guru</strong> 的伴侶——我們獨立的 iOS 卡片應用。外掛透過 WebSocket 和 Flashcard Guru 通訊,不和 AnkiMobile 通訊。"
+        },
+        {
+          "q": "為什麼不像 StudyRemote 那樣直接做藍牙鍵盤?",
+          "a": "iOS 不允許第三方應用作為藍牙 HID 周邊——這是 Apple 平台級限制,不是某個 app 能繞開的。所以我們走 Wi-Fi WebSocket,達到同樣的複習操控效果。"
+        },
+        {
+          "q": "能在 Windows 或 Linux 上用嗎?",
+          "a": "應該可以——Python 外掛本身跨平台——但我們只在 macOS 上做主動 QA。最低支援 Anki 2.1.55+(Qt6 版本)。"
+        },
+        {
+          "q": "怎麼更新外掛?",
+          "a": "Anki Desktop 自動檢查外掛更新。<code>工具 → 外掛</code> 顯示版本號,<code>檢查更新</code> 從 AnkiWeb 拉取新版。"
+        },
+        {
+          "q": "iOS app 是開源的嗎?",
+          "a": "<strong>外掛</strong>開源,採用 <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>。iOS app 本身保持閉源。"
+        }
       ]
     },
     "source": {

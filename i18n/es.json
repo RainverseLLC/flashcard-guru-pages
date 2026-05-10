@@ -26,20 +26,58 @@
     "shotRail": {
       "label": "Capturas de pantalla",
       "items": [
-        { "src": "/assets/screenshots/decks-home.png", "alt": "Inicio de mazos con mazos Anki importados", "caption": "Mazos Anki importados sin cambios" },
-        { "src": "/assets/screenshots/ai-panel.png", "alt": "Panel de notas IA dentro del lector", "caption": "Notas IA desde cualquier PDF" },
-        { "src": "/assets/screenshots/reader.png", "alt": "Lector PDF con resaltados", "caption": "Lector con resaltados" },
-        { "src": "/assets/screenshots/review-answer.png", "alt": "Sesión de repaso mostrando la respuesta", "caption": "Repaso programado por FSRS" },
-        { "src": "/assets/screenshots/stats.png", "alt": "Panel de estadísticas", "caption": "Progreso diario visible" }
+        {
+          "src": "/assets/screenshots/decks-home.png",
+          "alt": "Inicio de mazos con mazos Anki importados",
+          "caption": "Mazos Anki importados sin cambios"
+        },
+        {
+          "src": "/assets/screenshots/ai-panel.png",
+          "alt": "Panel de notas IA dentro del lector",
+          "caption": "Notas IA desde cualquier PDF"
+        },
+        {
+          "src": "/assets/screenshots/reader.png",
+          "alt": "Lector PDF con resaltados",
+          "caption": "Lector con resaltados"
+        },
+        {
+          "src": "/assets/screenshots/review-answer.png",
+          "alt": "Sesión de repaso mostrando la respuesta",
+          "caption": "Repaso programado por FSRS"
+        },
+        {
+          "src": "/assets/screenshots/stats.png",
+          "alt": "Panel de estadísticas",
+          "caption": "Progreso diario visible"
+        }
       ]
     },
     "features": [
-      { "title": "Importar desde Anki", "body": "Suelta cualquier paquete <code>.apkg</code> o <code>.colpkg</code> — mazos, notas, estado de programación y medios migran intactos, gracias al parser oficial de Anki." },
-      { "title": "Notas de estudio IA desde PDF", "body": "Resalta un pasaje, elige una plantilla, genera notas listas para repasar. Mantienes el control sobre lo que se envía a los proveedores de IA — sin sorpresas." },
-      { "title": "Repaso impulsado por FSRS", "body": "Cada tarjeta se programa sola con el algoritmo FSRS — intervalos más cortos cuando dudas, más amplios cuando dominas." },
-      { "title": "Mando Anki inalámbrico", "body": "Controla los repasos de Anki Desktop desde tu iPhone por Wi-Fi. Complemento gratuito, funciona con los mandos 8BitDo baratos que AnkiMobile rechaza emparejar. <a href=\"{{prefix}}/anki-remote\">Configurar →</a>" },
-      { "title": "Privacidad por defecto", "body": "Tus mazos y notas viven en tu dispositivo. Las solicitudes IA solo se disparan cuando inicias una generación explícitamente, con plena divulgación de lo que se envía. <a href=\"/privacy\">Política de privacidad</a>" },
-      { "title": "Localizado en 8 idiomas", "body": "Inglés, chino simplificado y tradicional, japonés, coreano, alemán, francés, español — todas las funciones, no solo los menús." }
+      {
+        "title": "Importar desde Anki",
+        "body": "Suelta cualquier paquete <code>.apkg</code> o <code>.colpkg</code> — mazos, notas, estado de programación y medios migran intactos, gracias al parser oficial de Anki."
+      },
+      {
+        "title": "Notas de estudio IA desde PDF",
+        "body": "Resalta un pasaje, elige una plantilla, genera notas listas para repasar. Mantienes el control sobre lo que se envía a los proveedores de IA — sin sorpresas."
+      },
+      {
+        "title": "Repaso impulsado por FSRS",
+        "body": "Cada tarjeta se programa sola con el algoritmo FSRS — intervalos más cortos cuando dudas, más amplios cuando dominas."
+      },
+      {
+        "title": "Mando Anki inalámbrico",
+        "body": "Controla los repasos de Anki Desktop desde tu iPhone por Wi-Fi. Complemento gratuito, funciona con los mandos 8BitDo baratos que AnkiMobile rechaza emparejar. <a href=\"{{prefix}}/anki-remote\">Configurar →</a>"
+      },
+      {
+        "title": "Privacidad por defecto",
+        "body": "Tus mazos y notas viven en tu dispositivo. Las solicitudes IA solo se disparan cuando inicias una generación explícitamente, con plena divulgación de lo que se envía. <a href=\"/privacy\">Política de privacidad</a>"
+      },
+      {
+        "title": "Localizado en 8 idiomas",
+        "body": "Inglés, chino simplificado y tradicional, japonés, coreano, alemán, francés, español — todas las funciones, no solo los menús."
+      }
     ]
   },
   "ankiRemote": {
@@ -64,13 +102,69 @@
       ],
       "step3Tail": "Listo. Abre cualquier mazo en tu Mac y el iPhone toma el control."
     },
+    "visualGuide": {
+      "title": "Capturas reales de configuración",
+      "intro": "Sigue este flujo: instala el complemento en Anki Desktop, reinicia Anki, abre la ventana de emparejamiento con QR y escanéala desde Flashcard Guru.",
+      "items": [
+        {
+          "step": "1",
+          "title": "Abre los complementos de Anki",
+          "body": "En el Mac, abre Anki y elige <code>Tools → Add-ons</code>.",
+          "alt": "Menú Tools de Anki con Add-ons seleccionado"
+        },
+        {
+          "step": "2",
+          "title": "Introduce el código del complemento",
+          "body": "Haz clic en <strong>Get Add-ons…</strong>, pega <code>1196082853</code> y confirma.",
+          "alt": "Ventana Add-ons de Anki con el campo de código"
+        },
+        {
+          "step": "3",
+          "title": "Reinicia Anki",
+          "body": "Cuando la instalación termine, reinicia Anki. Flashcard Guru Remote aparecerá en el menú Tools.",
+          "alt": "Mensaje de instalación correcta de Flashcard Guru Remote"
+        },
+        {
+          "step": "4",
+          "title": "Muestra el código QR en el Mac",
+          "body": "Abre Anki otra vez y elige <code>Tools → Connect Phone (Flashcard Guru Remote)…</code>.",
+          "alt": "Menú Tools de Anki con Connect Phone seleccionado"
+        },
+        {
+          "step": "5",
+          "title": "Abre Anki Remote en el iPhone",
+          "body": "En Flashcard Guru, entra en <code>Settings → Anki Remote</code>.",
+          "image": "/assets/anki-remote/iphone-settings.png",
+          "alt": "Pantalla Settings de Flashcard Guru con Anki Remote"
+        },
+        {
+          "step": "6",
+          "title": "Empareja con el Mac",
+          "body": "Toca <strong>Pair with Mac</strong>, escanea el QR del Mac y la conexión quedará lista.",
+          "image": "/assets/anki-remote/iphone-pair-with-mac.png",
+          "alt": "Pantalla Anki Remote de Flashcard Guru con Pair with Mac"
+        }
+      ]
+    },
     "actions": {
       "title": "Lo que puedes controlar de forma remota",
       "items": [
-        { "title": "Mostrar respuesta", "desc": "Voltear la tarjeta actual." },
-        { "title": "Otra vez / Difícil / Bueno / Fácil", "desc": "Las cuatro valoraciones." },
-        { "title": "Repetir audio", "desc": "Para mazos con medios." },
-        { "title": "Deshacer", "desc": "Revertir la última valoración." }
+        {
+          "title": "Mostrar respuesta",
+          "desc": "Voltear la tarjeta actual."
+        },
+        {
+          "title": "Otra vez / Difícil / Bueno / Fácil",
+          "desc": "Las cuatro valoraciones."
+        },
+        {
+          "title": "Repetir audio",
+          "desc": "Para mazos con medios."
+        },
+        {
+          "title": "Deshacer",
+          "desc": "Revertir la última valoración."
+        }
       ]
     },
     "controllers": {
@@ -99,11 +193,26 @@
     "faq": {
       "title": "Preguntas frecuentes",
       "items": [
-        { "q": "¿Funciona con AnkiMobile (la app oficial de iOS de Anki)?", "a": "No. Esto es el compañero de <strong>Flashcard Guru</strong>, nuestra app iOS de tarjetas independiente. El complemento habla WebSocket con Flashcard Guru, no con AnkiMobile." },
-        { "q": "¿Por qué no es simplemente un teclado Bluetooth como StudyRemote?", "a": "iOS no permite a apps de terceros actuar como periféricos HID Bluetooth — esa es una limitación a nivel de plataforma, no algo que podamos sortear. En su lugar, ofrecemos la misma experiencia mediante una ruta Wi-Fi WebSocket." },
-        { "q": "¿Funciona en Windows o Linux?", "a": "Probablemente sí — el complemento Python es multiplataforma — pero solo hacemos QA activo en macOS. Versión mínima: Anki 2.1.55+ (builds Qt6)." },
-        { "q": "¿Cómo actualizo el complemento?", "a": "Anki Desktop comprueba actualizaciones de complementos automáticamente. <code>Herramientas → Complementos</code> muestra la versión, <code>Buscar actualizaciones</code> trae versiones nuevas desde AnkiWeb." },
-        { "q": "¿La app iOS es de código abierto?", "a": "El <strong>complemento</strong> es de código abierto bajo <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>. La app iOS misma sigue siendo cerrada." }
+        {
+          "q": "¿Funciona con AnkiMobile (la app oficial de iOS de Anki)?",
+          "a": "No. Esto es el compañero de <strong>Flashcard Guru</strong>, nuestra app iOS de tarjetas independiente. El complemento habla WebSocket con Flashcard Guru, no con AnkiMobile."
+        },
+        {
+          "q": "¿Por qué no es simplemente un teclado Bluetooth como StudyRemote?",
+          "a": "iOS no permite a apps de terceros actuar como periféricos HID Bluetooth — esa es una limitación a nivel de plataforma, no algo que podamos sortear. En su lugar, ofrecemos la misma experiencia mediante una ruta Wi-Fi WebSocket."
+        },
+        {
+          "q": "¿Funciona en Windows o Linux?",
+          "a": "Probablemente sí — el complemento Python es multiplataforma — pero solo hacemos QA activo en macOS. Versión mínima: Anki 2.1.55+ (builds Qt6)."
+        },
+        {
+          "q": "¿Cómo actualizo el complemento?",
+          "a": "Anki Desktop comprueba actualizaciones de complementos automáticamente. <code>Herramientas → Complementos</code> muestra la versión, <code>Buscar actualizaciones</code> trae versiones nuevas desde AnkiWeb."
+        },
+        {
+          "q": "¿La app iOS es de código abierto?",
+          "a": "El <strong>complemento</strong> es de código abierto bajo <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>. La app iOS misma sigue siendo cerrada."
+        }
       ]
     },
     "source": {

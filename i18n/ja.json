@@ -26,20 +26,58 @@
     "shotRail": {
       "label": "スクリーンショット",
       "items": [
-        { "src": "/assets/screenshots/decks-home.png", "alt": "インポートされた Anki デッキ一覧", "caption": "Anki デッキそのままインポート" },
-        { "src": "/assets/screenshots/ai-panel.png", "alt": "リーダー内の AI ノートパネル", "caption": "PDF から AI ノート" },
-        { "src": "/assets/screenshots/reader.png", "alt": "ハイライト付き PDF リーダー", "caption": "リーダーでハイライト" },
-        { "src": "/assets/screenshots/review-answer.png", "alt": "復習画面で答えを表示", "caption": "FSRS スケジュールの復習" },
-        { "src": "/assets/screenshots/stats.png", "alt": "学習統計画面", "caption": "毎日の進捗が一目で" }
+        {
+          "src": "/assets/screenshots/decks-home.png",
+          "alt": "インポートされた Anki デッキ一覧",
+          "caption": "Anki デッキそのままインポート"
+        },
+        {
+          "src": "/assets/screenshots/ai-panel.png",
+          "alt": "リーダー内の AI ノートパネル",
+          "caption": "PDF から AI ノート"
+        },
+        {
+          "src": "/assets/screenshots/reader.png",
+          "alt": "ハイライト付き PDF リーダー",
+          "caption": "リーダーでハイライト"
+        },
+        {
+          "src": "/assets/screenshots/review-answer.png",
+          "alt": "復習画面で答えを表示",
+          "caption": "FSRS スケジュールの復習"
+        },
+        {
+          "src": "/assets/screenshots/stats.png",
+          "alt": "学習統計画面",
+          "caption": "毎日の進捗が一目で"
+        }
       ]
     },
     "features": [
-      { "title": "Anki から完全インポート", "body": "<code>.apkg</code> や <code>.colpkg</code> パッケージをドロップするだけ——デッキ、ノート、スケジューリング状態、メディアファイルすべてがそのまま移行されます。Anki 純正のパーサー使用。" },
-      { "title": "PDF から AI 学習ノート", "body": "一節をハイライトし、テンプレートを選び、復習可能なノートを生成。AI プロバイダに送られる内容は完全に透明、あなたが決めます——驚きはありません。" },
-      { "title": "FSRS による復習", "body": "各カードが FSRS アルゴリズムで個別にスケジュールされます——曖昧なら間隔を狭く、定着していれば広く。" },
-      { "title": "ワイヤレス Anki リモコン", "body": "iPhone から Wi-Fi 経由で Anki Desktop の復習を操作。無料の同梱アドオンで、AnkiMobile がペアリングしない安価な 8BitDo コントローラもサポート。<a href=\"{{prefix}}/anki-remote\">セットアップ →</a>" },
-      { "title": "プライバシー優先", "body": "デッキとノートはあなたのデバイスに保存されます。AI リクエストは明示的に生成を開始したときのみ発火し、送信内容を完全開示します。<a href=\"/privacy\">プライバシーポリシー</a>" },
-      { "title": "8 言語にローカライズ済み", "body": "英語、簡体・繁体中国語、日本語、韓国語、ドイツ語、フランス語、スペイン語——メニューだけでなくすべての機能をローカライズ。" }
+      {
+        "title": "Anki から完全インポート",
+        "body": "<code>.apkg</code> や <code>.colpkg</code> パッケージをドロップするだけ——デッキ、ノート、スケジューリング状態、メディアファイルすべてがそのまま移行されます。Anki 純正のパーサー使用。"
+      },
+      {
+        "title": "PDF から AI 学習ノート",
+        "body": "一節をハイライトし、テンプレートを選び、復習可能なノートを生成。AI プロバイダに送られる内容は完全に透明、あなたが決めます——驚きはありません。"
+      },
+      {
+        "title": "FSRS による復習",
+        "body": "各カードが FSRS アルゴリズムで個別にスケジュールされます——曖昧なら間隔を狭く、定着していれば広く。"
+      },
+      {
+        "title": "ワイヤレス Anki リモコン",
+        "body": "iPhone から Wi-Fi 経由で Anki Desktop の復習を操作。無料の同梱アドオンで、AnkiMobile がペアリングしない安価な 8BitDo コントローラもサポート。<a href=\"{{prefix}}/anki-remote\">セットアップ →</a>"
+      },
+      {
+        "title": "プライバシー優先",
+        "body": "デッキとノートはあなたのデバイスに保存されます。AI リクエストは明示的に生成を開始したときのみ発火し、送信内容を完全開示します。<a href=\"/privacy\">プライバシーポリシー</a>"
+      },
+      {
+        "title": "8 言語にローカライズ済み",
+        "body": "英語、簡体・繁体中国語、日本語、韓国語、ドイツ語、フランス語、スペイン語——メニューだけでなくすべての機能をローカライズ。"
+      }
     ]
   },
   "ankiRemote": {
@@ -64,13 +102,69 @@
       ],
       "step3Tail": "完了。Mac で任意のデッキを開けば、iPhone が引き継ぎます。"
     },
+    "visualGuide": {
+      "title": "実際のセットアップ画面",
+      "intro": "この流れで進めます。Anki Desktop でアドオンをインストールして再起動し、QR ペアリング画面を開いて、Flashcard Guru でスキャンします。",
+      "items": [
+        {
+          "step": "1",
+          "title": "Anki のアドオン画面を開く",
+          "body": "Mac で Anki を開き、<code>Tools → Add-ons</code> を選びます。",
+          "alt": "Anki の Tools メニューで Add-ons を選択している画面"
+        },
+        {
+          "step": "2",
+          "title": "アドオンコードを入力",
+          "body": "<strong>Get Add-ons…</strong> をクリックし、<code>1196082853</code> を貼り付けて確定します。",
+          "alt": "Anki の Add-ons ダイアログでコードを入力している画面"
+        },
+        {
+          "step": "3",
+          "title": "Anki を再起動",
+          "body": "インストール完了後、Anki を再起動すると Flashcard Guru Remote が Tools メニューに表示されます。",
+          "alt": "Flashcard Guru Remote のインストール成功画面"
+        },
+        {
+          "step": "4",
+          "title": "Mac で QR コードを表示",
+          "body": "Anki を再度開き、<code>Tools → Connect Phone (Flashcard Guru Remote)…</code> を選びます。",
+          "alt": "Anki の Tools メニューで Connect Phone を選択している画面"
+        },
+        {
+          "step": "5",
+          "title": "iPhone で Anki Remote を開く",
+          "body": "Flashcard Guru で <code>Settings → Anki Remote</code> に進みます。",
+          "image": "/assets/anki-remote/iphone-settings.png",
+          "alt": "Flashcard Guru の Settings 画面に Anki Remote が表示されている"
+        },
+        {
+          "step": "6",
+          "title": "Mac とペアリング",
+          "body": "<strong>Pair with Mac</strong> をタップし、Mac の QR コードをスキャンすれば接続完了です。",
+          "image": "/assets/anki-remote/iphone-pair-with-mac.png",
+          "alt": "Flashcard Guru の Anki Remote 画面に Pair with Mac が表示されている"
+        }
+      ]
+    },
     "actions": {
       "title": "リモートで操作できる項目",
       "items": [
-        { "title": "答えを表示", "desc": "現在のカードをめくる。" },
-        { "title": "もう一度 / 難しい / 普通 / 簡単", "desc": "4 段階評価すべて。" },
-        { "title": "音声を再生", "desc": "メディア付きデッキ向け。" },
-        { "title": "元に戻す", "desc": "直前の評価を取り消す。" }
+        {
+          "title": "答えを表示",
+          "desc": "現在のカードをめくる。"
+        },
+        {
+          "title": "もう一度 / 難しい / 普通 / 簡単",
+          "desc": "4 段階評価すべて。"
+        },
+        {
+          "title": "音声を再生",
+          "desc": "メディア付きデッキ向け。"
+        },
+        {
+          "title": "元に戻す",
+          "desc": "直前の評価を取り消す。"
+        }
       ]
     },
     "controllers": {
@@ -99,11 +193,26 @@
     "faq": {
       "title": "よくある質問",
       "items": [
-        { "q": "AnkiMobile(公式 iOS Anki アプリ)で使えますか?", "a": "いいえ。これは独立した iOS フラッシュカードアプリ <strong>Flashcard Guru</strong> のコンパニオンです。アドオンは Flashcard Guru と WebSocket 通信し、AnkiMobile とは通信しません。" },
-        { "q": "なぜ StudyRemote のように直接 Bluetooth キーボードにしないのですか?", "a": "iOS はサードパーティアプリが Bluetooth HID 周辺機器として動作することを許可していません——これはプラットフォームレベルの制限で、回避できません。代わりに Wi-Fi WebSocket 経由で同等の操作体験を提供します。" },
-        { "q": "Windows や Linux でも動きますか?", "a": "おそらく動きます——Python アドオンはクロスプラットフォーム——ですが、QA は macOS のみで実施しています。最低サポート: Anki 2.1.55+(Qt6 版)。" },
-        { "q": "アドオンの更新方法は?", "a": "Anki Desktop が自動でアドオン更新を確認します。<code>ツール → アドオン</code> でバージョンが表示され、<code>更新を確認</code> で AnkiWeb から新版を取得できます。" },
-        { "q": "iOS アプリはオープンソースですか?", "a": "<strong>アドオン</strong>は <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a> でオープンソース: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>。iOS アプリ自体はクローズドソースです。" }
+        {
+          "q": "AnkiMobile(公式 iOS Anki アプリ)で使えますか?",
+          "a": "いいえ。これは独立した iOS フラッシュカードアプリ <strong>Flashcard Guru</strong> のコンパニオンです。アドオンは Flashcard Guru と WebSocket 通信し、AnkiMobile とは通信しません。"
+        },
+        {
+          "q": "なぜ StudyRemote のように直接 Bluetooth キーボードにしないのですか?",
+          "a": "iOS はサードパーティアプリが Bluetooth HID 周辺機器として動作することを許可していません——これはプラットフォームレベルの制限で、回避できません。代わりに Wi-Fi WebSocket 経由で同等の操作体験を提供します。"
+        },
+        {
+          "q": "Windows や Linux でも動きますか?",
+          "a": "おそらく動きます——Python アドオンはクロスプラットフォーム——ですが、QA は macOS のみで実施しています。最低サポート: Anki 2.1.55+(Qt6 版)。"
+        },
+        {
+          "q": "アドオンの更新方法は?",
+          "a": "Anki Desktop が自動でアドオン更新を確認します。<code>ツール → アドオン</code> でバージョンが表示され、<code>更新を確認</code> で AnkiWeb から新版を取得できます。"
+        },
+        {
+          "q": "iOS アプリはオープンソースですか?",
+          "a": "<strong>アドオン</strong>は <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a> でオープンソース: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>。iOS アプリ自体はクローズドソースです。"
+        }
       ]
     },
     "source": {

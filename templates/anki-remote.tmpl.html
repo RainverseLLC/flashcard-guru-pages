@@ -218,6 +218,55 @@
       .grid-2 .item strong { display: block; font-size: 14px; }
       .grid-2 .item span { color: var(--muted); font-size: 13px; }
 
+      .setup-screens {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+        margin-top: 18px;
+      }
+      .setup-shot {
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        overflow: hidden;
+        background: #fff;
+        box-shadow: 0 14px 30px -22px rgba(15, 23, 42, 0.35);
+      }
+      .setup-shot figure { margin: 0; }
+      .setup-shot img {
+        width: 100%;
+        height: auto;
+        display: block;
+        background: #f3f4f6;
+      }
+      .setup-shot figcaption {
+        padding: 14px 16px 16px;
+      }
+      .setup-shot .step {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 28px;
+        height: 28px;
+        padding: 0 9px;
+        border-radius: 999px;
+        background: #eaf3ff;
+        color: var(--blue);
+        font-weight: 700;
+        font-size: 13px;
+        margin-bottom: 10px;
+      }
+      .setup-shot strong {
+        display: block;
+        font-size: 16px;
+        line-height: 1.35;
+        margin-bottom: 6px;
+      }
+      .setup-shot p {
+        color: var(--muted);
+        font-size: 14px;
+        margin: 0;
+      }
+
       .faq summary {
         font-weight: 600;
         cursor: pointer;
@@ -324,6 +373,27 @@
             {{{ankiRemote.setup.step3Tail}}}
           </li>
         </ol>
+      </div>
+
+      <div class="panel">
+        <h2>{{ankiRemote.visualGuide.title}}</h2>
+        <p>{{{ankiRemote.visualGuide.intro}}}</p>
+        <div class="setup-screens">
+          {{#ankiRemote.visualGuide.items}}
+          <article class="setup-shot">
+            <figure>
+              {{#image}}
+              <img src="{{image}}" alt="{{alt}}" loading="lazy">
+              {{/image}}
+              <figcaption>
+                <span class="step">{{step}}</span>
+                <strong>{{title}}</strong>
+                <p>{{{body}}}</p>
+              </figcaption>
+            </figure>
+          </article>
+          {{/ankiRemote.visualGuide.items}}
+        </div>
       </div>
 
       <div class="panel">
