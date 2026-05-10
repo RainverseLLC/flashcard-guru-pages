@@ -1,0 +1,16 @@
+// Cloudflare Pages config for flashcard-guru.flashify.app.
+//
+// The site is plain static HTML with no build step — `public/` is what gets
+// uploaded as-is. Domain mapping (flashcard-guru.flashify.app) is set on
+// the Pages project itself in the Cloudflare dashboard, not here.
+//
+// Deploy:
+//   npm run deploy           — production
+//   npm run deploy:preview   — preview branch
+//   npm run dev              — local preview at http://localhost:8788
+{
+  "$schema": "https://json.schemastore.org/wrangler.json",
+  "name": "flashcard-guru",
+  "compatibility_date": "2026-05-01",
+  "pages_build_output_dir": "./public"
+}
