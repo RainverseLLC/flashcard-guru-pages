@@ -7,20 +7,35 @@ Static HTML/CSS only — no build step, no JS framework. Deployed to Cloudflare 
 ## Layout
 
 ```
-public/                    # what gets deployed
-├── _headers                 # Cloudflare Pages headers
-├── _redirects               # Cloudflare Pages redirects
-├── index.html               # marketing landing page
-├── anki-remote/             # Flashcard Guru Remote add-on landing page
-├── blog/                    # SEO long-form posts
-│   ├── index.html             # post index
-│   └── <slug>/index.html      # one dir per post — keeps URLs trailing-slash friendly
-├── assets/
-│   └── screenshots/          # iPhone hero shots from the ASO pipeline
-├── support/                 # support / FAQ
-├── privacy/                 # main privacy policy
-└── app-privacy-policy/      # alternate privacy policy URL referenced by App Store
+templates/                  # i18n source HTML — Mustache-subset templates
+├── landing.tmpl.html
+└── anki-remote.tmpl.html
+
+i18n/                       # one JSON per supported locale (8 total)
+├── en.json                  # canonical (default locale)
+├── zh-Hans.json
+├── zh-Hant.json
+├── ja.json
+├── ko.json
+├── de.json
+├── fr.json
+└── es.json
+
+scripts/
+└── build.js                # zero-dep template engine + locale builder
+
+public/                     # what gets deployed (generated + static)
+├── _headers                  # Cloudflare Pages headers
+├── _redirects                # Cloudflare Pages redirects
+├── index.html               ← generated (en landing)
+├── anki-remote/             ← generated (en anki-remote)
+├── zh-Hans/, zh-Hant/, ja/, ko/, de/, fr/, es/   ← generated per locale
+├── blog/                    # static — SEO long-form posts (English-only for now)
+├── assets/screenshots/      # static — ASO hero shots
+├── support/, privacy/, app-privacy-policy/        # static — legal/support
 ```
+
+The `public/<locale>/...` directories and `public/{index.html,anki-remote/}` are **generated** by `npm run build` from the templates + i18n JSON. They're gitignored — source of truth lives in `templates/` and `i18n/`.
 
 ## Local preview
 
@@ -30,19 +45,47 @@ npm run dev
 # open http://localhost:8788
 ```
 
+`dev` runs the build first so all 8 locales render correctly under `/`, `/zh-Hans/`, `/ja/`, etc.
+
+## Build
+
+```
+npm run build
+```
+
+Reads every `templates/*.tmpl.html` and every `i18n/*.json`, generates the cross-product into `public/`. Idempotent.
+
 ## Deploy
 
 ```
 npm run deploy
 ```
 
-This pushes `public/` to the Cloudflare Pages project named `flashcard-guru`, which is mapped to `flashcard-guru.flashify.app` in the Cloudflare dashboard.
+Chains `npm run build && wrangler pages deploy public --project-name=flashcard-guru`. The Pages project is mapped to `flashcard-guru.flashify.app` in the Cloudflare dashboard.
 
 For preview branches:
 
 ```
 npm run deploy:preview
 ```
+
+## Adding a locale
+
+1. Add an entry to `LOCALES` in `scripts/build.js` (BCP 47 code + display name).
+2. Create `i18n/<code>.json` — start by copying `i18n/en.json` and translating the values (keys must match exactly).
+3. `npm run build` — the new locale's pages will appear under `public/<code>/`.
+
+## Editing copy
+
+- **String change in one locale** → edit `i18n/<locale>.json` and rebuild.
+- **Layout/structural change** → edit `templates/<page>.tmpl.html` and rebuild. All 8 locales pick up the change.
+- **New translatable string** → add the key to *every* `i18n/*.json` (start with English, then translate). Reference it in the template as `{{path.to.key}}`.
+
+Template syntax (Mustache subset, no escaping — strings are HTML):
+
+- `{{key}}` or `{{nested.key}}` — variable substitution.
+- `{{#list}}…{{/list}}` — iterate over an array; inside the body, `{{title}}` etc. refer to fields of the current item, and `{{this}}` is the raw item (for string arrays).
+- `{{prefix}}` is auto-injected per locale (`""` for default, `/zh-Hans` etc. for others). Use it on internal i18n'd links: `href="{{prefix}}/anki-remote"`. Substitution is recursive, so it works inside locale strings too.
 
 ## Edit conventions
 

@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="{{locale}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ankiRemote.metaTitle}}</title>
+    <meta name="description" content="{{ankiRemote.metaDescription}}">
+    <link rel="canonical" href="{{canonicalUrl}}">
+    {{{hreflangAlternates}}}
+
+    <meta property="og:title" content="{{ankiRemote.metaTitle}}">
+    <meta property="og:description" content="{{ankiRemote.metaDescription}}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{canonicalUrl}}">
+    <meta property="og:locale" content="{{locale}}">
+
+    <style>
+      :root {
+        color-scheme: light;
+        --text: #15171a;
+        --muted: #5f6670;
+        --line: #e7e9ee;
+        --blue: #2f8df4;
+        --bg: #f6f8fb;
+        --panel: #fff;
+        --code-bg: #f1f3f7;
+      }
+      * { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.6;
+      }
+      a { color: var(--blue); text-decoration: none; }
+      a:hover { text-decoration: underline; }
+      code {
+        background: var(--code-bg);
+        padding: 1px 6px;
+        border-radius: 6px;
+        font-size: 0.92em;
+      }
+
+      header.site {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 28px 24px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: 600;
+      }
+      header.site .brand { color: var(--text); }
+      header.site nav a {
+        margin-left: 18px;
+        color: var(--muted);
+        font-weight: 500;
+      }
+      header.site nav a:hover { color: var(--text); text-decoration: none; }
+
+      .lang-switcher { display: inline-block; margin-left: 18px; position: relative; }
+      .lang-switcher summary {
+        list-style: none;
+        cursor: pointer;
+        color: var(--muted);
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .lang-switcher summary::-webkit-details-marker { display: none; }
+      .lang-switcher summary::after { content: " ▾"; font-size: 11px; opacity: 0.7; }
+      .lang-switcher ul {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        margin: 6px 0 0;
+        padding: 6px;
+        list-style: none;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        box-shadow: 0 6px 18px rgba(15,23,42,0.12);
+        min-width: 160px;
+        z-index: 10;
+      }
+      .lang-switcher li { margin: 0; }
+      .lang-switcher li a {
+        display: block;
+        padding: 7px 10px;
+        font-size: 14px;
+        color: var(--text);
+        border-radius: 6px;
+      }
+      .lang-switcher li a[aria-current] { font-weight: 600; color: var(--blue); }
+      .lang-switcher li a:hover { background: var(--bg); text-decoration: none; }
+
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 0 24px 64px;
+      }
+
+      section.hero {
+        text-align: center;
+        padding: 64px 16px 48px;
+      }
+      section.hero h1 {
+        font-size: clamp(36px, 6vw, 56px);
+        line-height: 1.08;
+        margin: 0 0 16px;
+        letter-spacing: -0.02em;
+      }
+      section.hero p.lead {
+        font-size: clamp(17px, 1.8vw, 20px);
+        color: var(--muted);
+        margin: 0 auto 32px;
+        max-width: 680px;
+      }
+      .pill {
+        display: inline-block;
+        padding: 4px 12px;
+        background: #ecfdf5;
+        color: #059669;
+        border-radius: 999px;
+        font-size: 13px;
+        font-weight: 600;
+        margin-bottom: 18px;
+      }
+      a.cta {
+        display: inline-block;
+        background: var(--text);
+        color: #fff;
+        padding: 13px 26px;
+        border-radius: 999px;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 4px;
+      }
+      a.cta:hover { background: #000; text-decoration: none; }
+      a.cta.outline {
+        background: transparent;
+        color: var(--text);
+        border: 1px solid var(--line);
+      }
+      a.cta.outline:hover { background: var(--panel); }
+
+      .panel {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        padding: 32px;
+        margin: 28px 0;
+      }
+      .panel h2 {
+        margin: 0 0 16px;
+        font-size: 24px;
+        letter-spacing: -0.01em;
+      }
+      .panel h3 {
+        margin: 24px 0 8px;
+        font-size: 17px;
+      }
+      .panel p { margin: 0 0 12px; }
+      .panel ol, .panel ul {
+        padding-left: 22px;
+        margin: 0 0 12px;
+      }
+      .panel li { margin: 6px 0; }
+
+      .code-callout {
+        display: inline-block;
+        background: var(--code-bg);
+        padding: 14px 22px;
+        border-radius: 12px;
+        font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        font-size: 22px;
+        font-weight: 600;
+        margin: 12px 0;
+        letter-spacing: 0.04em;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 16px;
+        margin-top: 12px;
+      }
+      .grid-2 .item {
+        background: var(--code-bg);
+        border-radius: 10px;
+        padding: 14px 16px;
+      }
+      .grid-2 .item strong { display: block; font-size: 14px; }
+      .grid-2 .item span { color: var(--muted); font-size: 13px; }
+
+      .faq summary {
+        font-weight: 600;
+        cursor: pointer;
+        padding: 14px 0;
+        font-size: 16px;
+      }
+      .faq details { border-bottom: 1px solid var(--line); }
+      .faq details:last-of-type { border-bottom: 0; }
+      .faq details > p {
+        color: var(--muted);
+        margin: 0 0 14px;
+      }
+
+      footer.site {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 32px 24px 48px;
+        color: var(--muted);
+        font-size: 14px;
+        border-top: 1px solid var(--line);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 12px;
+      }
+      footer.site a { color: var(--muted); margin-right: 16px; }
+      footer.site a:hover { color: var(--text); text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <a href="{{prefix}}/" class="brand">{{site.name}}</a>
+      <nav>
+        <a href="{{prefix}}/anki-remote">{{nav.ankiRemote}}</a>
+        <a href="/blog/">{{nav.blog}}</a>
+        <a href="/support">{{nav.support}}</a>
+        {{{langSwitcher}}}
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="pill">{{ankiRemote.hero.pill}}</span>
+        <h1>{{{ankiRemote.hero.title}}}</h1>
+        <p class="lead">{{{ankiRemote.hero.lead}}}</p>
+        <a class="cta" href="https://apps.apple.com/app/flashcardguru/id6757980593">{{ankiRemote.hero.ctaPrimary}}</a>
+        <a class="cta outline" href="https://ankiweb.net/shared/info/1196082853">{{ankiRemote.hero.ctaSecondary}}</a>
+      </section>
+
+      <div class="panel">
+        <h2>{{ankiRemote.setup.title}}</h2>
+        <ol>
+          <li>{{{ankiRemote.setup.step1Lead}}}
+            <div class="code-callout">1196082853</div>
+            {{{ankiRemote.setup.step1Tail}}}
+          </li>
+          <li>{{{ankiRemote.setup.step2}}}</li>
+          <li>{{{ankiRemote.setup.step3Title}}}
+            <ul>
+              {{#ankiRemote.setup.step3Lines}}
+              <li>{{{.}}}</li>
+              {{/ankiRemote.setup.step3Lines}}
+            </ul>
+            {{{ankiRemote.setup.step3Tail}}}
+          </li>
+        </ol>
+      </div>
+
+      <div class="panel">
+        <h2>{{ankiRemote.actions.title}}</h2>
+        <div class="grid-2">
+          {{#ankiRemote.actions.items}}
+          <div class="item"><strong>{{title}}</strong><span>{{desc}}</span></div>
+          {{/ankiRemote.actions.items}}
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>{{ankiRemote.controllers.title}}</h2>
+        <p>{{{ankiRemote.controllers.intro}}}</p>
+        <h3>{{ankiRemote.controllers.gamepadHeading}}</h3>
+        <ul>
+          {{#ankiRemote.controllers.gamepadList}}
+          <li>{{{.}}}</li>
+          {{/ankiRemote.controllers.gamepadList}}
+        </ul>
+        <h3>{{ankiRemote.controllers.keyboardHeading}}</h3>
+        <ul>
+          {{#ankiRemote.controllers.keyboardList}}
+          <li>{{{.}}}</li>
+          {{/ankiRemote.controllers.keyboardList}}
+        </ul>
+        <p style="color: var(--muted); font-size: 14px; margin-top: 16px;">{{{ankiRemote.controllers.footnote}}}</p>
+      </div>
+
+      <div class="panel">
+        <h2>{{ankiRemote.privacy.title}}</h2>
+        <ul>
+          {{#ankiRemote.privacy.bullets}}
+          <li>{{{.}}}</li>
+          {{/ankiRemote.privacy.bullets}}
+        </ul>
+      </div>
+
+      <div class="panel faq">
+        <h2>{{ankiRemote.faq.title}}</h2>
+        {{#ankiRemote.faq.items}}
+        <details>
+          <summary>{{q}}</summary>
+          <p>{{{a}}}</p>
+        </details>
+        {{/ankiRemote.faq.items}}
+      </div>
+
+      <div class="panel">
+        <h2>{{ankiRemote.source.title}}</h2>
+        <ul>
+          {{#ankiRemote.source.items}}
+          <li>{{{.}}}</li>
+          {{/ankiRemote.source.items}}
+        </ul>
+      </div>
+    </main>
+
+    <footer class="site">
+      <div>
+        <a href="/support">{{footer.support}}</a>
+        <a href="/privacy">{{footer.privacy}}</a>
+        <a href="/app-privacy-policy">{{footer.appPrivacy}}</a>
+        <a href="{{prefix}}/anki-remote">{{footer.ankiRemote}}</a>
+        <a href="/blog/">{{footer.blog}}</a>
+      </div>
+      <div>© Rainverse LLC</div>
+    </footer>
+  </body>
+</html>

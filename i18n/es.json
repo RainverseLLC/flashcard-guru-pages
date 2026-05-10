@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "Flashcard Guru"
+  },
+  "nav": {
+    "ankiRemote": "Mando Anki",
+    "blog": "Blog",
+    "support": "Ayuda"
+  },
+  "footer": {
+    "support": "Ayuda",
+    "privacy": "Privacidad",
+    "appPrivacy": "Privacidad de la App",
+    "ankiRemote": "Mando Anki",
+    "blog": "Blog"
+  },
+  "landing": {
+    "metaTitle": "Flashcard Guru — Repetición espaciada para iPhone",
+    "metaDescription": "Convierte libros, PDF y notas en tarjetas enfocadas. Importa desde Anki, genera notas de estudio con IA, repasa con FSRS — todo en tu iPhone.",
+    "hero": {
+      "title": "Repetición espaciada,<br>para estudiantes serios",
+      "lead": "Convierte libros, PDF y notas en tarjetas enfocadas en el iPhone. Importa directamente desde Anki, genera notas de estudio con IA y repasa con la planificación FSRS.",
+      "ctaPrimary": "Descargar en el App Store",
+      "ctaSecondary": "Mando Anki gratuito →"
+    },
+    "shotRail": {
+      "label": "Capturas de pantalla",
+      "items": [
+        { "src": "/assets/screenshots/decks-home.png", "alt": "Inicio de mazos con mazos Anki importados", "caption": "Mazos Anki importados sin cambios" },
+        { "src": "/assets/screenshots/ai-panel.png", "alt": "Panel de notas IA dentro del lector", "caption": "Notas IA desde cualquier PDF" },
+        { "src": "/assets/screenshots/reader.png", "alt": "Lector PDF con resaltados", "caption": "Lector con resaltados" },
+        { "src": "/assets/screenshots/review-answer.png", "alt": "Sesión de repaso mostrando la respuesta", "caption": "Repaso programado por FSRS" },
+        { "src": "/assets/screenshots/stats.png", "alt": "Panel de estadísticas", "caption": "Progreso diario visible" }
+      ]
+    },
+    "features": [
+      { "title": "Importar desde Anki", "body": "Suelta cualquier paquete <code>.apkg</code> o <code>.colpkg</code> — mazos, notas, estado de programación y medios migran intactos, gracias al parser oficial de Anki." },
+      { "title": "Notas de estudio IA desde PDF", "body": "Resalta un pasaje, elige una plantilla, genera notas listas para repasar. Mantienes el control sobre lo que se envía a los proveedores de IA — sin sorpresas." },
+      { "title": "Repaso impulsado por FSRS", "body": "Cada tarjeta se programa sola con el algoritmo FSRS — intervalos más cortos cuando dudas, más amplios cuando dominas." },
+      { "title": "Mando Anki inalámbrico", "body": "Controla los repasos de Anki Desktop desde tu iPhone por Wi-Fi. Complemento gratuito, funciona con los mandos 8BitDo baratos que AnkiMobile rechaza emparejar. <a href=\"{{prefix}}/anki-remote\">Configurar →</a>" },
+      { "title": "Privacidad por defecto", "body": "Tus mazos y notas viven en tu dispositivo. Las solicitudes IA solo se disparan cuando inicias una generación explícitamente, con plena divulgación de lo que se envía. <a href=\"/privacy\">Política de privacidad</a>" },
+      { "title": "Localizado en 8 idiomas", "body": "Inglés, chino simplificado y tradicional, japonés, coreano, alemán, francés, español — todas las funciones, no solo los menús." }
+    ]
+  },
+  "ankiRemote": {
+    "metaTitle": "Flashcard Guru Remote — Mando Anki inalámbrico gratuito para iPhone",
+    "metaDescription": "Convierte tu iPhone en un mando de repaso inalámbrico para Anki Desktop. Complemento gratuito LGPL-3.0, emparejamiento en 10 segundos por código QR, soporta los mandos 8BitDo baratos que AnkiMobile rechaza.",
+    "hero": {
+      "pill": "Gratis · Código abierto · LGPL-3.0",
+      "title": "Un mando Anki en el iPhone que ya tienes",
+      "lead": "Empareja tu iPhone con Anki Desktop en 10 segundos vía código QR, y luego controla <em>Mostrar respuesta / Otra vez / Difícil / Bueno / Fácil</em> desde el sofá, la cinta de correr o donde estudies. Conecta un mando 8BitDo barato al iPhone y funciona a través del teléfono — incluso modelos que AnkiMobile se niega a emparejar.",
+      "ctaPrimary": "Descargar Flashcard Guru",
+      "ctaSecondary": "Ver en AnkiWeb"
+    },
+    "setup": {
+      "title": "Configuración (3 pasos, ~1 minuto)",
+      "step1Lead": "<strong>En tu Mac:</strong> abre Anki, luego <code>Herramientas → Complementos → Obtener complementos…</code> y pega este código:",
+      "step1Tail": "Reinicia Anki. La primera vez que arranca el complemento, macOS pregunta «<em>¿Permitir conexiones entrantes?</em>» — pulsa <strong>Permitir</strong>.",
+      "step2": "<strong>En tu iPhone:</strong> instala <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a> desde el App Store.",
+      "step3Title": "<strong>Emparejar:</strong>",
+      "step3Lines": [
+        "En Anki: <code>Herramientas → Conectar teléfono (Flashcard Guru Remote)…</code> — aparece un código QR.",
+        "En Flashcard Guru: <code>Ajustes → Mando Anki → Emparejar con Mac</code> — escanea el QR."
+      ],
+      "step3Tail": "Listo. Abre cualquier mazo en tu Mac y el iPhone toma el control."
+    },
+    "actions": {
+      "title": "Lo que puedes controlar de forma remota",
+      "items": [
+        { "title": "Mostrar respuesta", "desc": "Voltear la tarjeta actual." },
+        { "title": "Otra vez / Difícil / Bueno / Fácil", "desc": "Las cuatro valoraciones." },
+        { "title": "Repetir audio", "desc": "Para mazos con medios." },
+        { "title": "Deshacer", "desc": "Revertir la última valoración." }
+      ]
+    },
+    "controllers": {
+      "title": "Soporte de mandos hardware",
+      "intro": "Conecta un mando al iPhone (USB-C o Bluetooth) y Flashcard Guru reenvía los botones a Anki Desktop:",
+      "gamepadHeading": "Mando (MFi)",
+      "gamepadList": [
+        "<code>A</code> → Bueno · <code>B</code> → Otra vez · <code>X</code> → Difícil · <code>Y</code> → Fácil",
+        "<code>R1</code> → Mostrar respuesta · <code>L1</code> → Repetir · <code>Options</code> → Deshacer"
+      ],
+      "keyboardHeading": "Modo teclado (8BitDo Zero 2 / micro / teclados externos)",
+      "keyboardList": [
+        "<code>1 / 2 / 3 / 4</code> → Otra vez / Difícil / Bueno / Fácil",
+        "<code>Space</code> → Mostrar respuesta · <code>R</code> → Repetir · <code>Z</code> o <code>U</code> → Deshacer"
+      ],
+      "footnote": "El modo teclado es el truco que hace funcionar los mandos 8BitDo baratos — esos modelos pequeños no exponen el perfil <code>GCExtendedGamepad</code> de Apple, así que AnkiMobile los rechaza. Flashcard Guru también escucha <code>GCKeyboard</code>, que es exactamente lo que envía el «Modo teclado» de 8BitDo."
+    },
+    "privacy": {
+      "title": "Privacidad",
+      "bullets": [
+        "<strong>Solo LAN.</strong> El token de emparejamiento nunca sale de tu Wi-Fi local. El complemento rechaza conexiones desde IP no privadas como medida de seguridad.",
+        "<strong>Sin telemetría.</strong> Sin analítica, sin registro remoto, sin subir tus mazos ni tarjetas.",
+        "<strong>Revocable en cualquier momento.</strong> «Olvida» el iPhone en el diálogo de emparejamiento de Anki y el token queda invalidado al instante."
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "items": [
+        { "q": "¿Funciona con AnkiMobile (la app oficial de iOS de Anki)?", "a": "No. Esto es el compañero de <strong>Flashcard Guru</strong>, nuestra app iOS de tarjetas independiente. El complemento habla WebSocket con Flashcard Guru, no con AnkiMobile." },
+        { "q": "¿Por qué no es simplemente un teclado Bluetooth como StudyRemote?", "a": "iOS no permite a apps de terceros actuar como periféricos HID Bluetooth — esa es una limitación a nivel de plataforma, no algo que podamos sortear. En su lugar, ofrecemos la misma experiencia mediante una ruta Wi-Fi WebSocket." },
+        { "q": "¿Funciona en Windows o Linux?", "a": "Probablemente sí — el complemento Python es multiplataforma — pero solo hacemos QA activo en macOS. Versión mínima: Anki 2.1.55+ (builds Qt6)." },
+        { "q": "¿Cómo actualizo el complemento?", "a": "Anki Desktop comprueba actualizaciones de complementos automáticamente. <code>Herramientas → Complementos</code> muestra la versión, <code>Buscar actualizaciones</code> trae versiones nuevas desde AnkiWeb." },
+        { "q": "¿La app iOS es de código abierto?", "a": "El <strong>complemento</strong> es de código abierto bajo <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>. La app iOS misma sigue siendo cerrada." }
+      ]
+    },
+    "source": {
+      "title": "Código fuente y soporte",
+      "items": [
+        "Página de AnkiWeb: <a href=\"https://ankiweb.net/shared/info/1196082853\">código 1196082853</a>",
+        "Código del complemento: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a> (LGPL-3.0)",
+        "Soporte de la app iOS: <a href=\"/support\">flashcard-guru.flashify.app/support</a>"
+      ]
+    }
+  }
+}

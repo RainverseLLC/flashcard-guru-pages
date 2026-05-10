@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "Flashcard Guru"
+  },
+  "nav": {
+    "ankiRemote": "Anki Fernbedienung",
+    "blog": "Blog",
+    "support": "Support"
+  },
+  "footer": {
+    "support": "Support",
+    "privacy": "Datenschutz",
+    "appPrivacy": "App-Datenschutz",
+    "ankiRemote": "Anki Fernbedienung",
+    "blog": "Blog"
+  },
+  "landing": {
+    "metaTitle": "Flashcard Guru — Verteiltes Lernen für iPhone",
+    "metaDescription": "Verwandle Bücher, PDFs und Notizen in fokussierte Karteikarten. Aus Anki direkt importieren, mit KI Lernnotizen generieren, mit FSRS wiederholen — alles auf dem iPhone.",
+    "hero": {
+      "title": "Verteiltes Lernen,<br>für ernsthafte Lernende",
+      "lead": "Verwandle Bücher, PDFs und Notizen auf dem iPhone in fokussierte Karteikarten. Direkt aus Anki importieren, KI-Lernnotizen generieren und mit FSRS-Planung wiederholen.",
+      "ctaPrimary": "Im App Store laden",
+      "ctaSecondary": "Kostenlose Anki Fernbedienung →"
+    },
+    "shotRail": {
+      "label": "Screenshots",
+      "items": [
+        { "src": "/assets/screenshots/decks-home.png", "alt": "Stapel-Übersicht mit importierten Anki-Stapeln", "caption": "Anki-Stapel unverändert importiert" },
+        { "src": "/assets/screenshots/ai-panel.png", "alt": "KI-Notizpanel im Reader", "caption": "KI-Notizen aus jedem PDF" },
+        { "src": "/assets/screenshots/reader.png", "alt": "PDF-Reader mit Markierungen", "caption": "Reader mit Markierungen" },
+        { "src": "/assets/screenshots/review-answer.png", "alt": "Wiederholungssitzung zeigt die Antwort", "caption": "FSRS-geplante Wiederholung" },
+        { "src": "/assets/screenshots/stats.png", "alt": "Statistik-Dashboard", "caption": "Tägliche Fortschrittsstatistik" }
+      ]
+    },
+    "features": [
+      { "title": "Aus Anki importieren", "body": "Lege ein beliebiges <code>.apkg</code>- oder <code>.colpkg</code>-Paket ab — Stapel, Notizen, Planungsstand und Medien werden vollständig migriert, mit Ankis eigenem Parser." },
+      { "title": "KI-Lernnotizen aus PDFs", "body": "Markiere eine Passage, wähle eine Vorlage, generiere wiederholungsbereite Notizen. Du behältst die Kontrolle darüber, was an KI-Anbieter gesendet wird — keine Überraschungen." },
+      { "title": "FSRS-basierte Wiederholung", "body": "Jede Karte plant sich selbst mit dem FSRS-Algorithmus — engere Intervalle bei Unsicherheit, breitere bei Sicherheit." },
+      { "title": "Drahtlose Anki-Fernbedienung", "body": "Steuere Anki-Desktop-Wiederholungen per WLAN vom iPhone. Kostenloses Begleit-Add-on, funktioniert mit günstigen 8BitDo-Controllern, die AnkiMobile nicht koppelt. <a href=\"{{prefix}}/anki-remote\">Einrichten →</a>" },
+      { "title": "Datenschutz standardmäßig", "body": "Stapel und Notizen bleiben auf deinem Gerät. KI-Anfragen werden nur ausgelöst, wenn du eine Generierung explizit startest, mit voller Offenlegung des Übermittelten. <a href=\"/privacy\">Datenschutzerklärung</a>" },
+      { "title": "In 8 Sprachen lokalisiert", "body": "Englisch, vereinfachtes &amp; traditionelles Chinesisch, Japanisch, Koreanisch, Deutsch, Französisch, Spanisch — alle Funktionen, nicht nur Menüs." }
+    ]
+  },
+  "ankiRemote": {
+    "metaTitle": "Flashcard Guru Remote — Kostenlose drahtlose Anki-Fernbedienung fürs iPhone",
+    "metaDescription": "Verwandle dein iPhone in eine drahtlose Anki-Desktop-Fernbedienung. Kostenloses LGPL-3.0-Add-on, in 10 Sekunden per QR-Code gekoppelt, unterstützt günstige 8BitDo-Controller, die AnkiMobile nicht koppelt.",
+    "hero": {
+      "pill": "Kostenlos · Open Source · LGPL-3.0",
+      "title": "Anki Fernbedienung — auf dem iPhone, das du schon hast",
+      "lead": "Koppele dein iPhone in 10 Sekunden per QR-Code mit Anki Desktop und steuere <em>Antwort zeigen / Nochmal / Schwer / Gut / Einfach</em> von der Couch, dem Laufband oder wo immer du lernst. Schließe einen günstigen 8BitDo-Controller ans iPhone an und er funktioniert über das Telefon — sogar Modelle, die AnkiMobile zu koppeln verweigert.",
+      "ctaPrimary": "Flashcard Guru herunterladen",
+      "ctaSecondary": "Auf AnkiWeb ansehen"
+    },
+    "setup": {
+      "title": "Einrichtung (3 Schritte, ca. 1 Minute)",
+      "step1Lead": "<strong>Auf deinem Mac:</strong> Öffne Anki, dann <code>Werkzeuge → Add-ons → Add-ons herunterladen…</code> und füge diesen Code ein:",
+      "step1Tail": "Anki neu starten. Beim ersten Start fragt macOS „<em>Eingehende Verbindungen erlauben?</em>“ — klicke <strong>Erlauben</strong>.",
+      "step2": "<strong>Auf deinem iPhone:</strong> Installiere <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a> aus dem App Store.",
+      "step3Title": "<strong>Koppeln:</strong>",
+      "step3Lines": [
+        "In Anki: <code>Werkzeuge → Telefon verbinden (Flashcard Guru Remote)…</code> — ein QR-Code erscheint.",
+        "In Flashcard Guru: <code>Einstellungen → Anki Fernbedienung → Mit Mac koppeln</code> — QR scannen."
+      ],
+      "step3Tail": "Fertig. Öffne einen beliebigen Stapel auf dem Mac und das iPhone übernimmt."
+    },
+    "actions": {
+      "title": "Was du fernsteuern kannst",
+      "items": [
+        { "title": "Antwort zeigen", "desc": "Aktuelle Karte umdrehen." },
+        { "title": "Nochmal / Schwer / Gut / Einfach", "desc": "Alle vier Bewertungen." },
+        { "title": "Audio erneut abspielen", "desc": "Für Stapel mit Medien." },
+        { "title": "Rückgängig", "desc": "Letzte Bewertung zurücknehmen." }
+      ]
+    },
+    "controllers": {
+      "title": "Hardware-Controller-Unterstützung",
+      "intro": "Schließe einen Controller ans iPhone an (USB-C oder Bluetooth) und Flashcard Guru leitet die Tasten an Anki Desktop weiter:",
+      "gamepadHeading": "Gamepad (MFi)",
+      "gamepadList": [
+        "<code>A</code> → Gut · <code>B</code> → Nochmal · <code>X</code> → Schwer · <code>Y</code> → Einfach",
+        "<code>R1</code> → Antwort zeigen · <code>L1</code> → Wiedergabe · <code>Options</code> → Rückgängig"
+      ],
+      "keyboardHeading": "Tastaturmodus (8BitDo Zero 2 / micro / externe Tastaturen)",
+      "keyboardList": [
+        "<code>1 / 2 / 3 / 4</code> → Nochmal / Schwer / Gut / Einfach",
+        "<code>Space</code> → Antwort zeigen · <code>R</code> → Wiedergabe · <code>Z</code> oder <code>U</code> → Rückgängig"
+      ],
+      "footnote": "Der Tastatur-Pfad ist der Trick, mit dem günstige 8BitDo-Controller funktionieren — diese kleinen Modelle exponieren das Apple-<code>GCExtendedGamepad</code>-Profil nicht, deshalb lehnt AnkiMobile sie ab. Flashcard Guru hört zusätzlich auf <code>GCKeyboard</code>, was genau dem entspricht, was 8BitDos „Tastaturmodus“ sendet."
+    },
+    "privacy": {
+      "title": "Datenschutz",
+      "bullets": [
+        "<strong>Nur LAN.</strong> Das Pairing-Token verlässt dein lokales WLAN nicht. Das Add-on lehnt Verbindungen außerhalb privater IP-Bereiche als Sicherheitsmaßnahme ab.",
+        "<strong>Keine Telemetrie.</strong> Keine Analytik, kein Remote-Logging, kein Upload deiner Stapel oder Karten.",
+        "<strong>Jederzeit widerruflich.</strong> „Vergesse“ das iPhone im Anki-Pairing-Dialog und das Token wird sofort ungültig."
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "items": [
+        { "q": "Funktioniert das mit AnkiMobile (der offiziellen iOS-Anki-App)?", "a": "Nein. Dies ist der Begleiter zu <strong>Flashcard Guru</strong>, unserer eigenständigen iOS-Karteikarten-App. Das Add-on spricht WebSocket mit Flashcard Guru, nicht mit AnkiMobile." },
+        { "q": "Warum ist es nicht einfach eine Bluetooth-Tastatur wie StudyRemote?", "a": "iOS erlaubt Drittanbieter-Apps nicht, als Bluetooth-HID-Peripheriegerät zu agieren — das ist eine plattformseitige Beschränkung, die wir nicht umgehen können. Stattdessen liefern wir das gleiche Wiederholungserlebnis über eine Wi-Fi-WebSocket-Route." },
+        { "q": "Funktioniert es unter Windows oder Linux?", "a": "Vermutlich ja — das Python-Add-on ist plattformübergreifend — aber wir testen aktiv nur auf macOS. Mindestversion: Anki 2.1.55+ (Qt6-Builds)." },
+        { "q": "Wie aktualisiere ich das Add-on?", "a": "Anki Desktop sucht automatisch nach Add-on-Updates. <code>Werkzeuge → Add-ons</code> zeigt die Version, <code>Auf Updates prüfen</code> holt neue Versionen von AnkiWeb." },
+        { "q": "Ist die iOS-App quelloffen?", "a": "Das <strong>Add-on</strong> ist quelloffen unter <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>. Die iOS-App selbst bleibt proprietär." }
+      ]
+    },
+    "source": {
+      "title": "Quelltext &amp; Support",
+      "items": [
+        "AnkiWeb-Eintrag: <a href=\"https://ankiweb.net/shared/info/1196082853\">Code 1196082853</a>",
+        "Add-on-Quelltext: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a> (LGPL-3.0)",
+        "iOS-App-Support: <a href=\"/support\">flashcard-guru.flashify.app/support</a>"
+      ]
+    }
+  }
+}

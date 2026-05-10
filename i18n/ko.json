@@ -1,0 +1,118 @@
+{
+  "site": {
+    "name": "Flashcard Guru"
+  },
+  "nav": {
+    "ankiRemote": "Anki 리모컨",
+    "blog": "Blog",
+    "support": "지원"
+  },
+  "footer": {
+    "support": "지원",
+    "privacy": "개인정보",
+    "appPrivacy": "App 개인정보",
+    "ankiRemote": "Anki 리모컨",
+    "blog": "Blog"
+  },
+  "landing": {
+    "metaTitle": "Flashcard Guru — iPhone을 위한 간격 반복 학습",
+    "metaDescription": "책, PDF, 메모를 집중력 있는 플래시카드로. Anki에서 바로 가져오고, AI로 학습 노트를 생성하고, FSRS로 복습하세요 — 모두 iPhone에서.",
+    "hero": {
+      "title": "진지한 학습자를 위한<br>간격 반복 학습",
+      "lead": "iPhone에서 책, PDF, 메모를 집중형 플래시카드로 변환하세요. Anki에서 직접 가져오고, AI로 학습 노트를 만들고, FSRS 스케줄링으로 복습합니다.",
+      "ctaPrimary": "App Store에서 받기",
+      "ctaSecondary": "무료 Anki 리모컨 →"
+    },
+    "shotRail": {
+      "label": "스크린샷",
+      "items": [
+        { "src": "/assets/screenshots/decks-home.png", "alt": "가져온 Anki 덱 홈 화면", "caption": "Anki 덱 그대로 가져오기" },
+        { "src": "/assets/screenshots/ai-panel.png", "alt": "리더 내부 AI 노트 패널", "caption": "PDF에서 AI 노트" },
+        { "src": "/assets/screenshots/reader.png", "alt": "강조 표시된 PDF 리더", "caption": "리더로 강조 표시" },
+        { "src": "/assets/screenshots/review-answer.png", "alt": "답을 보여주는 복습 화면", "caption": "FSRS 스케줄 복습" },
+        { "src": "/assets/screenshots/stats.png", "alt": "통계 대시보드", "caption": "매일 진행 상황 확인" }
+      ]
+    },
+    "features": [
+      { "title": "Anki에서 그대로 가져오기", "body": "어떤 <code>.apkg</code> 또는 <code>.colpkg</code> 패키지든 끌어다 놓으세요 — 덱, 노트, 스케줄링 상태, 미디어 모두 그대로 이전됩니다. Anki 자체 파서 사용." },
+      { "title": "PDF에서 AI 학습 노트", "body": "구절에 강조 표시하고, 템플릿을 선택하고, 복습 가능한 노트를 생성하세요. AI 제공자에게 전송되는 내용은 완전히 투명하게 공개되며 사용자가 결정합니다." },
+      { "title": "FSRS 기반 복습", "body": "모든 카드는 FSRS 알고리즘으로 개별 스케줄됩니다 — 약하면 간격이 좁아지고, 익숙하면 넓어집니다." },
+      { "title": "무선 Anki 리모컨", "body": "iPhone에서 Wi-Fi로 Anki Desktop 복습을 조작하세요. 무료 컴패니언 애드온, AnkiMobile이 페어링하지 않는 저렴한 8BitDo 컨트롤러도 지원. <a href=\"{{prefix}}/anki-remote\">설정 →</a>" },
+      { "title": "기본 개인정보 보호", "body": "덱과 노트는 사용자 기기에만 저장됩니다. AI 요청은 명시적으로 생성을 시작할 때만 발생하며, 전송 내용을 완전히 공개합니다. <a href=\"/privacy\">개인정보 정책</a>" },
+      { "title": "8개 언어 현지화", "body": "영어, 간체·번체 중국어, 일본어, 한국어, 독일어, 프랑스어, 스페인어 — 메뉴뿐 아니라 모든 기능이 현지화됨." }
+    ]
+  },
+  "ankiRemote": {
+    "metaTitle": "Flashcard Guru Remote — iPhone용 무료 무선 Anki 리모컨",
+    "metaDescription": "iPhone을 Anki Desktop의 무선 복습 리모컨으로. 무료 LGPL-3.0 애드온, QR 코드로 10초 페어링, AnkiMobile이 거부하는 저렴한 8BitDo 컨트롤러도 지원.",
+    "hero": {
+      "pill": "무료 · 오픈 소스 · LGPL-3.0",
+      "title": "이미 가지고 있는 iPhone을 Anki 리모컨으로",
+      "lead": "QR 코드로 10초 만에 iPhone과 Anki Desktop을 페어링하고, 소파, 러닝머신 등 어디서든 <em>답 보기 / 다시 / 어려움 / 보통 / 쉬움</em>을 누르세요. 저렴한 8BitDo 컨트롤러를 iPhone에 연결하면, 신호가 iPhone을 거쳐 Mac으로 전달됩니다 — AnkiMobile이 페어링을 거부하는 모델도 여기서는 작동합니다.",
+      "ctaPrimary": "Flashcard Guru 다운로드",
+      "ctaSecondary": "AnkiWeb에서 보기"
+    },
+    "setup": {
+      "title": "설정(3단계, 약 1분)",
+      "step1Lead": "<strong>Mac에서:</strong> Anki를 열고 <code>도구 → 애드온 → 애드온 받기…</code>에서 이 코드를 입력하세요:",
+      "step1Tail": "Anki를 재시작합니다. 애드온이 처음 시작될 때 macOS가 「<em>들어오는 연결을 허용하시겠습니까?</em>」라고 묻습니다 — <strong>허용</strong>을 클릭하세요.",
+      "step2": "<strong>iPhone에서:</strong> App Store에서 <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a>를 설치하세요.",
+      "step3Title": "<strong>페어링:</strong>",
+      "step3Lines": [
+        "Anki에서: <code>도구 → 전화 연결(Flashcard Guru Remote)…</code> — QR 코드가 표시됩니다.",
+        "Flashcard Guru에서: <code>설정 → Anki 리모컨 → Mac과 페어링</code> — QR을 스캔하세요."
+      ],
+      "step3Tail": "끝났습니다. Mac에서 아무 덱이나 열면 iPhone이 인계받습니다."
+    },
+    "actions": {
+      "title": "원격으로 조작 가능한 항목",
+      "items": [
+        { "title": "답 보기", "desc": "현재 카드 뒤집기." },
+        { "title": "다시 / 어려움 / 보통 / 쉬움", "desc": "4단계 평가 모두." },
+        { "title": "오디오 재생", "desc": "미디어가 있는 덱용." },
+        { "title": "실행 취소", "desc": "직전 평가 되돌리기." }
+      ]
+    },
+    "controllers": {
+      "title": "하드웨어 컨트롤러 지원",
+      "intro": "iPhone에 컨트롤러를 연결(USB-C 또는 Bluetooth)하면 Flashcard Guru가 버튼을 Anki Desktop으로 전달합니다:",
+      "gamepadHeading": "게임패드(MFi)",
+      "gamepadList": [
+        "<code>A</code> → 보통 · <code>B</code> → 다시 · <code>X</code> → 어려움 · <code>Y</code> → 쉬움",
+        "<code>R1</code> → 답 보기 · <code>L1</code> → 재생 · <code>Options</code> → 실행 취소"
+      ],
+      "keyboardHeading": "키보드 모드(8BitDo Zero 2 / micro / 외장 키보드)",
+      "keyboardList": [
+        "<code>1 / 2 / 3 / 4</code> → 다시 / 어려움 / 보통 / 쉬움",
+        "<code>Space</code> → 답 보기 · <code>R</code> → 재생 · <code>Z</code> 또는 <code>U</code> → 실행 취소"
+      ],
+      "footnote": "키보드 모드 덕분에 저렴한 8BitDo 컨트롤러를 사용할 수 있습니다 — 이 작은 모델들은 Apple의 <code>GCExtendedGamepad</code> 프로파일을 노출하지 않아서 AnkiMobile이 거부합니다. Flashcard Guru는 <code>GCKeyboard</code>도 함께 듣는데, 이게 8BitDo의 「키보드 모드」 출력과 맞아떨어집니다."
+    },
+    "privacy": {
+      "title": "개인정보",
+      "bullets": [
+        "<strong>LAN 전용.</strong> 페어링 토큰은 로컬 Wi-Fi를 떠나지 않습니다. 애드온은 안전 검사로 비공개 IP 범위 외부의 연결을 거부합니다.",
+        "<strong>텔레메트리 없음.</strong> 분석, 원격 로깅, 덱이나 카드 업로드 일체 없음.",
+        "<strong>언제든 취소 가능.</strong> Anki 페어링 대화상자에서 iPhone을 「잊기」 하면 토큰이 즉시 무효화됩니다."
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "items": [
+        { "q": "AnkiMobile(공식 iOS Anki 앱)과 함께 작동하나요?", "a": "아니요. 이는 독립적인 iOS 플래시카드 앱인 <strong>Flashcard Guru</strong>의 컴패니언입니다. 애드온은 Flashcard Guru와 WebSocket으로 통신하지, AnkiMobile과 통신하지 않습니다." },
+        { "q": "왜 StudyRemote처럼 그냥 Bluetooth 키보드로 만들지 않나요?", "a": "iOS는 서드파티 앱이 Bluetooth HID 주변기기로 작동하는 것을 허용하지 않습니다 — 이는 플랫폼 수준의 제한이며 우회할 수 없습니다. 대신 Wi-Fi WebSocket 경로로 동일한 복습 조작 경험을 제공합니다." },
+        { "q": "Windows나 Linux에서 작동하나요?", "a": "아마도 작동합니다 — Python 애드온 자체는 크로스 플랫폼입니다 — 하지만 QA는 macOS에서만 적극적으로 합니다. 최소 지원: Anki 2.1.55+(Qt6 빌드)." },
+        { "q": "애드온은 어떻게 업데이트하나요?", "a": "Anki Desktop이 자동으로 애드온 업데이트를 확인합니다. <code>도구 → 애드온</code>에서 버전을 보여주고, <code>업데이트 확인</code>으로 AnkiWeb에서 새 버전을 받습니다." },
+        { "q": "iOS 앱은 오픈 소스인가요?", "a": "<strong>애드온</strong>은 <a href=\"https://www.gnu.org/licenses/lgpl-3.0.html\">LGPL-3.0</a>으로 오픈 소스: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>. iOS 앱 자체는 비공개입니다." }
+      ]
+    },
+    "source": {
+      "title": "소스 &amp; 지원",
+      "items": [
+        "AnkiWeb 페이지: <a href=\"https://ankiweb.net/shared/info/1196082853\">코드 1196082853</a>",
+        "애드온 소스: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a>(LGPL-3.0)",
+        "iOS 앱 지원: <a href=\"/support\">flashcard-guru.flashify.app/support</a>"
+      ]
+    }
+  }
+}

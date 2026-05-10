@@ -1,16 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="{{locale}}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Flashcard Guru — Spaced repetition flashcards for iPhone</title>
-    <meta name="description" content="Turn books, PDFs, and notes into focused flashcards. Import from Anki, generate study notes with AI, review with FSRS — all on your iPhone.">
-    <link rel="canonical" href="https://flashcard-guru.flashify.app/">
+    <title>{{landing.metaTitle}}</title>
+    <meta name="description" content="{{landing.metaDescription}}">
+    <link rel="canonical" href="{{canonicalUrl}}">
+    {{{hreflangAlternates}}}
 
-    <meta property="og:title" content="Flashcard Guru">
-    <meta property="og:description" content="Spaced repetition flashcards for iPhone — import from Anki, generate study notes from any PDF, review with FSRS.">
+    <meta property="og:title" content="{{site.name}}">
+    <meta property="og:description" content="{{landing.metaDescription}}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://flashcard-guru.flashify.app/">
+    <meta property="og:url" content="{{canonicalUrl}}">
+    <meta property="og:locale" content="{{locale}}">
     <meta name="twitter:card" content="summary_large_image">
 
     <style>
@@ -57,6 +59,48 @@
       }
       header.site nav a:hover { color: var(--text); text-decoration: none; }
 
+      .lang-switcher {
+        display: inline-block;
+        margin-left: 18px;
+        position: relative;
+      }
+      .lang-switcher summary {
+        list-style: none;
+        cursor: pointer;
+        color: var(--muted);
+        font-weight: 500;
+        font-size: 14px;
+      }
+      .lang-switcher summary::-webkit-details-marker { display: none; }
+      .lang-switcher summary::after { content: " ▾"; font-size: 11px; opacity: 0.7; }
+      .lang-switcher ul {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        margin: 6px 0 0;
+        padding: 6px;
+        list-style: none;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        box-shadow: 0 6px 18px rgba(15,23,42,0.12);
+        min-width: 160px;
+        z-index: 10;
+      }
+      .lang-switcher li { margin: 0; }
+      .lang-switcher li a {
+        display: block;
+        padding: 7px 10px;
+        font-size: 14px;
+        color: var(--text);
+        border-radius: 6px;
+      }
+      .lang-switcher li a[aria-current] {
+        font-weight: 600;
+        color: var(--blue);
+      }
+      .lang-switcher li a:hover { background: var(--bg); text-decoration: none; }
+
       main {
         max-width: 1080px;
         margin: 0 auto;
@@ -97,9 +141,7 @@
       }
       a.cta.secondary:hover { background: var(--panel); }
 
-      section.shots {
-        margin: 24px 0 60px;
-      }
+      section.shots { margin: 24px 0 60px; }
       .shot-rail {
         display: flex;
         gap: 18px;
@@ -111,10 +153,7 @@
       }
       .shot-rail::-webkit-scrollbar { height: 6px; }
       .shot-rail::-webkit-scrollbar-thumb { background: var(--line); border-radius: 3px; }
-      .shot {
-        flex: 0 0 240px;
-        scroll-snap-align: start;
-      }
+      .shot { flex: 0 0 240px; scroll-snap-align: start; }
       .shot img {
         width: 100%;
         height: auto;
@@ -189,81 +228,51 @@
   </head>
   <body>
     <header class="site">
-      <a href="/" class="brand">Flashcard Guru</a>
+      <a href="{{prefix}}/" class="brand">{{site.name}}</a>
       <nav>
-        <a href="/anki-remote">Anki Remote</a>
-        <a href="/blog/">Blog</a>
-        <a href="/support">Support</a>
+        <a href="{{prefix}}/anki-remote">{{nav.ankiRemote}}</a>
+        <a href="/blog/">{{nav.blog}}</a>
+        <a href="/support">{{nav.support}}</a>
+        {{{langSwitcher}}}
       </nav>
     </header>
 
     <main>
       <section class="hero">
-        <h1>Spaced repetition,<br>built for serious learners</h1>
-        <p class="lead">Turn books, PDFs, and notes into focused flashcards on iPhone. Import directly from Anki, generate study notes with AI, and review with FSRS scheduling.</p>
-        <a class="cta" href="https://apps.apple.com/app/flashcardguru/id6757980593">Get it on the App Store</a>
-        <a class="cta secondary" href="/anki-remote">Free Anki Remote →</a>
+        <h1>{{{landing.hero.title}}}</h1>
+        <p class="lead">{{landing.hero.lead}}</p>
+        <a class="cta" href="https://apps.apple.com/app/flashcardguru/id6757980593">{{landing.hero.ctaPrimary}}</a>
+        <a class="cta secondary" href="{{prefix}}/anki-remote">{{landing.hero.ctaSecondary}}</a>
       </section>
 
-      <section class="shots" aria-label="Screenshots">
+      <section class="shots" aria-label="{{landing.shotRail.label}}">
         <div class="shot-rail">
+          {{#landing.shotRail.items}}
           <div class="shot">
-            <img src="/assets/screenshots/decks-home.png" alt="Decks home with imported Anki decks" loading="lazy">
-            <div class="shot-caption">Anki decks, imported as-is</div>
+            <img src="{{src}}" alt="{{alt}}" loading="lazy">
+            <div class="shot-caption">{{caption}}</div>
           </div>
-          <div class="shot">
-            <img src="/assets/screenshots/ai-panel.png" alt="AI study notes panel inside the reader" loading="lazy">
-            <div class="shot-caption">AI notes from any PDF</div>
-          </div>
-          <div class="shot">
-            <img src="/assets/screenshots/reader.png" alt="PDF reader with highlights" loading="lazy">
-            <div class="shot-caption">Reader with highlights</div>
-          </div>
-          <div class="shot">
-            <img src="/assets/screenshots/review-answer.png" alt="Review session showing the answer" loading="lazy">
-            <div class="shot-caption">FSRS-scheduled review</div>
-          </div>
-          <div class="shot">
-            <img src="/assets/screenshots/stats.png" alt="Stats dashboard" loading="lazy">
-            <div class="shot-caption">Daily progress stats</div>
-          </div>
+          {{/landing.shotRail.items}}
         </div>
       </section>
 
       <section class="features">
+        {{#landing.features}}
         <div class="card">
-          <h3>Import from Anki</h3>
-          <p>Drop in any <code>.apkg</code> or <code>.colpkg</code> package — decks, notes, scheduling state, and media all migrate intact, powered by Anki's own parser.</p>
+          <h3>{{title}}</h3>
+          <p>{{{body}}}</p>
         </div>
-        <div class="card">
-          <h3>AI study notes from PDFs</h3>
-          <p>Highlight a passage, pick a template, generate review-ready notes. You stay in control of what gets sent to AI providers — no surprises.</p>
-        </div>
-        <div class="card">
-          <h3>FSRS-powered review</h3>
-          <p>Every card schedules itself with the FSRS algorithm — tighter intervals when you're shaky, wider when you're solid.</p>
-        </div>
-        <div class="card">
-          <h3>Wireless Anki Remote</h3>
-          <p>Drive Anki Desktop reviews from your iPhone over Wi-Fi. Free companion add-on, works with cheap 8BitDo controllers AnkiMobile won't pair with. <a href="/anki-remote">Set up →</a></p>
-        </div>
-        <div class="card">
-          <h3>Privacy by default</h3>
-          <p>Your decks and notes live on your device. AI requests only fire when you explicitly start a generation, with full disclosure of what gets sent. <a href="/privacy">Privacy policy</a></p>
-        </div>
-        <div class="card">
-          <h3>Localized in 8 languages</h3>
-          <p>English, Simplified &amp; Traditional Chinese, Japanese, Korean, German, French, Spanish — all features, not just menus.</p>
-        </div>
+        {{/landing.features}}
       </section>
     </main>
 
     <footer class="site">
       <div>
-        <a href="/support">Support</a>
-        <a href="/privacy">Privacy</a>
-        <a href="/app-privacy-policy">App Privacy</a>
-        <a href="/anki-remote">Anki Remote</a>
+        <a href="/support">{{footer.support}}</a>
+        <a href="/privacy">{{footer.privacy}}</a>
+        <a href="/app-privacy-policy">{{footer.appPrivacy}}</a>
+        <a href="{{prefix}}/anki-remote">{{footer.ankiRemote}}</a>
+        <a href="/blog/">{{footer.blog}}</a>
       </div>
       <div class="copyright">© Rainverse LLC</div>
     </footer>
