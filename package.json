@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.js",
-    "deploy": "npm run build && wrangler pages deploy public --project-name=flashcard-guru && sleep 5 && scripts/ping-indexnow.sh",
-    "deploy:preview": "npm run build && wrangler pages deploy public --project-name=flashcard-guru --branch=preview",
-    "dev": "npm run build && wrangler pages dev public --port 8788",
+    "deploy": "npm run build && npx --yes wrangler@4 pages deploy public --project-name=flashcard-guru && sleep 5 && scripts/ping-indexnow.sh",
+    "deploy:preview": "npm run build && npx --yes wrangler@4 pages deploy public --project-name=flashcard-guru --branch=preview",
+    "dev": "npm run build && npx --yes wrangler@4 pages dev public --port 8788",
     "indexnow": "scripts/ping-indexnow.sh"
   },
   "devDependencies": {
