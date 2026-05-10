@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://flashcard-guru.flashify.app/sitemap.xml

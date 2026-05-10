@@ -25,6 +25,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{site.origin}}/assets/og/landing.png">
 
+    {{{jsonLd}}}
+
     <style>
       :root {
         color-scheme: light;
@@ -287,7 +289,7 @@
         <div class="shot-rail">
           {{#landing.shotRail.items}}
           <div class="shot">
-            <img src="{{src}}" alt="{{alt}}" loading="lazy">
+            <img src="{{src}}" alt="{{alt}}" loading="lazy" width="1290" height="2796">
             <div class="shot-caption">{{caption}}</div>
           </div>
           {{/landing.shotRail.items}}

@@ -174,6 +174,94 @@ function loadLocaleStrings() {
   return out;
 }
 
+function stripHtml(s) {
+  return String(s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function jsonLdBlock(obj) {
+  return `<script type="application/ld+json">\n${JSON.stringify(obj, null, 2)}\n</script>`;
+}
+
+function buildSoftwareApplicationJsonLd(strings, canonicalUrl) {
+  return jsonLdBlock({
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Flashcard Guru',
+    operatingSystem: 'iOS 16+',
+    applicationCategory: 'EducationApplication',
+    description: stripHtml(strings.landing?.metaDescription || ''),
+    url: canonicalUrl,
+    image: `${SITE_ORIGIN}/icons/icon-512.png`,
+    installUrl: 'https://apps.apple.com/app/flashcardguru/id6757980593',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    publisher: {
+      '@type': 'Organization',
+      name: 'FlashcardGuru',
+      url: SITE_ORIGIN,
+      logo: { '@type': 'ImageObject', url: `${SITE_ORIGIN}/icons/icon-512.png` },
+    },
+  });
+}
+
+function buildFaqJsonLd(items) {
+  if (!Array.isArray(items) || items.length === 0) return '';
+  return jsonLdBlock({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((item) => ({
+      '@type': 'Question',
+      name: stripHtml(item.q),
+      acceptedAnswer: { '@type': 'Answer', text: stripHtml(item.a) },
+    })),
+  });
+}
+
+function buildSitemap() {
+  const today = new Date().toISOString().slice(0, 10);
+  const TEMPLATE_PAGES = ['landing', 'anki-remote'];
+  const STATIC_PAGES = [
+    { path: '/blog/', changefreq: 'weekly', priority: '0.7' },
+    { path: '/blog/free-wireless-anki-remote/', changefreq: 'monthly', priority: '0.6' },
+    { path: '/support', changefreq: 'monthly', priority: '0.5' },
+    { path: '/privacy', changefreq: 'yearly', priority: '0.3' },
+    { path: '/app-privacy-policy', changefreq: 'yearly', priority: '0.3' },
+  ];
+
+  const lines = [];
+  lines.push('<?xml version="1.0" encoding="UTF-8"?>');
+  lines.push('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"');
+  lines.push('        xmlns:xhtml="http://www.w3.org/1999/xhtml">');
+
+  for (const slug of TEMPLATE_PAGES) {
+    for (const loc of LOCALES) {
+      const url = SITE_ORIGIN + urlForPage(loc.code, slug);
+      lines.push('  <url>');
+      lines.push(`    <loc>${url}</loc>`);
+      lines.push(`    <lastmod>${today}</lastmod>`);
+      lines.push(`    <changefreq>weekly</changefreq>`);
+      lines.push(`    <priority>${loc.code === DEFAULT_LOCALE ? '1.0' : '0.9'}</priority>`);
+      for (const alt of LOCALES) {
+        const altUrl = SITE_ORIGIN + urlForPage(alt.code, slug);
+        lines.push(`    <xhtml:link rel="alternate" hreflang="${alt.hreflang}" href="${altUrl}"/>`);
+      }
+      lines.push(`    <xhtml:link rel="alternate" hreflang="x-default" href="${SITE_ORIGIN + urlForPage(DEFAULT_LOCALE, slug)}"/>`);
+      lines.push('  </url>');
+    }
+  }
+
+  for (const p of STATIC_PAGES) {
+    lines.push('  <url>');
+    lines.push(`    <loc>${SITE_ORIGIN}${p.path}</loc>`);
+    lines.push(`    <lastmod>${today}</lastmod>`);
+    lines.push(`    <changefreq>${p.changefreq}</changefreq>`);
+    lines.push(`    <priority>${p.priority}</priority>`);
+    lines.push('  </url>');
+  }
+
+  lines.push('</urlset>');
+  return lines.join('\n') + '\n';
+}
+
 function build() {
   const templates = loadTemplates();
   const localeStrings = loadLocaleStrings();
@@ -186,6 +274,14 @@ function build() {
       const hreflangAlternates = buildHreflangAlternates(tmpl.name);
       const canonicalUrl = SITE_ORIGIN + urlForPage(loc.code, tmpl.name);
 
+      // Per-page JSON-LD
+      let jsonLd = '';
+      if (tmpl.name === 'landing') {
+        jsonLd = buildSoftwareApplicationJsonLd(strings, canonicalUrl);
+      } else if (tmpl.name === 'anki-remote') {
+        jsonLd = buildFaqJsonLd(strings.ankiRemote?.faq?.items);
+      }
+
       const data = {
         ...strings,
         site: { ...(strings.site || {}), origin: SITE_ORIGIN },
@@ -195,6 +291,7 @@ function build() {
         canonicalUrl,
         hreflangAlternates,
         langSwitcher,
+        jsonLd,
       };
 
       const html = render(tmpl.body, data);
@@ -205,7 +302,10 @@ function build() {
     }
   }
 
-  console.log(`Built ${written} pages (${templates.length} templates × ${LOCALES.length} locales).`);
+  // Emit sitemap.xml at site root
+  fs.writeFileSync(path.join(PUBLIC_DIR, 'sitemap.xml'), buildSitemap(), 'utf8');
+
+  console.log(`Built ${written} pages (${templates.length} templates × ${LOCALES.length} locales) + sitemap.xml.`);
 }
 
 build();
