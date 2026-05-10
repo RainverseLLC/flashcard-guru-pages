@@ -61,13 +61,33 @@ Reads every `templates/*.tmpl.html` and every `i18n/*.json`, generates the cross
 npm run deploy
 ```
 
-Chains `npm run build && wrangler pages deploy public --project-name=flashcard-guru`. The Pages project is mapped to `flashcard-guru.flashify.app` in the Cloudflare dashboard.
+Chains:
+1. `npm run build` — regenerate per-locale HTML + sitemap.xml
+2. `wrangler pages deploy public --project-name=flashcard-guru` — push to Cloudflare Pages
+3. `scripts/ping-indexnow.sh` — push every URL in the sitemap to IndexNow (Bing / Yandex / Naver / Seznam / Mojeek pick it up; Google is reached via Search Console + organic crawl)
 
-For preview branches:
+The Pages project is mapped to `flashcard-guru.flashify.app` in the Cloudflare dashboard.
+
+For preview branches (no IndexNow ping — preview URLs aren't canonical):
 
 ```
 npm run deploy:preview
 ```
+
+To ping IndexNow without a fresh deploy (e.g., after a Cloudflare config change):
+
+```
+npm run indexnow
+```
+
+### IndexNow setup
+
+The protocol authenticates ownership via a key file served at the site root:
+
+- `.indexnow-key` (committed) — single line, the canonical key
+- `public/<KEY>.txt` (committed) — file named after the key, content = the key
+
+Both must move together. Rotating the key = generate new hex, save to `.indexnow-key`, rename the public file. Cloudflare's automatic IndexNow integration (Speed → Optimization → IndexNow in the dashboard) reads the same key file, so enabling it is one click and complementary to the manual ping.
 
 ## Adding a locale
 
