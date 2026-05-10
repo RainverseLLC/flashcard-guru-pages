@@ -110,39 +110,81 @@
           "step": "1",
           "title": "Abre los complementos de Anki",
           "body": "En el Mac, abre Anki y elige <code>Tools → Add-ons</code>.",
-          "alt": "Menú Tools de Anki con Add-ons seleccionado"
+          "alt": "Menú Tools de Anki con Add-ons seleccionado",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-tools-addons.png",
+              "alt": "Menú Tools de Anki con Add-ons seleccionado"
+            }
+          ]
         },
         {
           "step": "2",
           "title": "Introduce el código del complemento",
           "body": "Haz clic en <strong>Get Add-ons…</strong>, pega <code>1196082853</code> y confirma.",
-          "alt": "Ventana Add-ons de Anki con el campo de código"
+          "alt": "Ventana Add-ons de Anki con el campo de código",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-addons-get-addons.png",
+              "alt": "Ventana Add-ons de Anki con el campo de código (1)"
+            },
+            {
+              "src": "/assets/anki-remote/anki-enter-addon-code.png",
+              "alt": "Ventana Add-ons de Anki con el campo de código (2)"
+            }
+          ]
         },
         {
           "step": "3",
           "title": "Reinicia Anki",
           "body": "Cuando la instalación termine, reinicia Anki. Flashcard Guru Remote aparecerá en el menú Tools.",
-          "alt": "Mensaje de instalación correcta de Flashcard Guru Remote"
+          "alt": "Mensaje de instalación correcta de Flashcard Guru Remote",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-install-success.png",
+              "alt": "Mensaje de instalación correcta de Flashcard Guru Remote"
+            }
+          ]
         },
         {
           "step": "4",
           "title": "Muestra el código QR en el Mac",
           "body": "Abre Anki otra vez y elige <code>Tools → Connect Phone (Flashcard Guru Remote)…</code>.",
-          "alt": "Menú Tools de Anki con Connect Phone seleccionado"
+          "alt": "Menú Tools de Anki con Connect Phone seleccionado",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-tools-connect-phone.png",
+              "alt": "Menú Tools de Anki con Connect Phone seleccionado (1)"
+            },
+            {
+              "src": "/assets/anki-remote/anki-connect-phone-qr.png",
+              "alt": "Menú Tools de Anki con Connect Phone seleccionado (2)"
+            }
+          ]
         },
         {
           "step": "5",
           "title": "Abre Anki Remote en el iPhone",
           "body": "En Flashcard Guru, entra en <code>Settings → Anki Remote</code>.",
-          "image": "/assets/anki-remote/iphone-settings.png",
-          "alt": "Pantalla Settings de Flashcard Guru con Anki Remote"
+          "alt": "Pantalla Settings de Flashcard Guru con Anki Remote",
+          "images": [
+            {
+              "src": "/assets/anki-remote/iphone-settings.png",
+              "alt": "Pantalla Settings de Flashcard Guru con Anki Remote"
+            }
+          ]
         },
         {
           "step": "6",
           "title": "Empareja con el Mac",
           "body": "Toca <strong>Pair with Mac</strong>, escanea el QR del Mac y la conexión quedará lista.",
-          "image": "/assets/anki-remote/iphone-pair-with-mac.png",
-          "alt": "Pantalla Anki Remote de Flashcard Guru con Pair with Mac"
+          "alt": "Pantalla Anki Remote de Flashcard Guru con Pair with Mac",
+          "images": [
+            {
+              "src": "/assets/anki-remote/iphone-pair-with-mac.png",
+              "alt": "Pantalla Anki Remote de Flashcard Guru con Pair with Mac"
+            }
+          ]
         }
       ]
     },

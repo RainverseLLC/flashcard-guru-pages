@@ -110,39 +110,81 @@
           "step": "1",
           "title": "打开 Anki 插件管理",
           "body": "在 Mac 上打开 Anki，选择 <code>工具 → 插件</code>。",
-          "alt": "Anki 工具菜单中选中插件"
+          "alt": "Anki 工具菜单中选中插件",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-tools-addons.png",
+              "alt": "Anki 工具菜单中选中插件"
+            }
+          ]
         },
         {
           "step": "2",
           "title": "输入插件代码",
           "body": "点击 <strong>下载插件…</strong>，输入 <code>1196082853</code>，然后确认。",
-          "alt": "Anki 插件窗口中点击下载插件并输入代码"
+          "alt": "Anki 插件窗口中点击下载插件并输入代码",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-addons-get-addons.png",
+              "alt": "Anki 插件窗口中点击下载插件并输入代码 (1)"
+            },
+            {
+              "src": "/assets/anki-remote/anki-enter-addon-code.png",
+              "alt": "Anki 插件窗口中点击下载插件并输入代码 (2)"
+            }
+          ]
         },
         {
           "step": "3",
           "title": "重启 Anki",
           "body": "安装成功后重启 Anki，Flashcard Guru Remote 会出现在工具菜单里。",
-          "alt": "Anki 插件安装成功提示"
+          "alt": "Anki 插件安装成功提示",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-install-success.png",
+              "alt": "Anki 插件安装成功提示"
+            }
+          ]
         },
         {
           "step": "4",
           "title": "在 Mac 上显示二维码",
           "body": "重新打开 Anki，选择 <code>工具 → 连接手机（Flashcard Guru Remote）…</code>。",
-          "alt": "Anki 工具菜单中选中连接手机"
+          "alt": "Anki 工具菜单中选中连接手机",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-tools-connect-phone.png",
+              "alt": "Anki 工具菜单中选中连接手机 (1)"
+            },
+            {
+              "src": "/assets/anki-remote/anki-connect-phone-qr.png",
+              "alt": "Anki 工具菜单中选中连接手机 (2)"
+            }
+          ]
         },
         {
           "step": "5",
           "title": "在 iPhone 打开 Anki Remote",
           "body": "在 Flashcard Guru 中进入 <code>设置 → Anki Remote</code>。",
-          "image": "/assets/anki-remote/iphone-settings.png",
-          "alt": "Flashcard Guru 设置页面中的 Anki Remote 入口"
+          "alt": "Flashcard Guru 设置页面中的 Anki Remote 入口",
+          "images": [
+            {
+              "src": "/assets/anki-remote/iphone-settings.png",
+              "alt": "Flashcard Guru 设置页面中的 Anki Remote 入口"
+            }
+          ]
         },
         {
           "step": "6",
           "title": "与 Mac 配对",
           "body": "点击 <strong>Pair with Mac</strong>，扫描 Mac 上的二维码，连接完成。",
-          "image": "/assets/anki-remote/iphone-pair-with-mac.png",
-          "alt": "Flashcard Guru Anki Remote 页面中的 Pair with Mac"
+          "alt": "Flashcard Guru Anki Remote 页面中的 Pair with Mac",
+          "images": [
+            {
+              "src": "/assets/anki-remote/iphone-pair-with-mac.png",
+              "alt": "Flashcard Guru Anki Remote 页面中的 Pair with Mac"
+            }
+          ]
         }
       ]
     },

@@ -110,39 +110,81 @@
           "step": "1",
           "title": "Anki 애드온 열기",
           "body": "Mac에서 Anki를 열고 <code>Tools → Add-ons</code>를 선택합니다.",
-          "alt": "Anki Tools 메뉴에서 Add-ons를 선택한 화면"
+          "alt": "Anki Tools 메뉴에서 Add-ons를 선택한 화면",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-tools-addons.png",
+              "alt": "Anki Tools 메뉴에서 Add-ons를 선택한 화면"
+            }
+          ]
         },
         {
           "step": "2",
           "title": "애드온 코드 입력",
           "body": "<strong>Get Add-ons…</strong>를 클릭하고 <code>1196082853</code>을 입력한 다음 확인합니다.",
-          "alt": "Anki Add-ons 창에서 애드온 코드를 입력하는 화면"
+          "alt": "Anki Add-ons 창에서 애드온 코드를 입력하는 화면",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-addons-get-addons.png",
+              "alt": "Anki Add-ons 창에서 애드온 코드를 입력하는 화면 (1)"
+            },
+            {
+              "src": "/assets/anki-remote/anki-enter-addon-code.png",
+              "alt": "Anki Add-ons 창에서 애드온 코드를 입력하는 화면 (2)"
+            }
+          ]
         },
         {
           "step": "3",
           "title": "Anki 재시작",
           "body": "설치가 완료되면 Anki를 재시작하세요. Flashcard Guru Remote가 Tools 메뉴에 표시됩니다.",
-          "alt": "Flashcard Guru Remote 설치 성공 화면"
+          "alt": "Flashcard Guru Remote 설치 성공 화면",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-install-success.png",
+              "alt": "Flashcard Guru Remote 설치 성공 화면"
+            }
+          ]
         },
         {
           "step": "4",
           "title": "Mac에서 QR 코드 표시",
           "body": "Anki를 다시 열고 <code>Tools → Connect Phone (Flashcard Guru Remote)…</code>를 선택합니다.",
-          "alt": "Anki Tools 메뉴에서 Connect Phone을 선택한 화면"
+          "alt": "Anki Tools 메뉴에서 Connect Phone을 선택한 화면",
+          "images": [
+            {
+              "src": "/assets/anki-remote/anki-tools-connect-phone.png",
+              "alt": "Anki Tools 메뉴에서 Connect Phone을 선택한 화면 (1)"
+            },
+            {
+              "src": "/assets/anki-remote/anki-connect-phone-qr.png",
+              "alt": "Anki Tools 메뉴에서 Connect Phone을 선택한 화면 (2)"
+            }
+          ]
         },
         {
           "step": "5",
           "title": "iPhone에서 Anki Remote 열기",
           "body": "Flashcard Guru에서 <code>Settings → Anki Remote</code>로 이동합니다.",
-          "image": "/assets/anki-remote/iphone-settings.png",
-          "alt": "Flashcard Guru Settings 화면의 Anki Remote 항목"
+          "alt": "Flashcard Guru Settings 화면의 Anki Remote 항목",
+          "images": [
+            {
+              "src": "/assets/anki-remote/iphone-settings.png",
+              "alt": "Flashcard Guru Settings 화면의 Anki Remote 항목"
+            }
+          ]
         },
         {
           "step": "6",
           "title": "Mac과 페어링",
           "body": "<strong>Pair with Mac</strong>을 탭하고 Mac의 QR 코드를 스캔하면 연결됩니다.",
-          "image": "/assets/anki-remote/iphone-pair-with-mac.png",
-          "alt": "Flashcard Guru Anki Remote 화면의 Pair with Mac 항목"
+          "alt": "Flashcard Guru Anki Remote 화면의 Pair with Mac 항목",
+          "images": [
+            {
+              "src": "/assets/anki-remote/iphone-pair-with-mac.png",
+              "alt": "Flashcard Guru Anki Remote 화면의 Pair with Mac 항목"
+            }
+          ]
         }
       ]
     },
