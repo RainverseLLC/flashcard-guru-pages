@@ -8,11 +8,22 @@
     <link rel="canonical" href="{{canonicalUrl}}">
     {{{hreflangAlternates}}}
 
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#15171a">
+
     <meta property="og:title" content="{{ankiRemote.metaTitle}}">
     <meta property="og:description" content="{{ankiRemote.metaDescription}}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{canonicalUrl}}">
     <meta property="og:locale" content="{{locale}}">
+    <meta property="og:image" content="{{site.origin}}/assets/og/anki-remote.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{site.origin}}/assets/og/anki-remote.png">
 
     <style>
       :root {
@@ -102,7 +113,19 @@
 
       section.hero {
         text-align: center;
-        padding: 64px 16px 48px;
+        padding: 64px 16px 32px;
+      }
+      .hero-illustration {
+        margin: 0 auto 28px;
+        max-width: 480px;
+        text-align: center;
+      }
+      .hero-illustration img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 24px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 24px 48px -16px rgba(15, 23, 42, 0.20);
       }
       section.hero h1 {
         font-size: clamp(36px, 6vw, 56px);
@@ -221,6 +244,33 @@
       }
       footer.site a { color: var(--muted); margin-right: 16px; }
       footer.site a:hover { color: var(--text); text-decoration: none; }
+
+      @media (max-width: 720px) {
+        header.site { padding: 20px 16px 0; }
+        header.site nav a { margin-left: 14px; font-size: 14px; }
+        .lang-switcher { margin-left: 14px; }
+        main { padding: 0 16px 56px; }
+        footer.site { padding: 28px 16px 32px; }
+        footer.site a { margin-right: 12px; font-size: 13px; }
+      }
+
+      @media (max-width: 640px) {
+        section.hero { padding: 48px 4px 36px; }
+        section.hero h1 { font-size: clamp(28px, 7.5vw, 40px); line-height: 1.12; }
+        section.hero p.lead { font-size: 16px; }
+        a.cta { padding: 12px 22px; font-size: 15px; }
+        .panel { padding: 24px 20px; margin: 20px 0; }
+        .panel h2 { font-size: 21px; }
+        .code-callout { font-size: 18px; padding: 12px 18px; word-break: break-all; }
+        .grid-2 { gap: 12px; }
+      }
+
+      @media (max-width: 460px) {
+        header.site { flex-wrap: wrap; gap: 6px; row-gap: 4px; }
+        header.site nav { width: 100%; display: flex; align-items: center; flex-wrap: wrap; }
+        header.site nav a:first-of-type { margin-left: 0; }
+        .lang-switcher { margin-left: auto; }
+      }
     </style>
   </head>
   <body>
@@ -242,6 +292,10 @@
         <a class="cta" href="https://apps.apple.com/app/flashcardguru/id6757980593">{{ankiRemote.hero.ctaPrimary}}</a>
         <a class="cta outline" href="https://ankiweb.net/shared/info/1196082853">{{ankiRemote.hero.ctaSecondary}}</a>
       </section>
+
+      <div class="hero-illustration">
+        <img src="/assets/illustrations/anki-remote-hero.png" alt="iPhone showing the Show Answer button while a MacBook in the background runs Anki — connected wirelessly" loading="lazy">
+      </div>
 
       <div class="panel">
         <h2>{{ankiRemote.setup.title}}</h2>
