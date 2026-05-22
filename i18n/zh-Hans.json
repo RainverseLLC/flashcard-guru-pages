@@ -15,11 +15,11 @@
     "blog": "Blog"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — iPhone 上的间隔重复卡片学习",
-    "metaDescription": "把书、PDF、笔记变成专注的卡片。从 Anki 直接导入,用 AI 生成学习笔记,用 FSRS 算法复习——全部在 iPhone 上完成。",
+    "metaTitle": "Flashcard Guru — 为医学生打造的 iPhone 版 Anki",
+    "metaDescription": "为医学生打造的 iPhone 版 Anki。选择你的考试——USMLE Step 1/2、解剖学、药理学——导入你的牌组,让 AI 生成卡片,用 FSRS 算法复习。",
     "hero": {
-      "title": "为认真学习的人<br>设计的间隔重复",
-      "lead": "在 iPhone 上把书、PDF、笔记变成专注的卡片。从 Anki 直接导入,用 AI 生成学习笔记,用 FSRS 算法智能调度复习。",
+      "title": "医学生的 Anki,<br>在 iPhone 上终于顺手",
+      "lead": "导入你的 Anki 牌组,在更清爽的界面里复习,让 AI 把单词表和 PDF 变成卡片。按你的考试调校,用 FSRS 智能调度。",
       "ctaPrimary": "在 App Store 下载",
       "ctaSecondary": "免费 Anki 遥控器 →"
     },
@@ -29,54 +29,54 @@
         {
           "src": "/assets/screenshots/decks-home.png",
           "alt": "已导入的 Anki 牌组首页",
-          "caption": "Anki 牌组完整迁移"
+          "caption": "Anki 牌组完整导入"
         },
         {
           "src": "/assets/screenshots/ai-panel.png",
           "alt": "阅读器中的 AI 笔记面板",
-          "caption": "PDF 一键生成笔记"
+          "caption": "边读边让 AI 出卡"
         },
         {
           "src": "/assets/screenshots/reader.png",
           "alt": "带高亮的 PDF 阅读器",
-          "caption": "高亮即学习"
+          "caption": "内置 PDF / EPUB 阅读器"
         },
         {
           "src": "/assets/screenshots/review-answer.png",
           "alt": "复习界面显示答案",
-          "caption": "FSRS 智能调度"
+          "caption": "FSRS 智能调度复习"
         },
         {
           "src": "/assets/screenshots/stats.png",
           "alt": "学习统计页面",
-          "caption": "每日进度看得到"
+          "caption": "进度、连续天数与记忆率"
         }
       ]
     },
     "features": [
       {
-        "title": "从 Anki 完整迁移",
-        "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 包拖进来——牌组、笔记、复习进度、媒体文件全部完整迁移,底层使用 Anki 自家解析器。"
+        "title": "为你的考试量身打造",
+        "body": "告诉我们你的目标——USMLE Step 1 或 Step 2 CK、解剖学、药理学,或你所在国家的医师资格考试——Flashcard Guru 会推荐一个社区 Anki 牌组,并按你的可用时间调校每天的学习量。"
       },
       {
-        "title": "PDF 一键生成 AI 笔记",
-        "body": "划一段,选模板,生成可直接复习的笔记。哪些数据被发送给 AI 服务商完全透明,你来决定——没有意外。"
+        "title": "从 Anki 导入,随时导出",
+        "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 包拖进来——牌组、笔记、复习进度、媒体文件全部完整迁移,底层使用 Anki 自家引擎。想导出随时导出,你的进度永远不会被锁住。"
       },
       {
-        "title": "FSRS 算法复习",
-        "body": "每张卡片用 FSRS 算法独立调度——不熟的间隔短,掌握了的间隔长。"
+        "title": "让 AI 帮你做卡片",
+        "body": "粘贴最多 200 个词条,AI 为每一个补全释义、音标和例句。或者在内置阅读器里划选一段文字,直接生成可复习的卡片——发送哪些内容由你掌控。"
+      },
+      {
+        "title": "FSRS 复习,外加突击模式",
+        "body": "每张卡片都用 FSRS 算法自动调度——不熟的间隔短,掌握了的间隔长。考试前一晚,切换到突击模式跑完整个牌组,完全不影响你的复习排程。"
       },
       {
         "title": "无线 Anki 遥控器",
-        "body": "用 iPhone 通过 Wi-Fi 控制 Mac/PC 上 Anki Desktop 的复习。免费配套插件,支持 AnkiMobile 不识别的廉价 8BitDo 手柄。<a href=\"{{prefix}}/anki-remote\">配置教程 →</a>"
+        "body": "用 iPhone 通过 Wi-Fi 控制 Anki Desktop 的复习。免费配套插件,还支持 AnkiMobile 不识别的廉价 8BitDo 手柄。<a href=\"{{prefix}}/anki-remote\">配置教程 →</a>"
       },
       {
         "title": "隐私默认保护",
-        "body": "牌组和笔记保存在你自己的设备上。AI 请求只在你主动触发时才发出,会完整告知发送的内容。<a href=\"/privacy\">隐私政策</a>"
-      },
-      {
-        "title": "8 种语言完整本地化",
-        "body": "英语、简繁中文、日语、韩语、德语、法语、西语——所有功能都本地化,不只是菜单。"
+        "body": "你的牌组、PDF 和笔记都保存在自己的设备上。AI 请求只在你主动发起生成时才会发出,并完整告知发送的内容。<a href=\"/privacy\">隐私政策</a>"
       }
     ]
   },

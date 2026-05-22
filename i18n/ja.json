@@ -15,11 +15,11 @@
     "blog": "Blog"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — iPhone のための間隔反復学習",
-    "metaDescription": "本、PDF、ノートを集中型のフラッシュカードに。Anki から直接インポート、AI で学習ノート生成、FSRS で復習——すべて iPhone で。",
+    "metaTitle": "Flashcard Guru — 医学生のための iPhone 版 Anki",
+    "metaDescription": "医学生のための iPhone 版 Anki。試験を選び——USMLE Step 1/2、解剖学、薬理学——デッキをインポートし、AI でカードを生成、FSRS で復習。",
     "hero": {
-      "title": "本気で学ぶ人のための<br>間隔反復学習",
-      "lead": "iPhone で本、PDF、ノートを集中型フラッシュカードに変換。Anki から直接インポート、AI で学習ノート生成、FSRS スケジューリングで復習。",
+      "title": "医学生のための Anki、<br>iPhone でついに快適に",
+      "lead": "Anki デッキをインポートし、すっきりした画面で復習。単語リストや PDF から AI がカードを作成します。あなたの試験に合わせ、FSRS がスケジュール。",
       "ctaPrimary": "App Store でダウンロード",
       "ctaSecondary": "無料 Anki リモコン →"
     },
@@ -29,17 +29,17 @@
         {
           "src": "/assets/screenshots/decks-home.png",
           "alt": "インポートされた Anki デッキ一覧",
-          "caption": "Anki デッキそのままインポート"
+          "caption": "Anki デッキをそのままインポート"
         },
         {
           "src": "/assets/screenshots/ai-panel.png",
           "alt": "リーダー内の AI ノートパネル",
-          "caption": "PDF から AI ノート"
+          "caption": "読みながら AI がカードを下書き"
         },
         {
           "src": "/assets/screenshots/reader.png",
           "alt": "ハイライト付き PDF リーダー",
-          "caption": "リーダーでハイライト"
+          "caption": "PDF・EPUB 対応の内蔵リーダー"
         },
         {
           "src": "/assets/screenshots/review-answer.png",
@@ -49,34 +49,34 @@
         {
           "src": "/assets/screenshots/stats.png",
           "alt": "学習統計画面",
-          "caption": "毎日の進捗が一目で"
+          "caption": "進捗・連続日数・定着率"
         }
       ]
     },
     "features": [
       {
-        "title": "Anki から完全インポート",
-        "body": "<code>.apkg</code> や <code>.colpkg</code> パッケージをドロップするだけ——デッキ、ノート、スケジューリング状態、メディアファイルすべてがそのまま移行されます。Anki 純正のパーサー使用。"
+        "title": "あなたの試験に最適化",
+        "body": "目標を教えてください——USMLE Step 1 / Step 2 CK、解剖学、薬理学、または医師国家試験——Flashcard Guru がコミュニティの Anki デッキをおすすめし、使える時間に合わせて毎日の学習量を調整します。"
       },
       {
-        "title": "PDF から AI 学習ノート",
-        "body": "一節をハイライトし、テンプレートを選び、復習可能なノートを生成。AI プロバイダに送られる内容は完全に透明、あなたが決めます——驚きはありません。"
+        "title": "Anki からインポート、いつでもエクスポート",
+        "body": "<code>.apkg</code> や <code>.colpkg</code> パッケージをドロップするだけ——デッキ、ノート、スケジューリング状態、メディアすべてがそのまま移行します。Anki 純正エンジン採用。いつでもエクスポートでき、学習履歴が囲い込まれることはありません。"
       },
       {
-        "title": "FSRS による復習",
-        "body": "各カードが FSRS アルゴリズムで個別にスケジュールされます——曖昧なら間隔を狭く、定着していれば広く。"
+        "title": "カード作成は AI におまかせ",
+        "body": "最大 200 語を貼り付ければ、AI が一つずつ定義・発音記号・例文を補完。内蔵リーダーで一節をハイライトして復習用カードを生成することも——送信内容は常にあなたが管理します。"
+      },
+      {
+        "title": "FSRS 復習、さらに詰め込みモード",
+        "body": "各カードが FSRS アルゴリズムで自動スケジュール——曖昧なら間隔を狭く、定着していれば広く。試験前夜は詰め込みモードに切り替えれば、スケジュールに影響を与えずデッキ一冊を一気に回せます。"
       },
       {
         "title": "ワイヤレス Anki リモコン",
-        "body": "iPhone から Wi-Fi 経由で Anki Desktop の復習を操作。無料の同梱アドオンで、AnkiMobile がペアリングしない安価な 8BitDo コントローラもサポート。<a href=\"{{prefix}}/anki-remote\">セットアップ →</a>"
+        "body": "iPhone から Wi-Fi 経由で Anki Desktop の復習を操作。無料の同梱アドオン、さらに AnkiMobile がペアリングしない安価な 8BitDo コントローラにも対応。<a href=\"{{prefix}}/anki-remote\">セットアップ →</a>"
       },
       {
         "title": "プライバシー優先",
-        "body": "デッキとノートはあなたのデバイスに保存されます。AI リクエストは明示的に生成を開始したときのみ発火し、送信内容を完全開示します。<a href=\"/privacy\">プライバシーポリシー</a>"
-      },
-      {
-        "title": "8 言語にローカライズ済み",
-        "body": "英語、簡体・繁体中国語、日本語、韓国語、ドイツ語、フランス語、スペイン語——メニューだけでなくすべての機能をローカライズ。"
+        "body": "デッキ、PDF、ノートはあなたのデバイスに保存。AI リクエストは生成を明示的に開始したときだけ発火し、送信内容を完全に開示します。<a href=\"/privacy\">プライバシーポリシー</a>"
       }
     ]
   },

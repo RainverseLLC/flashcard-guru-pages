@@ -15,11 +15,11 @@
     "blog": "Blog"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Spaced repetition flashcards for iPhone",
-    "metaDescription": "Turn books, PDFs, and notes into focused flashcards. Import from Anki, generate study notes with AI, review with FSRS — all on your iPhone.",
+    "metaTitle": "Flashcard Guru — Anki for medical students, on iPhone",
+    "metaDescription": "Anki for medical students, on iPhone. Pick your exam — USMLE Step 1/2, anatomy, pharmacology — import your decks, let AI build flashcards, and review with FSRS.",
     "hero": {
-      "title": "Spaced repetition,<br>built for serious learners",
-      "lead": "Turn books, PDFs, and notes into focused flashcards on iPhone. Import directly from Anki, generate study notes with AI, and review with FSRS scheduling.",
+      "title": "Anki for med school,<br>finally smooth on iPhone",
+      "lead": "Import your Anki decks, review them in a cleaner interface, and let AI build cards from your word lists and PDFs. Tuned to your exam, scheduled by FSRS.",
       "ctaPrimary": "Get it on the App Store",
       "ctaSecondary": "Free Anki Remote →"
     },
@@ -29,17 +29,17 @@
         {
           "src": "/assets/screenshots/decks-home.png",
           "alt": "Decks home with imported Anki decks",
-          "caption": "Anki decks, imported as-is"
+          "caption": "Your Anki decks, imported intact"
         },
         {
           "src": "/assets/screenshots/ai-panel.png",
           "alt": "AI study notes panel inside the reader",
-          "caption": "AI notes from any PDF"
+          "caption": "AI drafts cards as you read"
         },
         {
           "src": "/assets/screenshots/reader.png",
           "alt": "PDF reader with highlights",
-          "caption": "Reader with highlights"
+          "caption": "Built-in PDF &amp; EPUB reader"
         },
         {
           "src": "/assets/screenshots/review-answer.png",
@@ -49,34 +49,34 @@
         {
           "src": "/assets/screenshots/stats.png",
           "alt": "Stats dashboard",
-          "caption": "Daily progress stats"
+          "caption": "Progress, streak, and recall"
         }
       ]
     },
     "features": [
       {
-        "title": "Import from Anki",
-        "body": "Drop in any <code>.apkg</code> or <code>.colpkg</code> package — decks, notes, scheduling state, and media all migrate intact, powered by Anki's own parser."
+        "title": "Built for your exam",
+        "body": "Tell us your goal — USMLE Step 1 or Step 2 CK, anatomy, pharmacology, or your country's licensing exam — and Flashcard Guru recommends a community Anki deck and tunes your daily pace to the time you have."
       },
       {
-        "title": "AI study notes from PDFs",
-        "body": "Highlight a passage, pick a template, generate review-ready notes. You stay in control of what gets sent to AI providers — no surprises."
+        "title": "Import from Anki, export anytime",
+        "body": "Drop in any <code>.apkg</code> or <code>.colpkg</code> package — decks, notes, scheduling state, and media all migrate intact, powered by Anki's own engine. Export back out whenever you want; your progress is never trapped."
       },
       {
-        "title": "FSRS-powered review",
-        "body": "Every card schedules itself with the FSRS algorithm — tighter intervals when you're shaky, wider when you're solid."
+        "title": "Let AI build the cards",
+        "body": "Paste up to 200 terms and AI fills in the definition, IPA, and an example sentence for each. Or highlight a passage in the built-in reader and generate review-ready cards — you stay in control of what gets sent."
+      },
+      {
+        "title": "FSRS review, plus Cram Mode",
+        "body": "Every card schedules itself with the FSRS algorithm — tighter intervals when you're shaky, wider when you're solid. The night before an exam, switch to Cram Mode to run a whole deck without touching your schedule."
       },
       {
         "title": "Wireless Anki Remote",
-        "body": "Drive Anki Desktop reviews from your iPhone over Wi-Fi. Free companion add-on, works with cheap 8BitDo controllers AnkiMobile won't pair with. <a href=\"{{prefix}}/anki-remote\">Set up →</a>"
+        "body": "Drive Anki Desktop reviews from your iPhone over Wi-Fi. Free companion add-on, and it works with cheap 8BitDo controllers AnkiMobile won't pair with. <a href=\"{{prefix}}/anki-remote\">Set up →</a>"
       },
       {
-        "title": "Privacy by default",
-        "body": "Your decks and notes live on your device. AI requests only fire when you explicitly start a generation, with full disclosure of what gets sent. <a href=\"/privacy\">Privacy policy</a>"
-      },
-      {
-        "title": "Localized in 8 languages",
-        "body": "English, Simplified &amp; Traditional Chinese, Japanese, Korean, German, French, Spanish — all features, not just menus."
+        "title": "Private by default",
+        "body": "Your decks, PDFs, and notes live on your device. AI requests only fire when you explicitly start a generation, with full disclosure of what gets sent. <a href=\"/privacy\">Privacy policy</a>"
       }
     ]
   },

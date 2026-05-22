@@ -15,11 +15,11 @@
     "blog": "Blog"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — iPhone 上的間隔重複卡片學習",
-    "metaDescription": "把書、PDF、筆記變成專注的卡片。從 Anki 直接匯入,用 AI 產生學習筆記,用 FSRS 演算法複習——全部在 iPhone 上完成。",
+    "metaTitle": "Flashcard Guru — 為醫學生打造的 iPhone 版 Anki",
+    "metaDescription": "為醫學生打造的 iPhone 版 Anki。選擇你的考試——USMLE Step 1/2、解剖學、藥理學——匯入你的牌組,讓 AI 產生卡片,用 FSRS 演算法複習。",
     "hero": {
-      "title": "為認真學習的人<br>設計的間隔重複",
-      "lead": "在 iPhone 上把書、PDF、筆記變成專注的卡片。從 Anki 直接匯入,用 AI 產生學習筆記,用 FSRS 演算法智慧調度複習。",
+      "title": "醫學生的 Anki,<br>在 iPhone 上終於順手",
+      "lead": "匯入你的 Anki 牌組,在更清爽的介面裡複習,讓 AI 把單字表和 PDF 變成卡片。依你的考試調校,用 FSRS 智慧調度。",
       "ctaPrimary": "在 App Store 下載",
       "ctaSecondary": "免費 Anki 遙控器 →"
     },
@@ -29,54 +29,54 @@
         {
           "src": "/assets/screenshots/decks-home.png",
           "alt": "已匯入的 Anki 牌組首頁",
-          "caption": "Anki 牌組完整遷移"
+          "caption": "Anki 牌組完整匯入"
         },
         {
           "src": "/assets/screenshots/ai-panel.png",
           "alt": "閱讀器中的 AI 筆記面板",
-          "caption": "PDF 一鍵產生筆記"
+          "caption": "邊讀邊讓 AI 出卡"
         },
         {
           "src": "/assets/screenshots/reader.png",
           "alt": "帶反白的 PDF 閱讀器",
-          "caption": "反白即學習"
+          "caption": "內建 PDF / EPUB 閱讀器"
         },
         {
           "src": "/assets/screenshots/review-answer.png",
           "alt": "複習介面顯示答案",
-          "caption": "FSRS 智慧調度"
+          "caption": "FSRS 智慧調度複習"
         },
         {
           "src": "/assets/screenshots/stats.png",
           "alt": "學習統計頁面",
-          "caption": "每日進度看得到"
+          "caption": "進度、連續天數與記憶率"
         }
       ]
     },
     "features": [
       {
-        "title": "從 Anki 完整遷移",
-        "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 套件拖進來——牌組、筆記、複習進度、媒體檔案全部完整遷移,底層使用 Anki 自家解析器。"
+        "title": "為你的考試量身打造",
+        "body": "告訴我們你的目標——USMLE Step 1 或 Step 2 CK、解剖學、藥理學,或你所在國家的醫師執照考試——Flashcard Guru 會推薦一個社群 Anki 牌組,並依你的可用時間調校每天的學習量。"
       },
       {
-        "title": "PDF 一鍵產生 AI 筆記",
-        "body": "劃一段,選範本,產生可直接複習的筆記。哪些資料被傳送給 AI 服務商完全透明,你來決定——沒有意外。"
+        "title": "從 Anki 匯入,隨時匯出",
+        "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 套件拖進來——牌組、筆記、複習進度、媒體檔案全部完整遷移,底層使用 Anki 自家引擎。想匯出隨時匯出,你的進度永遠不會被鎖住。"
       },
       {
-        "title": "FSRS 演算法複習",
-        "body": "每張卡片用 FSRS 演算法獨立調度——不熟的間隔短,掌握了的間隔長。"
+        "title": "讓 AI 幫你做卡片",
+        "body": "貼上最多 200 個詞條,AI 為每一個補全釋義、音標和例句。或者在內建閱讀器裡劃選一段文字,直接產生可複習的卡片——傳送哪些內容由你掌控。"
+      },
+      {
+        "title": "FSRS 複習,外加突擊模式",
+        "body": "每張卡片都用 FSRS 演算法自動調度——不熟的間隔短,掌握了的間隔長。考試前一晚,切換到突擊模式跑完整個牌組,完全不影響你的複習排程。"
       },
       {
         "title": "無線 Anki 遙控器",
-        "body": "用 iPhone 透過 Wi-Fi 控制 Mac/PC 上 Anki Desktop 的複習。免費搭配外掛,支援 AnkiMobile 不識別的廉價 8BitDo 手把。<a href=\"{{prefix}}/anki-remote\">設定教學 →</a>"
+        "body": "用 iPhone 透過 Wi-Fi 控制 Anki Desktop 的複習。免費搭配外掛,還支援 AnkiMobile 不識別的廉價 8BitDo 手把。<a href=\"{{prefix}}/anki-remote\">設定教學 →</a>"
       },
       {
         "title": "隱私預設保護",
-        "body": "牌組和筆記儲存在你自己的裝置上。AI 請求只在你主動觸發時才送出,會完整告知傳送的內容。<a href=\"/privacy\">隱私政策</a>"
-      },
-      {
-        "title": "8 種語言完整在地化",
-        "body": "英文、簡繁中文、日文、韓文、德文、法文、西文——所有功能都在地化,不只是選單。"
+        "body": "你的牌組、PDF 和筆記都儲存在自己的裝置上。AI 請求只在你主動發起產生時才會送出,並完整告知傳送的內容。<a href=\"/privacy\">隱私政策</a>"
       }
     ]
   },

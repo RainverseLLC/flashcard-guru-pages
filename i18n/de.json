@@ -15,11 +15,11 @@
     "blog": "Blog"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Verteiltes Lernen für iPhone",
-    "metaDescription": "Verwandle Bücher, PDFs und Notizen in fokussierte Karteikarten. Aus Anki direkt importieren, mit KI Lernnotizen generieren, mit FSRS wiederholen — alles auf dem iPhone.",
+    "metaTitle": "Flashcard Guru — Anki für Medizinstudierende, auf dem iPhone",
+    "metaDescription": "Anki für Medizinstudierende, auf dem iPhone. Wähle deine Prüfung — USMLE Step 1/2, Anatomie, Pharmakologie — importiere deine Stapel, lass KI Karten bauen und wiederhole mit FSRS.",
     "hero": {
-      "title": "Verteiltes Lernen,<br>für ernsthafte Lernende",
-      "lead": "Verwandle Bücher, PDFs und Notizen auf dem iPhone in fokussierte Karteikarten. Direkt aus Anki importieren, KI-Lernnotizen generieren und mit FSRS-Planung wiederholen.",
+      "title": "Anki fürs Medizinstudium,<br>endlich flüssig auf dem iPhone",
+      "lead": "Importiere deine Anki-Stapel, wiederhole sie in einer aufgeräumteren Oberfläche und lass KI aus deinen Wortlisten und PDFs Karten bauen. Auf deine Prüfung abgestimmt, von FSRS geplant.",
       "ctaPrimary": "Im App Store laden",
       "ctaSecondary": "Kostenlose Anki Fernbedienung →"
     },
@@ -29,17 +29,17 @@
         {
           "src": "/assets/screenshots/decks-home.png",
           "alt": "Stapel-Übersicht mit importierten Anki-Stapeln",
-          "caption": "Anki-Stapel unverändert importiert"
+          "caption": "Deine Anki-Stapel, vollständig importiert"
         },
         {
           "src": "/assets/screenshots/ai-panel.png",
           "alt": "KI-Notizpanel im Reader",
-          "caption": "KI-Notizen aus jedem PDF"
+          "caption": "KI entwirft Karten beim Lesen"
         },
         {
           "src": "/assets/screenshots/reader.png",
           "alt": "PDF-Reader mit Markierungen",
-          "caption": "Reader mit Markierungen"
+          "caption": "Integrierter PDF- &amp; EPUB-Reader"
         },
         {
           "src": "/assets/screenshots/review-answer.png",
@@ -49,34 +49,34 @@
         {
           "src": "/assets/screenshots/stats.png",
           "alt": "Statistik-Dashboard",
-          "caption": "Tägliche Fortschrittsstatistik"
+          "caption": "Fortschritt, Serie und Behaltensrate"
         }
       ]
     },
     "features": [
       {
-        "title": "Aus Anki importieren",
-        "body": "Lege ein beliebiges <code>.apkg</code>- oder <code>.colpkg</code>-Paket ab — Stapel, Notizen, Planungsstand und Medien werden vollständig migriert, mit Ankis eigenem Parser."
+        "title": "Auf deine Prüfung zugeschnitten",
+        "body": "Sag uns dein Ziel — USMLE Step 1 oder Step 2 CK, Anatomie, Pharmakologie oder das Staatsexamen deines Landes — und Flashcard Guru empfiehlt einen Community-Anki-Stapel und stimmt dein Tagespensum auf deine verfügbare Zeit ab."
       },
       {
-        "title": "KI-Lernnotizen aus PDFs",
-        "body": "Markiere eine Passage, wähle eine Vorlage, generiere wiederholungsbereite Notizen. Du behältst die Kontrolle darüber, was an KI-Anbieter gesendet wird — keine Überraschungen."
+        "title": "Aus Anki importieren, jederzeit exportieren",
+        "body": "Lege ein beliebiges <code>.apkg</code>- oder <code>.colpkg</code>-Paket ab — Stapel, Notizen, Planungsstand und Medien werden vollständig migriert, mit Ankis eigener Engine. Exportiere jederzeit zurück; dein Fortschritt bleibt nie gefangen."
       },
       {
-        "title": "FSRS-basierte Wiederholung",
-        "body": "Jede Karte plant sich selbst mit dem FSRS-Algorithmus — engere Intervalle bei Unsicherheit, breitere bei Sicherheit."
+        "title": "Lass KI die Karten bauen",
+        "body": "Füge bis zu 200 Begriffe ein und KI ergänzt für jeden Definition, Lautschrift und einen Beispielsatz. Oder markiere eine Passage im integrierten Reader und generiere wiederholungsbereite Karten — du behältst die Kontrolle darüber, was gesendet wird."
+      },
+      {
+        "title": "FSRS-Wiederholung, plus Pauk-Modus",
+        "body": "Jede Karte plant sich selbst mit dem FSRS-Algorithmus — engere Intervalle bei Unsicherheit, breitere bei Sicherheit. In der Nacht vor einer Prüfung wechselst du in den Pauk-Modus und gehst einen ganzen Stapel durch, ohne deinen Plan zu verändern."
       },
       {
         "title": "Drahtlose Anki-Fernbedienung",
-        "body": "Steuere Anki-Desktop-Wiederholungen per WLAN vom iPhone. Kostenloses Begleit-Add-on, funktioniert mit günstigen 8BitDo-Controllern, die AnkiMobile nicht koppelt. <a href=\"{{prefix}}/anki-remote\">Einrichten →</a>"
+        "body": "Steuere Anki-Desktop-Wiederholungen per WLAN vom iPhone. Kostenloses Begleit-Add-on, und es funktioniert mit günstigen 8BitDo-Controllern, die AnkiMobile nicht koppelt. <a href=\"{{prefix}}/anki-remote\">Einrichten →</a>"
       },
       {
-        "title": "Datenschutz standardmäßig",
-        "body": "Stapel und Notizen bleiben auf deinem Gerät. KI-Anfragen werden nur ausgelöst, wenn du eine Generierung explizit startest, mit voller Offenlegung des Übermittelten. <a href=\"/privacy\">Datenschutzerklärung</a>"
-      },
-      {
-        "title": "In 8 Sprachen lokalisiert",
-        "body": "Englisch, vereinfachtes &amp; traditionelles Chinesisch, Japanisch, Koreanisch, Deutsch, Französisch, Spanisch — alle Funktionen, nicht nur Menüs."
+        "title": "Datenschutz von Haus aus",
+        "body": "Deine Stapel, PDFs und Notizen bleiben auf deinem Gerät. KI-Anfragen werden nur ausgelöst, wenn du eine Generierung explizit startest, mit voller Offenlegung des Übermittelten. <a href=\"/privacy\">Datenschutzerklärung</a>"
       }
     ]
   },

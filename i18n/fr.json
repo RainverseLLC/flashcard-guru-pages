@@ -15,11 +15,11 @@
     "blog": "Blog"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Répétition espacée pour iPhone",
-    "metaDescription": "Transformez livres, PDF et notes en cartes mémoire ciblées. Importez depuis Anki, générez des notes d'étude par IA, révisez avec FSRS — le tout sur iPhone.",
+    "metaTitle": "Flashcard Guru — Anki pour les étudiants en médecine, sur iPhone",
+    "metaDescription": "Anki pour les étudiants en médecine, sur iPhone. Choisissez votre examen — USMLE Step 1/2, anatomie, pharmacologie — importez vos paquets, laissez l'IA créer les cartes et révisez avec FSRS.",
     "hero": {
-      "title": "Répétition espacée,<br>pour les apprenants sérieux",
-      "lead": "Transformez livres, PDF et notes en cartes mémoire ciblées sur iPhone. Importez directement depuis Anki, générez des notes d'étude par IA, et révisez avec la planification FSRS.",
+      "title": "Anki pour la fac de médecine,<br>enfin fluide sur iPhone",
+      "lead": "Importez vos paquets Anki, révisez-les dans une interface plus claire, et laissez l'IA créer des cartes à partir de vos listes de mots et de vos PDF. Calibré sur votre examen, planifié par FSRS.",
       "ctaPrimary": "Télécharger sur l'App Store",
       "ctaSecondary": "Télécommande Anki gratuite →"
     },
@@ -29,17 +29,17 @@
         {
           "src": "/assets/screenshots/decks-home.png",
           "alt": "Accueil des paquets avec paquets Anki importés",
-          "caption": "Paquets Anki importés tels quels"
+          "caption": "Vos paquets Anki, importés intacts"
         },
         {
           "src": "/assets/screenshots/ai-panel.png",
           "alt": "Panneau de notes IA dans le lecteur",
-          "caption": "Notes IA depuis n'importe quel PDF"
+          "caption": "L'IA esquisse les cartes en lisant"
         },
         {
           "src": "/assets/screenshots/reader.png",
           "alt": "Lecteur PDF avec surlignages",
-          "caption": "Lecteur avec surlignages"
+          "caption": "Lecteur PDF et EPUB intégré"
         },
         {
           "src": "/assets/screenshots/review-answer.png",
@@ -49,34 +49,34 @@
         {
           "src": "/assets/screenshots/stats.png",
           "alt": "Tableau de bord des statistiques",
-          "caption": "Suivi quotidien des progrès"
+          "caption": "Progrès, série et mémorisation"
         }
       ]
     },
     "features": [
       {
-        "title": "Importer depuis Anki",
-        "body": "Glissez n'importe quel paquet <code>.apkg</code> ou <code>.colpkg</code> — paquets, notes, état de planification et médias migrent intacts, grâce au parseur officiel d'Anki."
+        "title": "Conçu pour votre examen",
+        "body": "Indiquez votre objectif — USMLE Step 1 ou Step 2 CK, anatomie, pharmacologie, ou l'examen national de votre pays — et Flashcard Guru recommande un paquet Anki communautaire et ajuste votre rythme quotidien au temps dont vous disposez."
       },
       {
-        "title": "Notes d'étude IA depuis les PDF",
-        "body": "Surlignez un passage, choisissez un modèle, générez des notes prêtes à réviser. Vous gardez le contrôle de ce qui est envoyé aux fournisseurs d'IA — sans surprise."
+        "title": "Importez depuis Anki, exportez quand vous voulez",
+        "body": "Glissez n'importe quel paquet <code>.apkg</code> ou <code>.colpkg</code> — paquets, notes, état de planification et médias migrent intacts, grâce au moteur officiel d'Anki. Réexportez quand vous voulez ; votre progression n'est jamais prisonnière."
       },
       {
-        "title": "Révision propulsée par FSRS",
-        "body": "Chaque carte se planifie elle-même avec l'algorithme FSRS — intervalles serrés quand vous êtes hésitant, plus larges quand vous maîtrisez."
+        "title": "Laissez l'IA créer les cartes",
+        "body": "Collez jusqu'à 200 termes et l'IA complète pour chacun la définition, la transcription phonétique et une phrase d'exemple. Ou surlignez un passage dans le lecteur intégré et générez des cartes prêtes à réviser — vous gardez le contrôle de ce qui est envoyé."
+      },
+      {
+        "title": "Révision FSRS, plus le mode bachotage",
+        "body": "Chaque carte se planifie elle-même avec l'algorithme FSRS — intervalles serrés quand vous hésitez, plus larges quand vous maîtrisez. La veille d'un examen, passez en mode bachotage pour parcourir un paquet entier sans toucher à votre planning."
       },
       {
         "title": "Télécommande Anki sans fil",
-        "body": "Pilotez les révisions Anki Desktop depuis votre iPhone via Wi-Fi. Module compagnon gratuit, fonctionne avec les contrôleurs 8BitDo bon marché qu'AnkiMobile refuse d'apparier. <a href=\"{{prefix}}/anki-remote\">Configurer →</a>"
+        "body": "Pilotez les révisions Anki Desktop depuis votre iPhone via Wi-Fi. Module compagnon gratuit, et compatible avec les contrôleurs 8BitDo bon marché qu'AnkiMobile refuse d'apparier. <a href=\"{{prefix}}/anki-remote\">Configurer →</a>"
       },
       {
         "title": "Confidentialité par défaut",
-        "body": "Vos paquets et notes restent sur votre appareil. Les requêtes IA ne se déclenchent qu'à l'initiative explicite d'une génération, avec divulgation complète des données envoyées. <a href=\"/privacy\">Politique de confidentialité</a>"
-      },
-      {
-        "title": "Localisé en 8 langues",
-        "body": "Anglais, chinois simplifié et traditionnel, japonais, coréen, allemand, français, espagnol — toutes les fonctionnalités, pas seulement les menus."
+        "body": "Vos paquets, PDF et notes restent sur votre appareil. Les requêtes IA ne se déclenchent qu'à l'initiative explicite d'une génération, avec divulgation complète des données envoyées. <a href=\"/privacy\">Politique de confidentialité</a>"
       }
     ]
   },

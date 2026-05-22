@@ -15,11 +15,11 @@
     "blog": "Blog"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Repetición espaciada para iPhone",
-    "metaDescription": "Convierte libros, PDF y notas en tarjetas enfocadas. Importa desde Anki, genera notas de estudio con IA, repasa con FSRS — todo en tu iPhone.",
+    "metaTitle": "Flashcard Guru — Anki para estudiantes de medicina, en el iPhone",
+    "metaDescription": "Anki para estudiantes de medicina, en el iPhone. Elige tu examen — USMLE Step 1/2, anatomía, farmacología — importa tus mazos, deja que la IA cree las tarjetas y repasa con FSRS.",
     "hero": {
-      "title": "Repetición espaciada,<br>para estudiantes serios",
-      "lead": "Convierte libros, PDF y notas en tarjetas enfocadas en el iPhone. Importa directamente desde Anki, genera notas de estudio con IA y repasa con la planificación FSRS.",
+      "title": "Anki para la carrera de medicina,<br>por fin fluido en el iPhone",
+      "lead": "Importa tus mazos de Anki, repásalos en una interfaz más clara y deja que la IA cree tarjetas a partir de tus listas de palabras y PDF. Ajustado a tu examen, planificado por FSRS.",
       "ctaPrimary": "Descargar en el App Store",
       "ctaSecondary": "Mando Anki gratuito →"
     },
@@ -29,17 +29,17 @@
         {
           "src": "/assets/screenshots/decks-home.png",
           "alt": "Inicio de mazos con mazos Anki importados",
-          "caption": "Mazos Anki importados sin cambios"
+          "caption": "Tus mazos Anki, importados intactos"
         },
         {
           "src": "/assets/screenshots/ai-panel.png",
           "alt": "Panel de notas IA dentro del lector",
-          "caption": "Notas IA desde cualquier PDF"
+          "caption": "La IA crea tarjetas mientras lees"
         },
         {
           "src": "/assets/screenshots/reader.png",
           "alt": "Lector PDF con resaltados",
-          "caption": "Lector con resaltados"
+          "caption": "Lector de PDF y EPUB integrado"
         },
         {
           "src": "/assets/screenshots/review-answer.png",
@@ -49,34 +49,34 @@
         {
           "src": "/assets/screenshots/stats.png",
           "alt": "Panel de estadísticas",
-          "caption": "Progreso diario visible"
+          "caption": "Progreso, racha y retención"
         }
       ]
     },
     "features": [
       {
-        "title": "Importar desde Anki",
-        "body": "Suelta cualquier paquete <code>.apkg</code> o <code>.colpkg</code> — mazos, notas, estado de programación y medios migran intactos, gracias al parser oficial de Anki."
+        "title": "Hecho para tu examen",
+        "body": "Dinos tu objetivo — USMLE Step 1 o Step 2 CK, anatomía, farmacología, o el examen oficial de tu país — y Flashcard Guru recomienda un mazo Anki de la comunidad y ajusta tu ritmo diario al tiempo que tienes."
       },
       {
-        "title": "Notas de estudio IA desde PDF",
-        "body": "Resalta un pasaje, elige una plantilla, genera notas listas para repasar. Mantienes el control sobre lo que se envía a los proveedores de IA — sin sorpresas."
+        "title": "Importa desde Anki, exporta cuando quieras",
+        "body": "Suelta cualquier paquete <code>.apkg</code> o <code>.colpkg</code> — mazos, notas, estado de programación y medios migran intactos, gracias al motor oficial de Anki. Expórtalos de vuelta cuando quieras; tu progreso nunca queda atrapado."
       },
       {
-        "title": "Repaso impulsado por FSRS",
-        "body": "Cada tarjeta se programa sola con el algoritmo FSRS — intervalos más cortos cuando dudas, más amplios cuando dominas."
+        "title": "Deja que la IA cree las tarjetas",
+        "body": "Pega hasta 200 términos y la IA completa para cada uno la definición, la transcripción fonética y una frase de ejemplo. O resalta un pasaje en el lector integrado y genera tarjetas listas para repasar — tú controlas qué se envía."
+      },
+      {
+        "title": "Repaso FSRS, más el modo intensivo",
+        "body": "Cada tarjeta se programa sola con el algoritmo FSRS — intervalos más cortos cuando dudas, más amplios cuando dominas. La noche antes de un examen, cambia al modo intensivo para recorrer un mazo entero sin tocar tu planificación."
       },
       {
         "title": "Mando Anki inalámbrico",
-        "body": "Controla los repasos de Anki Desktop desde tu iPhone por Wi-Fi. Complemento gratuito, funciona con los mandos 8BitDo baratos que AnkiMobile rechaza emparejar. <a href=\"{{prefix}}/anki-remote\">Configurar →</a>"
+        "body": "Controla los repasos de Anki Desktop desde tu iPhone por Wi-Fi. Complemento gratuito, y funciona con los mandos 8BitDo baratos que AnkiMobile no empareja. <a href=\"{{prefix}}/anki-remote\">Configurar →</a>"
       },
       {
         "title": "Privacidad por defecto",
-        "body": "Tus mazos y notas viven en tu dispositivo. Las solicitudes IA solo se disparan cuando inicias una generación explícitamente, con plena divulgación de lo que se envía. <a href=\"/privacy\">Política de privacidad</a>"
-      },
-      {
-        "title": "Localizado en 8 idiomas",
-        "body": "Inglés, chino simplificado y tradicional, japonés, coreano, alemán, francés, español — todas las funciones, no solo los menús."
+        "body": "Tus mazos, PDF y notas viven en tu dispositivo. Las solicitudes de IA solo se disparan cuando inicias una generación explícitamente, con divulgación completa de lo que se envía. <a href=\"/privacy\">Política de privacidad</a>"
       }
     ]
   },
