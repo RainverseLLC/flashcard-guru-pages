@@ -2,5 +2,6 @@
 /privacy            /privacy/index.html 200
 /app-privacy-policy /app-privacy-policy/index.html 200
 /anki-remote        /anki-remote/index.html 200
+/pricing            /pricing/index.html 200
 /privacy-policy      /privacy  301
 /privacy-policy/     /privacy/ 301

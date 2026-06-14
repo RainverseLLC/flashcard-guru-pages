@@ -2,83 +2,261 @@
   "site": {
     "name": "Flashcard Guru"
   },
+  "cta": {
+    "appStoreSmall": "Download on the",
+    "appStoreBig": "App Store",
+    "getApp": "Get the app",
+    "getFree": "Start free trial",
+    "seePricing": "See pricing",
+    "scanToDownload": "Scan to download on iPhone"
+  },
   "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
     "ankiRemote": "Anki Remote",
     "blog": "Blog",
     "support": "Support"
   },
   "footer": {
+    "tagline": "Anki, reimagined for iPhone. Import your decks, build cards with AI, and review with FSRS — calm, fast, and made for exam season.",
+    "colProduct": "Product",
+    "colResources": "Resources",
+    "colLegal": "Legal",
+    "features": "Features",
+    "pricing": "Pricing",
+    "ankiRemote": "Anki Remote",
+    "blog": "Blog",
     "support": "Support",
     "privacy": "Privacy",
     "appPrivacy": "App Privacy",
-    "ankiRemote": "Anki Remote",
-    "blog": "Blog"
+    "rights": "© Flashcard Guru",
+    "trademark": "Anki is a trademark of its respective owners. Flashcard Guru is an independent app and is not affiliated with or endorsed by the Anki project."
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Anki for medical students, on iPhone",
-    "metaDescription": "Anki for medical students, on iPhone. Pick your exam — USMLE Step 1/2, anatomy, pharmacology — import your decks, let AI build flashcards, and review with FSRS.",
+    "metaTitle": "Flashcard Guru — Anki for iPhone, with AI cards & FSRS",
+    "metaDescription": "Anki, reimagined for iPhone. Import your .apkg decks intact, turn PDFs into cards with AI, and review with FSRS — plus Cram Mode, Study Lock, and a free wireless Anki Remote. Free 3-day trial.",
     "hero": {
-      "title": "Anki for med school,<br>finally smooth on iPhone",
-      "lead": "Import your Anki decks, review them in a cleaner interface, and let AI build cards from your word lists and PDFs. Tuned to your exam, scheduled by FSRS.",
-      "ctaPrimary": "Get it on the App Store",
-      "ctaSecondary": "Free Anki Remote →"
+      "eyebrow": "Made for iPhone · Loved by med students",
+      "title": "Anki that finally feels<br>at home on iPhone",
+      "lead": "Import your decks, turn PDFs into cards with AI, and review with FSRS — in a calm, fast app built for the way you actually study.",
+      "rating": "4.8 on the App Store · Joined by medical students worldwide"
     },
-    "shotRail": {
-      "label": "Screenshots",
-      "items": [
-        {
-          "src": "/assets/screenshots/decks-home.png",
-          "alt": "Decks home with imported Anki decks",
-          "caption": "Your Anki decks, imported intact"
-        },
-        {
-          "src": "/assets/screenshots/ai-panel.png",
-          "alt": "AI study notes panel inside the reader",
-          "caption": "AI drafts cards as you read"
-        },
-        {
-          "src": "/assets/screenshots/reader.png",
-          "alt": "PDF reader with highlights",
-          "caption": "Built-in PDF &amp; EPUB reader"
-        },
-        {
-          "src": "/assets/screenshots/review-answer.png",
-          "alt": "Review session showing the answer",
-          "caption": "FSRS-scheduled review"
-        },
-        {
-          "src": "/assets/screenshots/stats.png",
-          "alt": "Stats dashboard",
-          "caption": "Progress, streak, and recall"
-        }
+    "trust": {
+      "label": "Works with the decks you already study",
+      "chips": [
+        "AnKing Step",
+        "MileDown MCAT",
+        "Magoosh GRE",
+        "Refold",
+        "NeetCode 150",
+        "Your own .apkg"
       ]
+    },
+    "featuresHead": {
+      "eyebrow": "Features",
+      "title": "Everything you love about Anki — without the friction",
+      "subtitle": "The full Anki workflow, rebuilt for a phone you actually carry."
     },
     "features": [
       {
-        "title": "Built for your exam",
-        "body": "Tell us your goal — USMLE Step 1 or Step 2 CK, anatomy, pharmacology, or your country's licensing exam — and Flashcard Guru recommends a community Anki deck and tunes your daily pace to the time you have."
+        "kicker": "Import",
+        "title": "Your Anki decks, imported intact",
+        "body": "Drop in any <code>.apkg</code> or <code>.colpkg</code> and your cards, scheduling, and media migrate exactly — powered by Anki's own engine. Export back out whenever you want; your progress is never locked in.",
+        "img": "decks-home.png",
+        "alt": "Flashcard Guru decks home with imported Anki decks",
+        "ticks": [
+          ".apkg & .colpkg import and export",
+          "Scheduling state and media preserved",
+          "Built on Anki's own engine"
+        ]
       },
       {
-        "title": "Import from Anki, export anytime",
-        "body": "Drop in any <code>.apkg</code> or <code>.colpkg</code> package — decks, notes, scheduling state, and media all migrate intact, powered by Anki's own engine. Export back out whenever you want; your progress is never trapped."
+        "kicker": "AI cards",
+        "title": "Turn your PDFs and notes into cards",
+        "body": "Open a textbook or lecture PDF in the built-in reader, highlight what matters, and let AI draft review-ready cards — front, back, and cloze. You stay in control of exactly what gets sent.",
+        "img": "reader-ai.png",
+        "alt": "AI card generation panel inside the Flashcard Guru reader",
+        "ticks": [
+          "From PDFs, notes, or word lists",
+          "Highlight a passage → cards in seconds",
+          "Cloze and Q&A formats"
+        ]
       },
       {
-        "title": "Let AI build the cards",
-        "body": "Paste up to 200 terms and AI fills in the definition, IPA, and an example sentence for each. Or highlight a passage in the built-in reader and generate review-ready cards — you stay in control of what gets sent."
+        "kicker": "Review",
+        "title": "Review only what's due — then cram when it counts",
+        "body": "Every card schedules itself with FSRS: tighter intervals when you're shaky, wider when you're solid. The night before an exam, switch to Cram Mode to blitz a whole deck without touching your schedule.",
+        "img": "review.png",
+        "alt": "FSRS review session showing Again, Hard, Good, Easy",
+        "ticks": [
+          "FSRS spaced repetition, tuned to you",
+          "Again · Hard · Good · Easy",
+          "Cram Mode for the final stretch"
+        ]
       },
       {
-        "title": "FSRS review, plus Cram Mode",
-        "body": "Every card schedules itself with the FSRS algorithm — tighter intervals when you're shaky, wider when you're solid. The night before an exam, switch to Cram Mode to run a whole deck without touching your schedule."
+        "kicker": "Hands-free",
+        "title": "Review from across the room",
+        "body": "Drive your reviews without touching the screen. Pair a cheap game controller over Bluetooth, or use the free wireless Anki Remote to run Anki Desktop from your phone — even the 8BitDo controllers AnkiMobile won't pair with.",
+        "img": "hands-free.png",
+        "alt": "Flashcard Guru hands-free review with a game controller",
+        "ticks": [
+          "MFi & 8BitDo controller support",
+          "Free wireless remote for Anki Desktop",
+          "Review from the couch or treadmill"
+        ],
+        "linkText": "Set up the Anki Remote →",
+        "linkHref": "{{prefix}}/anki-remote"
       },
       {
-        "title": "Wireless Anki Remote",
-        "body": "Drive Anki Desktop reviews from your iPhone over Wi-Fi. Free companion add-on, and it works with cheap 8BitDo controllers AnkiMobile won't pair with. <a href=\"{{prefix}}/anki-remote\">Set up →</a>"
-      },
-      {
-        "title": "Private by default",
-        "body": "Your decks, PDFs, and notes live on your device. AI requests only fire when you explicitly start a generation, with full disclosure of what gets sent. <a href=\"/privacy\">Privacy policy</a>"
+        "kicker": "Progress",
+        "title": "See your streak, recall, and momentum",
+        "body": "A calm stats dashboard shows your streak, cards mastered, and review consistency at a glance — enough to keep you honest, without turning studying into a numbers game.",
+        "img": "stats.png",
+        "alt": "Flashcard Guru stats dashboard with streak and activity heatmap",
+        "ticks": [
+          "Streaks and daily-goal tracking",
+          "Mastery and recall over time",
+          "Activity heatmap"
+        ]
       }
-    ]
+    ],
+    "highlightsHead": {
+      "title": "Built for the way you actually study",
+      "subtitle": "Small, thoughtful touches that add up to a habit you can keep."
+    },
+    "highlights": {
+      "lock": {
+        "title": "Study Lock keeps you focused",
+        "body": "Lock your most distracting apps until the day's review goal is done. A gentle commitment device that keeps you in the cards."
+      },
+      "exam": {
+        "title": "Tuned to your exam",
+        "body": "Pick your goal — USMLE Step 1/2, MCAT, anatomy, pharmacology, or your own — and get a daily plan matched to the time you have."
+      },
+      "privacy": {
+        "title": "Private by default",
+        "body": "Your decks, PDFs, and notes stay on your device. AI requests only fire when you start a generation — with full disclosure of what's sent."
+      }
+    },
+    "pricingTeaser": {
+      "eyebrow": "Early-bird offer",
+      "title": "Own it for life — 50% off, for now",
+      "body": "Try Flashcard Guru free for 3 days, then keep going with a weekly or yearly plan — or pay once and own it for life, currently half price for early adopters.",
+      "earlybird": "Lifetime is <b>$14.99</b> <s>$29.99</s> — limited-time early-bird, 50% off."
+    },
+    "finalCta": {
+      "title": "Bring your decks to a better iPhone app",
+      "body": "Free 3-day trial. Import in seconds. Review tonight."
+    }
+  },
+  "pricing": {
+    "metaTitle": "Flashcard Guru Pricing — Free trial, then own it for life",
+    "metaDescription": "Try Flashcard Guru free for 3 days, then keep going with a weekly or yearly plan — or buy Lifetime once. Early-bird: Lifetime is 50% off at $14.99 (normally $29.99). The wireless Anki Remote is free.",
+    "eyebrow": "Pricing",
+    "title": "Try it free. Own it for life.",
+    "appleNote": "All purchases are handled securely by Apple. Prices may vary by region.",
+    "subtitle": "Start with a free 3-day trial, then keep going with a weekly or yearly plan — or pay once and own it for life. The wireless Anki Remote is always free.",
+    "tiersLead": "Start with a free trial — cancel anytime.",
+    "earlybird": "🎉 Early-bird offer — Lifetime is <b>50% off</b> for a limited time: <b>$14.99</b> <s>$29.99</s>. Price goes back up soon.",
+    "tiers": [
+      {
+        "name": "Weekly",
+        "sub": "Try Pro with a free trial",
+        "amount": "$5.99",
+        "per": "/week",
+        "note": "3-day free trial",
+        "features": [
+          "Full access to all Pro features",
+          "500 AI credits every week",
+          "3-day free trial, cancel anytime"
+        ],
+        "ctaText": "Start free trial",
+        "featured": false
+      },
+      {
+        "name": "Yearly",
+        "sub": "Best for active studiers",
+        "amount": "$39.99",
+        "per": "/year",
+        "note": "Save 87% vs weekly",
+        "features": [
+          "Full access to all Pro features",
+          "50,000 AI credits every year",
+          "Best value for daily study"
+        ],
+        "ctaText": "Go Yearly",
+        "featured": false
+      },
+      {
+        "name": "Lifetime",
+        "sub": "One payment, yours for good",
+        "was": "$29.99",
+        "amount": "$14.99",
+        "per": "one-time",
+        "note": "Early-bird · 50% off",
+        "best": "BEST VALUE",
+        "features": [
+          "Permanent access to all Pro features",
+          "500 one-time AI credits included",
+          "Every future update, free",
+          "No subscription, ever"
+        ],
+        "ctaText": "Get Lifetime",
+        "featured": true
+      }
+    ],
+    "lifetime": {
+      "eyebrow": "Lifetime",
+      "title": "One payment. Yours for good.",
+      "body": "No subscription, no renewals. Pay once and keep Flashcard Guru — and every future update — for life. Lifetime includes 500 one-time AI credits to get your decks built, and you can top up anytime.",
+      "points": [
+        "Permanent access to all Pro features",
+        "500 one-time AI credits included",
+        "Every future update, free",
+        "Less than Anki's own $24.99 iOS app"
+      ]
+    },
+    "credits": {
+      "title": "What are AI credits?",
+      "body": "Credits power AI card generation. Everything else — importing decks, FSRS review, Cram Mode, the Anki Remote — never uses credits. Credits are spent only when AI builds cards for you.",
+      "items": [
+        "Free trial — 500 credits to try",
+        "Weekly — 500 credits / week",
+        "Yearly — 50,000 credits / year",
+        "Lifetime — 500 one-time credits",
+        "Top up anytime with 500-credit packs"
+      ]
+    },
+    "faq": {
+      "title": "Pricing questions",
+      "items": [
+        {
+          "q": "Is there a free trial?",
+          "a": "Yes — start with a free 3-day trial to try everything, including AI card generation. After the trial, keep going with a weekly or yearly plan, or buy Lifetime once. The wireless Anki Remote is free for everyone."
+        },
+        {
+          "q": "What's the difference between the plans?",
+          "a": "Weekly and Yearly are subscriptions with renewing AI credits. Lifetime is a one-time purchase: permanent app access plus 500 one-time credits. All plans unlock the same Pro features — they differ only in how many AI credits you get."
+        },
+        {
+          "q": "Is the Lifetime discount real?",
+          "a": "Yes. Lifetime normally costs $29.99. During the early-bird it's $14.99 — 50% off — for a limited time. When the early-bird ends the price returns to $29.99, but your purchase stays lifetime."
+        },
+        {
+          "q": "What happens when my credits run out?",
+          "a": "Card generation pauses, but everything else keeps working — review, import, export, and the remote are unaffected. Top up anytime with a 500-credit pack, or upgrade your plan."
+        },
+        {
+          "q": "Can I get a refund?",
+          "a": "All purchases are handled by Apple's In-App Purchase. Refund requests go through Apple's standard process — see Support for the steps."
+        },
+        {
+          "q": "Do my decks stay if I cancel?",
+          "a": "Always. Your decks, cards, and progress live on your device and export to a standard .apkg anytime. Nothing is locked in."
+        }
+      ]
+    }
   },
   "ankiRemote": {
     "metaTitle": "Flashcard Guru Remote — Free wireless Anki remote for iPhone",

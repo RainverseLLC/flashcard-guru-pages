@@ -2,83 +2,261 @@
   "site": {
     "name": "Flashcard Guru"
   },
+  "cta": {
+    "appStoreSmall": "下載於",
+    "appStoreBig": "App Store",
+    "getApp": "取得 App",
+    "getFree": "開始免費試用",
+    "seePricing": "查看定價",
+    "scanToDownload": "掃描即可在 iPhone 下載"
+  },
   "nav": {
+    "features": "功能",
+    "pricing": "定價",
     "ankiRemote": "Anki 遙控器",
     "blog": "Blog",
     "support": "支援"
   },
   "footer": {
+    "tagline": "Anki，為 iPhone 重新打造。匯入你的牌組，用 AI 製作卡片，以 FSRS 複習——清爽、快速，專為考季而生。",
+    "colProduct": "產品",
+    "colResources": "資源",
+    "colLegal": "法律",
+    "features": "功能",
+    "pricing": "定價",
+    "ankiRemote": "Anki 遙控器",
+    "blog": "Blog",
     "support": "支援",
     "privacy": "隱私",
     "appPrivacy": "App 隱私",
-    "ankiRemote": "Anki 遙控器",
-    "blog": "Blog"
+    "rights": "© Flashcard Guru",
+    "trademark": "Anki 為其各自所有者之商標。Flashcard Guru 是獨立的 App，與 Anki 專案並無隸屬關係，亦未獲其背書。"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — 為醫學生打造的 iPhone 版 Anki",
-    "metaDescription": "為醫學生打造的 iPhone 版 Anki。選擇你的考試——USMLE Step 1/2、解剖學、藥理學——匯入你的牌組,讓 AI 產生卡片,用 FSRS 演算法複習。",
+    "metaTitle": "Flashcard Guru — iPhone 版 Anki，搭載 AI 卡片與 FSRS",
+    "metaDescription": "Anki，為 iPhone 重新打造。完整匯入你的 .apkg 牌組，用 AI 把 PDF 變成卡片，以 FSRS 複習——還有突擊模式、學習鎖定，以及免費的無線 Anki 遙控器。免費試用 3 天。",
     "hero": {
-      "title": "醫學生的 Anki,<br>在 iPhone 上終於順手",
-      "lead": "匯入你的 Anki 牌組,在更清爽的介面裡複習,讓 AI 把單字表和 PDF 變成卡片。依你的考試調校,用 FSRS 智慧調度。",
-      "ctaPrimary": "在 App Store 下載",
-      "ctaSecondary": "免費 Anki 遙控器 →"
+      "eyebrow": "為 iPhone 打造 · 深受醫學生喜愛",
+      "title": "讓 Anki 在 iPhone 上<br>終於有家的感覺",
+      "lead": "匯入你的牌組，用 AI 把 PDF 變成卡片，以 FSRS 複習——在一個清爽、快速、貼合你真實學習方式的 App 裡。",
+      "rating": "App Store 評分 4.8 · 全球醫學生一同加入"
     },
-    "shotRail": {
-      "label": "應用截圖",
-      "items": [
-        {
-          "src": "/assets/screenshots/decks-home.png",
-          "alt": "已匯入的 Anki 牌組首頁",
-          "caption": "Anki 牌組完整匯入"
-        },
-        {
-          "src": "/assets/screenshots/ai-panel.png",
-          "alt": "閱讀器中的 AI 筆記面板",
-          "caption": "邊讀邊讓 AI 出卡"
-        },
-        {
-          "src": "/assets/screenshots/reader.png",
-          "alt": "帶反白的 PDF 閱讀器",
-          "caption": "內建 PDF / EPUB 閱讀器"
-        },
-        {
-          "src": "/assets/screenshots/review-answer.png",
-          "alt": "複習介面顯示答案",
-          "caption": "FSRS 智慧調度複習"
-        },
-        {
-          "src": "/assets/screenshots/stats.png",
-          "alt": "學習統計頁面",
-          "caption": "進度、連續天數與記憶率"
-        }
+    "trust": {
+      "label": "支援你早已在用的牌組",
+      "chips": [
+        "AnKing Step",
+        "MileDown MCAT",
+        "Magoosh GRE",
+        "Refold",
+        "NeetCode 150",
+        "你自己的 .apkg"
       ]
+    },
+    "featuresHead": {
+      "eyebrow": "功能",
+      "title": "Anki 你喜愛的一切——卻沒有那些阻礙",
+      "subtitle": "完整的 Anki 工作流程，為你真正隨身攜帶的手機重新打造。"
     },
     "features": [
       {
-        "title": "為你的考試量身打造",
-        "body": "告訴我們你的目標——USMLE Step 1 或 Step 2 CK、解剖學、藥理學,或你所在國家的醫師執照考試——Flashcard Guru 會推薦一個社群 Anki 牌組,並依你的可用時間調校每天的學習量。"
+        "kicker": "匯入",
+        "title": "完整匯入你的 Anki 牌組",
+        "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 拖進來，你的卡片、排程與媒體都會原封不動遷移——由 Anki 自家引擎驅動。想匯出隨時匯出；你的進度永遠不會被鎖住。",
+        "img": "decks-home.png",
+        "alt": "Flashcard Guru 牌組首頁，顯示已匯入的 Anki 牌組",
+        "ticks": [
+          ".apkg 與 .colpkg 匯入與匯出",
+          "保留排程狀態與媒體",
+          "建構於 Anki 自家引擎"
+        ]
       },
       {
-        "title": "從 Anki 匯入,隨時匯出",
-        "body": "把任何 <code>.apkg</code> 或 <code>.colpkg</code> 套件拖進來——牌組、筆記、複習進度、媒體檔案全部完整遷移,底層使用 Anki 自家引擎。想匯出隨時匯出,你的進度永遠不會被鎖住。"
+        "kicker": "AI 卡片",
+        "title": "把你的 PDF 與筆記變成卡片",
+        "body": "在內建閱讀器裡開啟教科書或講義 PDF，反白標記重點，讓 AI 草擬可直接複習的卡片——正面、背面與填空。要傳送哪些內容，由你完全掌控。",
+        "img": "reader-ai.png",
+        "alt": "Flashcard Guru 閱讀器內的 AI 卡片產生面板",
+        "ticks": [
+          "從 PDF、筆記或單字表",
+          "反白一段文字 → 幾秒生成卡片",
+          "填空與問答格式"
+        ]
       },
       {
-        "title": "讓 AI 幫你做卡片",
-        "body": "貼上最多 200 個詞條,AI 為每一個補全釋義、音標和例句。或者在內建閱讀器裡劃選一段文字,直接產生可複習的卡片——傳送哪些內容由你掌控。"
+        "kicker": "複習",
+        "title": "只複習到期的卡片——關鍵時刻再衝刺",
+        "body": "每張卡片都以 FSRS 自動排程：不熟時間隔縮短，熟練時間隔拉長。考試前一晚，切換到突擊模式衝完整個牌組，完全不影響你的排程。",
+        "img": "review.png",
+        "alt": "FSRS 複習階段，顯示重來、困難、良好、簡單",
+        "ticks": [
+          "FSRS 間隔複習，依你調校",
+          "重來 · 困難 · 良好 · 簡單",
+          "最後衝刺用的突擊模式"
+        ]
       },
       {
-        "title": "FSRS 複習,外加突擊模式",
-        "body": "每張卡片都用 FSRS 演算法自動調度——不熟的間隔短,掌握了的間隔長。考試前一晚,切換到突擊模式跑完整個牌組,完全不影響你的複習排程。"
+        "kicker": "免動手",
+        "title": "隔著房間也能複習",
+        "body": "不必碰螢幕就能推進複習。透過藍牙配對一支便宜的遊戲手把，或用免費的無線 Anki 遙控器，從手機操作 Anki Desktop——連 AnkiMobile 不肯配對的 8BitDo 手把也能用。",
+        "img": "hands-free.png",
+        "alt": "Flashcard Guru 免動手複習，搭配遊戲手把",
+        "ticks": [
+          "支援 MFi 與 8BitDo 手把",
+          "Anki Desktop 的免費無線遙控器",
+          "在沙發或跑步機上複習"
+        ],
+        "linkText": "設定 Anki 遙控器 →",
+        "linkHref": "{{prefix}}/anki-remote"
       },
       {
-        "title": "無線 Anki 遙控器",
-        "body": "用 iPhone 透過 Wi-Fi 控制 Anki Desktop 的複習。免費搭配外掛,還支援 AnkiMobile 不識別的廉價 8BitDo 手把。<a href=\"{{prefix}}/anki-remote\">設定教學 →</a>"
-      },
-      {
-        "title": "隱私預設保護",
-        "body": "你的牌組、PDF 和筆記都儲存在自己的裝置上。AI 請求只在你主動發起產生時才會送出,並完整告知傳送的內容。<a href=\"/privacy\">隱私政策</a>"
+        "kicker": "進度",
+        "title": "看見你的連續天數、記憶率與動能",
+        "body": "清爽的統計儀表板，一眼掌握你的連續天數、已掌握的卡片，以及複習的穩定度——足以督促自己，又不會把學習變成數字遊戲。",
+        "img": "stats.png",
+        "alt": "Flashcard Guru 統計儀表板，含連續天數與活動熱力圖",
+        "ticks": [
+          "連續天數與每日目標追蹤",
+          "掌握度與記憶率隨時間變化",
+          "活動熱力圖"
+        ]
       }
-    ]
+    ],
+    "highlightsHead": {
+      "title": "為你真正的學習方式打造",
+      "subtitle": "一個個貼心的小巧思，累積成你能長久維持的習慣。"
+    },
+    "highlights": {
+      "lock": {
+        "title": "學習鎖定，讓你保持專注",
+        "body": "在完成當天的複習目標前，鎖住最讓你分心的 App。一個溫和的承諾機制，讓你留在卡片裡。"
+      },
+      "exam": {
+        "title": "依你的考試調校",
+        "body": "選擇你的目標——USMLE Step 1/2、MCAT、解剖學、藥理學，或你自己的——獲得貼合你可用時間的每日計畫。"
+      },
+      "privacy": {
+        "title": "預設保護隱私",
+        "body": "你的牌組、PDF 與筆記都留在你的裝置上。AI 請求只在你發起產生時才會送出——並完整揭露傳送的內容。"
+      }
+    },
+    "pricingTeaser": {
+      "eyebrow": "早鳥優惠",
+      "title": "一次擁有，終身使用——現在五折",
+      "body": "免費試用 Flashcard Guru 3 天，接著以每週或每年方案繼續使用——或付一次費用，終身擁有，目前早鳥半價優惠給早期使用者。",
+      "earlybird": "終身方案 <b>$14.99</b> <s>$29.99</s>——限時早鳥，五折。"
+    },
+    "finalCta": {
+      "title": "把你的牌組帶到更好的 iPhone App",
+      "body": "免費試用 3 天。幾秒匯入。今晚就複習。"
+    }
+  },
+  "pricing": {
+    "metaTitle": "Flashcard Guru 定價 — 免費試用，然後終身擁有",
+    "metaDescription": "免費試用 Flashcard Guru 3 天，接著以每週或每年方案繼續使用——或一次購買終身方案。早鳥優惠：終身方案五折，$14.99（原價 $29.99）。無線 Anki 遙控器永遠免費。",
+    "eyebrow": "定價",
+    "title": "免費試用。終身擁有。",
+    "appleNote": "所有購買皆由 Apple 安全處理。價格可能因地區而異。",
+    "subtitle": "先免費試用 3 天，接著以每週或每年方案繼續使用——或付一次費用，終身擁有。無線 Anki 遙控器永遠免費。",
+    "tiersLead": "從免費試用開始——隨時可取消。",
+    "earlybird": "🎉 早鳥優惠——終身方案限時 <b>五折</b>：<b>$14.99</b> <s>$29.99</s>。價格即將回升。",
+    "tiers": [
+      {
+        "name": "每週",
+        "sub": "免費試用體驗 Pro",
+        "amount": "$5.99",
+        "per": "/週",
+        "note": "3 天免費試用",
+        "features": [
+          "完整使用所有 Pro 功能",
+          "每週 500 點 AI 點數",
+          "3 天免費試用，隨時可取消"
+        ],
+        "ctaText": "開始免費試用",
+        "featured": false
+      },
+      {
+        "name": "每年",
+        "sub": "最適合活躍學習者",
+        "amount": "$39.99",
+        "per": "/年",
+        "note": "比每週省 87%",
+        "features": [
+          "完整使用所有 Pro 功能",
+          "每年 50,000 點 AI 點數",
+          "每日學習最超值"
+        ],
+        "ctaText": "選擇年方案",
+        "featured": false
+      },
+      {
+        "name": "終身",
+        "sub": "付一次，永遠是你的",
+        "was": "$29.99",
+        "amount": "$14.99",
+        "per": "一次性",
+        "note": "早鳥 · 五折",
+        "best": "最超值",
+        "features": [
+          "永久使用所有 Pro 功能",
+          "內含 500 點一次性 AI 點數",
+          "未來每次更新皆免費",
+          "永不訂閱"
+        ],
+        "ctaText": "取得終身方案",
+        "featured": true
+      }
+    ],
+    "lifetime": {
+      "eyebrow": "終身",
+      "title": "付一次。永遠是你的。",
+      "body": "不訂閱、不續費。付一次，就能終身保有 Flashcard Guru——以及未來每一次更新。終身方案內含 500 點一次性 AI 點數，助你建好牌組，之後隨時可加值。",
+      "points": [
+        "永久使用所有 Pro 功能",
+        "內含 500 點一次性 AI 點數",
+        "未來每次更新皆免費",
+        "比 Anki 自家 $24.99 的 iOS App 還便宜"
+      ]
+    },
+    "credits": {
+      "title": "什麼是 AI 點數？",
+      "body": "點數用於驅動 AI 卡片產生。其他一切——匯入牌組、FSRS 複習、突擊模式、Anki 遙控器——都不會消耗點數。點數只在 AI 為你製作卡片時才會消耗。",
+      "items": [
+        "免費試用 — 500 點供試用",
+        "每週 — 每週 500 點",
+        "每年 — 每年 50,000 點",
+        "終身 — 500 點一次性",
+        "隨時以 500 點數包加值"
+      ]
+    },
+    "faq": {
+      "title": "定價問題",
+      "items": [
+        {
+          "q": "有免費試用嗎？",
+          "a": "有的——先以 3 天免費試用體驗所有功能，包含 AI 卡片產生。試用結束後，以每週或每年方案繼續使用，或一次購買終身方案。無線 Anki 遙控器對所有人皆免費。"
+        },
+        {
+          "q": "各方案有什麼差別？",
+          "a": "每週與每年是訂閱制，AI 點數會定期續發。終身是一次性購買：永久 App 使用權外加 500 點一次性點數。所有方案解鎖相同的 Pro 功能——差別只在你獲得多少 AI 點數。"
+        },
+        {
+          "q": "終身方案的折扣是真的嗎？",
+          "a": "是的。終身方案原價 $29.99。早鳥期間為 $14.99——五折——限時供應。早鳥結束後價格將回到 $29.99，但你購買的仍是終身方案。"
+        },
+        {
+          "q": "點數用完會怎樣？",
+          "a": "卡片產生會暫停，但其他一切照常運作——複習、匯入、匯出與遙控器都不受影響。隨時以 500 點數包加值，或升級你的方案。"
+        },
+        {
+          "q": "可以退款嗎？",
+          "a": "所有購買皆透過 Apple 的 App 內購買處理。退款申請須走 Apple 的標準流程——步驟請見支援頁面。"
+        },
+        {
+          "q": "取消後我的牌組會留著嗎？",
+          "a": "永遠會。你的牌組、卡片與進度都存在你的裝置上，並可隨時匯出為標準的 .apkg。沒有任何東西被鎖住。"
+        }
+      ]
+    }
   },
   "ankiRemote": {
     "metaTitle": "Flashcard Guru Remote — 免費的 Anki 無線遙控器",

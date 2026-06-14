@@ -2,83 +2,261 @@
   "site": {
     "name": "Flashcard Guru"
   },
+  "cta": {
+    "appStoreSmall": "Télécharger sur l'",
+    "appStoreBig": "App Store",
+    "getApp": "Obtenir l'app",
+    "getFree": "Démarrer l'essai gratuit",
+    "seePricing": "Voir les tarifs",
+    "scanToDownload": "Scannez pour télécharger sur iPhone"
+  },
   "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
     "ankiRemote": "Télécommande Anki",
     "blog": "Blog",
     "support": "Aide"
   },
   "footer": {
+    "tagline": "Anki, repensé pour iPhone. Importez vos paquets, créez des cartes avec l'IA et révisez avec FSRS — calme, rapide et pensé pour la période des examens.",
+    "colProduct": "Produit",
+    "colResources": "Ressources",
+    "colLegal": "Légal",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "ankiRemote": "Télécommande Anki",
+    "blog": "Blog",
     "support": "Aide",
     "privacy": "Confidentialité",
     "appPrivacy": "Confidentialité App",
-    "ankiRemote": "Télécommande Anki",
-    "blog": "Blog"
+    "rights": "© Flashcard Guru",
+    "trademark": "Anki est une marque de ses propriétaires respectifs. Flashcard Guru est une application indépendante, non affiliée au projet Anki ni approuvée par celui-ci."
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Anki pour les étudiants en médecine, sur iPhone",
-    "metaDescription": "Anki pour les étudiants en médecine, sur iPhone. Choisissez votre examen — USMLE Step 1/2, anatomie, pharmacologie — importez vos paquets, laissez l'IA créer les cartes et révisez avec FSRS.",
+    "metaTitle": "Flashcard Guru — Anki pour iPhone, avec cartes IA et FSRS",
+    "metaDescription": "Anki, repensé pour iPhone. Importez vos paquets .apkg intacts, transformez vos PDF en cartes avec l'IA et révisez avec FSRS — plus le Cram Mode, le verrouillage d'étude et une télécommande Anki sans fil gratuite. Essai gratuit de 3 jours.",
     "hero": {
-      "title": "Anki pour la fac de médecine,<br>enfin fluide sur iPhone",
-      "lead": "Importez vos paquets Anki, révisez-les dans une interface plus claire, et laissez l'IA créer des cartes à partir de vos listes de mots et de vos PDF. Calibré sur votre examen, planifié par FSRS.",
-      "ctaPrimary": "Télécharger sur l'App Store",
-      "ctaSecondary": "Télécommande Anki gratuite →"
+      "eyebrow": "Conçu pour iPhone · Adopté par les étudiants en médecine",
+      "title": "Anki enfin à sa place<br>sur iPhone",
+      "lead": "Importez vos paquets, transformez vos PDF en cartes avec l'IA et révisez avec FSRS — dans une app calme et rapide, conçue pour votre façon de réviser.",
+      "rating": "4,8 sur l'App Store · Adopté par des étudiants en médecine du monde entier"
     },
-    "shotRail": {
-      "label": "Captures d'écran",
-      "items": [
-        {
-          "src": "/assets/screenshots/decks-home.png",
-          "alt": "Accueil des paquets avec paquets Anki importés",
-          "caption": "Vos paquets Anki, importés intacts"
-        },
-        {
-          "src": "/assets/screenshots/ai-panel.png",
-          "alt": "Panneau de notes IA dans le lecteur",
-          "caption": "L'IA esquisse les cartes en lisant"
-        },
-        {
-          "src": "/assets/screenshots/reader.png",
-          "alt": "Lecteur PDF avec surlignages",
-          "caption": "Lecteur PDF et EPUB intégré"
-        },
-        {
-          "src": "/assets/screenshots/review-answer.png",
-          "alt": "Session de révision affichant la réponse",
-          "caption": "Révision planifiée par FSRS"
-        },
-        {
-          "src": "/assets/screenshots/stats.png",
-          "alt": "Tableau de bord des statistiques",
-          "caption": "Progrès, série et mémorisation"
-        }
+    "trust": {
+      "label": "Compatible avec les paquets que vous révisez déjà",
+      "chips": [
+        "AnKing Step",
+        "MileDown MCAT",
+        "Magoosh GRE",
+        "Refold",
+        "NeetCode 150",
+        "Votre propre .apkg"
       ]
+    },
+    "featuresHead": {
+      "eyebrow": "Fonctionnalités",
+      "title": "Tout ce que vous aimez dans Anki — sans les frictions",
+      "subtitle": "Tout le flux de travail d'Anki, reconstruit pour le téléphone que vous avez toujours sur vous."
     },
     "features": [
       {
-        "title": "Conçu pour votre examen",
-        "body": "Indiquez votre objectif — USMLE Step 1 ou Step 2 CK, anatomie, pharmacologie, ou l'examen national de votre pays — et Flashcard Guru recommande un paquet Anki communautaire et ajuste votre rythme quotidien au temps dont vous disposez."
+        "kicker": "Import",
+        "title": "Vos paquets Anki, importés intacts",
+        "body": "Déposez n'importe quel <code>.apkg</code> ou <code>.colpkg</code> et vos cartes, votre planification et vos médias migrent à l'identique — grâce au moteur officiel d'Anki. Réexportez quand vous voulez ; votre progression n'est jamais prisonnière.",
+        "img": "decks-home.png",
+        "alt": "Accueil des paquets Flashcard Guru avec des paquets Anki importés",
+        "ticks": [
+          "Import et export .apkg et .colpkg",
+          "État de planification et médias préservés",
+          "Bâti sur le moteur officiel d'Anki"
+        ]
       },
       {
-        "title": "Importez depuis Anki, exportez quand vous voulez",
-        "body": "Glissez n'importe quel paquet <code>.apkg</code> ou <code>.colpkg</code> — paquets, notes, état de planification et médias migrent intacts, grâce au moteur officiel d'Anki. Réexportez quand vous voulez ; votre progression n'est jamais prisonnière."
+        "kicker": "Cartes IA",
+        "title": "Transformez vos PDF et vos notes en cartes",
+        "body": "Ouvrez un manuel ou un PDF de cours dans le lecteur intégré, surlignez l'essentiel et laissez l'IA rédiger des cartes prêtes à réviser — recto, verso et texte à trous. Vous gardez le contrôle de ce qui est envoyé, exactement.",
+        "img": "reader-ai.png",
+        "alt": "Panneau de génération de cartes IA dans le lecteur Flashcard Guru",
+        "ticks": [
+          "À partir de PDF, de notes ou de listes de mots",
+          "Surlignez un passage → des cartes en quelques secondes",
+          "Formats texte à trous et question-réponse"
+        ]
       },
       {
-        "title": "Laissez l'IA créer les cartes",
-        "body": "Collez jusqu'à 200 termes et l'IA complète pour chacun la définition, la transcription phonétique et une phrase d'exemple. Ou surlignez un passage dans le lecteur intégré et générez des cartes prêtes à réviser — vous gardez le contrôle de ce qui est envoyé."
+        "kicker": "Révision",
+        "title": "Ne révisez que ce qui est dû — puis bachotez quand ça compte",
+        "body": "Chaque carte se planifie elle-même avec FSRS : intervalles serrés quand vous hésitez, plus larges quand vous maîtrisez. La veille d'un examen, passez en Cram Mode pour parcourir un paquet entier sans toucher à votre planning.",
+        "img": "review.png",
+        "alt": "Session de révision FSRS affichant Encore, Difficile, Correct, Facile",
+        "ticks": [
+          "Répétition espacée FSRS, ajustée à vous",
+          "Encore · Difficile · Correct · Facile",
+          "Cram Mode pour la dernière ligne droite"
+        ]
       },
       {
-        "title": "Révision FSRS, plus le mode bachotage",
-        "body": "Chaque carte se planifie elle-même avec l'algorithme FSRS — intervalles serrés quand vous hésitez, plus larges quand vous maîtrisez. La veille d'un examen, passez en mode bachotage pour parcourir un paquet entier sans toucher à votre planning."
+        "kicker": "Mains libres",
+        "title": "Révisez à l'autre bout de la pièce",
+        "body": "Pilotez vos révisions sans toucher l'écran. Appairez une manette de jeu bon marché en Bluetooth, ou utilisez la télécommande Anki sans fil gratuite pour piloter Anki Desktop depuis votre téléphone — même les manettes 8BitDo qu'AnkiMobile refuse d'apparier.",
+        "img": "hands-free.png",
+        "alt": "Révision mains libres Flashcard Guru avec une manette de jeu",
+        "ticks": [
+          "Compatible manettes MFi et 8BitDo",
+          "Télécommande sans fil gratuite pour Anki Desktop",
+          "Révisez depuis le canapé ou le tapis de course"
+        ],
+        "linkText": "Configurer la télécommande Anki →",
+        "linkHref": "{{prefix}}/anki-remote"
       },
       {
-        "title": "Télécommande Anki sans fil",
-        "body": "Pilotez les révisions Anki Desktop depuis votre iPhone via Wi-Fi. Module compagnon gratuit, et compatible avec les contrôleurs 8BitDo bon marché qu'AnkiMobile refuse d'apparier. <a href=\"{{prefix}}/anki-remote\">Configurer →</a>"
-      },
-      {
-        "title": "Confidentialité par défaut",
-        "body": "Vos paquets, PDF et notes restent sur votre appareil. Les requêtes IA ne se déclenchent qu'à l'initiative explicite d'une génération, avec divulgation complète des données envoyées. <a href=\"/privacy\">Politique de confidentialité</a>"
+        "kicker": "Progrès",
+        "title": "Suivez votre série, votre mémorisation et votre élan",
+        "body": "Un tableau de bord sobre affiche d'un coup d'œil votre série, les cartes maîtrisées et votre régularité — de quoi rester honnête, sans transformer la révision en course aux chiffres.",
+        "img": "stats.png",
+        "alt": "Tableau de bord des statistiques Flashcard Guru avec série et carte d'activité",
+        "ticks": [
+          "Suivi des séries et de l'objectif quotidien",
+          "Maîtrise et mémorisation dans le temps",
+          "Carte d'activité"
+        ]
       }
-    ]
+    ],
+    "highlightsHead": {
+      "title": "Conçu pour votre façon de réviser",
+      "subtitle": "De petites attentions bien pensées qui font une habitude que vous tenez."
+    },
+    "highlights": {
+      "lock": {
+        "title": "Le verrouillage d'étude vous garde concentré",
+        "body": "Verrouillez vos apps les plus distrayantes jusqu'à ce que l'objectif de révision du jour soit atteint. Un engagement en douceur qui vous garde dans les cartes."
+      },
+      "exam": {
+        "title": "Calibré sur votre examen",
+        "body": "Choisissez votre objectif — USMLE Step 1/2, MCAT, anatomie, pharmacologie ou le vôtre — et obtenez un plan quotidien ajusté au temps dont vous disposez."
+      },
+      "privacy": {
+        "title": "Privé par défaut",
+        "body": "Vos paquets, PDF et notes restent sur votre appareil. Les requêtes IA ne se déclenchent qu'au lancement d'une génération — avec divulgation complète de ce qui est envoyé."
+      }
+    },
+    "pricingTeaser": {
+      "eyebrow": "Offre de lancement",
+      "title": "À vous pour la vie — 50 % de réduction, pour l'instant",
+      "body": "Essayez Flashcard Guru gratuitement pendant 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou payez une fois et gardez l'app à vie, actuellement à moitié prix pour les premiers adoptants.",
+      "earlybird": "La version à vie est à <b>$14.99</b> <s>$29.99</s> — offre de lancement à durée limitée, 50 % de réduction."
+    },
+    "finalCta": {
+      "title": "Apportez vos paquets à une meilleure app iPhone",
+      "body": "Essai gratuit de 3 jours. Import en quelques secondes. Révision dès ce soir."
+    }
+  },
+  "pricing": {
+    "metaTitle": "Tarifs Flashcard Guru — Essai gratuit, puis à vous pour la vie",
+    "metaDescription": "Essayez Flashcard Guru gratuitement pendant 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou achetez la version à vie une seule fois. Lancement : la version à vie est à -50 %, soit $14.99 (normalement $29.99). La télécommande Anki sans fil est gratuite.",
+    "eyebrow": "Tarifs",
+    "title": "Essayez gratuitement. À vous pour la vie.",
+    "appleNote": "Tous les achats sont gérés en toute sécurité par Apple. Les prix peuvent varier selon la région.",
+    "subtitle": "Commencez par un essai gratuit de 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou payez une fois et gardez l'app à vie. La télécommande Anki sans fil est toujours gratuite.",
+    "tiersLead": "Commencez par un essai gratuit — annulable à tout moment.",
+    "earlybird": "🎉 Offre de lancement — la version à vie est à <b>-50 %</b> pour une durée limitée : <b>$14.99</b> <s>$29.99</s>. Le prix remonte bientôt.",
+    "tiers": [
+      {
+        "name": "Hebdomadaire",
+        "sub": "Essayez Pro avec un essai gratuit",
+        "amount": "$5.99",
+        "per": "/semaine",
+        "note": "Essai gratuit de 3 jours",
+        "features": [
+          "Accès complet à toutes les fonctionnalités Pro",
+          "500 crédits IA chaque semaine",
+          "Essai gratuit de 3 jours, annulable à tout moment"
+        ],
+        "ctaText": "Démarrer l'essai gratuit",
+        "featured": false
+      },
+      {
+        "name": "Annuel",
+        "sub": "Idéal pour les révisions assidues",
+        "amount": "$39.99",
+        "per": "/an",
+        "note": "Économisez 87 % vs hebdomadaire",
+        "features": [
+          "Accès complet à toutes les fonctionnalités Pro",
+          "50,000 crédits IA chaque année",
+          "Le meilleur rapport qualité-prix pour réviser au quotidien"
+        ],
+        "ctaText": "Passer à l'annuel",
+        "featured": false
+      },
+      {
+        "name": "À vie",
+        "sub": "Un seul paiement, à vous pour toujours",
+        "was": "$29.99",
+        "amount": "$14.99",
+        "per": "achat unique",
+        "note": "Lancement · -50 %",
+        "best": "MEILLEURE OFFRE",
+        "features": [
+          "Accès permanent à toutes les fonctionnalités Pro",
+          "500 crédits IA inclus en achat unique",
+          "Toutes les mises à jour futures, gratuites",
+          "Pas d'abonnement, jamais"
+        ],
+        "ctaText": "Obtenir la version à vie",
+        "featured": true
+      }
+    ],
+    "lifetime": {
+      "eyebrow": "À vie",
+      "title": "Un seul paiement. À vous pour toujours.",
+      "body": "Pas d'abonnement, pas de renouvellement. Payez une fois et gardez Flashcard Guru — et toutes les mises à jour futures — à vie. La version à vie inclut 500 crédits IA en achat unique pour bâtir vos paquets, et vous pouvez recharger à tout moment.",
+      "points": [
+        "Accès permanent à toutes les fonctionnalités Pro",
+        "500 crédits IA inclus en achat unique",
+        "Toutes les mises à jour futures, gratuites",
+        "Moins que l'app iOS officielle d'Anki à $24.99"
+      ]
+    },
+    "credits": {
+      "title": "Qu'est-ce que les crédits IA ?",
+      "body": "Les crédits alimentent la génération de cartes par IA. Tout le reste — import des paquets, révision FSRS, Cram Mode, télécommande Anki — n'utilise jamais de crédits. Les crédits ne sont dépensés que lorsque l'IA crée des cartes pour vous.",
+      "items": [
+        "Essai gratuit — 500 crédits pour essayer",
+        "Hebdomadaire — 500 crédits / semaine",
+        "Annuel — 50,000 crédits / an",
+        "À vie — 500 crédits en achat unique",
+        "Rechargez à tout moment avec des packs de 500 crédits"
+      ]
+    },
+    "faq": {
+      "title": "Questions sur les tarifs",
+      "items": [
+        {
+          "q": "Y a-t-il un essai gratuit ?",
+          "a": "Oui — commencez par un essai gratuit de 3 jours pour tout essayer, y compris la génération de cartes par IA. Après l'essai, continuez avec une formule hebdomadaire ou annuelle, ou achetez la version à vie une seule fois. La télécommande Anki sans fil est gratuite pour tout le monde."
+        },
+        {
+          "q": "Quelle est la différence entre les formules ?",
+          "a": "Les formules hebdomadaire et annuelle sont des abonnements avec des crédits IA renouvelés. La version à vie est un achat unique : accès permanent à l'app plus 500 crédits en achat unique. Toutes les formules débloquent les mêmes fonctionnalités Pro — elles ne diffèrent que par le nombre de crédits IA dont vous bénéficiez."
+        },
+        {
+          "q": "La réduction de la version à vie est-elle réelle ?",
+          "a": "Oui. La version à vie coûte normalement $29.99. Pendant le lancement, elle est à $14.99 — 50 % de réduction — pour une durée limitée. À la fin de l'offre de lancement, le prix revient à $29.99, mais votre achat reste à vie."
+        },
+        {
+          "q": "Que se passe-t-il quand mes crédits sont épuisés ?",
+          "a": "La génération de cartes est suspendue, mais tout le reste continue de fonctionner — la révision, l'import, l'export et la télécommande ne sont pas affectés. Rechargez à tout moment avec un pack de 500 crédits, ou changez de formule."
+        },
+        {
+          "q": "Puis-je obtenir un remboursement ?",
+          "a": "Tous les achats sont gérés par l'achat intégré d'Apple. Les demandes de remboursement suivent la procédure standard d'Apple — consultez l'Aide pour les étapes."
+        },
+        {
+          "q": "Mes paquets restent-ils si j'annule ?",
+          "a": "Toujours. Vos paquets, cartes et progression vivent sur votre appareil et s'exportent en .apkg standard à tout moment. Rien n'est prisonnier."
+        }
+      ]
+    }
   },
   "ankiRemote": {
     "metaTitle": "Flashcard Guru Remote — Télécommande Anki sans fil gratuite pour iPhone",

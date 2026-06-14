@@ -10,6 +10,7 @@ node_modules/
 # Source of truth lives in templates/ and i18n/.
 public/index.html
 public/anki-remote/
+public/pricing/
 public/zh-Hans/
 public/zh-Hant/
 public/ja/

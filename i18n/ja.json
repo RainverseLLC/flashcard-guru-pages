@@ -2,83 +2,261 @@
   "site": {
     "name": "Flashcard Guru"
   },
+  "cta": {
+    "appStoreSmall": "ダウンロード",
+    "appStoreBig": "App Store",
+    "getApp": "アプリを入手",
+    "getFree": "無料トライアルを始める",
+    "seePricing": "料金を見る",
+    "scanToDownload": "スキャンして iPhone にダウンロード"
+  },
   "nav": {
+    "features": "機能",
+    "pricing": "料金",
     "ankiRemote": "Anki リモコン",
     "blog": "Blog",
     "support": "サポート"
   },
   "footer": {
+    "tagline": "Anki を iPhone 向けに再設計。デッキをインポートし、AI でカードを作成、FSRS で復習——試験シーズンのために、静かで速く。",
+    "colProduct": "プロダクト",
+    "colResources": "リソース",
+    "colLegal": "法的事項",
+    "features": "機能",
+    "pricing": "料金",
+    "ankiRemote": "Anki リモコン",
+    "blog": "Blog",
     "support": "サポート",
     "privacy": "プライバシー",
     "appPrivacy": "App プライバシー",
-    "ankiRemote": "Anki リモコン",
-    "blog": "Blog"
+    "rights": "© Flashcard Guru",
+    "trademark": "Anki はそれぞれの所有者の商標です。Flashcard Guru は独立したアプリであり、Anki プロジェクトと提携または承認されたものではありません。"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — 医学生のための iPhone 版 Anki",
-    "metaDescription": "医学生のための iPhone 版 Anki。試験を選び——USMLE Step 1/2、解剖学、薬理学——デッキをインポートし、AI でカードを生成、FSRS で復習。",
+    "metaTitle": "Flashcard Guru — iPhone 版 Anki、AI カードと FSRS 搭載",
+    "metaDescription": "Anki を iPhone 向けに再設計。.apkg デッキをそのままインポートし、PDF を AI でカード化、FSRS で復習——さらに詰め込みモード、学習ロック、無料のワイヤレス Anki リモコン。3 日間の無料トライアル。",
     "hero": {
-      "title": "医学生のための Anki、<br>iPhone でついに快適に",
-      "lead": "Anki デッキをインポートし、すっきりした画面で復習。単語リストや PDF から AI がカードを作成します。あなたの試験に合わせ、FSRS がスケジュール。",
-      "ctaPrimary": "App Store でダウンロード",
-      "ctaSecondary": "無料 Anki リモコン →"
+      "eyebrow": "iPhone のために設計 · 医学生に愛用される",
+      "title": "Anki が iPhone で<br>ついに自分の居場所を見つけた",
+      "lead": "デッキをインポートし、PDF を AI でカード化、FSRS で復習——あなたの実際の学習スタイルに合わせて作られた、静かで速いアプリで。",
+      "rating": "App Store で 4.8 · 世界中の医学生が利用"
     },
-    "shotRail": {
-      "label": "スクリーンショット",
-      "items": [
-        {
-          "src": "/assets/screenshots/decks-home.png",
-          "alt": "インポートされた Anki デッキ一覧",
-          "caption": "Anki デッキをそのままインポート"
-        },
-        {
-          "src": "/assets/screenshots/ai-panel.png",
-          "alt": "リーダー内の AI ノートパネル",
-          "caption": "読みながら AI がカードを下書き"
-        },
-        {
-          "src": "/assets/screenshots/reader.png",
-          "alt": "ハイライト付き PDF リーダー",
-          "caption": "PDF・EPUB 対応の内蔵リーダー"
-        },
-        {
-          "src": "/assets/screenshots/review-answer.png",
-          "alt": "復習画面で答えを表示",
-          "caption": "FSRS スケジュールの復習"
-        },
-        {
-          "src": "/assets/screenshots/stats.png",
-          "alt": "学習統計画面",
-          "caption": "進捗・連続日数・定着率"
-        }
+    "trust": {
+      "label": "あなたが今使っているデッキにそのまま対応",
+      "chips": [
+        "AnKing Step",
+        "MileDown MCAT",
+        "Magoosh GRE",
+        "Refold",
+        "NeetCode 150",
+        "あなた自身の .apkg"
       ]
+    },
+    "featuresHead": {
+      "eyebrow": "機能",
+      "title": "Anki の良さはそのまま——わずらわしさだけを取り除いて",
+      "subtitle": "Anki のすべてのワークフローを、いつも持ち歩くスマホ向けに作り直しました。"
     },
     "features": [
       {
-        "title": "あなたの試験に最適化",
-        "body": "目標を教えてください——USMLE Step 1 / Step 2 CK、解剖学、薬理学、または医師国家試験——Flashcard Guru がコミュニティの Anki デッキをおすすめし、使える時間に合わせて毎日の学習量を調整します。"
+        "kicker": "インポート",
+        "title": "Anki デッキをそのままインポート",
+        "body": "どんな <code>.apkg</code> や <code>.colpkg</code> でもドロップするだけで、カード・スケジューリング・メディアがそのまま移行します——Anki 純正エンジンによるものです。いつでもエクスポートでき、学習履歴が囲い込まれることはありません。",
+        "img": "decks-home.png",
+        "alt": "インポートした Anki デッキが並ぶ Flashcard Guru のデッキホーム",
+        "ticks": [
+          ".apkg と .colpkg のインポート・エクスポート",
+          "スケジューリング状態とメディアを保持",
+          "Anki 純正エンジン採用"
+        ]
       },
       {
-        "title": "Anki からインポート、いつでもエクスポート",
-        "body": "<code>.apkg</code> や <code>.colpkg</code> パッケージをドロップするだけ——デッキ、ノート、スケジューリング状態、メディアすべてがそのまま移行します。Anki 純正エンジン採用。いつでもエクスポートでき、学習履歴が囲い込まれることはありません。"
+        "kicker": "AI カード",
+        "title": "PDF やノートをカードに変換",
+        "body": "内蔵リーダーで教科書や講義 PDF を開き、重要な箇所をハイライトすれば、AI が復習用カード——表・裏・穴埋め——を下書きします。何を送信するかは常にあなたが管理します。",
+        "img": "reader-ai.png",
+        "alt": "Flashcard Guru のリーダー内の AI カード生成パネル",
+        "ticks": [
+          "PDF・ノート・単語リストから",
+          "一節をハイライト → 数秒でカードに",
+          "穴埋めと Q&A 形式"
+        ]
       },
       {
-        "title": "カード作成は AI におまかせ",
-        "body": "最大 200 語を貼り付ければ、AI が一つずつ定義・発音記号・例文を補完。内蔵リーダーで一節をハイライトして復習用カードを生成することも——送信内容は常にあなたが管理します。"
+        "kicker": "復習",
+        "title": "期限が来たカードだけ復習——ここぞという時は詰め込む",
+        "body": "各カードは FSRS で自動スケジュール——曖昧なら間隔を狭く、定着していれば広く。試験前夜は詰め込みモードに切り替えれば、スケジュールに影響を与えずデッキ一冊を一気に回せます。",
+        "img": "review.png",
+        "alt": "もう一度・難しい・普通・簡単 を表示する FSRS 復習セッション",
+        "ticks": [
+          "あなたに合わせて調整される FSRS 間隔反復",
+          "もう一度 · 難しい · 普通 · 簡単",
+          "ラストスパート用の詰め込みモード"
+        ]
       },
       {
-        "title": "FSRS 復習、さらに詰め込みモード",
-        "body": "各カードが FSRS アルゴリズムで自動スケジュール——曖昧なら間隔を狭く、定着していれば広く。試験前夜は詰め込みモードに切り替えれば、スケジュールに影響を与えずデッキ一冊を一気に回せます。"
+        "kicker": "ハンズフリー",
+        "title": "部屋の向こうからでも復習",
+        "body": "画面に触れずに復習を進められます。安価なゲームコントローラを Bluetooth でペアリングするか、無料のワイヤレス Anki リモコンで Anki Desktop をスマホから操作——AnkiMobile がペアリングしない 8BitDo コントローラでも使えます。",
+        "img": "hands-free.png",
+        "alt": "ゲームコントローラでハンズフリー復習する Flashcard Guru",
+        "ticks": [
+          "MFi と 8BitDo コントローラに対応",
+          "Anki Desktop 用の無料ワイヤレスリモコン",
+          "ソファやランニングマシンから復習"
+        ],
+        "linkText": "Anki リモコンをセットアップ →",
+        "linkHref": "{{prefix}}/anki-remote"
       },
       {
-        "title": "ワイヤレス Anki リモコン",
-        "body": "iPhone から Wi-Fi 経由で Anki Desktop の復習を操作。無料の同梱アドオン、さらに AnkiMobile がペアリングしない安価な 8BitDo コントローラにも対応。<a href=\"{{prefix}}/anki-remote\">セットアップ →</a>"
-      },
-      {
-        "title": "プライバシー優先",
-        "body": "デッキ、PDF、ノートはあなたのデバイスに保存。AI リクエストは生成を明示的に開始したときだけ発火し、送信内容を完全に開示します。<a href=\"/privacy\">プライバシーポリシー</a>"
+        "kicker": "進捗",
+        "title": "連続日数・定着率・勢いを確認",
+        "body": "静かな統計ダッシュボードで、連続日数・習得したカード・復習の継続度をひと目で確認——学習を数字ゲームにすることなく、自分を律するのに十分なだけ。",
+        "img": "stats.png",
+        "alt": "連続日数とアクティビティヒートマップを表示する Flashcard Guru の統計ダッシュボード",
+        "ticks": [
+          "連続日数と毎日の目標トラッキング",
+          "習得度と定着率の推移",
+          "アクティビティヒートマップ"
+        ]
       }
-    ]
+    ],
+    "highlightsHead": {
+      "title": "あなたの実際の学習スタイルのために",
+      "subtitle": "積み重なって続けられる習慣になる、小さくて気の利いた工夫。"
+    },
+    "highlights": {
+      "lock": {
+        "title": "学習ロックで集中を保つ",
+        "body": "その日の復習目標を終えるまで、気が散るアプリをロック。あなたをカードの前にとどめる、やさしいコミットメントデバイスです。"
+      },
+      "exam": {
+        "title": "あなたの試験に最適化",
+        "body": "目標を選ぶだけ——USMLE Step 1/2、MCAT、解剖学、薬理学、または自分自身のもの——使える時間に合わせた毎日の学習プランが手に入ります。"
+      },
+      "privacy": {
+        "title": "デフォルトでプライベート",
+        "body": "デッキ、PDF、ノートはあなたのデバイスに保存。AI リクエストは生成を開始したときだけ発火し、送信内容を完全に開示します。"
+      }
+    },
+    "pricingTeaser": {
+      "eyebrow": "早期割引",
+      "title": "一生使える——今だけ 50% オフ",
+      "body": "Flashcard Guru を 3 日間無料でお試しください。その後は Weekly または Yearly プランで続けるか、一度だけ支払って一生使えます——早期ユーザーには今だけ半額です。",
+      "earlybird": "Lifetime は <b>$14.99</b> <s>$29.99</s>——期間限定の早期割引、50% オフ。"
+    },
+    "finalCta": {
+      "title": "あなたのデッキを、もっと良い iPhone アプリへ",
+      "body": "3 日間の無料トライアル。数秒でインポート。今夜から復習。"
+    }
+  },
+  "pricing": {
+    "metaTitle": "Flashcard Guru の料金 — 無料トライアル、その後は一生使える",
+    "metaDescription": "Flashcard Guru を 3 日間無料でお試し。その後は Weekly または Yearly プランで続けるか、Lifetime を一度だけ購入。早期割引: Lifetime は 50% オフの $14.99(通常 $29.99)。ワイヤレス Anki リモコンは無料です。",
+    "eyebrow": "料金",
+    "title": "無料で試して、一生使える。",
+    "appleNote": "すべての購入は Apple によって安全に処理されます。価格は地域によって異なる場合があります。",
+    "subtitle": "まずは 3 日間の無料トライアルから。その後は Weekly または Yearly プランで続けるか、一度だけ支払って一生使えます。ワイヤレス Anki リモコンは常に無料です。",
+    "tiersLead": "無料トライアルから始めましょう——いつでもキャンセルできます。",
+    "earlybird": "🎉 早期割引——Lifetime は期間限定で <b>50% オフ</b>: <b>$14.99</b> <s>$29.99</s>。価格はまもなく元に戻ります。",
+    "tiers": [
+      {
+        "name": "Weekly",
+        "sub": "無料トライアルで Pro を試す",
+        "amount": "$5.99",
+        "per": "/週",
+        "note": "3 日間無料トライアル",
+        "features": [
+          "すべての Pro 機能をフルに利用",
+          "毎週 AI クレジット 500",
+          "3 日間無料トライアル、いつでもキャンセル可"
+        ],
+        "ctaText": "無料トライアルを始める",
+        "featured": false
+      },
+      {
+        "name": "Yearly",
+        "sub": "毎日学習する人に最適",
+        "amount": "$39.99",
+        "per": "/年",
+        "note": "週払いより 87% お得",
+        "features": [
+          "すべての Pro 機能をフルに利用",
+          "毎年 AI クレジット 50,000",
+          "毎日の学習に最高のコスパ"
+        ],
+        "ctaText": "Yearly にする",
+        "featured": false
+      },
+      {
+        "name": "Lifetime",
+        "sub": "一度の支払いで、ずっとあなたのもの",
+        "was": "$29.99",
+        "amount": "$14.99",
+        "per": "買い切り",
+        "note": "早期割引 · 50% オフ",
+        "best": "BEST VALUE",
+        "features": [
+          "すべての Pro 機能に永久アクセス",
+          "買い切り AI クレジット 500 付き",
+          "今後のアップデートすべて無料",
+          "サブスクリプションは一切なし"
+        ],
+        "ctaText": "Lifetime を入手",
+        "featured": true
+      }
+    ],
+    "lifetime": {
+      "eyebrow": "Lifetime",
+      "title": "一度の支払い。ずっとあなたのもの。",
+      "body": "サブスクリプションも更新もなし。一度払えば Flashcard Guru——そして今後のアップデートすべて——を一生使えます。Lifetime にはデッキ作りを始めるための買い切り AI クレジット 500 が付き、いつでも追加できます。",
+      "points": [
+        "すべての Pro 機能に永久アクセス",
+        "買い切り AI クレジット 500 付き",
+        "今後のアップデートすべて無料",
+        "Anki 純正の $24.99 の iOS アプリより安い"
+      ]
+    },
+    "credits": {
+      "title": "AI クレジットとは?",
+      "body": "クレジットは AI カード生成に使われます。それ以外——デッキのインポート、FSRS 復習、詰め込みモード、Anki リモコン——にクレジットは一切使いません。クレジットが消費されるのは AI があなたのためにカードを作るときだけです。",
+      "items": [
+        "無料トライアル——お試し用クレジット 500",
+        "Weekly——クレジット 500 / 週",
+        "Yearly——クレジット 50,000 / 年",
+        "Lifetime——買い切りクレジット 500",
+        "500 クレジットパックでいつでも追加"
+      ]
+    },
+    "faq": {
+      "title": "料金に関する質問",
+      "items": [
+        {
+          "q": "無料トライアルはありますか?",
+          "a": "はい——まず 3 日間の無料トライアルで、AI カード生成を含むすべてをお試しいただけます。トライアル後は Weekly または Yearly プランで続けるか、Lifetime を一度だけ購入します。ワイヤレス Anki リモコンは誰でも無料です。"
+        },
+        {
+          "q": "プランの違いは何ですか?",
+          "a": "Weekly と Yearly は AI クレジットが更新されるサブスクリプションです。Lifetime は買い切り: アプリへの永久アクセスと買い切りクレジット 500 が付きます。すべてのプランで同じ Pro 機能が使え——違いは AI クレジットの量だけです。"
+        },
+        {
+          "q": "Lifetime の割引は本物ですか?",
+          "a": "はい。Lifetime は通常 $29.99 です。早期割引期間中は $14.99——50% オフ——で、期間限定です。早期割引が終わると価格は $29.99 に戻りますが、あなたの購入は一生有効のままです。"
+        },
+        {
+          "q": "クレジットがなくなったらどうなりますか?",
+          "a": "カード生成は一時停止しますが、それ以外はすべて動作し続けます——復習、インポート、エクスポート、リモコンは影響を受けません。500 クレジットパックでいつでも追加するか、プランをアップグレードしてください。"
+        },
+        {
+          "q": "返金は受けられますか?",
+          "a": "すべての購入は Apple の App 内課金で処理されます。返金リクエストは Apple の標準的な手続きを経て行われます——手順はサポートをご覧ください。"
+        },
+        {
+          "q": "キャンセルしてもデッキは残りますか?",
+          "a": "常に残ります。デッキ、カード、進捗はあなたのデバイスに保存され、いつでも標準の .apkg にエクスポートできます。何も囲い込まれることはありません。"
+        }
+      ]
+    }
   },
   "ankiRemote": {
     "metaTitle": "Flashcard Guru Remote — iPhone 用の無料ワイヤレス Anki リモコン",

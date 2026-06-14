@@ -2,83 +2,261 @@
   "site": {
     "name": "Flashcard Guru"
   },
+  "cta": {
+    "appStoreSmall": "Laden im",
+    "appStoreBig": "App Store",
+    "getApp": "App holen",
+    "getFree": "Kostenlos testen",
+    "seePricing": "Preise ansehen",
+    "scanToDownload": "Scannen, um auf dem iPhone zu laden"
+  },
   "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
     "ankiRemote": "Anki Fernbedienung",
     "blog": "Blog",
     "support": "Support"
   },
   "footer": {
+    "tagline": "Anki, neu gedacht fürs iPhone. Importiere deine Stapel, baue Karten mit KI und wiederhole mit FSRS — ruhig, schnell und gemacht für die Prüfungsphase.",
+    "colProduct": "Produkt",
+    "colResources": "Ressourcen",
+    "colLegal": "Rechtliches",
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "ankiRemote": "Anki Fernbedienung",
+    "blog": "Blog",
     "support": "Support",
     "privacy": "Datenschutz",
     "appPrivacy": "App-Datenschutz",
-    "ankiRemote": "Anki Fernbedienung",
-    "blog": "Blog"
+    "rights": "© Flashcard Guru",
+    "trademark": "Anki ist eine Marke der jeweiligen Inhaber. Flashcard Guru ist eine unabhängige App und steht in keiner Verbindung zum Anki-Projekt und wird von diesem nicht unterstützt."
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Anki für Medizinstudierende, auf dem iPhone",
-    "metaDescription": "Anki für Medizinstudierende, auf dem iPhone. Wähle deine Prüfung — USMLE Step 1/2, Anatomie, Pharmakologie — importiere deine Stapel, lass KI Karten bauen und wiederhole mit FSRS.",
+    "metaTitle": "Flashcard Guru — Anki fürs iPhone, mit KI-Karten & FSRS",
+    "metaDescription": "Anki, neu gedacht fürs iPhone. Importiere deine .apkg-Stapel vollständig, verwandle PDFs mit KI in Karten und wiederhole mit FSRS — dazu Cram Mode, Study Lock und eine kostenlose drahtlose Anki Fernbedienung. Kostenlose 3-tägige Testphase.",
     "hero": {
-      "title": "Anki fürs Medizinstudium,<br>endlich flüssig auf dem iPhone",
-      "lead": "Importiere deine Anki-Stapel, wiederhole sie in einer aufgeräumteren Oberfläche und lass KI aus deinen Wortlisten und PDFs Karten bauen. Auf deine Prüfung abgestimmt, von FSRS geplant.",
-      "ctaPrimary": "Im App Store laden",
-      "ctaSecondary": "Kostenlose Anki Fernbedienung →"
+      "eyebrow": "Gemacht fürs iPhone · Geliebt von Medizinstudierenden",
+      "title": "Anki, das sich endlich<br>zu Hause fühlt auf dem iPhone",
+      "lead": "Importiere deine Stapel, verwandle PDFs mit KI in Karten und wiederhole mit FSRS — in einer ruhigen, schnellen App, die zu deiner Art zu lernen passt.",
+      "rating": "4,8 im App Store · Genutzt von Medizinstudierenden weltweit"
     },
-    "shotRail": {
-      "label": "Screenshots",
-      "items": [
-        {
-          "src": "/assets/screenshots/decks-home.png",
-          "alt": "Stapel-Übersicht mit importierten Anki-Stapeln",
-          "caption": "Deine Anki-Stapel, vollständig importiert"
-        },
-        {
-          "src": "/assets/screenshots/ai-panel.png",
-          "alt": "KI-Notizpanel im Reader",
-          "caption": "KI entwirft Karten beim Lesen"
-        },
-        {
-          "src": "/assets/screenshots/reader.png",
-          "alt": "PDF-Reader mit Markierungen",
-          "caption": "Integrierter PDF- &amp; EPUB-Reader"
-        },
-        {
-          "src": "/assets/screenshots/review-answer.png",
-          "alt": "Wiederholungssitzung zeigt die Antwort",
-          "caption": "FSRS-geplante Wiederholung"
-        },
-        {
-          "src": "/assets/screenshots/stats.png",
-          "alt": "Statistik-Dashboard",
-          "caption": "Fortschritt, Serie und Behaltensrate"
-        }
+    "trust": {
+      "label": "Funktioniert mit den Stapeln, die du schon lernst",
+      "chips": [
+        "AnKing Step",
+        "MileDown MCAT",
+        "Magoosh GRE",
+        "Refold",
+        "NeetCode 150",
+        "Dein eigenes .apkg"
       ]
+    },
+    "featuresHead": {
+      "eyebrow": "Funktionen",
+      "title": "Alles, was du an Anki liebst — ohne die Reibung",
+      "subtitle": "Der komplette Anki-Workflow, neu gebaut für ein Telefon, das du wirklich dabeihast."
     },
     "features": [
       {
-        "title": "Auf deine Prüfung zugeschnitten",
-        "body": "Sag uns dein Ziel — USMLE Step 1 oder Step 2 CK, Anatomie, Pharmakologie oder das Staatsexamen deines Landes — und Flashcard Guru empfiehlt einen Community-Anki-Stapel und stimmt dein Tagespensum auf deine verfügbare Zeit ab."
+        "kicker": "Import",
+        "title": "Deine Anki-Stapel, vollständig importiert",
+        "body": "Lege ein beliebiges <code>.apkg</code> oder <code>.colpkg</code> ab und deine Karten, dein Planungsstand und deine Medien werden exakt übernommen — angetrieben von Ankis eigener Engine. Exportiere jederzeit wieder zurück; dein Fortschritt bleibt nie gefangen.",
+        "img": "decks-home.png",
+        "alt": "Flashcard Guru Stapel-Übersicht mit importierten Anki-Stapeln",
+        "ticks": [
+          ".apkg- & .colpkg-Import und -Export",
+          "Planungsstand und Medien bleiben erhalten",
+          "Gebaut auf Ankis eigener Engine"
+        ]
       },
       {
-        "title": "Aus Anki importieren, jederzeit exportieren",
-        "body": "Lege ein beliebiges <code>.apkg</code>- oder <code>.colpkg</code>-Paket ab — Stapel, Notizen, Planungsstand und Medien werden vollständig migriert, mit Ankis eigener Engine. Exportiere jederzeit zurück; dein Fortschritt bleibt nie gefangen."
+        "kicker": "KI-Karten",
+        "title": "Verwandle deine PDFs und Notizen in Karten",
+        "body": "Öffne ein Lehrbuch- oder Vorlesungs-PDF im integrierten Reader, markiere das Wesentliche und lass KI wiederholungsbereite Karten entwerfen — Vorder-, Rückseite und Lückentext. Du behältst die volle Kontrolle darüber, was gesendet wird.",
+        "img": "reader-ai.png",
+        "alt": "KI-Kartengenerierung im Flashcard Guru Reader",
+        "ticks": [
+          "Aus PDFs, Notizen oder Wortlisten",
+          "Passage markieren → Karten in Sekunden",
+          "Lückentext- und Frage-Antwort-Formate"
+        ]
       },
       {
-        "title": "Lass KI die Karten bauen",
-        "body": "Füge bis zu 200 Begriffe ein und KI ergänzt für jeden Definition, Lautschrift und einen Beispielsatz. Oder markiere eine Passage im integrierten Reader und generiere wiederholungsbereite Karten — du behältst die Kontrolle darüber, was gesendet wird."
+        "kicker": "Wiederholen",
+        "title": "Wiederhole nur, was fällig ist — und pauke, wenn es zählt",
+        "body": "Jede Karte plant sich selbst mit FSRS: engere Intervalle bei Unsicherheit, breitere bei Sicherheit. In der Nacht vor einer Prüfung wechselst du in den Cram Mode und gehst einen ganzen Stapel im Schnelldurchlauf durch, ohne deinen Plan anzurühren.",
+        "img": "review.png",
+        "alt": "FSRS-Wiederholungssitzung mit Nochmal, Schwer, Gut, Einfach",
+        "ticks": [
+          "FSRS-Wiederholung im Abstand, auf dich abgestimmt",
+          "Nochmal · Schwer · Gut · Einfach",
+          "Cram Mode für den Endspurt"
+        ]
       },
       {
-        "title": "FSRS-Wiederholung, plus Pauk-Modus",
-        "body": "Jede Karte plant sich selbst mit dem FSRS-Algorithmus — engere Intervalle bei Unsicherheit, breitere bei Sicherheit. In der Nacht vor einer Prüfung wechselst du in den Pauk-Modus und gehst einen ganzen Stapel durch, ohne deinen Plan zu verändern."
+        "kicker": "Freihändig",
+        "title": "Wiederhole quer durch den Raum",
+        "body": "Steuere deine Wiederholungen, ohne den Bildschirm zu berühren. Koppele einen günstigen Game-Controller per Bluetooth oder nutze die kostenlose drahtlose Anki Fernbedienung, um Anki Desktop vom Telefon aus zu bedienen — sogar die 8BitDo-Controller, die AnkiMobile nicht koppelt.",
+        "img": "hands-free.png",
+        "alt": "Flashcard Guru freihändige Wiederholung mit einem Game-Controller",
+        "ticks": [
+          "Unterstützung für MFi- & 8BitDo-Controller",
+          "Kostenlose drahtlose Fernbedienung für Anki Desktop",
+          "Wiederhole vom Sofa oder Laufband aus"
+        ],
+        "linkText": "Anki Fernbedienung einrichten →",
+        "linkHref": "{{prefix}}/anki-remote"
       },
       {
-        "title": "Drahtlose Anki-Fernbedienung",
-        "body": "Steuere Anki-Desktop-Wiederholungen per WLAN vom iPhone. Kostenloses Begleit-Add-on, und es funktioniert mit günstigen 8BitDo-Controllern, die AnkiMobile nicht koppelt. <a href=\"{{prefix}}/anki-remote\">Einrichten →</a>"
-      },
-      {
-        "title": "Datenschutz von Haus aus",
-        "body": "Deine Stapel, PDFs und Notizen bleiben auf deinem Gerät. KI-Anfragen werden nur ausgelöst, wenn du eine Generierung explizit startest, mit voller Offenlegung des Übermittelten. <a href=\"/privacy\">Datenschutzerklärung</a>"
+        "kicker": "Fortschritt",
+        "title": "Sieh deine Serie, deine Behaltensrate und deinen Schwung",
+        "body": "Ein ruhiges Statistik-Dashboard zeigt dir auf einen Blick deine Serie, gemeisterte Karten und die Beständigkeit deiner Wiederholungen — genug, um ehrlich zu bleiben, ohne das Lernen zum Zahlenspiel zu machen.",
+        "img": "stats.png",
+        "alt": "Flashcard Guru Statistik-Dashboard mit Serie und Aktivitäts-Heatmap",
+        "ticks": [
+          "Serien- und Tagesziel-Tracking",
+          "Beherrschung und Behaltensrate über die Zeit",
+          "Aktivitäts-Heatmap"
+        ]
       }
-    ]
+    ],
+    "highlightsHead": {
+      "title": "Gebaut für deine Art zu lernen",
+      "subtitle": "Kleine, durchdachte Details, die sich zu einer Gewohnheit summieren, die du halten kannst."
+    },
+    "highlights": {
+      "lock": {
+        "title": "Study Lock hält dich fokussiert",
+        "body": "Sperre deine ablenkendsten Apps, bis dein Wiederholungsziel für den Tag erreicht ist. Eine sanfte Selbstbindung, die dich bei den Karten hält."
+      },
+      "exam": {
+        "title": "Auf deine Prüfung abgestimmt",
+        "body": "Wähle dein Ziel — USMLE Step 1/2, MCAT, Anatomie, Pharmakologie oder dein eigenes — und erhalte einen Tagesplan, der zu deiner verfügbaren Zeit passt."
+      },
+      "privacy": {
+        "title": "Privat von Haus aus",
+        "body": "Deine Stapel, PDFs und Notizen bleiben auf deinem Gerät. KI-Anfragen werden nur ausgelöst, wenn du eine Generierung startest — mit voller Offenlegung des Übermittelten."
+      }
+    },
+    "pricingTeaser": {
+      "eyebrow": "Frühbucher-Angebot",
+      "title": "Für immer dein — 50 % Rabatt, jetzt noch",
+      "body": "Teste Flashcard Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder zahle einmal und besitze es für immer, derzeit zum halben Preis für Frühentschlossene.",
+      "earlybird": "Lifetime kostet <b>$14.99</b> <s>$29.99</s> — zeitlich begrenztes Frühbucher-Angebot, 50 % Rabatt."
+    },
+    "finalCta": {
+      "title": "Bring deine Stapel in eine bessere iPhone-App",
+      "body": "Kostenlose 3-tägige Testphase. Import in Sekunden. Wiederhole noch heute Abend."
+    }
+  },
+  "pricing": {
+    "metaTitle": "Flashcard Guru Preise — Kostenlos testen, dann für immer dein",
+    "metaDescription": "Teste Flashcard Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder kaufe Lifetime einmal. Frühbucher: Lifetime mit 50 % Rabatt für $14.99 (normalerweise $29.99). Die drahtlose Anki Fernbedienung ist kostenlos.",
+    "eyebrow": "Preise",
+    "title": "Kostenlos testen. Für immer dein.",
+    "appleNote": "Alle Käufe werden sicher von Apple abgewickelt. Preise können je nach Region variieren.",
+    "subtitle": "Starte mit einer kostenlosen 3-tägigen Testphase, dann geht es weiter mit einem Wochen- oder Jahresplan — oder zahle einmal und besitze es für immer. Die drahtlose Anki Fernbedienung ist immer kostenlos.",
+    "tiersLead": "Starte mit einer kostenlosen Testphase — jederzeit kündbar.",
+    "earlybird": "🎉 Frühbucher-Angebot — Lifetime mit <b>50 % Rabatt</b> für begrenzte Zeit: <b>$14.99</b> <s>$29.99</s>. Der Preis steigt bald wieder.",
+    "tiers": [
+      {
+        "name": "Weekly",
+        "sub": "Teste Pro mit einer kostenlosen Testphase",
+        "amount": "$5.99",
+        "per": "/Woche",
+        "note": "3 Tage kostenlos testen",
+        "features": [
+          "Voller Zugang zu allen Pro-Funktionen",
+          "500 KI-Credits jede Woche",
+          "3 Tage kostenlos testen, jederzeit kündbar"
+        ],
+        "ctaText": "Kostenlos testen",
+        "featured": false
+      },
+      {
+        "name": "Yearly",
+        "sub": "Am besten für aktive Lernende",
+        "amount": "$39.99",
+        "per": "/Jahr",
+        "note": "Spare 87 % gegenüber wöchentlich",
+        "features": [
+          "Voller Zugang zu allen Pro-Funktionen",
+          "50,000 KI-Credits jedes Jahr",
+          "Bestes Preis-Leistungs-Verhältnis für tägliches Lernen"
+        ],
+        "ctaText": "Jährlich holen",
+        "featured": false
+      },
+      {
+        "name": "Lifetime",
+        "sub": "Eine Zahlung, für immer dein",
+        "was": "$29.99",
+        "amount": "$14.99",
+        "per": "einmalig",
+        "note": "Frühbucher · 50 % Rabatt",
+        "best": "BESTER WERT",
+        "features": [
+          "Dauerhafter Zugang zu allen Pro-Funktionen",
+          "500 einmalige KI-Credits inklusive",
+          "Jedes künftige Update, kostenlos",
+          "Niemals ein Abo"
+        ],
+        "ctaText": "Lifetime holen",
+        "featured": true
+      }
+    ],
+    "lifetime": {
+      "eyebrow": "Lifetime",
+      "title": "Eine Zahlung. Für immer dein.",
+      "body": "Kein Abo, keine Verlängerungen. Zahle einmal und behalte Flashcard Guru — und jedes künftige Update — für immer. Lifetime enthält 500 einmalige KI-Credits, um deine Stapel aufzubauen, und du kannst jederzeit nachladen.",
+      "points": [
+        "Dauerhafter Zugang zu allen Pro-Funktionen",
+        "500 einmalige KI-Credits inklusive",
+        "Jedes künftige Update, kostenlos",
+        "Weniger als Ankis eigene $24.99 iOS-App"
+      ]
+    },
+    "credits": {
+      "title": "Was sind KI-Credits?",
+      "body": "Credits treiben die KI-Kartengenerierung an. Alles andere — Stapel importieren, FSRS-Wiederholung, Cram Mode, die Anki Fernbedienung — verbraucht nie Credits. Credits werden nur verbraucht, wenn KI Karten für dich baut.",
+      "items": [
+        "Kostenlose Testphase — 500 Credits zum Ausprobieren",
+        "Weekly — 500 Credits / Woche",
+        "Yearly — 50,000 Credits / Jahr",
+        "Lifetime — 500 einmalige Credits",
+        "Jederzeit nachladen mit 500-Credit-Paketen"
+      ]
+    },
+    "faq": {
+      "title": "Fragen zu den Preisen",
+      "items": [
+        {
+          "q": "Gibt es eine kostenlose Testphase?",
+          "a": "Ja — starte mit einer kostenlosen 3-tägigen Testphase, um alles auszuprobieren, einschließlich der KI-Kartengenerierung. Nach der Testphase geht es weiter mit einem Wochen- oder Jahresplan, oder du kaufst Lifetime einmal. Die drahtlose Anki Fernbedienung ist für alle kostenlos."
+        },
+        {
+          "q": "Was ist der Unterschied zwischen den Plänen?",
+          "a": "Weekly und Yearly sind Abos mit sich erneuernden KI-Credits. Lifetime ist ein einmaliger Kauf: dauerhafter App-Zugang plus 500 einmalige Credits. Alle Pläne schalten dieselben Pro-Funktionen frei — sie unterscheiden sich nur darin, wie viele KI-Credits du bekommst."
+        },
+        {
+          "q": "Ist der Lifetime-Rabatt echt?",
+          "a": "Ja. Lifetime kostet normalerweise $29.99. Während der Frühbucher-Phase sind es $14.99 — 50 % Rabatt — für begrenzte Zeit. Wenn die Frühbucher-Phase endet, kehrt der Preis auf $29.99 zurück, aber dein Kauf bleibt lebenslang."
+        },
+        {
+          "q": "Was passiert, wenn meine Credits aufgebraucht sind?",
+          "a": "Die Kartengenerierung pausiert, aber alles andere läuft weiter — Wiederholung, Import, Export und die Fernbedienung sind nicht betroffen. Lade jederzeit mit einem 500-Credit-Paket nach oder rüste deinen Plan auf."
+        },
+        {
+          "q": "Kann ich eine Rückerstattung bekommen?",
+          "a": "Alle Käufe werden über Apples In-App-Kauf abgewickelt. Anfragen auf Rückerstattung laufen über Apples Standardverfahren — die Schritte findest du unter Support."
+        },
+        {
+          "q": "Bleiben meine Stapel, wenn ich kündige?",
+          "a": "Immer. Deine Stapel, Karten und dein Fortschritt liegen auf deinem Gerät und lassen sich jederzeit als standardmäßiges .apkg exportieren. Nichts bleibt gefangen."
+        }
+      ]
+    }
   },
   "ankiRemote": {
     "metaTitle": "Flashcard Guru Remote — Kostenlose drahtlose Anki-Fernbedienung fürs iPhone",

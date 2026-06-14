@@ -193,12 +193,39 @@ function buildSoftwareApplicationJsonLd(strings, canonicalUrl) {
     url: canonicalUrl,
     image: `${SITE_ORIGIN}/icons/icon-512.png`,
     installUrl: 'https://apps.apple.com/app/flashcardguru/id6757980593',
-    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '5.99',
+      highPrice: '39.99',
+      offerCount: '3',
+    },
     publisher: {
       '@type': 'Organization',
       name: 'FlashcardGuru',
       url: SITE_ORIGIN,
       logo: { '@type': 'ImageObject', url: `${SITE_ORIGIN}/icons/icon-512.png` },
+    },
+  });
+}
+
+function buildPricingJsonLd(strings, canonicalUrl) {
+  return jsonLdBlock({
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Flashcard Guru',
+    operatingSystem: 'iOS 16+',
+    applicationCategory: 'EducationApplication',
+    description: stripHtml(strings.pricing?.metaDescription || ''),
+    url: canonicalUrl,
+    image: `${SITE_ORIGIN}/icons/icon-512.png`,
+    installUrl: 'https://apps.apple.com/app/flashcardguru/id6757980593',
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      lowPrice: '5.99',
+      highPrice: '39.99',
+      offerCount: '3',
     },
   });
 }
@@ -218,7 +245,7 @@ function buildFaqJsonLd(items) {
 
 function buildSitemap() {
   const today = new Date().toISOString().slice(0, 10);
-  const TEMPLATE_PAGES = ['landing', 'anki-remote'];
+  const TEMPLATE_PAGES = ['landing', 'anki-remote', 'pricing'];
   const STATIC_PAGES = [
     { path: '/blog/', changefreq: 'weekly', priority: '0.7' },
     { path: '/blog/free-wireless-anki-remote/', changefreq: 'monthly', priority: '0.6' },
@@ -280,6 +307,13 @@ function build() {
         jsonLd = buildSoftwareApplicationJsonLd(strings, canonicalUrl);
       } else if (tmpl.name === 'anki-remote') {
         jsonLd = buildFaqJsonLd(strings.ankiRemote?.faq?.items);
+      } else if (tmpl.name === 'pricing') {
+        jsonLd = [
+          buildPricingJsonLd(strings, canonicalUrl),
+          buildFaqJsonLd(strings.pricing?.faq?.items),
+        ]
+          .filter(Boolean)
+          .join('\n');
       }
 
       const data = {

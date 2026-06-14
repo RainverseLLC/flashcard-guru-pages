@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
     <link rel="manifest" href="/site.webmanifest">
-    <meta name="theme-color" content="#15171a">
+    <meta name="theme-color" content="#f9f9f7">
 
     <meta property="og:title" content="{{ankiRemote.metaTitle}}">
     <meta property="og:description" content="{{ankiRemote.metaDescription}}">
@@ -27,306 +27,47 @@
 
     {{{jsonLd}}}
 
+    <link rel="stylesheet" href="/styles.css">
     <style>
-      :root {
-        color-scheme: light;
-        --text: #15171a;
-        --muted: #5f6670;
-        --line: #e7e9ee;
-        --blue: #2f8df4;
-        --bg: #f6f8fb;
-        --panel: #fff;
-        --code-bg: #f1f3f7;
+      /* anki-remote page-specific components (tokens come from styles.css) */
+      .narrow { max-width: 940px; }
+      .pill-free {
+        display: inline-block; padding: 5px 14px; border-radius: var(--r-pill);
+        background: var(--teal-wash); color: var(--teal); font-size: 13px; font-weight: 700; margin-bottom: 16px;
       }
-      * { box-sizing: border-box; }
-      html, body { margin: 0; padding: 0; }
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", sans-serif;
-        color: var(--text);
-        background: var(--bg);
-        line-height: 1.6;
-      }
-      a { color: var(--blue); text-decoration: none; }
-      a:hover { text-decoration: underline; }
-      code {
-        background: var(--code-bg);
-        padding: 1px 6px;
-        border-radius: 6px;
-        font-size: 0.92em;
-      }
-
-      header.site {
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 28px 24px 0;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        font-weight: 600;
-      }
-      header.site .brand { color: var(--text); }
-      header.site nav a {
-        margin-left: 18px;
-        color: var(--muted);
-        font-weight: 500;
-      }
-      header.site nav a:hover { color: var(--text); text-decoration: none; }
-
-      .lang-switcher { display: inline-block; margin-left: 18px; position: relative; }
-      .lang-switcher summary {
-        list-style: none;
-        cursor: pointer;
-        color: var(--muted);
-        font-weight: 500;
-        font-size: 14px;
-      }
-      .lang-switcher summary::-webkit-details-marker { display: none; }
-      .lang-switcher summary::after { content: " ▾"; font-size: 11px; opacity: 0.7; }
-      .lang-switcher ul {
-        position: absolute;
-        right: 0;
-        top: 100%;
-        margin: 6px 0 0;
-        padding: 6px;
-        list-style: none;
-        background: #fff;
-        border: 1px solid var(--line);
-        border-radius: 10px;
-        box-shadow: 0 6px 18px rgba(15,23,42,0.12);
-        min-width: 160px;
-        z-index: 10;
-      }
-      .lang-switcher li { margin: 0; }
-      .lang-switcher li a {
-        display: block;
-        padding: 7px 10px;
-        font-size: 14px;
-        color: var(--text);
-        border-radius: 6px;
-      }
-      .lang-switcher li a[aria-current] { font-weight: 600; color: var(--blue); }
-      .lang-switcher li a:hover { background: var(--bg); text-decoration: none; }
-
-      main {
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 0 24px 64px;
-      }
-
-      section.hero {
-        text-align: center;
-        padding: 64px 16px 32px;
-      }
-      .hero-illustration {
-        margin: 0 auto 28px;
-        max-width: 480px;
-        text-align: center;
-      }
-      .hero-illustration img {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 24px;
-        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 24px 48px -16px rgba(15, 23, 42, 0.20);
-      }
-      section.hero h1 {
-        font-size: clamp(36px, 6vw, 56px);
-        line-height: 1.08;
-        margin: 0 0 16px;
-        letter-spacing: -0.02em;
-      }
-      section.hero p.lead {
-        font-size: clamp(17px, 1.8vw, 20px);
-        color: var(--muted);
-        margin: 0 auto 32px;
-        max-width: 680px;
-      }
-      .pill {
-        display: inline-block;
-        padding: 4px 12px;
-        background: #ecfdf5;
-        color: #059669;
-        border-radius: 999px;
-        font-size: 13px;
-        font-weight: 600;
-        margin-bottom: 18px;
-      }
-      a.cta {
-        display: inline-block;
-        background: var(--text);
-        color: #fff;
-        padding: 13px 26px;
-        border-radius: 999px;
-        font-weight: 600;
-        font-size: 16px;
-        margin: 4px;
-      }
-      a.cta:hover { background: #000; text-decoration: none; }
-      a.cta.outline {
-        background: transparent;
-        color: var(--text);
-        border: 1px solid var(--line);
-      }
-      a.cta.outline:hover { background: var(--panel); }
-
+      .hero-illustration { max-width: 460px; margin: 8px auto 0; }
+      .hero-illustration img { border-radius: 24px; box-shadow: var(--shadow-lg); }
       .panel {
-        background: var(--panel);
-        border: 1px solid var(--line);
-        border-radius: 18px;
-        padding: 32px;
-        margin: 28px 0;
+        background: var(--surface); border: 1px solid var(--line);
+        border-radius: var(--r-card); padding: 30px; margin: 22px 0; box-shadow: var(--shadow-sm);
       }
-      .panel h2 {
-        margin: 0 0 16px;
-        font-size: 24px;
-        letter-spacing: -0.01em;
-      }
-      .panel h3 {
-        margin: 24px 0 8px;
-        font-size: 17px;
-      }
-      .panel p { margin: 0 0 12px; }
-      .panel ol, .panel ul {
-        padding-left: 22px;
-        margin: 0 0 12px;
-      }
+      .panel h2 { font-size: 23px; font-weight: 800; margin: 0 0 14px; }
+      .panel h3 { font-size: 16px; font-weight: 700; margin: 22px 0 8px; }
+      .panel p { margin: 0 0 12px; color: var(--ink); }
+      .panel ol, .panel ul { padding-left: 22px; margin: 0 0 12px; }
       .panel li { margin: 6px 0; }
-
       .code-callout {
-        display: inline-block;
-        background: var(--code-bg);
-        padding: 14px 22px;
-        border-radius: 12px;
-        font-family: ui-monospace, "SF Mono", Menlo, monospace;
-        font-size: 22px;
-        font-weight: 600;
-        margin: 12px 0;
-        letter-spacing: 0.04em;
+        display: inline-block; background: var(--paper-2); border: 1px solid var(--line);
+        padding: 13px 22px; border-radius: 12px; font-family: ui-monospace, "SF Mono", Menlo, monospace;
+        font-size: 22px; font-weight: 700; margin: 12px 0; letter-spacing: 0.04em;
       }
-
-      .grid-2 {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 16px;
-        margin-top: 12px;
-      }
-      .grid-2 .item {
-        background: var(--code-bg);
-        border-radius: 10px;
-        padding: 14px 16px;
-      }
+      .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; margin-top: 12px; }
+      .grid-2 .item { background: var(--paper-2); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
       .grid-2 .item strong { display: block; font-size: 14px; }
       .grid-2 .item span { color: var(--muted); font-size: 13px; }
-
-      .setup-screens {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-        gap: 18px;
-        margin-top: 18px;
-      }
-      .setup-shot {
-        border: 1px solid var(--line);
-        border-radius: 16px;
-        overflow: hidden;
-        background: #fff;
-        box-shadow: 0 14px 30px -22px rgba(15, 23, 42, 0.35);
-      }
+      .setup-screens { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 18px; margin-top: 18px; }
+      .setup-shot { border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--surface); box-shadow: var(--shadow-sm); }
       .setup-shot figure { margin: 0; }
-      .shot-images {
-        display: grid;
-        gap: 1px;
-        background: var(--line);
-      }
-      .setup-shot img {
-        width: 100%;
-        height: auto;
-        display: block;
-        background: #f3f4f6;
-      }
-      .setup-shot figcaption {
-        padding: 14px 16px 16px;
-      }
+      .shot-images { display: grid; gap: 1px; background: var(--line); }
+      .setup-shot img { width: 100%; height: auto; display: block; background: var(--paper-2); }
+      .setup-shot figcaption { padding: 14px 16px 16px; }
       .setup-shot .step {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-width: 28px;
-        height: 28px;
-        padding: 0 9px;
-        border-radius: 999px;
-        background: #eaf3ff;
-        color: var(--blue);
-        font-weight: 700;
-        font-size: 13px;
-        margin-bottom: 10px;
+        display: inline-flex; align-items: center; justify-content: center; min-width: 28px; height: 28px;
+        padding: 0 9px; border-radius: var(--r-pill); background: var(--sky-wash); color: var(--blue-deep);
+        font-weight: 800; font-size: 13px; margin-bottom: 10px;
       }
-      .setup-shot strong {
-        display: block;
-        font-size: 16px;
-        line-height: 1.35;
-        margin-bottom: 6px;
-      }
-      .setup-shot p {
-        color: var(--muted);
-        font-size: 14px;
-        margin: 0;
-      }
-
-      .faq summary {
-        font-weight: 600;
-        cursor: pointer;
-        padding: 14px 0;
-        font-size: 16px;
-      }
-      .faq details { border-bottom: 1px solid var(--line); }
-      .faq details:last-of-type { border-bottom: 0; }
-      .faq details > p {
-        color: var(--muted);
-        margin: 0 0 14px;
-      }
-
-      footer.site {
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 32px 24px 48px;
-        color: var(--muted);
-        font-size: 14px;
-        border-top: 1px solid var(--line);
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 12px;
-      }
-      footer.site a { color: var(--muted); margin-right: 16px; }
-      footer.site a:hover { color: var(--text); text-decoration: none; }
-
-      @media (max-width: 720px) {
-        header.site { padding: 20px 16px 0; }
-        header.site nav a { margin-left: 14px; font-size: 14px; }
-        .lang-switcher { margin-left: 14px; }
-        main { padding: 0 16px 56px; }
-        footer.site { padding: 28px 16px 32px; }
-        footer.site a { margin-right: 12px; font-size: 13px; }
-      }
-
-      @media (max-width: 640px) {
-        section.hero { padding: 48px 4px 36px; }
-        section.hero h1 { font-size: clamp(28px, 7.5vw, 40px); line-height: 1.12; }
-        section.hero p.lead { font-size: 16px; }
-        a.cta { padding: 12px 22px; font-size: 15px; }
-        .panel { padding: 24px 20px; margin: 20px 0; }
-        .panel h2 { font-size: 21px; }
-        .code-callout { font-size: 18px; padding: 12px 18px; word-break: break-all; }
-        .grid-2 { gap: 12px; }
-      }
-
-      @media (max-width: 460px) {
-        header.site { flex-wrap: wrap; gap: 6px; row-gap: 4px; }
-        header.site nav { width: 100%; display: flex; align-items: center; flex-wrap: wrap; }
-        header.site nav a:first-of-type { margin-left: 0; }
-        .lang-switcher { margin-left: auto; }
-      }
+      .setup-shot strong { display: block; font-size: 16px; line-height: 1.35; margin-bottom: 6px; }
+      .setup-shot p { color: var(--muted); font-size: 14px; margin: 0; }
     </style>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJWQ2K5Y2K"></script>
@@ -339,135 +80,170 @@
   </head>
   <body>
     <header class="site">
-      <a href="{{prefix}}/" class="brand">{{site.name}}</a>
-      <nav>
-        <a href="{{prefix}}/anki-remote">{{nav.ankiRemote}}</a>
-        <a href="/blog/">{{nav.blog}}</a>
-        <a href="/support">{{nav.support}}</a>
-        {{{langSwitcher}}}
-      </nav>
+      <div class="bar">
+        <a href="{{prefix}}/" class="brand"><img src="/assets/owl/app-icon.png" alt="" width="30" height="30"> <span class="brandname">{{site.name}}</span></a>
+        <nav>
+          <a class="navlink hide-sm" href="{{prefix}}/#features">{{nav.features}}</a>
+          <a class="navlink" href="{{prefix}}/pricing">{{nav.pricing}}</a>
+          <a class="navlink hide-sm" href="{{prefix}}/anki-remote">{{nav.ankiRemote}}</a>
+          <a class="navlink hide-sm" href="/support">{{nav.support}}</a>
+          {{{langSwitcher}}}
+          <a class="btn btn-primary navcta" href="https://apps.apple.com/app/flashcardguru/id6757980593">{{cta.getApp}}</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
-        <span class="pill">{{ankiRemote.hero.pill}}</span>
-        <h1>{{{ankiRemote.hero.title}}}</h1>
-        <p class="lead">{{{ankiRemote.hero.lead}}}</p>
-        <a class="cta" href="https://apps.apple.com/app/flashcardguru/id6757980593">{{ankiRemote.hero.ctaPrimary}}</a>
-        <a class="cta outline" href="https://ankiweb.net/shared/info/1196082853">{{ankiRemote.hero.ctaSecondary}}</a>
-      </section>
+      <div class="container narrow">
+        <section class="center" style="padding:56px 0 8px">
+          <span class="pill-free">{{ankiRemote.hero.pill}}</span>
+          <h1 style="font-size:clamp(34px,6vw,54px);font-weight:800;letter-spacing:-0.02em">{{{ankiRemote.hero.title}}}</h1>
+          <p class="lead" style="margin:16px auto 26px;max-width:680px">{{{ankiRemote.hero.lead}}}</p>
+          <div class="cta-row" style="justify-content:center">
+            <a class="app-badge" href="https://apps.apple.com/app/flashcardguru/id6757980593" aria-label="Download Flashcard Guru on the App Store">
+              <svg viewBox="0 0 384 512" fill="currentColor" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C71.4 141.1 16 184.1 16 271.6c0 24.9 4.6 50.6 13.7 77.1 12.2 35 56.2 121 102 119.6 24-1.1 41-17.5 72.1-17.5 30.2 0 45.9 17.5 72.6 17.5 46.2-.7 86-78.8 97.6-113.9-61.9-29.2-58.9-85.6-58.9-87.2z"/></svg>
+              <span class="ab-txt"><span class="ab-small">{{cta.appStoreSmall}}</span><span class="ab-big">{{cta.appStoreBig}}</span></span>
+            </a>
+            <a class="btn btn-ghost btn-lg" href="https://ankiweb.net/shared/info/1196082853">{{ankiRemote.hero.ctaSecondary}}</a>
+          </div>
+        </section>
 
-      <div class="hero-illustration">
-        <img src="/assets/illustrations/anki-remote-hero.png" alt="iPhone showing the Show Answer button while a MacBook in the background runs Anki — connected wirelessly" loading="lazy" width="1024" height="1024">
-      </div>
-
-      <div class="panel">
-        <h2>{{ankiRemote.setup.title}}</h2>
-        <ol>
-          <li>{{{ankiRemote.setup.step1Lead}}}
-            <div class="code-callout">1196082853</div>
-            {{{ankiRemote.setup.step1Tail}}}
-          </li>
-          <li>{{{ankiRemote.setup.step2}}}</li>
-          <li>{{{ankiRemote.setup.step3Title}}}
-            <ul>
-              {{#ankiRemote.setup.step3Lines}}
-              <li>{{{.}}}</li>
-              {{/ankiRemote.setup.step3Lines}}
-            </ul>
-            {{{ankiRemote.setup.step3Tail}}}
-          </li>
-        </ol>
-      </div>
-
-      <div class="panel">
-        <h2>{{ankiRemote.visualGuide.title}}</h2>
-        <p>{{{ankiRemote.visualGuide.intro}}}</p>
-        <div class="setup-screens">
-          {{#ankiRemote.visualGuide.items}}
-          <article class="setup-shot">
-            <figure>
-              <div class="shot-images">
-                {{#images}}
-                <img src="{{src}}" alt="{{alt}}" loading="lazy">
-                {{/images}}
-              </div>
-              <figcaption>
-                <span class="step">{{step}}</span>
-                <strong>{{title}}</strong>
-                <p>{{{body}}}</p>
-              </figcaption>
-            </figure>
-          </article>
-          {{/ankiRemote.visualGuide.items}}
+        <div class="hero-illustration">
+          <img src="/assets/illustrations/anki-remote-hero.png" alt="iPhone showing the Show Answer button while a MacBook in the background runs Anki — connected wirelessly" loading="lazy" width="1024" height="1024">
         </div>
-      </div>
 
-      <div class="panel">
-        <h2>{{ankiRemote.actions.title}}</h2>
-        <div class="grid-2">
-          {{#ankiRemote.actions.items}}
-          <div class="item"><strong>{{title}}</strong><span>{{desc}}</span></div>
-          {{/ankiRemote.actions.items}}
+        <div class="panel">
+          <h2>{{ankiRemote.setup.title}}</h2>
+          <ol>
+            <li>{{{ankiRemote.setup.step1Lead}}}
+              <div class="code-callout">1196082853</div>
+              {{{ankiRemote.setup.step1Tail}}}
+            </li>
+            <li>{{{ankiRemote.setup.step2}}}</li>
+            <li>{{{ankiRemote.setup.step3Title}}}
+              <ul>
+                {{#ankiRemote.setup.step3Lines}}
+                <li>{{{.}}}</li>
+                {{/ankiRemote.setup.step3Lines}}
+              </ul>
+              {{{ankiRemote.setup.step3Tail}}}
+            </li>
+          </ol>
         </div>
-      </div>
 
-      <div class="panel">
-        <h2>{{ankiRemote.controllers.title}}</h2>
-        <p>{{{ankiRemote.controllers.intro}}}</p>
-        <h3>{{ankiRemote.controllers.gamepadHeading}}</h3>
-        <ul>
-          {{#ankiRemote.controllers.gamepadList}}
-          <li>{{{.}}}</li>
-          {{/ankiRemote.controllers.gamepadList}}
-        </ul>
-        <h3>{{ankiRemote.controllers.keyboardHeading}}</h3>
-        <ul>
-          {{#ankiRemote.controllers.keyboardList}}
-          <li>{{{.}}}</li>
-          {{/ankiRemote.controllers.keyboardList}}
-        </ul>
-        <p style="color: var(--muted); font-size: 14px; margin-top: 16px;">{{{ankiRemote.controllers.footnote}}}</p>
-      </div>
+        <div class="panel">
+          <h2>{{ankiRemote.visualGuide.title}}</h2>
+          <p>{{{ankiRemote.visualGuide.intro}}}</p>
+          <div class="setup-screens">
+            {{#ankiRemote.visualGuide.items}}
+            <article class="setup-shot">
+              <figure>
+                <div class="shot-images">
+                  {{#images}}
+                  <img src="{{src}}" alt="{{alt}}" loading="lazy">
+                  {{/images}}
+                </div>
+                <figcaption>
+                  <span class="step">{{step}}</span>
+                  <strong>{{title}}</strong>
+                  <p>{{{body}}}</p>
+                </figcaption>
+              </figure>
+            </article>
+            {{/ankiRemote.visualGuide.items}}
+          </div>
+        </div>
 
-      <div class="panel">
-        <h2>{{ankiRemote.privacy.title}}</h2>
-        <ul>
-          {{#ankiRemote.privacy.bullets}}
-          <li>{{{.}}}</li>
-          {{/ankiRemote.privacy.bullets}}
-        </ul>
-      </div>
+        <div class="panel">
+          <h2>{{ankiRemote.actions.title}}</h2>
+          <div class="grid-2">
+            {{#ankiRemote.actions.items}}
+            <div class="item"><strong>{{title}}</strong><span>{{desc}}</span></div>
+            {{/ankiRemote.actions.items}}
+          </div>
+        </div>
 
-      <div class="panel faq">
-        <h2>{{ankiRemote.faq.title}}</h2>
-        {{#ankiRemote.faq.items}}
-        <details>
-          <summary>{{q}}</summary>
-          <p>{{{a}}}</p>
-        </details>
-        {{/ankiRemote.faq.items}}
-      </div>
+        <div class="panel">
+          <h2>{{ankiRemote.controllers.title}}</h2>
+          <p>{{{ankiRemote.controllers.intro}}}</p>
+          <h3>{{ankiRemote.controllers.gamepadHeading}}</h3>
+          <ul>
+            {{#ankiRemote.controllers.gamepadList}}
+            <li>{{{.}}}</li>
+            {{/ankiRemote.controllers.gamepadList}}
+          </ul>
+          <h3>{{ankiRemote.controllers.keyboardHeading}}</h3>
+          <ul>
+            {{#ankiRemote.controllers.keyboardList}}
+            <li>{{{.}}}</li>
+            {{/ankiRemote.controllers.keyboardList}}
+          </ul>
+          <p style="color: var(--muted); font-size: 14px; margin-top: 16px;">{{{ankiRemote.controllers.footnote}}}</p>
+        </div>
 
-      <div class="panel">
-        <h2>{{ankiRemote.source.title}}</h2>
-        <ul>
-          {{#ankiRemote.source.items}}
-          <li>{{{.}}}</li>
-          {{/ankiRemote.source.items}}
-        </ul>
+        <div class="panel">
+          <h2>{{ankiRemote.privacy.title}}</h2>
+          <ul>
+            {{#ankiRemote.privacy.bullets}}
+            <li>{{{.}}}</li>
+            {{/ankiRemote.privacy.bullets}}
+          </ul>
+        </div>
+
+        <div class="panel">
+          <h2>{{ankiRemote.faq.title}}</h2>
+          <div class="faq">
+            {{#ankiRemote.faq.items}}
+            <details>
+              <summary>{{q}}</summary>
+              <div class="ans">{{{a}}}</div>
+            </details>
+            {{/ankiRemote.faq.items}}
+          </div>
+        </div>
+
+        <div class="panel">
+          <h2>{{ankiRemote.source.title}}</h2>
+          <ul>
+            {{#ankiRemote.source.items}}
+            <li>{{{.}}}</li>
+            {{/ankiRemote.source.items}}
+          </ul>
+        </div>
       </div>
     </main>
 
     <footer class="site">
-      <div>
-        <a href="/support">{{footer.support}}</a>
-        <a href="/privacy">{{footer.privacy}}</a>
-        <a href="/app-privacy-policy">{{footer.appPrivacy}}</a>
-        <a href="{{prefix}}/anki-remote">{{footer.ankiRemote}}</a>
-        <a href="/blog/">{{footer.blog}}</a>
+      <div class="container">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <a class="brand" href="{{prefix}}/"><img src="/assets/owl/app-icon.png" alt="" width="30" height="30"> {{site.name}}</a>
+            <p>{{footer.tagline}}</p>
+          </div>
+          <div class="foot-links">
+            <div class="foot-col">
+              <h5>{{footer.colProduct}}</h5>
+              <a href="{{prefix}}/#features">{{footer.features}}</a>
+              <a href="{{prefix}}/pricing">{{footer.pricing}}</a>
+              <a href="{{prefix}}/anki-remote">{{footer.ankiRemote}}</a>
+            </div>
+            <div class="foot-col">
+              <h5>{{footer.colResources}}</h5>
+              <a href="/blog/">{{footer.blog}}</a>
+              <a href="/support">{{footer.support}}</a>
+            </div>
+            <div class="foot-col">
+              <h5>{{footer.colLegal}}</h5>
+              <a href="/privacy">{{footer.privacy}}</a>
+              <a href="/app-privacy-policy">{{footer.appPrivacy}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="foot-base">
+          <span>{{footer.rights}}</span>
+          <span style="max-width:560px">{{footer.trademark}}</span>
+        </div>
       </div>
-      <div>© FlashcardGuru</div>
     </footer>
   </body>
 </html>

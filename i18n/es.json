@@ -2,83 +2,261 @@
   "site": {
     "name": "Flashcard Guru"
   },
+  "cta": {
+    "appStoreSmall": "Descárgalo en el",
+    "appStoreBig": "App Store",
+    "getApp": "Consigue la app",
+    "getFree": "Empezar prueba gratuita",
+    "seePricing": "Ver precios",
+    "scanToDownload": "Escanea para descargar en el iPhone"
+  },
   "nav": {
+    "features": "Funciones",
+    "pricing": "Precios",
     "ankiRemote": "Mando Anki",
     "blog": "Blog",
     "support": "Ayuda"
   },
   "footer": {
+    "tagline": "Anki, reinventado para el iPhone. Importa tus mazos, crea tarjetas con IA y repasa con FSRS — tranquilo, rápido y pensado para la época de exámenes.",
+    "colProduct": "Producto",
+    "colResources": "Recursos",
+    "colLegal": "Legal",
+    "features": "Funciones",
+    "pricing": "Precios",
+    "ankiRemote": "Mando Anki",
+    "blog": "Blog",
     "support": "Ayuda",
     "privacy": "Privacidad",
     "appPrivacy": "Privacidad de la App",
-    "ankiRemote": "Mando Anki",
-    "blog": "Blog"
+    "rights": "© Flashcard Guru",
+    "trademark": "Anki es una marca comercial de sus respectivos propietarios. Flashcard Guru es una app independiente y no está afiliada ni respaldada por el proyecto Anki."
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Anki para estudiantes de medicina, en el iPhone",
-    "metaDescription": "Anki para estudiantes de medicina, en el iPhone. Elige tu examen — USMLE Step 1/2, anatomía, farmacología — importa tus mazos, deja que la IA cree las tarjetas y repasa con FSRS.",
+    "metaTitle": "Flashcard Guru — Anki para iPhone, con tarjetas IA y FSRS",
+    "metaDescription": "Anki, reinventado para el iPhone. Importa tus mazos .apkg intactos, convierte PDF en tarjetas con IA y repasa con FSRS — además de Cram Mode, bloqueo de estudio y un Mando Anki inalámbrico gratuito. Prueba gratuita de 3 días.",
     "hero": {
-      "title": "Anki para la carrera de medicina,<br>por fin fluido en el iPhone",
-      "lead": "Importa tus mazos de Anki, repásalos en una interfaz más clara y deja que la IA cree tarjetas a partir de tus listas de palabras y PDF. Ajustado a tu examen, planificado por FSRS.",
-      "ctaPrimary": "Descargar en el App Store",
-      "ctaSecondary": "Mando Anki gratuito →"
+      "eyebrow": "Hecho para iPhone · Querido por estudiantes de medicina",
+      "title": "Anki que por fin se siente<br>como en casa en el iPhone",
+      "lead": "Importa tus mazos, convierte PDF en tarjetas con IA y repasa con FSRS — en una app tranquila y rápida, creada para la forma en que realmente estudias.",
+      "rating": "4,8 en el App Store · Acompañado por estudiantes de medicina de todo el mundo"
     },
-    "shotRail": {
-      "label": "Capturas de pantalla",
-      "items": [
-        {
-          "src": "/assets/screenshots/decks-home.png",
-          "alt": "Inicio de mazos con mazos Anki importados",
-          "caption": "Tus mazos Anki, importados intactos"
-        },
-        {
-          "src": "/assets/screenshots/ai-panel.png",
-          "alt": "Panel de notas IA dentro del lector",
-          "caption": "La IA crea tarjetas mientras lees"
-        },
-        {
-          "src": "/assets/screenshots/reader.png",
-          "alt": "Lector PDF con resaltados",
-          "caption": "Lector de PDF y EPUB integrado"
-        },
-        {
-          "src": "/assets/screenshots/review-answer.png",
-          "alt": "Sesión de repaso mostrando la respuesta",
-          "caption": "Repaso programado por FSRS"
-        },
-        {
-          "src": "/assets/screenshots/stats.png",
-          "alt": "Panel de estadísticas",
-          "caption": "Progreso, racha y retención"
-        }
+    "trust": {
+      "label": "Funciona con los mazos que ya estudias",
+      "chips": [
+        "AnKing Step",
+        "MileDown MCAT",
+        "Magoosh GRE",
+        "Refold",
+        "NeetCode 150",
+        "Tu propio .apkg"
       ]
+    },
+    "featuresHead": {
+      "eyebrow": "Funciones",
+      "title": "Todo lo que te gusta de Anki — sin las fricciones",
+      "subtitle": "El flujo de trabajo completo de Anki, reconstruido para el teléfono que llevas siempre encima."
     },
     "features": [
       {
-        "title": "Hecho para tu examen",
-        "body": "Dinos tu objetivo — USMLE Step 1 o Step 2 CK, anatomía, farmacología, o el examen oficial de tu país — y Flashcard Guru recomienda un mazo Anki de la comunidad y ajusta tu ritmo diario al tiempo que tienes."
+        "kicker": "Importar",
+        "title": "Tus mazos de Anki, importados intactos",
+        "body": "Suelta cualquier <code>.apkg</code> o <code>.colpkg</code> y tus tarjetas, programación y medios migran exactamente — gracias al propio motor de Anki. Expórtalos de vuelta cuando quieras; tu progreso nunca queda atrapado.",
+        "img": "decks-home.png",
+        "alt": "Inicio de mazos de Flashcard Guru con mazos de Anki importados",
+        "ticks": [
+          "Importación y exportación de .apkg y .colpkg",
+          "Estado de programación y medios preservados",
+          "Construido sobre el propio motor de Anki"
+        ]
       },
       {
-        "title": "Importa desde Anki, exporta cuando quieras",
-        "body": "Suelta cualquier paquete <code>.apkg</code> o <code>.colpkg</code> — mazos, notas, estado de programación y medios migran intactos, gracias al motor oficial de Anki. Expórtalos de vuelta cuando quieras; tu progreso nunca queda atrapado."
+        "kicker": "Tarjetas IA",
+        "title": "Convierte tus PDF y notas en tarjetas",
+        "body": "Abre un libro de texto o un PDF de clase en el lector integrado, resalta lo que importa y deja que la IA redacte tarjetas listas para repasar — anverso, reverso y cloze. Tú controlas exactamente qué se envía.",
+        "img": "reader-ai.png",
+        "alt": "Panel de generación de tarjetas con IA dentro del lector de Flashcard Guru",
+        "ticks": [
+          "Desde PDF, notas o listas de palabras",
+          "Resalta un pasaje → tarjetas en segundos",
+          "Formatos cloze y pregunta/respuesta"
+        ]
       },
       {
-        "title": "Deja que la IA cree las tarjetas",
-        "body": "Pega hasta 200 términos y la IA completa para cada uno la definición, la transcripción fonética y una frase de ejemplo. O resalta un pasaje en el lector integrado y genera tarjetas listas para repasar — tú controlas qué se envía."
+        "kicker": "Repaso",
+        "title": "Repasa solo lo que toca — y haz intensivo cuando cuenta",
+        "body": "Cada tarjeta se programa sola con FSRS: intervalos más cortos cuando dudas, más amplios cuando dominas. La noche antes de un examen, cambia a Cram Mode para recorrer un mazo entero sin tocar tu planificación.",
+        "img": "review.png",
+        "alt": "Sesión de repaso FSRS mostrando Otra vez, Difícil, Bueno, Fácil",
+        "ticks": [
+          "Repetición espaciada FSRS, ajustada a ti",
+          "Otra vez · Difícil · Bueno · Fácil",
+          "Cram Mode para el tramo final"
+        ]
       },
       {
-        "title": "Repaso FSRS, más el modo intensivo",
-        "body": "Cada tarjeta se programa sola con el algoritmo FSRS — intervalos más cortos cuando dudas, más amplios cuando dominas. La noche antes de un examen, cambia al modo intensivo para recorrer un mazo entero sin tocar tu planificación."
+        "kicker": "Manos libres",
+        "title": "Repasa desde el otro lado de la habitación",
+        "body": "Lleva tus repasos sin tocar la pantalla. Empareja un mando de juego barato por Bluetooth, o usa el Mando Anki inalámbrico gratuito para controlar Anki Desktop desde tu teléfono — incluso los mandos 8BitDo que AnkiMobile no empareja.",
+        "img": "hands-free.png",
+        "alt": "Repaso manos libres de Flashcard Guru con un mando de juego",
+        "ticks": [
+          "Compatible con mandos MFi y 8BitDo",
+          "Mando inalámbrico gratuito para Anki Desktop",
+          "Repasa desde el sofá o la cinta de correr"
+        ],
+        "linkText": "Configura el Mando Anki →",
+        "linkHref": "{{prefix}}/anki-remote"
       },
       {
-        "title": "Mando Anki inalámbrico",
-        "body": "Controla los repasos de Anki Desktop desde tu iPhone por Wi-Fi. Complemento gratuito, y funciona con los mandos 8BitDo baratos que AnkiMobile no empareja. <a href=\"{{prefix}}/anki-remote\">Configurar →</a>"
-      },
-      {
-        "title": "Privacidad por defecto",
-        "body": "Tus mazos, PDF y notas viven en tu dispositivo. Las solicitudes de IA solo se disparan cuando inicias una generación explícitamente, con divulgación completa de lo que se envía. <a href=\"/privacy\">Política de privacidad</a>"
+        "kicker": "Progreso",
+        "title": "Mira tu racha, retención e impulso",
+        "body": "Un panel de estadísticas tranquilo muestra tu racha, las tarjetas dominadas y la constancia de repaso de un vistazo — lo justo para mantenerte honesto, sin convertir el estudio en un juego de números.",
+        "img": "stats.png",
+        "alt": "Panel de estadísticas de Flashcard Guru con racha y mapa de calor de actividad",
+        "ticks": [
+          "Seguimiento de rachas y meta diaria",
+          "Dominio y retención a lo largo del tiempo",
+          "Mapa de calor de actividad"
+        ]
       }
-    ]
+    ],
+    "highlightsHead": {
+      "title": "Hecho para la forma en que realmente estudias",
+      "subtitle": "Pequeños detalles pensados que suman un hábito que puedes mantener."
+    },
+    "highlights": {
+      "lock": {
+        "title": "El bloqueo de estudio te mantiene concentrado",
+        "body": "Bloquea tus apps más distractoras hasta cumplir la meta de repaso del día. Un suave mecanismo de compromiso que te mantiene en las tarjetas."
+      },
+      "exam": {
+        "title": "Ajustado a tu examen",
+        "body": "Elige tu objetivo — USMLE Step 1/2, MCAT, anatomía, farmacología o el tuyo propio — y consigue un plan diario adaptado al tiempo que tienes."
+      },
+      "privacy": {
+        "title": "Privado por defecto",
+        "body": "Tus mazos, PDF y notas permanecen en tu dispositivo. Las solicitudes de IA solo se disparan cuando inicias una generación — con divulgación completa de lo que se envía."
+      }
+    },
+    "pricingTeaser": {
+      "eyebrow": "Oferta de lanzamiento",
+      "title": "Tuyo de por vida — 50% de descuento, por ahora",
+      "body": "Prueba Flashcard Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o paga una vez y consérvalo de por vida, ahora a mitad de precio para los primeros usuarios.",
+      "earlybird": "Lifetime cuesta <b>$14.99</b> <s>$29.99</s> — oferta de lanzamiento por tiempo limitado, 50% de descuento."
+    },
+    "finalCta": {
+      "title": "Lleva tus mazos a una mejor app para iPhone",
+      "body": "Prueba gratuita de 3 días. Importa en segundos. Repasa esta noche."
+    }
+  },
+  "pricing": {
+    "metaTitle": "Precios de Flashcard Guru — Pruébalo gratis y luego tuyo de por vida",
+    "metaDescription": "Prueba Flashcard Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o compra Lifetime de una sola vez. Lanzamiento: Lifetime con 50% de descuento a $14.99 (normalmente $29.99). El Mando Anki inalámbrico es gratis.",
+    "eyebrow": "Precios",
+    "title": "Pruébalo gratis. Tuyo de por vida.",
+    "appleNote": "Todas las compras las gestiona Apple de forma segura. Los precios pueden variar según la región.",
+    "subtitle": "Empieza con una prueba gratuita de 3 días y luego continúa con un plan semanal o anual — o paga una vez y consérvalo de por vida. El Mando Anki inalámbrico siempre es gratis.",
+    "tiersLead": "Empieza con una prueba gratuita — cancela cuando quieras.",
+    "earlybird": "🎉 Oferta de lanzamiento — Lifetime con <b>50% de descuento</b> por tiempo limitado: <b>$14.99</b> <s>$29.99</s>. El precio sube pronto.",
+    "tiers": [
+      {
+        "name": "Weekly",
+        "sub": "Prueba Pro con una prueba gratuita",
+        "amount": "$5.99",
+        "per": "/semana",
+        "note": "Prueba gratuita de 3 días",
+        "features": [
+          "Acceso completo a todas las funciones Pro",
+          "500 créditos de IA cada semana",
+          "Prueba gratuita de 3 días, cancela cuando quieras"
+        ],
+        "ctaText": "Empezar prueba gratuita",
+        "featured": false
+      },
+      {
+        "name": "Yearly",
+        "sub": "Lo mejor para quien estudia a diario",
+        "amount": "$39.99",
+        "per": "/año",
+        "note": "Ahorra 87% frente al semanal",
+        "features": [
+          "Acceso completo a todas las funciones Pro",
+          "50,000 créditos de IA cada año",
+          "La mejor relación calidad-precio para el estudio diario"
+        ],
+        "ctaText": "Pasar a Anual",
+        "featured": false
+      },
+      {
+        "name": "Lifetime",
+        "sub": "Un pago, tuyo para siempre",
+        "was": "$29.99",
+        "amount": "$14.99",
+        "per": "pago único",
+        "note": "Lanzamiento · 50% de descuento",
+        "best": "MEJOR OPCIÓN",
+        "features": [
+          "Acceso permanente a todas las funciones Pro",
+          "500 créditos de IA de pago único incluidos",
+          "Cada actualización futura, gratis",
+          "Sin suscripción, nunca"
+        ],
+        "ctaText": "Conseguir Lifetime",
+        "featured": true
+      }
+    ],
+    "lifetime": {
+      "eyebrow": "Lifetime",
+      "title": "Un pago. Tuyo para siempre.",
+      "body": "Sin suscripción, sin renovaciones. Paga una vez y conserva Flashcard Guru — y cada actualización futura — de por vida. Lifetime incluye 500 créditos de IA de pago único para construir tus mazos, y puedes recargar cuando quieras.",
+      "points": [
+        "Acceso permanente a todas las funciones Pro",
+        "500 créditos de IA de pago único incluidos",
+        "Cada actualización futura, gratis",
+        "Menos que la propia app iOS de Anki de $24.99"
+      ]
+    },
+    "credits": {
+      "title": "¿Qué son los créditos de IA?",
+      "body": "Los créditos alimentan la generación de tarjetas con IA. Todo lo demás — importar mazos, el repaso FSRS, Cram Mode, el Mando Anki — nunca usa créditos. Los créditos se gastan únicamente cuando la IA crea tarjetas para ti.",
+      "items": [
+        "Prueba gratuita — 500 créditos para probar",
+        "Weekly — 500 créditos / semana",
+        "Yearly — 50,000 créditos / año",
+        "Lifetime — 500 créditos de pago único",
+        "Recarga cuando quieras con packs de 500 créditos"
+      ]
+    },
+    "faq": {
+      "title": "Preguntas sobre precios",
+      "items": [
+        {
+          "q": "¿Hay una prueba gratuita?",
+          "a": "Sí — empieza con una prueba gratuita de 3 días para probarlo todo, incluida la generación de tarjetas con IA. Después de la prueba, continúa con un plan semanal o anual, o compra Lifetime de una sola vez. El Mando Anki inalámbrico es gratis para todos."
+        },
+        {
+          "q": "¿Cuál es la diferencia entre los planes?",
+          "a": "Weekly y Yearly son suscripciones con créditos de IA que se renuevan. Lifetime es una compra única: acceso permanente a la app más 500 créditos de pago único. Todos los planes desbloquean las mismas funciones Pro — solo se diferencian en cuántos créditos de IA obtienes."
+        },
+        {
+          "q": "¿El descuento de Lifetime es real?",
+          "a": "Sí. Lifetime cuesta normalmente $29.99. Durante el lanzamiento es $14.99 — 50% de descuento — por tiempo limitado. Cuando termine el lanzamiento el precio vuelve a $29.99, pero tu compra sigue siendo de por vida."
+        },
+        {
+          "q": "¿Qué pasa cuando se agotan mis créditos?",
+          "a": "La generación de tarjetas se pausa, pero todo lo demás sigue funcionando — el repaso, la importación, la exportación y el mando no se ven afectados. Recarga cuando quieras con un pack de 500 créditos, o mejora tu plan."
+        },
+        {
+          "q": "¿Puedo obtener un reembolso?",
+          "a": "Todas las compras las gestiona la compra integrada de Apple. Las solicitudes de reembolso pasan por el proceso estándar de Apple — consulta Ayuda para ver los pasos."
+        },
+        {
+          "q": "¿Mis mazos se quedan si cancelo?",
+          "a": "Siempre. Tus mazos, tarjetas y progreso viven en tu dispositivo y se exportan a un .apkg estándar cuando quieras. Nada queda atrapado."
+        }
+      ]
+    }
   },
   "ankiRemote": {
     "metaTitle": "Flashcard Guru Remote — Mando Anki inalámbrico gratuito para iPhone",
