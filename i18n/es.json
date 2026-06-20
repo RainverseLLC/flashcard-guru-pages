@@ -99,7 +99,7 @@
         "title": "Repasa desde el otro lado de la habitación",
         "body": "Lleva tus repasos sin tocar la pantalla. Empareja un mando de juego barato por Bluetooth, o usa el Mando Anki inalámbrico gratuito para controlar Anki Desktop desde tu teléfono — incluso los mandos 8BitDo que AnkiMobile no empareja.",
         "img": "hands-free.png",
-        "alt": "Repaso manos libres de Flashcard Guru con un mando de juego",
+        "alt": "Repaso manos libres de Flashcard Guru usando el teléfono como mando inalámbrico con botones grandes Again, Hard, Good, Easy",
         "ticks": [
           "Compatible con mandos MFi y 8BitDo",
           "Mando inalámbrico gratuito para Anki Desktop",
@@ -113,7 +113,7 @@
         "title": "Mira tu racha, retención e impulso",
         "body": "Un panel de estadísticas tranquilo muestra tu racha, las tarjetas dominadas y la constancia de repaso de un vistazo — lo justo para mantenerte honesto, sin convertir el estudio en un juego de números.",
         "img": "stats.png",
-        "alt": "Panel de estadísticas de Flashcard Guru con racha y mapa de calor de actividad",
+        "alt": "Panel de estadísticas de Flashcard Guru con racha de días, progreso de la meta diaria y los repasos de esta semana",
         "ticks": [
           "Seguimiento de rachas y meta diaria",
           "Dominio y retención a lo largo del tiempo",

@@ -99,7 +99,7 @@
         "title": "隔着房间也能复习",
         "body": "不碰屏幕也能推进复习。通过蓝牙配一只便宜的游戏手柄,或用免费的无线 Anki 遥控器从手机操控 Anki Desktop——连 AnkiMobile 都无法配对的 8BitDo 手柄也能用。",
         "img": "hands-free.png",
-        "alt": "Flashcard Guru 用游戏手柄解放双手复习",
+        "alt": "Flashcard Guru 把手机当无线遥控器,用超大 Again/Hard/Good/Easy 按键解放双手复习",
         "ticks": [
           "支持 MFi 与 8BitDo 手柄",
           "免费无线遥控 Anki Desktop",
@@ -113,7 +113,7 @@
         "title": "看见你的连续天数、记忆率与势头",
         "body": "一个清爽的统计面板,一眼看清你的连续天数、已掌握卡片数和复习稳定度——足够让你保持诚实,又不会把学习变成数字游戏。",
         "img": "stats.png",
-        "alt": "Flashcard Guru 统计面板,带连续天数与活跃度热力图",
+        "alt": "Flashcard Guru 统计面板,显示连续天数、每日目标进度和本周复习量",
         "ticks": [
           "连续天数与每日目标追踪",
           "掌握度与记忆率随时间变化",

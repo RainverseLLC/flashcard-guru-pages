@@ -99,7 +99,7 @@
         "title": "Révisez à l'autre bout de la pièce",
         "body": "Pilotez vos révisions sans toucher l'écran. Appairez une manette de jeu bon marché en Bluetooth, ou utilisez la télécommande Anki sans fil gratuite pour piloter Anki Desktop depuis votre téléphone — même les manettes 8BitDo qu'AnkiMobile refuse d'apparier.",
         "img": "hands-free.png",
-        "alt": "Révision mains libres Flashcard Guru avec une manette de jeu",
+        "alt": "Révision mains libres Flashcard Guru : le téléphone en télécommande sans fil avec de grands boutons Again, Hard, Good, Easy",
         "ticks": [
           "Compatible manettes MFi et 8BitDo",
           "Télécommande sans fil gratuite pour Anki Desktop",
@@ -113,7 +113,7 @@
         "title": "Suivez votre série, votre mémorisation et votre élan",
         "body": "Un tableau de bord sobre affiche d'un coup d'œil votre série, les cartes maîtrisées et votre régularité — de quoi rester honnête, sans transformer la révision en course aux chiffres.",
         "img": "stats.png",
-        "alt": "Tableau de bord des statistiques Flashcard Guru avec série et carte d'activité",
+        "alt": "Tableau de bord des statistiques Flashcard Guru avec série de jours, progression de l'objectif quotidien et les révisions de la semaine",
         "ticks": [
           "Suivi des séries et de l'objectif quotidien",
           "Maîtrise et mémorisation dans le temps",
