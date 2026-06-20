@@ -99,7 +99,7 @@
         "title": "방 건너편에서도 복습",
         "body": "화면을 만지지 않고 복습을 진행하세요. 저렴한 게임 컨트롤러를 Bluetooth로 페어링하거나, 무료 무선 Anki 리모컨으로 폰에서 Anki Desktop을 조작하세요 — AnkiMobile이 페어링하지 않는 8BitDo 컨트롤러까지.",
         "img": "hands-free.png",
-        "alt": "게임 컨트롤러를 사용한 Flashcard Guru 핸즈프리 복습",
+        "alt": "휴대폰을 무선 리모컨으로 사용해 큰 Again/Hard/Good/Easy 버튼으로 핸즈프리 복습하는 Flashcard Guru",
         "ticks": [
           "MFi & 8BitDo 컨트롤러 지원",
           "Anki Desktop용 무료 무선 리모컨",
@@ -113,7 +113,7 @@
         "title": "연속 일수, 기억률, 흐름을 한눈에",
         "body": "차분한 통계 대시보드가 연속 일수, 마스터한 카드, 복습 일관성을 한눈에 보여줍니다 — 공부를 숫자 게임으로 만들지 않으면서도 스스로에게 정직할 만큼.",
         "img": "stats.png",
-        "alt": "연속 일수와 활동 히트맵이 있는 Flashcard Guru 통계 대시보드",
+        "alt": "연속 일수, 일일 목표 진행률, 이번 주 복습량을 보여주는 Flashcard Guru 통계 대시보드",
         "ticks": [
           "연속 일수와 일일 목표 추적",
           "시간에 따른 마스터리와 기억률",

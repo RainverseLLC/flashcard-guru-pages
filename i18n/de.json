@@ -99,7 +99,7 @@
         "title": "Wiederhole quer durch den Raum",
         "body": "Steuere deine Wiederholungen, ohne den Bildschirm zu berühren. Koppele einen günstigen Game-Controller per Bluetooth oder nutze die kostenlose drahtlose Anki Fernbedienung, um Anki Desktop vom Telefon aus zu bedienen — sogar die 8BitDo-Controller, die AnkiMobile nicht koppelt.",
         "img": "hands-free.png",
-        "alt": "Flashcard Guru freihändige Wiederholung mit einem Game-Controller",
+        "alt": "Flashcard Guru freihändige Wiederholung – das Handy als Funk-Fernbedienung mit großen Tasten Again, Hard, Good, Easy",
         "ticks": [
           "Unterstützung für MFi- & 8BitDo-Controller",
           "Kostenlose drahtlose Fernbedienung für Anki Desktop",
@@ -113,7 +113,7 @@
         "title": "Sieh deine Serie, deine Behaltensrate und deinen Schwung",
         "body": "Ein ruhiges Statistik-Dashboard zeigt dir auf einen Blick deine Serie, gemeisterte Karten und die Beständigkeit deiner Wiederholungen — genug, um ehrlich zu bleiben, ohne das Lernen zum Zahlenspiel zu machen.",
         "img": "stats.png",
-        "alt": "Flashcard Guru Statistik-Dashboard mit Serie und Aktivitäts-Heatmap",
+        "alt": "Flashcard Guru Statistik-Dashboard mit Tagesserie, Tagesziel-Fortschritt und den Wiederholungen dieser Woche",
         "ticks": [
           "Serien- und Tagesziel-Tracking",
           "Beherrschung und Behaltensrate über die Zeit",

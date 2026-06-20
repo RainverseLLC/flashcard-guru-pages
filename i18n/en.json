@@ -99,7 +99,7 @@
         "title": "Review from across the room",
         "body": "Drive your reviews without touching the screen. Pair a cheap game controller over Bluetooth, or use the free wireless Anki Remote to run Anki Desktop from your phone — even the 8BitDo controllers AnkiMobile won't pair with.",
         "img": "hands-free.png",
-        "alt": "Flashcard Guru hands-free review with a game controller",
+        "alt": "Flashcard Guru hands-free review using the phone as a wireless remote with large Again, Hard, Good, Easy buttons",
         "ticks": [
           "MFi & 8BitDo controller support",
           "Free wireless remote for Anki Desktop",
@@ -113,7 +113,7 @@
         "title": "See your streak, recall, and momentum",
         "body": "A calm stats dashboard shows your streak, cards mastered, and review consistency at a glance — enough to keep you honest, without turning studying into a numbers game.",
         "img": "stats.png",
-        "alt": "Flashcard Guru stats dashboard with streak and activity heatmap",
+        "alt": "Flashcard Guru stats dashboard showing a day streak, daily goal progress, and this week's reviews",
         "ticks": [
           "Streaks and daily-goal tracking",
           "Mastery and recall over time",
