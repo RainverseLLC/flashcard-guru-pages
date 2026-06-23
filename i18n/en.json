@@ -1,6 +1,14 @@
 {
+  "blog": {
+    "metaTitle": "Guru: AI Flashcard Study Blog — Anki on iPhone, migration & study tooling",
+    "metaDescription": "Guides on using Anki on iPhone, hands-free review, deck migration, and spaced repetition — from the team behind Guru.",
+    "indexTitle": "Blog",
+    "indexSubtitle": "Notes on spaced repetition, Anki migration, and study tooling.",
+    "updatedLabel": "Updated",
+    "allPosts": "← All posts"
+  },
   "site": {
-    "name": "Flashcard Guru"
+    "name": "Guru"
   },
   "cta": {
     "appStoreSmall": "Download on the",
@@ -29,11 +37,11 @@
     "support": "Support",
     "privacy": "Privacy",
     "appPrivacy": "App Privacy",
-    "rights": "© Flashcard Guru",
-    "trademark": "Anki is a trademark of its respective owners. Flashcard Guru is an independent app and is not affiliated with or endorsed by the Anki project."
+    "rights": "© Guru",
+    "trademark": "Anki is a trademark of its respective owners. Guru is an independent app and is not affiliated with or endorsed by the Anki project."
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Anki for iPhone, with AI cards & FSRS",
+    "metaTitle": "Guru: AI Flashcard Study — Anki for iPhone, with AI cards & FSRS",
     "metaDescription": "Anki, reimagined for iPhone. Import your .apkg decks intact, turn PDFs into cards with AI, and review with FSRS — plus Cram Mode, Study Lock, and a free wireless Anki Remote. Free 3-day trial.",
     "hero": {
       "eyebrow": "Made for iPhone · Loved by med students",
@@ -63,7 +71,7 @@
         "title": "Your Anki decks, imported intact",
         "body": "Drop in any <code>.apkg</code> or <code>.colpkg</code> and your cards, scheduling, and media migrate exactly — powered by Anki's own engine. Export back out whenever you want; your progress is never locked in.",
         "img": "decks-home.png",
-        "alt": "Flashcard Guru decks home with imported Anki decks",
+        "alt": "Guru decks home with imported Anki decks",
         "ticks": [
           ".apkg & .colpkg import and export",
           "Scheduling state and media preserved",
@@ -75,7 +83,7 @@
         "title": "Turn your PDFs and notes into cards",
         "body": "Open a textbook or lecture PDF in the built-in reader, highlight what matters, and let AI draft review-ready cards — front, back, and cloze. You stay in control of exactly what gets sent.",
         "img": "reader-ai.png",
-        "alt": "AI card generation panel inside the Flashcard Guru reader",
+        "alt": "AI card generation panel inside the Guru reader",
         "ticks": [
           "From PDFs, notes, or word lists",
           "Highlight a passage → cards in seconds",
@@ -99,7 +107,7 @@
         "title": "Review from across the room",
         "body": "Drive your reviews without touching the screen. Pair a cheap game controller over Bluetooth, or use the free wireless Anki Remote to run Anki Desktop from your phone — even the 8BitDo controllers AnkiMobile won't pair with.",
         "img": "hands-free.png",
-        "alt": "Flashcard Guru hands-free review using the phone as a wireless remote with large Again, Hard, Good, Easy buttons",
+        "alt": "Guru hands-free review using the phone as a wireless remote with large Again, Hard, Good, Easy buttons",
         "ticks": [
           "MFi & 8BitDo controller support",
           "Free wireless remote for Anki Desktop",
@@ -113,7 +121,7 @@
         "title": "See your streak, recall, and momentum",
         "body": "A calm stats dashboard shows your streak, cards mastered, and review consistency at a glance — enough to keep you honest, without turning studying into a numbers game.",
         "img": "stats.png",
-        "alt": "Flashcard Guru stats dashboard showing a day streak, daily goal progress, and this week's reviews",
+        "alt": "Guru stats dashboard showing a day streak, daily goal progress, and this week's reviews",
         "ticks": [
           "Streaks and daily-goal tracking",
           "Mastery and recall over time",
@@ -142,7 +150,7 @@
     "pricingTeaser": {
       "eyebrow": "Early-bird offer",
       "title": "Own it for life — 50% off, for now",
-      "body": "Try Flashcard Guru free for 3 days, then keep going with a weekly or yearly plan — or pay once and own it for life, currently half price for early adopters.",
+      "body": "Try Guru free for 3 days, then keep going with a weekly or yearly plan — or pay once and own it for life, currently half price for early adopters.",
       "earlybird": "Lifetime is <b>$14.99</b> <s>$29.99</s> — limited-time early-bird, 50% off."
     },
     "finalCta": {
@@ -151,8 +159,8 @@
     }
   },
   "pricing": {
-    "metaTitle": "Flashcard Guru Pricing — Free trial, then own it for life",
-    "metaDescription": "Try Flashcard Guru free for 3 days, then keep going with a weekly or yearly plan — or buy Lifetime once. Early-bird: Lifetime is 50% off at $14.99 (normally $29.99). The wireless Anki Remote is free.",
+    "metaTitle": "Guru: AI Flashcard Study Pricing — Free trial, then own it for life",
+    "metaDescription": "Try Guru free for 3 days, then keep going with a weekly or yearly plan — or buy Lifetime once. Early-bird: Lifetime is 50% off at $14.99 (normally $29.99). The wireless Anki Remote is free.",
     "eyebrow": "Pricing",
     "title": "Try it free. Own it for life.",
     "appleNote": "All purchases are handled securely by Apple. Prices may vary by region.",
@@ -209,7 +217,7 @@
     "lifetime": {
       "eyebrow": "Lifetime",
       "title": "One payment. Yours for good.",
-      "body": "No subscription, no renewals. Pay once and keep Flashcard Guru — and every future update — for life. Lifetime includes 500 one-time AI credits to get your decks built, and you can top up anytime.",
+      "body": "No subscription, no renewals. Pay once and keep Guru — and every future update — for life. Lifetime includes 500 one-time AI credits to get your decks built, and you can top up anytime.",
       "points": [
         "Permanent access to all Pro features",
         "500 one-time AI credits included",
@@ -259,30 +267,30 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Flashcard Guru Remote — Free wireless Anki remote for iPhone",
+    "metaTitle": "Anki Remote for iPhone — Free Wireless Setup | Guru: AI Flashcard Study",
     "metaDescription": "Turn your iPhone into a wireless review remote for Anki Desktop. Free LGPL-3.0 add-on, paired in 10 seconds via QR code, supports cheap 8BitDo controllers AnkiMobile won't pair with.",
     "hero": {
       "pill": "Free · Open source · LGPL-3.0",
       "title": "Anki Remote, on the iPhone you already have",
       "lead": "Pair your iPhone with Anki Desktop in 10 seconds via QR code, then drive <em>Show Answer / Again / Hard / Good / Easy</em> from your couch, treadmill, or wherever you're studying. Plug in a cheap 8BitDo controller and it works through your phone — even the models AnkiMobile refuses to pair with.",
-      "ctaPrimary": "Download Flashcard Guru",
+      "ctaPrimary": "Download Guru",
       "ctaSecondary": "View on AnkiWeb"
     },
     "setup": {
       "title": "Setup (3 steps, ~1 minute)",
       "step1Lead": "<strong>On your Mac:</strong> open Anki, then <code>Tools → Add-ons → Get Add-ons…</code> and paste this code:",
       "step1Tail": "Restart Anki when prompted. The first time the add-on starts, macOS asks <em>\"Allow incoming connections?\"</em> — click <strong>Allow</strong>.",
-      "step2": "<strong>On your iPhone:</strong> install <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a> from the App Store.",
+      "step2": "<strong>On your iPhone:</strong> install <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Guru</a> from the App Store.",
       "step3Title": "<strong>Pair:</strong>",
       "step3Lines": [
         "In Anki: <code>Tools → Connect Phone (Flashcard Guru Remote)…</code> — a QR code appears.",
-        "In Flashcard Guru: <code>Settings → Anki Remote → Pair with Mac</code> — scan the QR."
+        "In Guru: <code>Settings → Anki Remote → Pair with Mac</code> — scan the QR."
       ],
       "step3Tail": "That's it. Open any deck on your Mac and your iPhone takes over."
     },
     "visualGuide": {
       "title": "Real setup screenshots",
-      "intro": "Follow the same flow shown in these screenshots: install the add-on in Anki Desktop, restart Anki, open the QR pairing window, then scan it from Flashcard Guru.",
+      "intro": "Follow the same flow shown in these screenshots: install the add-on in Anki Desktop, restart Anki, open the QR pairing window, then scan it from Guru.",
       "items": [
         {
           "step": "1",
@@ -343,12 +351,12 @@
         {
           "step": "5",
           "title": "Open Anki Remote on iPhone",
-          "body": "In Flashcard Guru, go to <code>Settings → Anki Remote</code>.",
-          "alt": "Flashcard Guru Settings screen showing the Anki Remote row",
+          "body": "In Guru, go to <code>Settings → Anki Remote</code>.",
+          "alt": "Guru Settings screen showing the Anki Remote row",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-settings.png",
-              "alt": "Flashcard Guru Settings screen showing the Anki Remote row"
+              "alt": "Guru Settings screen showing the Anki Remote row"
             }
           ]
         },
@@ -356,11 +364,11 @@
           "step": "6",
           "title": "Pair with Mac",
           "body": "Tap <strong>Pair with Mac</strong>, scan the QR code on your Mac, and the connection is ready.",
-          "alt": "Flashcard Guru Anki Remote screen showing Pair with Mac",
+          "alt": "Guru Anki Remote screen showing Pair with Mac",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-pair-with-mac.png",
-              "alt": "Flashcard Guru Anki Remote screen showing Pair with Mac"
+              "alt": "Guru Anki Remote screen showing Pair with Mac"
             }
           ]
         }
@@ -389,7 +397,7 @@
     },
     "controllers": {
       "title": "Hardware controller support",
-      "intro": "Plug a controller into your iPhone (USB-C or Bluetooth) and Flashcard Guru forwards the buttons to Anki Desktop:",
+      "intro": "Plug a controller into your iPhone (USB-C or Bluetooth) and Guru forwards the buttons to Anki Desktop:",
       "gamepadHeading": "Gamepad (MFi)",
       "gamepadList": [
         "<code>A</code> → Good · <code>B</code> → Again · <code>X</code> → Hard · <code>Y</code> → Easy",
@@ -400,7 +408,7 @@
         "<code>1 / 2 / 3 / 4</code> → Again / Hard / Good / Easy",
         "<code>Space</code> → Show Answer · <code>R</code> → Replay · <code>Z</code> or <code>U</code> → Undo"
       ],
-      "footnote": "The keyboard route is the trick that makes cheap 8BitDo controllers work — those small models don't expose Apple's <code>GCExtendedGamepad</code> profile, so AnkiMobile rejects them. Flashcard Guru listens to <code>GCKeyboard</code> too, which is what 8BitDo's \"Keyboard Mode\" sends."
+      "footnote": "The keyboard route is the trick that makes cheap 8BitDo controllers work — those small models don't expose Apple's <code>GCExtendedGamepad</code> profile, so AnkiMobile rejects them. Guru listens to <code>GCKeyboard</code> too, which is what 8BitDo's \"Keyboard Mode\" sends."
     },
     "privacy": {
       "title": "Privacy",
@@ -415,7 +423,7 @@
       "items": [
         {
           "q": "Does this work with AnkiMobile (the official iOS Anki app)?",
-          "a": "No. This is the companion to <strong>Flashcard Guru</strong>, our standalone iOS flashcard app. The add-on talks WebSocket to Flashcard Guru on your iPhone, not to AnkiMobile."
+          "a": "No. This is the companion to <strong>Guru</strong>, our standalone iOS flashcard app. The add-on talks WebSocket to Guru on your iPhone, not to AnkiMobile."
         },
         {
           "q": "Why isn't this just a Bluetooth keyboard like StudyRemote?",
@@ -440,7 +448,8 @@
       "items": [
         "AnkiWeb listing: <a href=\"https://ankiweb.net/shared/info/1196082853\">code 1196082853</a>",
         "Add-on source: <a href=\"https://github.com/jyehn/flashcard-guru-remote-addon\">jyehn/flashcard-guru-remote-addon</a> (LGPL-3.0)",
-        "iOS app support: <a href=\"/support\">flashcard-guru.flashify.app/support</a>"
+        "iOS app support: <a href=\"/support\">flashcard-guru.flashify.app/support</a>",
+        "Further reading: <a href=\"/blog/free-wireless-anki-remote/\">Free Anki remote — iPhone vs StudyRemote vs 8BitDo</a>"
       ]
     }
   }

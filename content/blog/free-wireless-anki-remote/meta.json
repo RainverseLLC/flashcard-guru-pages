@@ -1,0 +1,39 @@
+{
+  "slug": "free-wireless-anki-remote",
+  "date": "2026-05-09",
+  "updated": "2026-06-23",
+  "section": "Anki tooling",
+  "tags": [
+    "anki remote",
+    "8bitdo",
+    "studyremote",
+    "spaced repetition"
+  ],
+  "image": "/assets/og/anki-remote.png",
+  "i18n": {
+    "en": {
+      "title": "Free Anki Remote: iPhone vs StudyRemote vs 8BitDo (2026)",
+      "description": "A free, open-source Anki remote that pairs in 60 seconds with the iPhone you already own. Honest comparison vs StudyRemote and the 8BitDo workaround — including the cheap controllers AnkiMobile won't pair with.",
+      "excerpt": "Hardware Anki remotes work, but the iPhone in your pocket can do the same job for free. How to set one up in 60 seconds — plus how to bridge a $25 8BitDo controller AnkiMobile rejects.",
+      "readingTime": "8 min read"
+    },
+    "zh-Hant": {
+      "title": "免費 Anki 遙控器：iPhone vs StudyRemote vs 8BitDo（2026 年最新）",
+      "description": "一款免費、開源的 Anki 遙控器，60 秒內與你手邊的 iPhone 配對完成。誠實對比 StudyRemote 與 8BitDo 繞道方案——包括 AnkiMobile 無法配對的廉價控制器。",
+      "excerpt": "硬體 Anki 遙控器確實好用，但你口袋裡的 iPhone 也能免費做到相同的事。如何在 60 秒內設定完成——外加如何橋接一款 AnkiMobile 不接受的 25 美元 8BitDo 控制器。",
+      "readingTime": "8 分鐘閱讀時間"
+    },
+    "ja": {
+      "title": "無料Ankiリモート：iPhone vs StudyRemote vs 8BitDo（2026年版）",
+      "description": "あなたがすでに持っているiPhoneと60秒でペアリングできる、無料・オープンソースのAnkiリモート。StudyRemoteや8BitDo回避策との正直な比較。AnkiMobileが拒否する格安コントローラーの話も。",
+      "excerpt": "ハードウェアのAnkiリモートも良いが、ポケットの中のiPhoneで同じことができるなら無料に越したことはない。60秒でセットアップする方法と、AnkiMobileが拒否する$25の8BitDoコントローラーを橋渡しする方法。",
+      "readingTime": "8 分で読めます"
+    },
+    "ko": {
+      "title": "무료 Anki 리모컨: iPhone vs StudyRemote vs 8BitDo (2026)",
+      "description": "손에 든 아이폰으로 60초 만에 연결되는 무료 오픈소스 Anki 리모컨. StudyRemote 및 8BitDo 우회법과 정직한 비교 — AnkiMobile이 거부하는 저렴한 컨트롤러까지 포함.",
+      "excerpt": "하드웨어 Anki 리모컨도 훌륭하지만, 주머니 속 아이폰 하나면 같은 작업을 무료로 할 수 있습니다. 60초 만에 설정하는 방법부터 AnkiMobile이 거부하는 25달러짜리 8BitDo 컨트롤러를 연결하는 팁까지.",
+      "readingTime": "8분 읽기"
+    }
+  }
+}

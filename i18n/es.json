@@ -1,6 +1,14 @@
 {
+  "blog": {
+    "metaTitle": "Blog de Guru: AI Flashcard Study — Anki en iPhone, migración y herramientas de estudio",
+    "metaDescription": "Guías sobre cómo usar Anki en iPhone, repaso con manos libres, migración de mazos y repetición espaciada, del equipo de Guru.",
+    "indexTitle": "Blog",
+    "indexSubtitle": "Notas sobre repetición espaciada, migración de Anki y herramientas de estudio.",
+    "updatedLabel": "Actualizado",
+    "allPosts": "← Todos los artículos"
+  },
   "site": {
-    "name": "Flashcard Guru"
+    "name": "Guru"
   },
   "cta": {
     "appStoreSmall": "Descárgalo en el",
@@ -29,11 +37,11 @@
     "support": "Ayuda",
     "privacy": "Privacidad",
     "appPrivacy": "Privacidad de la App",
-    "rights": "© Flashcard Guru",
-    "trademark": "Anki es una marca comercial de sus respectivos propietarios. Flashcard Guru es una app independiente y no está afiliada ni respaldada por el proyecto Anki."
+    "rights": "© Guru",
+    "trademark": "Anki es una marca comercial de sus respectivos propietarios. Guru es una app independiente y no está afiliada ni respaldada por el proyecto Anki."
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Anki para iPhone, con tarjetas IA y FSRS",
+    "metaTitle": "Guru: AI Flashcard Study — Anki para iPhone, con tarjetas IA y FSRS",
     "metaDescription": "Anki, reinventado para el iPhone. Importa tus mazos .apkg intactos, convierte PDF en tarjetas con IA y repasa con FSRS — además de Cram Mode, bloqueo de estudio y un Mando Anki inalámbrico gratuito. Prueba gratuita de 3 días.",
     "hero": {
       "eyebrow": "Hecho para iPhone · Querido por estudiantes de medicina",
@@ -63,7 +71,7 @@
         "title": "Tus mazos de Anki, importados intactos",
         "body": "Suelta cualquier <code>.apkg</code> o <code>.colpkg</code> y tus tarjetas, programación y medios migran exactamente — gracias al propio motor de Anki. Expórtalos de vuelta cuando quieras; tu progreso nunca queda atrapado.",
         "img": "decks-home.png",
-        "alt": "Inicio de mazos de Flashcard Guru con mazos de Anki importados",
+        "alt": "Inicio de mazos de Guru con mazos de Anki importados",
         "ticks": [
           "Importación y exportación de .apkg y .colpkg",
           "Estado de programación y medios preservados",
@@ -75,7 +83,7 @@
         "title": "Convierte tus PDF y notas en tarjetas",
         "body": "Abre un libro de texto o un PDF de clase en el lector integrado, resalta lo que importa y deja que la IA redacte tarjetas listas para repasar — anverso, reverso y cloze. Tú controlas exactamente qué se envía.",
         "img": "reader-ai.png",
-        "alt": "Panel de generación de tarjetas con IA dentro del lector de Flashcard Guru",
+        "alt": "Panel de generación de tarjetas con IA dentro del lector de Guru",
         "ticks": [
           "Desde PDF, notas o listas de palabras",
           "Resalta un pasaje → tarjetas en segundos",
@@ -99,7 +107,7 @@
         "title": "Repasa desde el otro lado de la habitación",
         "body": "Lleva tus repasos sin tocar la pantalla. Empareja un mando de juego barato por Bluetooth, o usa el Mando Anki inalámbrico gratuito para controlar Anki Desktop desde tu teléfono — incluso los mandos 8BitDo que AnkiMobile no empareja.",
         "img": "hands-free.png",
-        "alt": "Repaso manos libres de Flashcard Guru usando el teléfono como mando inalámbrico con botones grandes Again, Hard, Good, Easy",
+        "alt": "Repaso manos libres de Guru usando el teléfono como mando inalámbrico con botones grandes Again, Hard, Good, Easy",
         "ticks": [
           "Compatible con mandos MFi y 8BitDo",
           "Mando inalámbrico gratuito para Anki Desktop",
@@ -113,7 +121,7 @@
         "title": "Mira tu racha, retención e impulso",
         "body": "Un panel de estadísticas tranquilo muestra tu racha, las tarjetas dominadas y la constancia de repaso de un vistazo — lo justo para mantenerte honesto, sin convertir el estudio en un juego de números.",
         "img": "stats.png",
-        "alt": "Panel de estadísticas de Flashcard Guru con racha de días, progreso de la meta diaria y los repasos de esta semana",
+        "alt": "Panel de estadísticas de Guru con racha de días, progreso de la meta diaria y los repasos de esta semana",
         "ticks": [
           "Seguimiento de rachas y meta diaria",
           "Dominio y retención a lo largo del tiempo",
@@ -142,7 +150,7 @@
     "pricingTeaser": {
       "eyebrow": "Oferta de lanzamiento",
       "title": "Tuyo de por vida — 50% de descuento, por ahora",
-      "body": "Prueba Flashcard Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o paga una vez y consérvalo de por vida, ahora a mitad de precio para los primeros usuarios.",
+      "body": "Prueba Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o paga una vez y consérvalo de por vida, ahora a mitad de precio para los primeros usuarios.",
       "earlybird": "Lifetime cuesta <b>$14.99</b> <s>$29.99</s> — oferta de lanzamiento por tiempo limitado, 50% de descuento."
     },
     "finalCta": {
@@ -151,8 +159,8 @@
     }
   },
   "pricing": {
-    "metaTitle": "Precios de Flashcard Guru — Pruébalo gratis y luego tuyo de por vida",
-    "metaDescription": "Prueba Flashcard Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o compra Lifetime de una sola vez. Lanzamiento: Lifetime con 50% de descuento a $14.99 (normalmente $29.99). El Mando Anki inalámbrico es gratis.",
+    "metaTitle": "Precios de Guru: AI Flashcard Study — Pruébalo gratis y luego tuyo de por vida",
+    "metaDescription": "Prueba Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o compra Lifetime de una sola vez. Lanzamiento: Lifetime con 50% de descuento a $14.99 (normalmente $29.99). El Mando Anki inalámbrico es gratis.",
     "eyebrow": "Precios",
     "title": "Pruébalo gratis. Tuyo de por vida.",
     "appleNote": "Todas las compras las gestiona Apple de forma segura. Los precios pueden variar según la región.",
@@ -209,7 +217,7 @@
     "lifetime": {
       "eyebrow": "Lifetime",
       "title": "Un pago. Tuyo para siempre.",
-      "body": "Sin suscripción, sin renovaciones. Paga una vez y conserva Flashcard Guru — y cada actualización futura — de por vida. Lifetime incluye 500 créditos de IA de pago único para construir tus mazos, y puedes recargar cuando quieras.",
+      "body": "Sin suscripción, sin renovaciones. Paga una vez y conserva Guru — y cada actualización futura — de por vida. Lifetime incluye 500 créditos de IA de pago único para construir tus mazos, y puedes recargar cuando quieras.",
       "points": [
         "Acceso permanente a todas las funciones Pro",
         "500 créditos de IA de pago único incluidos",
@@ -265,24 +273,24 @@
       "pill": "Gratis · Código abierto · LGPL-3.0",
       "title": "Un mando Anki en el iPhone que ya tienes",
       "lead": "Empareja tu iPhone con Anki Desktop en 10 segundos vía código QR, y luego controla <em>Mostrar respuesta / Otra vez / Difícil / Bueno / Fácil</em> desde el sofá, la cinta de correr o donde estudies. Conecta un mando 8BitDo barato al iPhone y funciona a través del teléfono — incluso modelos que AnkiMobile se niega a emparejar.",
-      "ctaPrimary": "Descargar Flashcard Guru",
+      "ctaPrimary": "Descargar Guru",
       "ctaSecondary": "Ver en AnkiWeb"
     },
     "setup": {
       "title": "Configuración (3 pasos, ~1 minuto)",
       "step1Lead": "<strong>En tu Mac:</strong> abre Anki, luego <code>Herramientas → Complementos → Obtener complementos…</code> y pega este código:",
       "step1Tail": "Reinicia Anki. La primera vez que arranca el complemento, macOS pregunta «<em>¿Permitir conexiones entrantes?</em>» — pulsa <strong>Permitir</strong>.",
-      "step2": "<strong>En tu iPhone:</strong> instala <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a> desde el App Store.",
+      "step2": "<strong>En tu iPhone:</strong> instala <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Guru</a> desde el App Store.",
       "step3Title": "<strong>Emparejar:</strong>",
       "step3Lines": [
         "En Anki: <code>Herramientas → Conectar teléfono (Flashcard Guru Remote)…</code> — aparece un código QR.",
-        "En Flashcard Guru: <code>Ajustes → Mando Anki → Emparejar con Mac</code> — escanea el QR."
+        "En Guru: <code>Ajustes → Mando Anki → Emparejar con Mac</code> — escanea el QR."
       ],
       "step3Tail": "Listo. Abre cualquier mazo en tu Mac y el iPhone toma el control."
     },
     "visualGuide": {
       "title": "Capturas reales de configuración",
-      "intro": "Sigue este flujo: instala el complemento en Anki Desktop, reinicia Anki, abre la ventana de emparejamiento con QR y escanéala desde Flashcard Guru.",
+      "intro": "Sigue este flujo: instala el complemento en Anki Desktop, reinicia Anki, abre la ventana de emparejamiento con QR y escanéala desde Guru.",
       "items": [
         {
           "step": "1",
@@ -343,12 +351,12 @@
         {
           "step": "5",
           "title": "Abre Anki Remote en el iPhone",
-          "body": "En Flashcard Guru, entra en <code>Settings → Anki Remote</code>.",
-          "alt": "Pantalla Settings de Flashcard Guru con Anki Remote",
+          "body": "En Guru, entra en <code>Settings → Anki Remote</code>.",
+          "alt": "Pantalla Settings de Guru con Anki Remote",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-settings.png",
-              "alt": "Pantalla Settings de Flashcard Guru con Anki Remote"
+              "alt": "Pantalla Settings de Guru con Anki Remote"
             }
           ]
         },
@@ -356,11 +364,11 @@
           "step": "6",
           "title": "Empareja con el Mac",
           "body": "Toca <strong>Pair with Mac</strong>, escanea el QR del Mac y la conexión quedará lista.",
-          "alt": "Pantalla Anki Remote de Flashcard Guru con Pair with Mac",
+          "alt": "Pantalla Anki Remote de Guru con Pair with Mac",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-pair-with-mac.png",
-              "alt": "Pantalla Anki Remote de Flashcard Guru con Pair with Mac"
+              "alt": "Pantalla Anki Remote de Guru con Pair with Mac"
             }
           ]
         }
@@ -389,7 +397,7 @@
     },
     "controllers": {
       "title": "Soporte de mandos hardware",
-      "intro": "Conecta un mando al iPhone (USB-C o Bluetooth) y Flashcard Guru reenvía los botones a Anki Desktop:",
+      "intro": "Conecta un mando al iPhone (USB-C o Bluetooth) y Guru reenvía los botones a Anki Desktop:",
       "gamepadHeading": "Mando (MFi)",
       "gamepadList": [
         "<code>A</code> → Bueno · <code>B</code> → Otra vez · <code>X</code> → Difícil · <code>Y</code> → Fácil",
@@ -400,7 +408,7 @@
         "<code>1 / 2 / 3 / 4</code> → Otra vez / Difícil / Bueno / Fácil",
         "<code>Space</code> → Mostrar respuesta · <code>R</code> → Repetir · <code>Z</code> o <code>U</code> → Deshacer"
       ],
-      "footnote": "El modo teclado es el truco que hace funcionar los mandos 8BitDo baratos — esos modelos pequeños no exponen el perfil <code>GCExtendedGamepad</code> de Apple, así que AnkiMobile los rechaza. Flashcard Guru también escucha <code>GCKeyboard</code>, que es exactamente lo que envía el «Modo teclado» de 8BitDo."
+      "footnote": "El modo teclado es el truco que hace funcionar los mandos 8BitDo baratos — esos modelos pequeños no exponen el perfil <code>GCExtendedGamepad</code> de Apple, así que AnkiMobile los rechaza. Guru también escucha <code>GCKeyboard</code>, que es exactamente lo que envía el «Modo teclado» de 8BitDo."
     },
     "privacy": {
       "title": "Privacidad",
@@ -415,7 +423,7 @@
       "items": [
         {
           "q": "¿Funciona con AnkiMobile (la app oficial de iOS de Anki)?",
-          "a": "No. Esto es el compañero de <strong>Flashcard Guru</strong>, nuestra app iOS de tarjetas independiente. El complemento habla WebSocket con Flashcard Guru, no con AnkiMobile."
+          "a": "No. Esto es el compañero de <strong>Guru</strong>, nuestra app iOS de tarjetas independiente. El complemento habla WebSocket con Guru, no con AnkiMobile."
         },
         {
           "q": "¿Por qué no es simplemente un teclado Bluetooth como StudyRemote?",
