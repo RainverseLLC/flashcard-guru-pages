@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="{{locale}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{blog.metaTitle}}</title>
+    <meta name="description" content="{{blog.metaDescription}}">
+    <link rel="canonical" href="{{blog.canonicalUrl}}">
+    {{{hreflangAlternates}}}
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/icon-16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="theme-color" content="#f9f9f7">
+
+    <meta property="og:title" content="{{blog.metaTitle}}">
+    <meta property="og:description" content="{{blog.metaDescription}}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{blog.canonicalUrl}}">
+    <meta property="og:locale" content="{{locale}}">
+    <meta property="og:image" content="{{blog.ogImage}}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="{{blog.ogImage}}">
+
+    {{{jsonLd}}}
+
+    <link rel="stylesheet" href="/styles.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SJWQ2K5Y2K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SJWQ2K5Y2K');
+    </script>
+    <script defer src="/analytics.js"></script>
+  </head>
+  <body>
+    <header class="site">
+      <div class="bar">
+        <a href="{{prefix}}/" class="brand"><img src="/assets/owl/app-icon.png" alt="" width="30" height="30"> <span class="brandname">{{site.name}}</span></a>
+        <nav>
+          <a class="navlink hide-sm" href="{{prefix}}/#features">{{nav.features}}</a>
+          <a class="navlink" href="{{prefix}}/pricing">{{nav.pricing}}</a>
+          <a class="navlink hide-sm" href="{{prefix}}/anki-remote">{{nav.ankiRemote}}</a>
+          <a class="navlink hide-sm" href="{{prefix}}/blog/">{{nav.blog}}</a>
+          {{{langSwitcher}}}
+          <a class="btn btn-primary navcta" href="https://apps.apple.com/app/flashcardguru/id6757980593">{{cta.getApp}}</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="blog-index">
+      <h1>{{blog.indexTitle}}</h1>
+      <p class="subtitle">{{blog.indexSubtitle}}</p>
+
+      <ul class="posts">
+        {{#blog.posts}}
+        <li>
+          <h2><a href="{{url}}">{{title}}</a></h2>
+          <time datetime="{{dateISO}}">{{dateDisplay}}</time> · <span class="readtime">{{readingTime}}</span>
+          <p>{{excerpt}}</p>
+        </li>
+        {{/blog.posts}}
+      </ul>
+    </main>
+
+    <footer class="site">
+      <div class="container">
+        <div class="foot-grid">
+          <div class="foot-brand">
+            <a class="brand" href="{{prefix}}/"><img src="/assets/owl/app-icon.png" alt="" width="30" height="30"> {{site.name}}</a>
+            <p>{{footer.tagline}}</p>
+          </div>
+          <div class="foot-links">
+            <div class="foot-col">
+              <h5>{{footer.colProduct}}</h5>
+              <a href="{{prefix}}/#features">{{footer.features}}</a>
+              <a href="{{prefix}}/pricing">{{footer.pricing}}</a>
+              <a href="{{prefix}}/anki-remote">{{footer.ankiRemote}}</a>
+            </div>
+            <div class="foot-col">
+              <h5>{{footer.colResources}}</h5>
+              <a href="{{prefix}}/blog/">{{footer.blog}}</a>
+              <a href="/support">{{footer.support}}</a>
+            </div>
+            <div class="foot-col">
+              <h5>{{footer.colLegal}}</h5>
+              <a href="/privacy">{{footer.privacy}}</a>
+              <a href="/app-privacy-policy">{{footer.appPrivacy}}</a>
+            </div>
+          </div>
+        </div>
+        <div class="foot-base">
+          <span>{{footer.rights}}</span>
+          <span style="max-width:560px">{{footer.trademark}}</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,6 +1,14 @@
 {
+  "blog": {
+    "metaTitle": "Guru: AI Flashcard Study ブログ — iPhone での Anki・移行・学習ツール",
+    "metaDescription": "iPhone での Anki 利用、ハンズフリー復習、デッキ移行、間隔反復に関するガイド —— Guru チームより。",
+    "indexTitle": "ブログ",
+    "indexSubtitle": "間隔反復、Anki の移行、学習ツールについてのノート。",
+    "updatedLabel": "更新日",
+    "allPosts": "← 記事一覧"
+  },
   "site": {
-    "name": "Flashcard Guru"
+    "name": "Guru"
   },
   "cta": {
     "appStoreSmall": "ダウンロード",
@@ -29,11 +37,11 @@
     "support": "サポート",
     "privacy": "プライバシー",
     "appPrivacy": "App プライバシー",
-    "rights": "© Flashcard Guru",
-    "trademark": "Anki はそれぞれの所有者の商標です。Flashcard Guru は独立したアプリであり、Anki プロジェクトと提携または承認されたものではありません。"
+    "rights": "© Guru",
+    "trademark": "Anki はそれぞれの所有者の商標です。Guru は独立したアプリであり、Anki プロジェクトと提携または承認されたものではありません。"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — iPhone 版 Anki、AI カードと FSRS 搭載",
+    "metaTitle": "Guru: AI Flashcard Study — iPhone 版 Anki、AI カードと FSRS 搭載",
     "metaDescription": "Anki を iPhone 向けに再設計。.apkg デッキをそのままインポートし、PDF を AI でカード化、FSRS で復習——さらに詰め込みモード、学習ロック、無料のワイヤレス Anki リモコン。3 日間の無料トライアル。",
     "hero": {
       "eyebrow": "iPhone のために設計 · 医学生に愛用される",
@@ -63,7 +71,7 @@
         "title": "Anki デッキをそのままインポート",
         "body": "どんな <code>.apkg</code> や <code>.colpkg</code> でもドロップするだけで、カード・スケジューリング・メディアがそのまま移行します——Anki 純正エンジンによるものです。いつでもエクスポートでき、学習履歴が囲い込まれることはありません。",
         "img": "decks-home.png",
-        "alt": "インポートした Anki デッキが並ぶ Flashcard Guru のデッキホーム",
+        "alt": "インポートした Anki デッキが並ぶ Guru のデッキホーム",
         "ticks": [
           ".apkg と .colpkg のインポート・エクスポート",
           "スケジューリング状態とメディアを保持",
@@ -75,7 +83,7 @@
         "title": "PDF やノートをカードに変換",
         "body": "内蔵リーダーで教科書や講義 PDF を開き、重要な箇所をハイライトすれば、AI が復習用カード——表・裏・穴埋め——を下書きします。何を送信するかは常にあなたが管理します。",
         "img": "reader-ai.png",
-        "alt": "Flashcard Guru のリーダー内の AI カード生成パネル",
+        "alt": "Guru のリーダー内の AI カード生成パネル",
         "ticks": [
           "PDF・ノート・単語リストから",
           "一節をハイライト → 数秒でカードに",
@@ -99,7 +107,7 @@
         "title": "部屋の向こうからでも復習",
         "body": "画面に触れずに復習を進められます。安価なゲームコントローラを Bluetooth でペアリングするか、無料のワイヤレス Anki リモコンで Anki Desktop をスマホから操作——AnkiMobile がペアリングしない 8BitDo コントローラでも使えます。",
         "img": "hands-free.png",
-        "alt": "スマホをワイヤレスリモコンにして、大きな Again/Hard/Good/Easy ボタンでハンズフリー復習する Flashcard Guru",
+        "alt": "スマホをワイヤレスリモコンにして、大きな Again/Hard/Good/Easy ボタンでハンズフリー復習する Guru",
         "ticks": [
           "MFi と 8BitDo コントローラに対応",
           "Anki Desktop 用の無料ワイヤレスリモコン",
@@ -113,7 +121,7 @@
         "title": "連続日数・定着率・勢いを確認",
         "body": "静かな統計ダッシュボードで、連続日数・習得したカード・復習の継続度をひと目で確認——学習を数字ゲームにすることなく、自分を律するのに十分なだけ。",
         "img": "stats.png",
-        "alt": "連続日数、デイリーゴールの進捗、今週の復習数を表示する Flashcard Guru の統計ダッシュボード",
+        "alt": "連続日数、デイリーゴールの進捗、今週の復習数を表示する Guru の統計ダッシュボード",
         "ticks": [
           "連続日数と毎日の目標トラッキング",
           "習得度と定着率の推移",
@@ -142,7 +150,7 @@
     "pricingTeaser": {
       "eyebrow": "早期割引",
       "title": "一生使える——今だけ 50% オフ",
-      "body": "Flashcard Guru を 3 日間無料でお試しください。その後は Weekly または Yearly プランで続けるか、一度だけ支払って一生使えます——早期ユーザーには今だけ半額です。",
+      "body": "Guru を 3 日間無料でお試しください。その後は Weekly または Yearly プランで続けるか、一度だけ支払って一生使えます——早期ユーザーには今だけ半額です。",
       "earlybird": "Lifetime は <b>$14.99</b> <s>$29.99</s>——期間限定の早期割引、50% オフ。"
     },
     "finalCta": {
@@ -151,8 +159,8 @@
     }
   },
   "pricing": {
-    "metaTitle": "Flashcard Guru の料金 — 無料トライアル、その後は一生使える",
-    "metaDescription": "Flashcard Guru を 3 日間無料でお試し。その後は Weekly または Yearly プランで続けるか、Lifetime を一度だけ購入。早期割引: Lifetime は 50% オフの $14.99(通常 $29.99)。ワイヤレス Anki リモコンは無料です。",
+    "metaTitle": "Guru: AI Flashcard Study の料金 — 無料トライアル、その後は一生使える",
+    "metaDescription": "Guru を 3 日間無料でお試し。その後は Weekly または Yearly プランで続けるか、Lifetime を一度だけ購入。早期割引: Lifetime は 50% オフの $14.99(通常 $29.99)。ワイヤレス Anki リモコンは無料です。",
     "eyebrow": "料金",
     "title": "無料で試して、一生使える。",
     "appleNote": "すべての購入は Apple によって安全に処理されます。価格は地域によって異なる場合があります。",
@@ -209,7 +217,7 @@
     "lifetime": {
       "eyebrow": "Lifetime",
       "title": "一度の支払い。ずっとあなたのもの。",
-      "body": "サブスクリプションも更新もなし。一度払えば Flashcard Guru——そして今後のアップデートすべて——を一生使えます。Lifetime にはデッキ作りを始めるための買い切り AI クレジット 500 が付き、いつでも追加できます。",
+      "body": "サブスクリプションも更新もなし。一度払えば Guru——そして今後のアップデートすべて——を一生使えます。Lifetime にはデッキ作りを始めるための買い切り AI クレジット 500 が付き、いつでも追加できます。",
       "points": [
         "すべての Pro 機能に永久アクセス",
         "買い切り AI クレジット 500 付き",
@@ -265,24 +273,24 @@
       "pill": "無料 · オープンソース · LGPL-3.0",
       "title": "あなたが既に持っている iPhone を Anki リモコンに",
       "lead": "QR コードで 10 秒、iPhone と Anki Desktop をペアリング。ソファでも、ランニングマシンでも、どこでも <em>答えを表示 / もう一度 / 難しい / 普通 / 簡単</em> を操作できます。安価な 8BitDo コントローラを iPhone に接続すれば、信号が iPhone を経由して Mac へ転送——AnkiMobile がペアリング拒否するモデルもここでは使えます。",
-      "ctaPrimary": "Flashcard Guru をダウンロード",
+      "ctaPrimary": "Guru をダウンロード",
       "ctaSecondary": "AnkiWeb で見る"
     },
     "setup": {
       "title": "セットアップ(3 ステップ、約 1 分)",
       "step1Lead": "<strong>Mac で:</strong> Anki を開いて <code>ツール → アドオン → アドオンを取得…</code> でこのコードを入力:",
       "step1Tail": "Anki を再起動。アドオン初回起動時、macOS が「<em>外部接続を許可しますか?</em>」と尋ねます——<strong>許可</strong>をクリック。",
-      "step2": "<strong>iPhone で:</strong> App Store から <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a> をインストール。",
+      "step2": "<strong>iPhone で:</strong> App Store から <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Guru</a> をインストール。",
       "step3Title": "<strong>ペアリング:</strong>",
       "step3Lines": [
         "Anki で: <code>ツール → 携帯電話を接続(Flashcard Guru Remote)…</code>——QR コードが表示されます。",
-        "Flashcard Guru で: <code>設定 → Anki リモコン → Mac とペアリング</code>——QR をスキャン。"
+        "Guru で: <code>設定 → Anki リモコン → Mac とペアリング</code>——QR をスキャン。"
       ],
       "step3Tail": "完了。Mac で任意のデッキを開けば、iPhone が引き継ぎます。"
     },
     "visualGuide": {
       "title": "実際のセットアップ画面",
-      "intro": "この流れで進めます。Anki Desktop でアドオンをインストールして再起動し、QR ペアリング画面を開いて、Flashcard Guru でスキャンします。",
+      "intro": "この流れで進めます。Anki Desktop でアドオンをインストールして再起動し、QR ペアリング画面を開いて、Guru でスキャンします。",
       "items": [
         {
           "step": "1",
@@ -343,12 +351,12 @@
         {
           "step": "5",
           "title": "iPhone で Anki Remote を開く",
-          "body": "Flashcard Guru で <code>Settings → Anki Remote</code> に進みます。",
-          "alt": "Flashcard Guru の Settings 画面に Anki Remote が表示されている",
+          "body": "Guru で <code>Settings → Anki Remote</code> に進みます。",
+          "alt": "Guru の Settings 画面に Anki Remote が表示されている",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-settings.png",
-              "alt": "Flashcard Guru の Settings 画面に Anki Remote が表示されている"
+              "alt": "Guru の Settings 画面に Anki Remote が表示されている"
             }
           ]
         },
@@ -356,11 +364,11 @@
           "step": "6",
           "title": "Mac とペアリング",
           "body": "<strong>Pair with Mac</strong> をタップし、Mac の QR コードをスキャンすれば接続完了です。",
-          "alt": "Flashcard Guru の Anki Remote 画面に Pair with Mac が表示されている",
+          "alt": "Guru の Anki Remote 画面に Pair with Mac が表示されている",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-pair-with-mac.png",
-              "alt": "Flashcard Guru の Anki Remote 画面に Pair with Mac が表示されている"
+              "alt": "Guru の Anki Remote 画面に Pair with Mac が表示されている"
             }
           ]
         }
@@ -389,7 +397,7 @@
     },
     "controllers": {
       "title": "ハードウェアコントローラのサポート",
-      "intro": "iPhone にコントローラを接続(USB-C または Bluetooth)すれば、Flashcard Guru がボタンを Anki Desktop に転送します:",
+      "intro": "iPhone にコントローラを接続(USB-C または Bluetooth)すれば、Guru がボタンを Anki Desktop に転送します:",
       "gamepadHeading": "ゲームパッド(MFi)",
       "gamepadList": [
         "<code>A</code> → 普通 · <code>B</code> → もう一度 · <code>X</code> → 難しい · <code>Y</code> → 簡単",
@@ -400,7 +408,7 @@
         "<code>1 / 2 / 3 / 4</code> → もう一度 / 難しい / 普通 / 簡単",
         "<code>Space</code> → 答えを表示 · <code>R</code> → 再生 · <code>Z</code> または <code>U</code> → 元に戻す"
       ],
-      "footnote": "キーボードモードのおかげで安価な 8BitDo コントローラが使えます——これらの小型モデルは Apple の <code>GCExtendedGamepad</code> プロファイルを公開していないので、AnkiMobile は拒否します。Flashcard Guru は <code>GCKeyboard</code> も同時に監視しており、これが 8BitDo の「キーボードモード」出力に対応します。"
+      "footnote": "キーボードモードのおかげで安価な 8BitDo コントローラが使えます——これらの小型モデルは Apple の <code>GCExtendedGamepad</code> プロファイルを公開していないので、AnkiMobile は拒否します。Guru は <code>GCKeyboard</code> も同時に監視しており、これが 8BitDo の「キーボードモード」出力に対応します。"
     },
     "privacy": {
       "title": "プライバシー",
@@ -415,7 +423,7 @@
       "items": [
         {
           "q": "AnkiMobile(公式 iOS Anki アプリ)で使えますか?",
-          "a": "いいえ。これは独立した iOS フラッシュカードアプリ <strong>Flashcard Guru</strong> のコンパニオンです。アドオンは Flashcard Guru と WebSocket 通信し、AnkiMobile とは通信しません。"
+          "a": "いいえ。これは独立した iOS フラッシュカードアプリ <strong>Guru</strong> のコンパニオンです。アドオンは Guru と WebSocket 通信し、AnkiMobile とは通信しません。"
         },
         {
           "q": "なぜ StudyRemote のように直接 Bluetooth キーボードにしないのですか?",

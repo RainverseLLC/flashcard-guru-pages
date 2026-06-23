@@ -1,6 +1,14 @@
 {
+  "blog": {
+    "metaTitle": "Guru: AI Flashcard Study Blog — Anki auf dem iPhone, Migration & Lern-Tools",
+    "metaDescription": "Anleitungen zu Anki auf dem iPhone, freihändigem Wiederholen, Deck-Migration und Spaced Repetition – vom Team hinter Guru.",
+    "indexTitle": "Blog",
+    "indexSubtitle": "Notizen zu Spaced Repetition, Anki-Migration und Lern-Tools.",
+    "updatedLabel": "Aktualisiert",
+    "allPosts": "← Alle Beiträge"
+  },
   "site": {
-    "name": "Flashcard Guru"
+    "name": "Guru"
   },
   "cta": {
     "appStoreSmall": "Laden im",
@@ -29,11 +37,11 @@
     "support": "Support",
     "privacy": "Datenschutz",
     "appPrivacy": "App-Datenschutz",
-    "rights": "© Flashcard Guru",
-    "trademark": "Anki ist eine Marke der jeweiligen Inhaber. Flashcard Guru ist eine unabhängige App und steht in keiner Verbindung zum Anki-Projekt und wird von diesem nicht unterstützt."
+    "rights": "© Guru",
+    "trademark": "Anki ist eine Marke der jeweiligen Inhaber. Guru ist eine unabhängige App und steht in keiner Verbindung zum Anki-Projekt und wird von diesem nicht unterstützt."
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — Anki fürs iPhone, mit KI-Karten & FSRS",
+    "metaTitle": "Guru: AI Flashcard Study — Anki fürs iPhone, mit KI-Karten & FSRS",
     "metaDescription": "Anki, neu gedacht fürs iPhone. Importiere deine .apkg-Stapel vollständig, verwandle PDFs mit KI in Karten und wiederhole mit FSRS — dazu Cram Mode, Study Lock und eine kostenlose drahtlose Anki Fernbedienung. Kostenlose 3-tägige Testphase.",
     "hero": {
       "eyebrow": "Gemacht fürs iPhone · Geliebt von Medizinstudierenden",
@@ -63,7 +71,7 @@
         "title": "Deine Anki-Stapel, vollständig importiert",
         "body": "Lege ein beliebiges <code>.apkg</code> oder <code>.colpkg</code> ab und deine Karten, dein Planungsstand und deine Medien werden exakt übernommen — angetrieben von Ankis eigener Engine. Exportiere jederzeit wieder zurück; dein Fortschritt bleibt nie gefangen.",
         "img": "decks-home.png",
-        "alt": "Flashcard Guru Stapel-Übersicht mit importierten Anki-Stapeln",
+        "alt": "Guru Stapel-Übersicht mit importierten Anki-Stapeln",
         "ticks": [
           ".apkg- & .colpkg-Import und -Export",
           "Planungsstand und Medien bleiben erhalten",
@@ -75,7 +83,7 @@
         "title": "Verwandle deine PDFs und Notizen in Karten",
         "body": "Öffne ein Lehrbuch- oder Vorlesungs-PDF im integrierten Reader, markiere das Wesentliche und lass KI wiederholungsbereite Karten entwerfen — Vorder-, Rückseite und Lückentext. Du behältst die volle Kontrolle darüber, was gesendet wird.",
         "img": "reader-ai.png",
-        "alt": "KI-Kartengenerierung im Flashcard Guru Reader",
+        "alt": "KI-Kartengenerierung im Guru Reader",
         "ticks": [
           "Aus PDFs, Notizen oder Wortlisten",
           "Passage markieren → Karten in Sekunden",
@@ -99,7 +107,7 @@
         "title": "Wiederhole quer durch den Raum",
         "body": "Steuere deine Wiederholungen, ohne den Bildschirm zu berühren. Koppele einen günstigen Game-Controller per Bluetooth oder nutze die kostenlose drahtlose Anki Fernbedienung, um Anki Desktop vom Telefon aus zu bedienen — sogar die 8BitDo-Controller, die AnkiMobile nicht koppelt.",
         "img": "hands-free.png",
-        "alt": "Flashcard Guru freihändige Wiederholung – das Handy als Funk-Fernbedienung mit großen Tasten Again, Hard, Good, Easy",
+        "alt": "Guru freihändige Wiederholung – das Handy als Funk-Fernbedienung mit großen Tasten Again, Hard, Good, Easy",
         "ticks": [
           "Unterstützung für MFi- & 8BitDo-Controller",
           "Kostenlose drahtlose Fernbedienung für Anki Desktop",
@@ -113,7 +121,7 @@
         "title": "Sieh deine Serie, deine Behaltensrate und deinen Schwung",
         "body": "Ein ruhiges Statistik-Dashboard zeigt dir auf einen Blick deine Serie, gemeisterte Karten und die Beständigkeit deiner Wiederholungen — genug, um ehrlich zu bleiben, ohne das Lernen zum Zahlenspiel zu machen.",
         "img": "stats.png",
-        "alt": "Flashcard Guru Statistik-Dashboard mit Tagesserie, Tagesziel-Fortschritt und den Wiederholungen dieser Woche",
+        "alt": "Guru Statistik-Dashboard mit Tagesserie, Tagesziel-Fortschritt und den Wiederholungen dieser Woche",
         "ticks": [
           "Serien- und Tagesziel-Tracking",
           "Beherrschung und Behaltensrate über die Zeit",
@@ -142,7 +150,7 @@
     "pricingTeaser": {
       "eyebrow": "Frühbucher-Angebot",
       "title": "Für immer dein — 50 % Rabatt, jetzt noch",
-      "body": "Teste Flashcard Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder zahle einmal und besitze es für immer, derzeit zum halben Preis für Frühentschlossene.",
+      "body": "Teste Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder zahle einmal und besitze es für immer, derzeit zum halben Preis für Frühentschlossene.",
       "earlybird": "Lifetime kostet <b>$14.99</b> <s>$29.99</s> — zeitlich begrenztes Frühbucher-Angebot, 50 % Rabatt."
     },
     "finalCta": {
@@ -151,8 +159,8 @@
     }
   },
   "pricing": {
-    "metaTitle": "Flashcard Guru Preise — Kostenlos testen, dann für immer dein",
-    "metaDescription": "Teste Flashcard Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder kaufe Lifetime einmal. Frühbucher: Lifetime mit 50 % Rabatt für $14.99 (normalerweise $29.99). Die drahtlose Anki Fernbedienung ist kostenlos.",
+    "metaTitle": "Guru: AI Flashcard Study Preise — Kostenlos testen, dann für immer dein",
+    "metaDescription": "Teste Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder kaufe Lifetime einmal. Frühbucher: Lifetime mit 50 % Rabatt für $14.99 (normalerweise $29.99). Die drahtlose Anki Fernbedienung ist kostenlos.",
     "eyebrow": "Preise",
     "title": "Kostenlos testen. Für immer dein.",
     "appleNote": "Alle Käufe werden sicher von Apple abgewickelt. Preise können je nach Region variieren.",
@@ -209,7 +217,7 @@
     "lifetime": {
       "eyebrow": "Lifetime",
       "title": "Eine Zahlung. Für immer dein.",
-      "body": "Kein Abo, keine Verlängerungen. Zahle einmal und behalte Flashcard Guru — und jedes künftige Update — für immer. Lifetime enthält 500 einmalige KI-Credits, um deine Stapel aufzubauen, und du kannst jederzeit nachladen.",
+      "body": "Kein Abo, keine Verlängerungen. Zahle einmal und behalte Guru — und jedes künftige Update — für immer. Lifetime enthält 500 einmalige KI-Credits, um deine Stapel aufzubauen, und du kannst jederzeit nachladen.",
       "points": [
         "Dauerhafter Zugang zu allen Pro-Funktionen",
         "500 einmalige KI-Credits inklusive",
@@ -265,24 +273,24 @@
       "pill": "Kostenlos · Open Source · LGPL-3.0",
       "title": "Anki Fernbedienung — auf dem iPhone, das du schon hast",
       "lead": "Koppele dein iPhone in 10 Sekunden per QR-Code mit Anki Desktop und steuere <em>Antwort zeigen / Nochmal / Schwer / Gut / Einfach</em> von der Couch, dem Laufband oder wo immer du lernst. Schließe einen günstigen 8BitDo-Controller ans iPhone an und er funktioniert über das Telefon — sogar Modelle, die AnkiMobile zu koppeln verweigert.",
-      "ctaPrimary": "Flashcard Guru herunterladen",
+      "ctaPrimary": "Guru herunterladen",
       "ctaSecondary": "Auf AnkiWeb ansehen"
     },
     "setup": {
       "title": "Einrichtung (3 Schritte, ca. 1 Minute)",
       "step1Lead": "<strong>Auf deinem Mac:</strong> Öffne Anki, dann <code>Werkzeuge → Add-ons → Add-ons herunterladen…</code> und füge diesen Code ein:",
       "step1Tail": "Anki neu starten. Beim ersten Start fragt macOS „<em>Eingehende Verbindungen erlauben?</em>“ — klicke <strong>Erlauben</strong>.",
-      "step2": "<strong>Auf deinem iPhone:</strong> Installiere <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a> aus dem App Store.",
+      "step2": "<strong>Auf deinem iPhone:</strong> Installiere <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Guru</a> aus dem App Store.",
       "step3Title": "<strong>Koppeln:</strong>",
       "step3Lines": [
         "In Anki: <code>Werkzeuge → Telefon verbinden (Flashcard Guru Remote)…</code> — ein QR-Code erscheint.",
-        "In Flashcard Guru: <code>Einstellungen → Anki Fernbedienung → Mit Mac koppeln</code> — QR scannen."
+        "In Guru: <code>Einstellungen → Anki Fernbedienung → Mit Mac koppeln</code> — QR scannen."
       ],
       "step3Tail": "Fertig. Öffne einen beliebigen Stapel auf dem Mac und das iPhone übernimmt."
     },
     "visualGuide": {
       "title": "Echte Einrichtungsscreenshots",
-      "intro": "Folge genau diesem Ablauf: Add-on in Anki Desktop installieren, Anki neu starten, das QR-Pairing-Fenster öffnen und es mit Flashcard Guru scannen.",
+      "intro": "Folge genau diesem Ablauf: Add-on in Anki Desktop installieren, Anki neu starten, das QR-Pairing-Fenster öffnen und es mit Guru scannen.",
       "items": [
         {
           "step": "1",
@@ -343,12 +351,12 @@
         {
           "step": "5",
           "title": "Anki Remote auf dem iPhone öffnen",
-          "body": "Gehe in Flashcard Guru zu <code>Settings → Anki Remote</code>.",
-          "alt": "Flashcard Guru Einstellungen mit dem Anki Remote-Eintrag",
+          "body": "Gehe in Guru zu <code>Settings → Anki Remote</code>.",
+          "alt": "Guru Einstellungen mit dem Anki Remote-Eintrag",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-settings.png",
-              "alt": "Flashcard Guru Einstellungen mit dem Anki Remote-Eintrag"
+              "alt": "Guru Einstellungen mit dem Anki Remote-Eintrag"
             }
           ]
         },
@@ -356,11 +364,11 @@
           "step": "6",
           "title": "Mit dem Mac koppeln",
           "body": "Tippe auf <strong>Pair with Mac</strong>, scanne den QR-Code auf dem Mac, und die Verbindung steht.",
-          "alt": "Flashcard Guru Anki Remote Bildschirm mit Pair with Mac",
+          "alt": "Guru Anki Remote Bildschirm mit Pair with Mac",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-pair-with-mac.png",
-              "alt": "Flashcard Guru Anki Remote Bildschirm mit Pair with Mac"
+              "alt": "Guru Anki Remote Bildschirm mit Pair with Mac"
             }
           ]
         }
@@ -389,7 +397,7 @@
     },
     "controllers": {
       "title": "Hardware-Controller-Unterstützung",
-      "intro": "Schließe einen Controller ans iPhone an (USB-C oder Bluetooth) und Flashcard Guru leitet die Tasten an Anki Desktop weiter:",
+      "intro": "Schließe einen Controller ans iPhone an (USB-C oder Bluetooth) und Guru leitet die Tasten an Anki Desktop weiter:",
       "gamepadHeading": "Gamepad (MFi)",
       "gamepadList": [
         "<code>A</code> → Gut · <code>B</code> → Nochmal · <code>X</code> → Schwer · <code>Y</code> → Einfach",
@@ -400,7 +408,7 @@
         "<code>1 / 2 / 3 / 4</code> → Nochmal / Schwer / Gut / Einfach",
         "<code>Space</code> → Antwort zeigen · <code>R</code> → Wiedergabe · <code>Z</code> oder <code>U</code> → Rückgängig"
       ],
-      "footnote": "Der Tastatur-Pfad ist der Trick, mit dem günstige 8BitDo-Controller funktionieren — diese kleinen Modelle exponieren das Apple-<code>GCExtendedGamepad</code>-Profil nicht, deshalb lehnt AnkiMobile sie ab. Flashcard Guru hört zusätzlich auf <code>GCKeyboard</code>, was genau dem entspricht, was 8BitDos „Tastaturmodus“ sendet."
+      "footnote": "Der Tastatur-Pfad ist der Trick, mit dem günstige 8BitDo-Controller funktionieren — diese kleinen Modelle exponieren das Apple-<code>GCExtendedGamepad</code>-Profil nicht, deshalb lehnt AnkiMobile sie ab. Guru hört zusätzlich auf <code>GCKeyboard</code>, was genau dem entspricht, was 8BitDos „Tastaturmodus“ sendet."
     },
     "privacy": {
       "title": "Datenschutz",
@@ -415,7 +423,7 @@
       "items": [
         {
           "q": "Funktioniert das mit AnkiMobile (der offiziellen iOS-Anki-App)?",
-          "a": "Nein. Dies ist der Begleiter zu <strong>Flashcard Guru</strong>, unserer eigenständigen iOS-Karteikarten-App. Das Add-on spricht WebSocket mit Flashcard Guru, nicht mit AnkiMobile."
+          "a": "Nein. Dies ist der Begleiter zu <strong>Guru</strong>, unserer eigenständigen iOS-Karteikarten-App. Das Add-on spricht WebSocket mit Guru, nicht mit AnkiMobile."
         },
         {
           "q": "Warum ist es nicht einfach eine Bluetooth-Tastatur wie StudyRemote?",

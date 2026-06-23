@@ -1,0 +1,39 @@
+{
+  "slug": "import-anki-decks-iphone",
+  "date": "2026-06-22",
+  "updated": "2026-06-22",
+  "section": "Anki on iOS",
+  "tags": [
+    "import anki deck",
+    "apkg iphone",
+    "anki migration",
+    "spaced repetition"
+  ],
+  "image": "/assets/og/landing.png",
+  "i18n": {
+    "en": {
+      "title": "How to Import Your Anki Decks (.apkg) onto iPhone",
+      "description": "Move your existing Anki decks to iPhone without losing scheduling or media. How to get an .apkg or .colpkg file onto iOS, import it intact, and export it back out anytime.",
+      "excerpt": "Move your .apkg decks to iPhone without losing scheduling or media — and keep the freedom to export them back out anytime.",
+      "readingTime": "6 min read"
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 上匯入 Anki 牌組 (.apkg)",
+      "description": "將現有的 Anki 牌組移至 iPhone，保留排程與多媒體檔案。了解如何將 .apkg 或 .colpkg 檔案放入 iOS 裝置、完整匯入，並隨時匯出備份。",
+      "excerpt": "將您的 .apkg 牌組移至 iPhone，保留排程與多媒體檔案 — 並隨時保有匯出的自由。",
+      "readingTime": "6 分鐘"
+    },
+    "ja": {
+      "title": "Ankiデッキ(.apkg)をiPhoneにインポートする方法",
+      "description": "手持ちのAnkiデッキをiPhoneに移行。スケジュールやメディアを失わずに.apkg/.colpkgファイルをiOSに取り込み、いつでも書き出せる方法を解説。",
+      "excerpt": ".apkgデッキをiPhoneに移行してもスケジュールやメディアはそのまま。いつでも書き出せる自由も確保できます。",
+      "readingTime": "6 分"
+    },
+    "ko": {
+      "title": "Anki 덱(.apkg)을 아이폰으로 가져오는 방법",
+      "description": "기존 Anki 덱을 일정과 미디어 손실 없이 아이폰으로 옮기는 방법. iOS에서 .apkg 또는 .colpkg 파일을 가져오고, 온전히 내보내는 방법을 설명합니다.",
+      "excerpt": "일정과 미디어 손실 없이 .apkg 덱을 아이폰으로 옮기고, 언제든지 다시 내보낼 수 있는 자유를 누리세요.",
+      "readingTime": "6분"
+    }
+  }
+}

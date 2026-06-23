@@ -1,0 +1,39 @@
+{
+  "slug": "hands-free-anki-review",
+  "date": "2026-06-20",
+  "updated": "2026-06-20",
+  "section": "Anki tooling",
+  "tags": [
+    "hands free anki",
+    "anki treadmill",
+    "spaced repetition",
+    "anki remote"
+  ],
+  "image": "/assets/og/anki-remote.png",
+  "i18n": {
+    "en": {
+      "title": "Hands-Free Anki Review: Study on a Treadmill, in Bed, or Eyes-Closed",
+      "description": "How to review Anki without holding your phone — on a treadmill, lying down, or in the dark. Phone-as-remote, controllers, and the right setup for each scenario.",
+      "excerpt": "Review Anki without touching the screen — treadmill, bed, or dark room. The setups that actually work for hands-free spaced repetition.",
+      "readingTime": "6 min read"
+    },
+    "zh-Hant": {
+      "title": "免手持複習 Anki：在跑步機、床上或閉眼時學習",
+      "description": "如何在跑步機、躺著或黑暗中複習 Anki，不必一直握著手機。手機變遙控器、遊戲手把，以及各種情境的最佳設定。",
+      "excerpt": "不用碰螢幕就能複習 Anki——無論是跑步機、床上還是暗房。真正適用的免手持間隔重複方案。",
+      "readingTime": "6 分鐘閱讀"
+    },
+    "ja": {
+      "title": "ハンズフリーAnki復習：トレッドミル・ベッド・目を閉じてでも学習できる方法",
+      "description": "iPhoneをリモコン代わりに、またはコントローラーを使って手を使わずにAnki復習。トレッドミル・ベッド・暗闇での効率的な学習法。8BitDo設定も解説。",
+      "excerpt": "画面に触れずにAnki復習——トレッドミルやベッド、暗い部屋でも。実際に使えるハンズフリー間隔反復のセットアップ方法。",
+      "readingTime": "6 分"
+    },
+    "ko": {
+      "title": "손이 자유로운 앙키(Anki) 복습: 런닝머신 위에서, 침대에서, 눈을 감고도 공부하는 법",
+      "description": "핸드폰을 잡지 않고 앙키를 복습하는 방법 — 런닝머신 위, 누워서, 어두운 곳에서도. 폰을 리모컨으로, 컨트롤러 활용, 상황별 최적 설정 가이드.",
+      "excerpt": "화면을 건드리지 않고 앙키 복습하기 — 런닝머신, 침대, 어두운 방. 실제로 효과가 있는 손이 자유로운 간격 반복 학습 설정법.",
+      "readingTime": "6분"
+    }
+  }
+}

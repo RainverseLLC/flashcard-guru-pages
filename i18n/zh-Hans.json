@@ -1,6 +1,14 @@
 {
+  "blog": {
+    "metaTitle": "Guru: AI Flashcard Study 博客 — iPhone 上的 Anki、牌组迁移与学习工具",
+    "metaDescription": "关于在 iPhone 上使用 Anki、免手持复习、牌组迁移与间隔重复的指南 —— 来自 Guru 团队。",
+    "indexTitle": "博客",
+    "indexSubtitle": "关于间隔重复、Anki 迁移与学习工具的笔记。",
+    "updatedLabel": "更新于",
+    "allPosts": "← 所有文章"
+  },
   "site": {
-    "name": "Flashcard Guru"
+    "name": "Guru"
   },
   "cta": {
     "appStoreSmall": "下载于",
@@ -29,11 +37,11 @@
     "support": "支持",
     "privacy": "隐私",
     "appPrivacy": "App 隐私",
-    "rights": "© Flashcard Guru",
-    "trademark": "Anki 是其各自所有者的商标。Flashcard Guru 是一款独立应用,与 Anki 项目无关联,也未获其背书。"
+    "rights": "© Guru",
+    "trademark": "Anki 是其各自所有者的商标。Guru 是一款独立应用,与 Anki 项目无关联,也未获其背书。"
   },
   "landing": {
-    "metaTitle": "Flashcard Guru — iPhone 版 Anki,带 AI 卡片与 FSRS",
+    "metaTitle": "Guru: AI Flashcard Study — iPhone 版 Anki,带 AI 卡片与 FSRS",
     "metaDescription": "为 iPhone 重新打造的 Anki。完整导入你的 .apkg 牌组,用 AI 把 PDF 变成卡片,用 FSRS 复习——还有 Cram Mode、专注锁定,以及免费的无线 Anki 遥控器。免费试用 3 天。",
     "hero": {
       "eyebrow": "为 iPhone 打造 · 深受医学生喜爱",
@@ -63,7 +71,7 @@
         "title": "你的 Anki 牌组,完整导入",
         "body": "拖入任意 <code>.apkg</code> 或 <code>.colpkg</code>,你的卡片、调度进度和媒体文件原样迁移——由 Anki 自家引擎驱动。想导出随时导出,你的进度永远不会被锁住。",
         "img": "decks-home.png",
-        "alt": "Flashcard Guru 牌组首页,展示已导入的 Anki 牌组",
+        "alt": "Guru 牌组首页,展示已导入的 Anki 牌组",
         "ticks": [
           ".apkg 与 .colpkg 导入导出",
           "调度状态与媒体完整保留",
@@ -75,7 +83,7 @@
         "title": "把你的 PDF 和笔记变成卡片",
         "body": "在内置阅读器里打开教材或讲义 PDF,划选重点,让 AI 起草可复习的卡片——正面、背面与填空。发送哪些内容,完全由你掌控。",
         "img": "reader-ai.png",
-        "alt": "Flashcard Guru 阅读器内的 AI 卡片生成面板",
+        "alt": "Guru 阅读器内的 AI 卡片生成面板",
         "ticks": [
           "来自 PDF、笔记或词表",
           "划选一段文字 → 几秒生成卡片",
@@ -99,7 +107,7 @@
         "title": "隔着房间也能复习",
         "body": "不碰屏幕也能推进复习。通过蓝牙配一只便宜的游戏手柄,或用免费的无线 Anki 遥控器从手机操控 Anki Desktop——连 AnkiMobile 都无法配对的 8BitDo 手柄也能用。",
         "img": "hands-free.png",
-        "alt": "Flashcard Guru 把手机当无线遥控器,用超大 Again/Hard/Good/Easy 按键解放双手复习",
+        "alt": "Guru 把手机当无线遥控器,用超大 Again/Hard/Good/Easy 按键解放双手复习",
         "ticks": [
           "支持 MFi 与 8BitDo 手柄",
           "免费无线遥控 Anki Desktop",
@@ -113,7 +121,7 @@
         "title": "看见你的连续天数、记忆率与势头",
         "body": "一个清爽的统计面板,一眼看清你的连续天数、已掌握卡片数和复习稳定度——足够让你保持诚实,又不会把学习变成数字游戏。",
         "img": "stats.png",
-        "alt": "Flashcard Guru 统计面板,显示连续天数、每日目标进度和本周复习量",
+        "alt": "Guru 统计面板,显示连续天数、每日目标进度和本周复习量",
         "ticks": [
           "连续天数与每日目标追踪",
           "掌握度与记忆率随时间变化",
@@ -142,7 +150,7 @@
     "pricingTeaser": {
       "eyebrow": "早鸟优惠",
       "title": "买断终身——现在五折",
-      "body": "免费试用 Flashcard Guru 3 天,然后用每周或每年方案继续——或一次付费,永久拥有,目前为早期用户半价。",
+      "body": "免费试用 Guru 3 天,然后用每周或每年方案继续——或一次付费,永久拥有,目前为早期用户半价。",
       "earlybird": "终身版 <b>$14.99</b> <s>$29.99</s>——限时早鸟,五折。"
     },
     "finalCta": {
@@ -151,8 +159,8 @@
     }
   },
   "pricing": {
-    "metaTitle": "Flashcard Guru 价格 — 免费试用,买断终身",
-    "metaDescription": "Flashcard Guru 免费试用 3 天,然后用每周或每年方案继续——或一次性购买终身版。早鸟:终身版五折,$14.99(原价 $29.99)。无线 Anki 遥控器免费。",
+    "metaTitle": "Guru: AI Flashcard Study 价格 — 免费试用,买断终身",
+    "metaDescription": "Guru 免费试用 3 天,然后用每周或每年方案继续——或一次性购买终身版。早鸟:终身版五折,$14.99(原价 $29.99)。无线 Anki 遥控器免费。",
     "eyebrow": "价格",
     "title": "免费试用。买断终身。",
     "appleNote": "所有购买均由 Apple 安全处理。价格可能因地区而异。",
@@ -209,7 +217,7 @@
     "lifetime": {
       "eyebrow": "终身版",
       "title": "一次付费。永久拥有。",
-      "body": "无订阅,无续费。一次付清,永久保留 Flashcard Guru——以及未来的每次更新。终身版含 500 一次性 AI 额度供你搭建牌组,随时可以充值。",
+      "body": "无订阅,无续费。一次付清,永久保留 Guru——以及未来的每次更新。终身版含 500 一次性 AI 额度供你搭建牌组,随时可以充值。",
       "points": [
         "永久使用全部 Pro 功能",
         "含 500 一次性 AI 额度",
@@ -265,24 +273,24 @@
       "pill": "免费 · 开源 · LGPL-3.0",
       "title": "用你已有的 iPhone 当 Anki 遥控器",
       "lead": "扫码 10 秒把 iPhone 和 Anki Desktop 配对,然后在沙发上、跑步机上、任何地方按 <em>显示答案 / 重来 / 困难 / 良好 / 简单</em>。把廉价 8BitDo 手柄插到手机上,信号通过手机转发到 Mac——AnkiMobile 拒绝识别的小手柄,在这里能用。",
-      "ctaPrimary": "下载 Flashcard Guru",
+      "ctaPrimary": "下载 Guru",
       "ctaSecondary": "在 AnkiWeb 查看"
     },
     "setup": {
       "title": "配置(3 步,大约 1 分钟)",
       "step1Lead": "<strong>在 Mac 上:</strong> 打开 Anki, 选择 <code>工具 → 插件 → 下载插件…</code>, 输入这个代码:",
       "step1Tail": "重启 Anki。第一次启动时 macOS 会弹「<em>允许传入连接吗?</em>」——点 <strong>允许</strong>。",
-      "step2": "<strong>在 iPhone 上:</strong> 从 App Store 安装 <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Flashcard Guru</a>。",
+      "step2": "<strong>在 iPhone 上:</strong> 从 App Store 安装 <a href=\"https://apps.apple.com/app/flashcardguru/id6757980593\">Guru</a>。",
       "step3Title": "<strong>配对:</strong>",
       "step3Lines": [
         "在 Anki 里: <code>工具 → 连接手机(Flashcard Guru Remote)…</code>——会显示一个二维码。",
-        "在 Flashcard Guru 里: <code>设置 → Anki 遥控器 → 配对 Mac</code>——扫码即可。"
+        "在 Guru 里: <code>设置 → Anki 遥控器 → 配对 Mac</code>——扫码即可。"
       ],
       "step3Tail": "搞定。在 Mac 上打开任意牌组,iPhone 立即接管。"
     },
     "visualGuide": {
       "title": "真实配置截图",
-      "intro": "按这些截图里的流程走：先在 Anki Desktop 里安装插件并重启，再打开二维码配对窗口，最后用 Flashcard Guru 扫码连接。",
+      "intro": "按这些截图里的流程走：先在 Anki Desktop 里安装插件并重启，再打开二维码配对窗口，最后用 Guru 扫码连接。",
       "items": [
         {
           "step": "1",
@@ -343,12 +351,12 @@
         {
           "step": "5",
           "title": "在 iPhone 打开 Anki Remote",
-          "body": "在 Flashcard Guru 中进入 <code>设置 → Anki Remote</code>。",
-          "alt": "Flashcard Guru 设置页面中的 Anki Remote 入口",
+          "body": "在 Guru 中进入 <code>设置 → Anki Remote</code>。",
+          "alt": "Guru 设置页面中的 Anki Remote 入口",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-settings.png",
-              "alt": "Flashcard Guru 设置页面中的 Anki Remote 入口"
+              "alt": "Guru 设置页面中的 Anki Remote 入口"
             }
           ]
         },
@@ -356,11 +364,11 @@
           "step": "6",
           "title": "与 Mac 配对",
           "body": "点击 <strong>Pair with Mac</strong>，扫描 Mac 上的二维码，连接完成。",
-          "alt": "Flashcard Guru Anki Remote 页面中的 Pair with Mac",
+          "alt": "Guru Anki Remote 页面中的 Pair with Mac",
           "images": [
             {
               "src": "/assets/anki-remote/iphone-pair-with-mac.png",
-              "alt": "Flashcard Guru Anki Remote 页面中的 Pair with Mac"
+              "alt": "Guru Anki Remote 页面中的 Pair with Mac"
             }
           ]
         }
@@ -389,7 +397,7 @@
     },
     "controllers": {
       "title": "硬件手柄支持",
-      "intro": "把手柄插到 iPhone 上(USB-C 或蓝牙),Flashcard Guru 把按键转发给 Anki Desktop:",
+      "intro": "把手柄插到 iPhone 上(USB-C 或蓝牙),Guru 把按键转发给 Anki Desktop:",
       "gamepadHeading": "游戏手柄(MFi)",
       "gamepadList": [
         "<code>A</code> → 良好 · <code>B</code> → 重来 · <code>X</code> → 困难 · <code>Y</code> → 简单",
@@ -400,7 +408,7 @@
         "<code>1 / 2 / 3 / 4</code> → 重来 / 困难 / 良好 / 简单",
         "<code>Space</code> → 显示答案 · <code>R</code> → 重放 · <code>Z</code> 或 <code>U</code> → 撤销"
       ],
-      "footnote": "键盘模式是让廉价 8BitDo 手柄能用的关键——这些小手柄不暴露 Apple 的 <code>GCExtendedGamepad</code> profile,所以 AnkiMobile 拒绝识别。Flashcard Guru 同时监听 <code>GCKeyboard</code>,正好对接 8BitDo 的「键盘模式」输出。"
+      "footnote": "键盘模式是让廉价 8BitDo 手柄能用的关键——这些小手柄不暴露 Apple 的 <code>GCExtendedGamepad</code> profile,所以 AnkiMobile 拒绝识别。Guru 同时监听 <code>GCKeyboard</code>,正好对接 8BitDo 的「键盘模式」输出。"
     },
     "privacy": {
       "title": "隐私",
@@ -415,7 +423,7 @@
       "items": [
         {
           "q": "这个能配合 AnkiMobile(官方 iOS Anki app)使用吗?",
-          "a": "不能。这是 <strong>Flashcard Guru</strong> 的伴侣——我们独立的 iOS 卡片应用。插件通过 WebSocket 和 Flashcard Guru 通信,不和 AnkiMobile 通信。"
+          "a": "不能。这是 <strong>Guru</strong> 的伴侣——我们独立的 iOS 卡片应用。插件通过 WebSocket 和 Guru 通信,不和 AnkiMobile 通信。"
         },
         {
           "q": "为什么不像 StudyRemote 那样直接做蓝牙键盘?",

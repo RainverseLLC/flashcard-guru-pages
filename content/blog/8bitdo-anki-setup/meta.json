@@ -1,0 +1,39 @@
+{
+  "slug": "8bitdo-anki-setup",
+  "date": "2026-06-21",
+  "updated": "2026-06-21",
+  "section": "Anki tooling",
+  "tags": [
+    "8bitdo anki",
+    "anki controller",
+    "8bitdo zero 2",
+    "hands free anki"
+  ],
+  "image": "/assets/og/anki-remote.png",
+  "i18n": {
+    "en": {
+      "title": "8BitDo for Anki: Zero 2 & micro Setup (and the iPhone Fix)",
+      "description": "Set up an 8BitDo Zero 2 or micro for hands-free Anki review — button mappings, Keyboard Mode, and how to make the cheap models work that AnkiMobile won't pair with.",
+      "excerpt": "Set up an 8BitDo Zero 2 or micro for Anki — mappings, Keyboard Mode, and the trick to make the cheap models work that AnkiMobile rejects.",
+      "readingTime": "7 min read"
+    },
+    "zh-Hant": {
+      "title": "8BitDo 搭配 Anki：Zero 2 與 micro 設定教學（以及 iPhone 的解決方案）",
+      "description": "手把手教你設定 8BitDo Zero 2 或 micro，實現免手持複習 Anki — 按鍵映射、鍵盤模式，以及讓 AnkiMobile 不支援的平價型號也能運作的技巧。",
+      "excerpt": "學習如何設定 8BitDo Zero 2 或 micro 來免手持複習 Anki — 按鍵映射、鍵盤模式，以及讓 AnkiMobile 拒絕配對的平價型號也能正常運作的密技。",
+      "readingTime": "7 分鐘閱讀"
+    },
+    "ja": {
+      "title": "8BitDo for Anki：Zero 2・microの設定ガイド（iPhone対策も解説）",
+      "description": "8BitDo Zero 2やmicroを使ったハンズフリーAnki学習の設定方法 ― ボタン割り当て、Keyboard Mode、AnkiMobileがペアリングできない安価なモデルを回避するテクニック。",
+      "excerpt": "8BitDo Zero 2やmicroをAnkiで使うための設定方法 ― キー割り当て、Keyboard Mode、そしてAnkiMobileが拒否する格安モデルを回避するテクニックを解説。",
+      "readingTime": "7 分"
+    },
+    "ko": {
+      "title": "8BitDo for Anki: Zero 2 & micro 설정 및 iPhone 해결 방법",
+      "description": "8BitDo Zero 2 또는 micro를 Anki에서 핸즈프리 복습에 활용하는 방법 — 버튼 매핑, 키보드 모드, AnkiMobile이 거부하는 저가형 모델을 연결하는 팁.",
+      "excerpt": "8BitDo Zero 2 또는 micro를 Anki에서 설정하는 방법 — 매핑, 키보드 모드, AnkiMobile이 거부하는 저가형 모델을 작동시키는 비결.",
+      "readingTime": "7분"
+    }
+  }
+}

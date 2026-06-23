@@ -1,0 +1,39 @@
+{
+  "slug": "anki-on-iphone-guide",
+  "date": "2026-06-23",
+  "updated": "2026-06-23",
+  "section": "Anki on iOS",
+  "tags": [
+    "anki on iphone",
+    "anki ipad",
+    "ankimobile",
+    "spaced repetition"
+  ],
+  "image": "/assets/og/landing.png",
+  "i18n": {
+    "en": {
+      "title": "How to Use Anki on iPhone & iPad (2026): Every Option Compared",
+      "description": "AnkiMobile, AnkiWeb, or a modern alternative like Guru — how to run Anki on iPhone and iPad in 2026, what each costs, and how to keep your decks and scheduling intact.",
+      "excerpt": "AnkiMobile, AnkiWeb, or a modern alternative — the real ways to run Anki on iPhone and iPad, what each costs, and how to keep your decks intact.",
+      "readingTime": "8 min read"
+    },
+    "zh-Hant": {
+      "title": "如何在 iPhone 與 iPad 上使用 Anki（2026）：所有方案完整比較",
+      "description": "AnkiMobile、AnkiWeb、或現代替代方案 Guru — 2026 年在 iPhone 與 iPad 上使用 Anki 的真實方法、各方案費用、以及如何保留牌組與排程不中斷。",
+      "excerpt": "AnkiMobile、AnkiWeb、或現代替代方案 — 在 iPhone 與 iPad 上使用 Anki 的真實方法、各方案費用、以及如何保留牌組完整無損。",
+      "readingTime": "8 分鐘"
+    },
+    "ja": {
+      "title": "iPhone・iPadでAnkiを使う方法（2026年版）：全選択肢を比較",
+      "description": "AnkiMobile、AnkiWeb、あるいはGuruのような現代的代替アプリ—2026年にiPhone/iPadでAnkiを使う方法、それぞれの費用、デッキとスケジュールを維持する方法を解説。",
+      "excerpt": "AnkiMobile、AnkiWeb、あるいは現代的代替アプリ—iPhone/iPadでAnkiを使う本当の方法、それぞれの費用、デッキをそのまま維持する方法。",
+      "readingTime": "8 分"
+    },
+    "ko": {
+      "title": "아이폰/아이패드에서 Anki 사용법 (2026): 모든 옵션 비교",
+      "description": "AnkiMobile, AnkiWeb, 또는 Guru 같은 현대적 대안 — 2026년에 아이폰·아이패드에서 Anki를 실행하는 방법, 각 비용, 덱과 스케줄링을 유지하는 방법.",
+      "excerpt": "AnkiMobile, AnkiWeb, 또는 현대적 대안 — 아이폰·아이패드에서 Anki를 실행하는 실제 방법, 각 비용, 덱을 그대로 유지하는 방법.",
+      "readingTime": "8분"
+    }
+  }
+}
