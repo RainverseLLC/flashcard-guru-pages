@@ -1,138 +1,16 @@
-# flashcard-guru-pages
+# flashcard-guru-pages — MOVED (2026-07-06)
 
-Marketing site + legal pages for [Guru](https://flashcard-guru.flashify.app), the iOS spaced-repetition app from [Rainverse LLC](https://github.com/rainverseLLC).
+The site now lives in **flashifyWebV2/marketing/app-site/** and is served by
+the main Worker at **https://guruowl.com/app/** (SEO consolidation: one domain,
+one crawl surface).
 
-Static HTML/CSS only — no build step, no JS framework. Deployed to Cloudflare Pages.
+This Pages project only serves `redirect/_redirects` — a blanket
+`/* → https://guruowl.com/app/:splat 301`. Keep the project + custom domain
+alive so old links, App Store Connect URLs, and indexed pages keep resolving.
 
-## Layout
+Redeploy the redirects (rarely needed):
 
-```
-templates/                  # i18n source HTML — Mustache-subset templates
-├── landing.tmpl.html
-├── anki-remote.tmpl.html
-├── pricing.tmpl.html
-├── blog-post.tmpl.html      # wraps a rendered Markdown post
-└── blog-index.tmpl.html
+    npx wrangler@4 pages deploy redirect --project-name=flashcard-guru
 
-content/blog/               # blog source — one dir per post
-└── <slug>/                  # meta.json + en.md (+ <locale>.md per translation)
-
-i18n/                       # one JSON per supported locale (8 total)
-├── en.json                  # canonical (default locale)
-├── zh-Hans.json
-├── zh-Hant.json
-├── ja.json
-├── ko.json
-├── de.json
-├── fr.json
-└── es.json
-
-scripts/
-└── build.js                # template engine + locale + Markdown blog builder
-
-public/                     # what gets deployed (generated + static)
-├── _headers                  # Cloudflare Pages headers
-├── _redirects                # Cloudflare Pages redirects
-├── index.html               ← generated (en landing)
-├── anki-remote/             ← generated (en anki-remote)
-├── zh-Hans/, zh-Hant/, ja/, ko/, de/, fr/, es/   ← generated per locale
-├── blog/                    ← generated (blog index + posts, per locale)
-├── assets/screenshots/      # static — ASO hero shots
-├── support/, privacy/, app-privacy-policy/        # static — legal/support
-```
-
-The `public/<locale>/...` directories and `public/{index.html,anki-remote/}` are **generated** by `npm run build` from the templates + i18n JSON. They're gitignored — source of truth lives in `templates/` and `i18n/`.
-
-## Local preview
-
-```
-npm install
-npm run dev
-# open http://localhost:8788
-```
-
-`dev` runs the build first so all 8 locales render correctly under `/`, `/zh-Hans/`, `/ja/`, etc.
-
-## Build
-
-```
-npm run build
-```
-
-Reads every `templates/*.tmpl.html` and every `i18n/*.json`, generates the cross-product into `public/`. Idempotent.
-
-## Deploy
-
-```
-npm run deploy
-```
-
-Chains:
-1. `npm run build` — regenerate per-locale HTML + sitemap.xml
-2. `wrangler pages deploy public --project-name=flashcard-guru` — push to Cloudflare Pages
-3. `scripts/ping-indexnow.sh` — push every URL in the sitemap to IndexNow (Bing / Yandex / Naver / Seznam / Mojeek pick it up; Google is reached via Search Console + organic crawl)
-
-The Pages project is mapped to `flashcard-guru.flashify.app` in the Cloudflare dashboard.
-
-For preview branches (no IndexNow ping — preview URLs aren't canonical):
-
-```
-npm run deploy:preview
-```
-
-To ping IndexNow without a fresh deploy (e.g., after a Cloudflare config change):
-
-```
-npm run indexnow
-```
-
-### IndexNow setup
-
-The protocol authenticates ownership via a key file served at the site root:
-
-- `.indexnow-key` (committed) — single line, the canonical key
-- `public/<KEY>.txt` (committed) — file named after the key, content = the key
-
-Both must move together. Rotating the key = generate new hex, save to `.indexnow-key`, rename the public file. Cloudflare's automatic IndexNow integration (Speed → Optimization → IndexNow in the dashboard) reads the same key file, so enabling it is one click and complementary to the manual ping.
-
-## Adding a locale
-
-1. Add an entry to `LOCALES` in `scripts/build.js` (BCP 47 code + display name).
-2. Create `i18n/<code>.json` — start by copying `i18n/en.json` and translating the values (keys must match exactly).
-3. `npm run build` — the new locale's pages will appear under `public/<code>/`.
-
-## Editing copy
-
-- **String change in one locale** → edit `i18n/<locale>.json` and rebuild.
-- **Layout/structural change** → edit `templates/<page>.tmpl.html` and rebuild. All 8 locales pick up the change.
-- **New translatable string** → add the key to *every* `i18n/*.json` (start with English, then translate). Reference it in the template as `{{path.to.key}}`.
-
-Template syntax (Mustache subset, no escaping — strings are HTML):
-
-- `{{key}}` or `{{nested.key}}` — variable substitution.
-- `{{#list}}…{{/list}}` — iterate over an array; inside the body, `{{title}}` etc. refer to fields of the current item, and `{{this}}` is the raw item (for string arrays).
-- `{{prefix}}` is auto-injected per locale (`""` for default, `/zh-Hans` etc. for others). Use it on internal i18n'd links: `href="{{prefix}}/anki-remote"`. Substitution is recursive, so it works inside locale strings too.
-
-## Edit conventions
-
-- One HTML file per route (`<route>/index.html`). The dir-name routing keeps URLs trailing-slash-friendly.
-- Inline `<style>` per page is fine — pages share an aesthetic (Apple-system font, light bg, blue accent) but each is standalone for fast iteration.
-- Keep the `_headers` security baseline: `X-Content-Type-Options`, `Referrer-Policy`, `Permissions-Policy`.
-- Don't drop the `_redirects` mappings — App Store / TestFlight build references and the Anki AddOn listing point at specific URLs (`/privacy`, `/support`, `/anki-remote`).
-- **Screenshots** live under `public/assets/screenshots/` and are sourced from the ASO automation pipeline (`flashifyIOS/artifacts/appstore/<locale>/local_full_single/`). Re-export and replace when ASO finalizes.
-
-## Adding a blog post
-
-Posts are generated by the build from Markdown + per-locale metadata — same pipeline as the landing pages. No hand-written HTML, and `public/blog/` is gitignored (generated).
-
-1. Create `content/blog/<slug>/meta.json` — `date`, `updated`, `section`, `tags`, `image`, and an `i18n` map with per-locale `title` / `description` / `excerpt` / `readingTime`. The default locale (`en`) is required.
-2. Write the body in `content/blog/<slug>/en.md` (Markdown; GFM tables supported, and raw HTML is allowed for custom blocks like `.tldr` / `.cta-box`). Start headings at `##` — the `#` title comes from `meta.json`.
-3. `npm run build` — the post renders to `public/blog/<slug>/` (default locale). The blog index, hreflang, Article + Breadcrumb JSON-LD, and sitemap entries are all generated automatically.
-4. Aim for ~1500 words on long-form / SEO posts. Naturally link to `/anki-remote`, `/`, or other posts where relevant.
-5. To translate a post, add `content/blog/<slug>/<locale>.md` plus that locale's entry under `meta.json` → `i18n`; it renders at `/<locale>/blog/<slug>/`. Locales without a translation fall back to linking the default-locale post from their localized blog index.
-
-## Related
-
-- iOS app (private): see `flashifyIOS`.
-- Anki Remote AddOn (LGPL-3.0): <https://github.com/jyehn/flashcard-guru-remote-addon>
-- Anki Import Bridge (AGPL-3.0): <https://github.com/jyehn/flashcard-guru-anki-import-bridge>
+Everything else in this repo (templates/, i18n/, content/, scripts/, public/)
+is the pre-move snapshot — edit the copy in flashifyWebV2 instead.

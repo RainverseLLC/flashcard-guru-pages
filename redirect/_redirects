@@ -1,0 +1,5 @@
+# The site moved into the main product domain (SEO consolidation):
+# everything now lives under https://guruowl.com/app/
+/privacy-policy  https://guruowl.com/app/privacy/  301
+/privacy-policy/ https://guruowl.com/app/privacy/  301
+/* https://guruowl.com/app/:splat 301
