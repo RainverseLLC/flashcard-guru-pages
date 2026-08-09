@@ -42,19 +42,13 @@ Your **scheduling state** (intervals, ease, due dates) travels inside the <code>
 
 This is the part worth repeating: a good Anki app lets you **export back out**. With Guru you can export any deck to a standard <code>.apkg</code> at any time and take it to desktop Anki, AnkiMobile, or anywhere else. Importing onto your phone is a move, not a one-way trapdoor.
 
-## FAQ
 
-**What's the difference between .apkg and .colpkg?**
-<code>.apkg</code> is one or more decks; <code>.colpkg</code> is your whole collection (all decks + settings). Both import the same way.
 
-**Can I import a huge deck like AnKing?**
-Yes — large media-heavy decks import fine; just give big files a moment to unpack.
+## Related guides
 
-**Do AI features change my imported cards?**
-No. Importing never sends your cards anywhere. AI card generation in Guru only runs when you explicitly start it on new material — your imported decks are untouched.
-
-**Can I review the imported deck hands-free?**
-Yes — once it's on your phone you can review with a controller, or use the phone as a <a href="/anki-remote">wireless remote for desktop Anki</a>. See <a href="/blog/hands-free-anki-review/">hands-free Anki review</a>.
+- <a href="/blog/anki-on-iphone-guide/">Anki on iPhone (2026): free options & full comparison</a>
+- <a href="/blog/hands-free-anki-review/">Hands-free Anki review: treadmill, bed & remote</a>
+- <a href="/blog/free-wireless-anki-remote/">Anki remote setup: free iPhone vs 8BitDo</a>
 
 <div class="cta-box">
 <h3>Bring your decks to a better iPhone app</h3>

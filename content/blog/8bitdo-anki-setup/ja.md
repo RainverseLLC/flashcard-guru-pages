@@ -46,6 +46,13 @@ Keyboard Modeでは、デフォルトのマッピングがAnkiの復習キーに
 2. デスクトップAnkiに**[Anki Remote](/ja/anki-remote)**アドオン（コード`1196082853`）をインストールし、QRコードをスキャンしてスマホとペアリングします。
 3. デスクトップでデッキを開き、ボタンを押すとカードがめくられ、評価されます。完了です。
 
+
+## 関連ガイド
+
+- <a href="/ja/blog/free-wireless-anki-remote/">Ankiリモート設定（2026）：無料iPhone vs 8BitDo</a>
+- <a href="/ja/blog/hands-free-anki-review/">ハンズフリーAnki復習</a>
+- <a href="/ja/anki-remote">Ankiリモート設定手順</a>
+
 ## FAQ
 
 **ContankiとGuruは両方必要ですか？**

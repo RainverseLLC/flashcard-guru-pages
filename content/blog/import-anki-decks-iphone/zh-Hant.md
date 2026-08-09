@@ -42,19 +42,13 @@
 
 這點值得重複強調：一個好的 Anki App 讓您可以**匯出備份**。使用 Guru，您可以隨時將任何牌組匯出為標準的 <code>.apkg</code> 檔案，然後帶到桌機版 Anki、AnkiMobile 或其他任何地方。將牌組匯入手機是一個「搬家」動作，而不是一條單向的不歸路。
 
-## 常見問題
 
-**.apkg 和 .colpkg 有什麼不同？**
-<code>.apkg</code> 包含一個或多個牌組；<code>.colpkg</code> 則是您的整個牌組集合（所有牌組 + 設定）。兩者的匯入方式相同。
 
-**我可以匯入像 AnKing 這種大型牌組嗎？**
-可以 — 大型且多媒體檔案多的牌組也能順利匯入；大型檔案只需稍等一下讓它解壓縮。
+## 相關指南
 
-**AI 功能會修改我匯入的卡片嗎？**
-不會。匯入過程絕對不會將您的卡片資料傳送到任何地方。Guru 中的 AI 卡片生成功能只會在您主動對新教材啟動時才會執行 — 您匯入的牌組完全不會被更動。
-
-**我可以免手持複習匯入的牌組嗎？**
-可以 — 一旦牌組在您的手機上，您就可以使用控制器複習，或將手機當作 <a href="/zh-Hant/anki-remote">桌機版 Anki 的無線遙控器</a>。請參閱 <a href="/zh-Hant/blog/hands-free-anki-review/">免手持 Anki 複習指南</a>。
+- <a href="/zh-Hant/blog/anki-on-iphone-guide/">Anki 在 iPhone 上怎麼用（2026）</a>
+- <a href="/zh-Hant/blog/hands-free-anki-review/">免手持複習 Anki</a>
+- <a href="/zh-Hant/blog/free-wireless-anki-remote/">Anki 遙控器設定：免費 iPhone vs 8BitDo</a>
 
 <div class="cta-box">
 <h3>將您的牌組帶到更好的 iPhone App</h3>

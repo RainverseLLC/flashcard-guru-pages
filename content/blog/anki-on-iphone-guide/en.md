@@ -52,21 +52,8 @@ A lot of people searching "anki on iphone" actually want something subtler: they
 
 ## Moving your existing decks over
 
-Whichever native app you choose, the first step is the same: get your <code>.apkg</code> files onto the phone and import them with scheduling intact. We wrote a step-by-step guide: <a href="/blog/import-anki-decks-iphone/">How to import your Anki decks (.apkg) onto iPhone</a>. The important part — your progress is never trapped; everything exports back to a standard <code>.apkg</code>.
+Whichever native app you choose, the first step is the same: get your <code>.apkg</code> files onto the phone and import them with scheduling intact. We wrote a step-by-step guide: <a href="/blog/import-anki-decks-iphone/">How to open .apkg on iPhone and import Anki decks</a>. The important part — your progress is never trapped; everything exports back to a standard <code>.apkg</code>.
 
-## FAQ
-
-**Can I use Anki on iPad too?**
-Yes. AnkiMobile and Guru are both universal (iPhone + iPad). AnkiWeb works in any iPad browser.
-
-**Is AnkiDroid available on iPhone?**
-No. AnkiDroid is Android-only. On iOS your native options are AnkiMobile or an alternative like Guru.
-
-**Will my desktop streak and scheduling carry over?**
-Yes, if you import a full <code>.apkg</code>/<code>.colpkg</code> — the scheduling state travels with the cards. See the <a href="/blog/import-anki-decks-iphone/">import guide</a>.
-
-**Which is best for medical school decks (AnKing, etc.)?**
-All three can review big shared decks. For a phone-first experience with hands-free review and FSRS, a native alternative is usually the most comfortable; for exact parity with desktop add-ons, AnkiMobile.
 
 <div class="cta-box">
 <h3>Want Anki that feels at home on iPhone?</h3>

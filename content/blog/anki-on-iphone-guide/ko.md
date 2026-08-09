@@ -52,19 +52,6 @@ AnkiWeb은 무료 웹 클라이언트입니다. Safari에서 ankiweb.net에 로�
 
 어떤 네이티브 앱을 선택하든 첫 단계는 동일합니다: <code>.apkg</code> 파일을 휴대폰으로 가져와 스케줄링을 그대로 유지한 상태로 임포트하는 것입니다. 단계별 가이드를 준비했습니다: <a href="/ko/blog/import-anki-decks-iphone/">Anki 덱(.apkg)을 아이폰으로 가져오는 방법</a>. 중요한 점은 — 진행 상황이 갇히지 않으며 모든 것을 표준 <code>.apkg</code>로 내보낼 수 있다는 것입니다.
 
-## FAQ
-
-**iPad에서도 Anki를 사용할 수 있나요?**
-네. AnkiMobile과 Guru는 모두 유니버설 앱입니다(아이폰 + 아이패드). AnkiWeb은 모든 iPad 브라우저에서 작동합니다.
-
-**AnkiDroid를 아이폰에서 사용할 수 있나요?**
-아니요. AnkiDroid는 안드로이드 전용입니다. iOS에서 네이티브 옵션은 AnkiMobile 또는 Guru 같은 대안입니다.
-
-**데스크톱의 연속 학습 기록과 스케줄링이 그대로 유지되나요?**
-네, 전체 <code>.apkg</code>/<code>.colpkg</code>를 임포트하면 스케줄링 상태가 카드와 함께 이동합니다. <a href="/ko/blog/import-anki-decks-iphone/">가져오기 가이드</a>를 참조하세요.
-
-**의대 덱(AnKing 등)에 가장 적합한 것은 무엇인가요?**
-세 가지 모두 대형 공유 덱을 복습할 수 있습니다. 핸즈프리 복습과 FSRS를 지원하는 휴대폰 중심 경험을 원한다면 네이티브 대안이 일반적으로 가장 편리하며, 데스크톱 애드온과의 완벽한 호환성을 원한다면 AnkiMobile이 적합합니다.
 
 <div class="cta-box">
 <h3>아이폰에서 Anki를 더 편안하게 사용하고 싶으신가요?</h3>

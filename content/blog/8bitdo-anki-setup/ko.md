@@ -57,6 +57,13 @@
 **비용이 드나요?**
 컨트롤러는 약 2~3만 원입니다. Anki Remote 애드온과 리모컨 기능은 무료이며, Contanki도 무료입니다.
 
+
+## 관련 가이드
+
+- <a href="/ko/blog/free-wireless-anki-remote/">Anki 리모컨 설정 (2026): 무료 아이폰 vs 8BitDo</a>
+- <a href="/ko/blog/hands-free-anki-review/">핸즈프리 Anki 복습</a>
+- <a href="/ko/anki-remote">Anki 리모컨 설정 안내</a>
+
 <div class="cta-box">
 <h3>iPhone에서 8BitDo 작동시키기</h3>
 <p>무료 Guru Anki Remote를 통해 저렴한 컨트롤러를 연결하세요 — AnkiMobile이 거부하는 모델도 포함됩니다.</p>

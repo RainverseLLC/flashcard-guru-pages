@@ -54,19 +54,6 @@ AnkiWeb 是免費的網頁客戶端。在 Safari 中登入 ankiweb.net，即可�
 
 無論你選擇哪個原生 App，第一步都一樣：將你的 <code>.apkg</code> 檔案傳入手機，並在保留排程的狀態下匯入。我們寫了一份逐步教學：<a href="/zh-Hant/blog/import-anki-decks-iphone/">如何在 iPhone 上匯入你的 Anki 牌組 (.apkg)</a>。重點是 — 你的學習進度永遠不會被鎖死；一切都可以匯出回標準的 <code>.apkg</code>。
 
-## 常見問題
-
-**我可以在 iPad 上使用 Anki 嗎？**
-可以。AnkiMobile 和 Guru 都是通用版（iPhone + iPad）。AnkiWeb 則可在任何 iPad 瀏覽器上運作。
-
-**AnkiDroid 可以在 iPhone 上使用嗎？**
-不行。AnkiDroid 僅限 Android。在 iOS 上，你的原生選項是 AnkiMobile 或像 Guru 這類替代方案。
-
-**我在桌機上的連續學習天數和排程會轉移嗎？**
-會的，只要你匯入完整的 <code>.apkg</code>/<code>.colpkg</code> — 排程狀態會隨著卡片一同遷移。詳見 <a href="/zh-Hant/blog/import-anki-decks-iphone/">匯入教學</a>。
-
-**哪個最適合醫學院校牌組（AnKing 等）？**
-三者都能複習大型共享牌組。若你追求以手機為主的體驗、免手持複習和 FSRS，原生替代方案通常最舒適；若你追求與桌機版附加元件完全一致，則 AnkiMobile 更合適。
 
 <div class="cta-box">
 <h3>想要一款在 iPhone 上如魚得水的 Anki？</h3>

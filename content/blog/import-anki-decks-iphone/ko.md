@@ -42,19 +42,13 @@
 
 반복할 가치가 있는 부분: 좋은 Anki 앱은 **다시 내보내기**를 허용합니다. Guru를 사용하면 언제든지 모든 덱을 표준 <code>.apkg</code>로 내보내 데스크탑 Anki, AnkiMobile 또는 다른 곳으로 가져갈 수 있습니다. 아이폰으로 가져오는 것은 이동일 뿐, 일방적인 함정이 아닙니다.
 
-## FAQ
 
-**.apkg와 .colpkg의 차이점은 무엇인가요?**
-<code>.apkg</code>는 하나 이상의 덱이고, <code>.colpkg</code>는 전체 컬렉션(모든 덱 + 설정)입니다. 둘 다 동일한 방식으로 가져옵니다.
 
-**AnKing 같은 큰 덱을 가져올 수 있나요?**
-네 — 미디어가 많은 큰 덱도 잘 가져옵니다. 큰 파일은 압축을 푸는 데 시간이 조금 걸릴 수 있습니다.
+## 관련 가이드
 
-**AI 기능이 가져온 카드를 변경하나요?**
-아니요. 가져오기는 카드를 어디로도 보내지 않습니다. Guru의 AI 카드 생성은 새 자료에 대해 명시적으로 시작할 때만 실행됩니다 — 가져온 덱은 그대로 유지됩니다.
-
-**가져온 덱을 핸즈프리로 복습할 수 있나요?**
-네 — 폰에 덱이 있으면 컨트롤러로 복습하거나, 폰을 <a href="/ko/anki-remote">데스크탑 Anki용 무선 리모컨</a>으로 사용할 수 있습니다. <a href="/ko/blog/hands-free-anki-review/">핸즈프리 Anki 복습</a>을 참조하세요.
+- <a href="/ko/blog/anki-on-iphone-guide/">안키 아이폰 사용법 (2026)</a>
+- <a href="/ko/blog/hands-free-anki-review/">핸즈프리 Anki 복습</a>
+- <a href="/ko/blog/free-wireless-anki-remote/">Anki 리모컨 설정: 무료 아이폰 vs 8BitDo</a>
 
 <div class="cta-box">
 <h3>더 나은 아이폰 앱으로 덱을 가져오세요</h3>

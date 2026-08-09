@@ -57,6 +57,13 @@
 **需要任何費用嗎？**
 控制器大約 20-30 美元。Anki Remote 插件和遠端功能是免費的；Contanki 也是免費的。
 
+
+## 相關指南
+
+- <a href="/zh-Hant/blog/free-wireless-anki-remote/">Anki 遙控器設定（2026）：免費 iPhone vs 8BitDo</a>
+- <a href="/zh-Hant/blog/hands-free-anki-review/">免手持複習 Anki</a>
+- <a href="/zh-Hant/anki-remote">Anki 遙控器設定教學</a>
+
 <div class="cta-box">
 <h3>讓你的 8BitDo 在 iPhone 上順利運作</h3>
 <p>透過免費的 Guru Anki Remote 橋接便宜的控制器——包括那些 AnkiMobile 拒絕配對的型號。</p>

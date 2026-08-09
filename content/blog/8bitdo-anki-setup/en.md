@@ -46,6 +46,13 @@ If you're using an MFi gamepad instead of an 8BitDo in Keyboard Mode, Guru also 
 2. Install the **[Anki Remote](/anki-remote)** add-on on desktop Anki (code `1196082853`) and pair your phone by scanning the QR code.
 3. Open a deck on the desktop and press a button — the card flips and rates. Done.
 
+
+## Related guides
+
+- <a href="/blog/free-wireless-anki-remote/">Anki remote setup (2026): free iPhone vs 8BitDo</a>
+- <a href="/blog/hands-free-anki-review/">Hands-free Anki review: treadmill, bed & remote</a>
+- <a href="/anki-remote">Anki Remote setup walkthrough</a>
+
 ## FAQ
 
 **Do I need both Contanki and Guru?**

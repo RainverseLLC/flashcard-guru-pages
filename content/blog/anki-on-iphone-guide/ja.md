@@ -54,19 +54,6 @@ AnkiWebは無料のWebクライアントです。Safariでankiweb.netにログ�
 
 どのネイティブアプリを選んでも、最初のステップは同じです。<code>.apkg</code>ファイルをスマホに転送し、スケジュール状態を保持したままインポートします。ステップバイステップのガイドを作成しました：<a href="/ja/blog/import-anki-decks-iphone/">Ankiデッキ（.apkg）をiPhoneにインポートする方法</a>。重要なのは、あなたの学習進捗は決して閉じ込められず、すべて標準の<code>.apkg</code>としてエクスポート可能だということです。
 
-## よくある質問
-
-**iPadでもAnkiを使えますか？**
-はい。AnkiMobileとGuruはどちらもユニバーサルアプリ（iPhone + iPad）です。AnkiWebはどのiPadブラウザでも動作します。
-
-**AnkiDroidはiPhoneで利用できますか？**
-いいえ。AnkiDroidはAndroid専用です。iOSでのネイティブ選択肢はAnkiMobileか、Guruのような代替アプリになります。
-
-**デスクトップの連続学習記録やスケジュールは引き継げますか？**
-はい、完全な<code>.apkg</code>/<code>.colpkg</code>をインポートすれば、スケジュール状態はカードと一緒に移行します。<a href="/ja/blog/import-anki-decks-iphone/">インポートガイド</a>をご覧ください。
-
-**医学部の共有デッキ（AnKingなど）にはどれが最適ですか？**
-3つすべてが大規模な共有デッキを復習できます。ハンズフリー復習とFSRSを備えたスマホファーストの体験にはネイティブ代替アプリが最も快適です。デスクトップのアドオンとの完全な互換性を求めるならAnkiMobileです。
 
 <div class="cta-box">
 <h3>iPhoneにぴったり合うAnkiをお求めですか？</h3>

@@ -42,19 +42,13 @@
 
 ここは繰り返し強調する価値があります：優れたAnkiアプリは**書き出し**を可能にします。Guruでは、いつでも任意のデッキを標準の<code>.apkg</code>に書き出し、デスクトップ版Anki、AnkiMobile、その他任意のアプリに移行できます。iPhoneへのインポートは「移動」であり、一方通行のワナではありません。
 
-## FAQ
 
-**.apkgと.colpkgの違いは何ですか？**
-<code>.apkg</code>は1つ以上のデッキ、<code>.colpkg</code>は全コレクション（全デッキ＋設定）です。両方とも同じ方法でインポートできます。
 
-**AnKingのように大きなデッキもインポートできますか？**
-はい — メディアが大量にある大きなデッキでも問題なくインポートできます。大きなファイルの展開に少し時間がかかる場合があります。
+## 関連ガイド
 
-**AI機能はインポートしたカードを変更しますか？**
-いいえ。インポート時にカードが外部に送信されることは一切ありません。GuruのAIカード生成は、新しい教材に対して明示的に開始した場合にのみ動作します。インポートしたデッキが変更されることはありません。
-
-**インポートしたデッキをハンズフリーで復習できますか？**
-はい — iPhoneにデッキを取り込めば、コントローラーを使って復習したり、iPhoneを<a href="/ja/anki-remote">デスクトップ版Anki用のワイヤレスリモコン</a>として使用できます。詳細は<a href="/ja/blog/hands-free-anki-review/">ハンズフリーAnki復習ガイド</a>をご覧ください。
+- <a href="/ja/blog/anki-on-iphone-guide/">Ankiアプリ iPhone使い方（2026）</a>
+- <a href="/ja/blog/hands-free-anki-review/">ハンズフリーAnki復習</a>
+- <a href="/ja/blog/free-wireless-anki-remote/">Ankiリモート設定：無料iPhone vs 8BitDo</a>
 
 <div class="cta-box">
 <h3>あなたのデッキをより優れたiPhoneアプリへ</h3>

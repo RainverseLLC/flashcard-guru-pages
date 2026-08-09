@@ -95,22 +95,6 @@ The obvious "wouldn't it be cleaner if the iPhone just *was* a Bluetooth keyboar
 
 The pairing token never leaves your local network. The add-on only accepts connections from RFC-1918 / loopback / link-local IPs as a safety check, so even if you accidentally exposed the port to the public internet, the server would reject the handshake. There's no analytics, no remote logging, no "phone home". You can revoke any paired iPhone from the Anki desktop dialog and the token is dead instantly.
 
-## FAQ
-
-**Is the Anki remote free?**
-The Anki Desktop add-on and the remote feature in Guru are free. Guru itself is a paid app after a free 3-day trial, but the remote never costs extra and never uses AI credits.
-
-**Do I need to be on the same Wi-Fi?**
-Yes. The phone and the Mac talk over your local network, so both need to be on the same Wi-Fi (or the Mac on Ethernet and the phone on the same router). Nothing routes through the cloud.
-
-**Does this work with AnkiMobile?**
-No — it's the companion to Guru, a separate iOS app. The add-on talks to Guru on your phone, not to AnkiMobile.
-
-**Can I use my own controller?**
-Yes — MFi gamepads work directly, and small 8BitDo models work through the phone in Keyboard Mode (see above). That's the whole reason the bridge exists.
-
-**Windows or Linux?**
-Probably — the Python add-on is cross-platform — but we actively QA on macOS. Anki 2.1.55+ on Qt6 is the minimum.
 
 ## Source code
 
@@ -121,10 +105,10 @@ The iOS-side bridge is part of the Guru iOS app, which is closed source. The add
 
 ## Related guides
 
-- <a href="/blog/8bitdo-anki-setup/">8BitDo for Anki: Zero 2 & micro setup (and the iPhone fix)</a>
-- <a href="/blog/hands-free-anki-review/">Hands-free Anki review: treadmill, bed, or eyes-closed</a>
-- <a href="/blog/anki-on-iphone-guide/">How to use Anki on iPhone & iPad: every option compared</a>
-- <a href="/blog/import-anki-decks-iphone/">How to import your Anki decks (.apkg) onto iPhone</a>
+- <a href="/blog/8bitdo-anki-setup/">8BitDo Micro vs Zero 2 for Anki: Setup (2026)</a>
+- <a href="/blog/hands-free-anki-review/">Hands-Free Anki Review (2026): Treadmill & Remote</a>
+- <a href="/blog/anki-on-iphone-guide/">Anki on iPhone (2026): Free Options & Full Comparison</a>
+- <a href="/blog/import-anki-decks-iphone/">Open .apkg on iPhone: Import Anki Decks (2026)</a>
 
 <div class="cta-box">
 <h3>Ready to try it?</h3>
