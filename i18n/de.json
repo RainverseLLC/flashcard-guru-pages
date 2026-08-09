@@ -148,10 +148,9 @@
       }
     },
     "pricingTeaser": {
-      "eyebrow": "Frühbucher-Angebot",
-      "title": "Für immer dein — 50 % Rabatt, jetzt noch",
-      "body": "Teste Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder zahle einmal und besitze es für immer, derzeit zum halben Preis für Frühentschlossene.",
-      "earlybird": "Lifetime kostet <b>$14.99</b> <s>$29.99</s> — zeitlich begrenztes Frühbucher-Angebot, 50 % Rabatt."
+      "eyebrow": "Lifetime",
+      "title": "Für immer dein",
+      "body": "Teste Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder zahle einmal und besitze es für immer."
     },
     "finalCta": {
       "title": "Bring deine Stapel in eine bessere iPhone-App",
@@ -160,13 +159,12 @@
   },
   "pricing": {
     "metaTitle": "Guru: AI Flashcard Study Preise — Kostenlos testen, dann für immer dein",
-    "metaDescription": "Teste Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder kaufe Lifetime einmal. Frühbucher: Lifetime mit 50 % Rabatt für $14.99 (normalerweise $29.99). Die drahtlose Anki Fernbedienung ist kostenlos.",
+    "metaDescription": "Teste Guru 3 Tage kostenlos, dann geht es weiter mit einem Wochen- oder Jahresplan — oder kaufe Lifetime einmal. Die drahtlose Anki Fernbedienung ist kostenlos.",
     "eyebrow": "Preise",
     "title": "Kostenlos testen. Für immer dein.",
     "appleNote": "Alle Käufe werden sicher von Apple abgewickelt. Preise können je nach Region variieren.",
     "subtitle": "Starte mit einer kostenlosen 3-tägigen Testphase, dann geht es weiter mit einem Wochen- oder Jahresplan — oder zahle einmal und besitze es für immer. Die drahtlose Anki Fernbedienung ist immer kostenlos.",
     "tiersLead": "Starte mit einer kostenlosen Testphase — jederzeit kündbar.",
-    "earlybird": "🎉 Frühbucher-Angebot — Lifetime mit <b>50 % Rabatt</b> für begrenzte Zeit: <b>$14.99</b> <s>$29.99</s>. Der Preis steigt bald wieder.",
     "tiers": [
       {
         "name": "Weekly",
@@ -199,10 +197,8 @@
       {
         "name": "Lifetime",
         "sub": "Eine Zahlung, für immer dein",
-        "was": "$29.99",
-        "amount": "$14.99",
+        "amount": "$59.99",
         "per": "einmalig",
-        "note": "Frühbucher · 50 % Rabatt",
         "best": "BESTER WERT",
         "features": [
           "Dauerhafter Zugang zu allen Pro-Funktionen",
@@ -246,10 +242,6 @@
         {
           "q": "Was ist der Unterschied zwischen den Plänen?",
           "a": "Weekly und Yearly sind Abos mit sich erneuernden KI-Credits. Lifetime ist ein einmaliger Kauf: dauerhafter App-Zugang plus 500 einmalige Credits. Alle Pläne schalten dieselben Pro-Funktionen frei — sie unterscheiden sich nur darin, wie viele KI-Credits du bekommst."
-        },
-        {
-          "q": "Ist der Lifetime-Rabatt echt?",
-          "a": "Ja. Lifetime kostet normalerweise $29.99. Während der Frühbucher-Phase sind es $14.99 — 50 % Rabatt — für begrenzte Zeit. Wenn die Frühbucher-Phase endet, kehrt der Preis auf $29.99 zurück, aber dein Kauf bleibt lebenslang."
         },
         {
           "q": "Was passiert, wenn meine Credits aufgebraucht sind?",

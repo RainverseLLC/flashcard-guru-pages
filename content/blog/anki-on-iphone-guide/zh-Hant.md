@@ -29,7 +29,7 @@ AnkiWeb 是免費的網頁客戶端。在 Safari 中登入 ankiweb.net，即可�
 
 <a href="/zh-Hant/">Guru: AI Flashcard Study</a> 是第三條路：一款原生 iOS App，沿用 Anki 的工作流程但針對手機重新打造。它使用 Anki 本身的引擎匯入任何 <code>.apkg</code> 或 <code>.colpkg</code>，因此卡片、多媒體檔案和排程狀態都會完整遷移 — 然後以 <strong>FSRS</strong>（現代間隔複習排程器）進行複習。
 
-- **費用：** 免費 3 天試用，之後可選擇週繳／年繳方案或一次性 Lifetime 方案（目前早鳥價 $14.99）— 比 AnkiMobile 便宜。
+- **費用：** 免費 3 天試用，之後可選擇週繳／年繳方案或一次性 Lifetime 方案（$59.99）。
 - **最適合：** 想要快速、現代、以 iPhone 為首的 App、希望 AI 協助將筆記轉成卡片、考試前使用 Cram Mode，以及內建**免費無線 [Anki Remote](/zh-Hant/anki-remote)** 的使用者。
 - **注意：** 這是獨立的 App，而非 AnkiMobile 的換皮 — 因此你需要將牌組匯入其中（請參閱 <a href="/zh-Hant/blog/import-anki-decks-iphone/">如何匯入你的 Anki 牌組</a>），而非透過 AnkiWeb 同步。
 
@@ -37,7 +37,7 @@ AnkiWeb 是免費的網頁客戶端。在 Safari 中登入 ankiweb.net，即可�
 
 | | AnkiMobile | AnkiWeb（瀏覽器） | Guru |
 |---|---|---|---|
-| 費用 | $24.99 一次性 | 免費 | 免費試用，之後從 $5.99/週 或 $14.99 終身 |
+| 費用 | $24.99 一次性 | 免費 | 免費試用，之後從 $5.99/週 或 $59.99 終身 |
 | 原生 iOS App | 是 | 否（網站） | 是 |
 | 離線複習 | 是 | 否 | 是 |
 | 匯入 `.apkg` / `.colpkg` | 是 | 需透過桌機 | 是（完整保留） |

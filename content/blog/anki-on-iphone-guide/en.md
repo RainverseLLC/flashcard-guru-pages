@@ -29,7 +29,7 @@ AnkiWeb is the free web client. Log in at ankiweb.net on Safari and you can revi
 
 <a href="/">Guru: AI Flashcard Study</a> is a third path: a native iOS app that runs the Anki workflow but rebuilt for a phone. It imports any <code>.apkg</code> or <code>.colpkg</code> using Anki's own engine, so cards, media, and scheduling state migrate exactly — then reviews them with <strong>FSRS</strong>, the modern spaced-repetition scheduler.
 
-- **Cost:** free 3-day trial, then weekly/yearly plans or a one-time Lifetime (currently $14.99 early-bird) — less than AnkiMobile.
+- **Cost:** free 3-day trial, then weekly/yearly plans or a one-time Lifetime ($59.99).
 - **Best for:** people who want a fast, modern iPhone-first app, AI help turning notes into cards, Cram Mode before exams, and a built-in **free wireless [Anki Remote](/anki-remote)**.
 - **Watch out for:** it's a separate app, not a skin over AnkiMobile — so you import your decks into it (see <a href="/blog/import-anki-decks-iphone/">how to import your Anki decks</a>) rather than syncing through AnkiWeb.
 
@@ -37,7 +37,7 @@ AnkiWeb is the free web client. Log in at ankiweb.net on Safari and you can revi
 
 | | AnkiMobile | AnkiWeb (browser) | Guru |
 |---|---|---|---|
-| Cost | $24.99 one-time | Free | Free trial, then from $5.99/wk or $14.99 lifetime |
+| Cost | $24.99 one-time | Free | Free trial, then from $5.99/wk or $59.99 lifetime |
 | Native iOS app | Yes | No (website) | Yes |
 | Offline review | Yes | No | Yes |
 | Imports `.apkg` / `.colpkg` | Yes | Via desktop | Yes (intact) |

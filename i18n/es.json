@@ -148,10 +148,9 @@
       }
     },
     "pricingTeaser": {
-      "eyebrow": "Oferta de lanzamiento",
-      "title": "Tuyo de por vida — 50% de descuento, por ahora",
-      "body": "Prueba Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o paga una vez y consérvalo de por vida, ahora a mitad de precio para los primeros usuarios.",
-      "earlybird": "Lifetime cuesta <b>$14.99</b> <s>$29.99</s> — oferta de lanzamiento por tiempo limitado, 50% de descuento."
+      "eyebrow": "Lifetime",
+      "title": "Tuyo de por vida",
+      "body": "Prueba Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o paga una vez y consérvalo de por vida."
     },
     "finalCta": {
       "title": "Lleva tus mazos a una mejor app para iPhone",
@@ -160,13 +159,12 @@
   },
   "pricing": {
     "metaTitle": "Precios de Guru: AI Flashcard Study — Pruébalo gratis y luego tuyo de por vida",
-    "metaDescription": "Prueba Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o compra Lifetime de una sola vez. Lanzamiento: Lifetime con 50% de descuento a $14.99 (normalmente $29.99). El Mando Anki inalámbrico es gratis.",
+    "metaDescription": "Prueba Guru gratis durante 3 días y luego continúa con un plan semanal o anual — o compra Lifetime de una sola vez. El Mando Anki inalámbrico es gratis.",
     "eyebrow": "Precios",
     "title": "Pruébalo gratis. Tuyo de por vida.",
     "appleNote": "Todas las compras las gestiona Apple de forma segura. Los precios pueden variar según la región.",
     "subtitle": "Empieza con una prueba gratuita de 3 días y luego continúa con un plan semanal o anual — o paga una vez y consérvalo de por vida. El Mando Anki inalámbrico siempre es gratis.",
     "tiersLead": "Empieza con una prueba gratuita — cancela cuando quieras.",
-    "earlybird": "🎉 Oferta de lanzamiento — Lifetime con <b>50% de descuento</b> por tiempo limitado: <b>$14.99</b> <s>$29.99</s>. El precio sube pronto.",
     "tiers": [
       {
         "name": "Weekly",
@@ -199,10 +197,8 @@
       {
         "name": "Lifetime",
         "sub": "Un pago, tuyo para siempre",
-        "was": "$29.99",
-        "amount": "$14.99",
+        "amount": "$59.99",
         "per": "pago único",
-        "note": "Lanzamiento · 50% de descuento",
         "best": "MEJOR OPCIÓN",
         "features": [
           "Acceso permanente a todas las funciones Pro",
@@ -246,10 +242,6 @@
         {
           "q": "¿Cuál es la diferencia entre los planes?",
           "a": "Weekly y Yearly son suscripciones con créditos de IA que se renuevan. Lifetime es una compra única: acceso permanente a la app más 500 créditos de pago único. Todos los planes desbloquean las mismas funciones Pro — solo se diferencian en cuántos créditos de IA obtienes."
-        },
-        {
-          "q": "¿El descuento de Lifetime es real?",
-          "a": "Sí. Lifetime cuesta normalmente $29.99. Durante el lanzamiento es $14.99 — 50% de descuento — por tiempo limitado. Cuando termine el lanzamiento el precio vuelve a $29.99, pero tu compra sigue siendo de por vida."
         },
         {
           "q": "¿Qué pasa cuando se agotan mis créditos?",

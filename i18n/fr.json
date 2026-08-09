@@ -148,10 +148,9 @@
       }
     },
     "pricingTeaser": {
-      "eyebrow": "Offre de lancement",
-      "title": "À vous pour la vie — 50 % de réduction, pour l'instant",
-      "body": "Essayez Guru gratuitement pendant 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou payez une fois et gardez l'app à vie, actuellement à moitié prix pour les premiers adoptants.",
-      "earlybird": "La version à vie est à <b>$14.99</b> <s>$29.99</s> — offre de lancement à durée limitée, 50 % de réduction."
+      "eyebrow": "À vie",
+      "title": "À vous pour la vie",
+      "body": "Essayez Guru gratuitement pendant 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou payez une fois et gardez l'app à vie."
     },
     "finalCta": {
       "title": "Apportez vos paquets à une meilleure app iPhone",
@@ -160,13 +159,12 @@
   },
   "pricing": {
     "metaTitle": "Tarifs Guru: AI Flashcard Study — Essai gratuit, puis à vous pour la vie",
-    "metaDescription": "Essayez Guru gratuitement pendant 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou achetez la version à vie une seule fois. Lancement : la version à vie est à -50 %, soit $14.99 (normalement $29.99). La télécommande Anki sans fil est gratuite.",
+    "metaDescription": "Essayez Guru gratuitement pendant 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou achetez la version à vie une seule fois. La télécommande Anki sans fil est gratuite.",
     "eyebrow": "Tarifs",
     "title": "Essayez gratuitement. À vous pour la vie.",
     "appleNote": "Tous les achats sont gérés en toute sécurité par Apple. Les prix peuvent varier selon la région.",
     "subtitle": "Commencez par un essai gratuit de 3 jours, puis continuez avec une formule hebdomadaire ou annuelle — ou payez une fois et gardez l'app à vie. La télécommande Anki sans fil est toujours gratuite.",
     "tiersLead": "Commencez par un essai gratuit — annulable à tout moment.",
-    "earlybird": "🎉 Offre de lancement — la version à vie est à <b>-50 %</b> pour une durée limitée : <b>$14.99</b> <s>$29.99</s>. Le prix remonte bientôt.",
     "tiers": [
       {
         "name": "Hebdomadaire",
@@ -199,10 +197,8 @@
       {
         "name": "À vie",
         "sub": "Un seul paiement, à vous pour toujours",
-        "was": "$29.99",
-        "amount": "$14.99",
+        "amount": "$59.99",
         "per": "achat unique",
-        "note": "Lancement · -50 %",
         "best": "MEILLEURE OFFRE",
         "features": [
           "Accès permanent à toutes les fonctionnalités Pro",
@@ -246,10 +242,6 @@
         {
           "q": "Quelle est la différence entre les formules ?",
           "a": "Les formules hebdomadaire et annuelle sont des abonnements avec des crédits IA renouvelés. La version à vie est un achat unique : accès permanent à l'app plus 500 crédits en achat unique. Toutes les formules débloquent les mêmes fonctionnalités Pro — elles ne diffèrent que par le nombre de crédits IA dont vous bénéficiez."
-        },
-        {
-          "q": "La réduction de la version à vie est-elle réelle ?",
-          "a": "Oui. La version à vie coûte normalement $29.99. Pendant le lancement, elle est à $14.99 — 50 % de réduction — pour une durée limitée. À la fin de l'offre de lancement, le prix revient à $29.99, mais votre achat reste à vie."
         },
         {
           "q": "Que se passe-t-il quand mes crédits sont épuisés ?",

@@ -148,10 +148,9 @@
       }
     },
     "pricingTeaser": {
-      "eyebrow": "Early-bird offer",
-      "title": "Own it for life — 50% off, for now",
-      "body": "Try Guru free for 3 days, then keep going with a weekly or yearly plan — or pay once and own it for life, currently half price for early adopters.",
-      "earlybird": "Lifetime is <b>$14.99</b> <s>$29.99</s> — limited-time early-bird, 50% off."
+      "eyebrow": "Lifetime",
+      "title": "Own it for life",
+      "body": "Try Guru free for 3 days, then keep going with a weekly or yearly plan — or pay once and own it for life."
     },
     "finalCta": {
       "title": "Bring your decks to a better iPhone app",
@@ -160,13 +159,12 @@
   },
   "pricing": {
     "metaTitle": "Guru: AI Flashcard Study Pricing — Free trial, then own it for life",
-    "metaDescription": "Try Guru free for 3 days, then keep going with a weekly or yearly plan — or buy Lifetime once. Early-bird: Lifetime is 50% off at $14.99 (normally $29.99). The wireless Anki Remote is free.",
+    "metaDescription": "Try Guru free for 3 days, then keep going with a weekly or yearly plan — or buy Lifetime once. The wireless Anki Remote is free.",
     "eyebrow": "Pricing",
     "title": "Try it free. Own it for life.",
     "appleNote": "All purchases are handled securely by Apple. Prices may vary by region.",
     "subtitle": "Start with a free 3-day trial, then keep going with a weekly or yearly plan — or pay once and own it for life. The wireless Anki Remote is always free.",
     "tiersLead": "Start with a free trial — cancel anytime.",
-    "earlybird": "🎉 Early-bird offer — Lifetime is <b>50% off</b> for a limited time: <b>$14.99</b> <s>$29.99</s>. Price goes back up soon.",
     "tiers": [
       {
         "name": "Weekly",
@@ -199,10 +197,8 @@
       {
         "name": "Lifetime",
         "sub": "One payment, yours for good",
-        "was": "$29.99",
-        "amount": "$14.99",
+        "amount": "$59.99",
         "per": "one-time",
-        "note": "Early-bird · 50% off",
         "best": "BEST VALUE",
         "features": [
           "Permanent access to all Pro features",
@@ -246,10 +242,6 @@
         {
           "q": "What's the difference between the plans?",
           "a": "Weekly and Yearly are subscriptions with renewing AI credits. Lifetime is a one-time purchase: permanent app access plus 500 one-time credits. All plans unlock the same Pro features — they differ only in how many AI credits you get."
-        },
-        {
-          "q": "Is the Lifetime discount real?",
-          "a": "Yes. Lifetime normally costs $29.99. During the early-bird it's $14.99 — 50% off — for a limited time. When the early-bird ends the price returns to $29.99, but your purchase stays lifetime."
         },
         {
           "q": "What happens when my credits run out?",
