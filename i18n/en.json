@@ -5,7 +5,8 @@
     "indexTitle": "Blog",
     "indexSubtitle": "Notes on spaced repetition, Anki migration, and study tooling.",
     "updatedLabel": "Updated",
-    "allPosts": "← All posts"
+    "allPosts": "← All posts",
+    "faqTitle": "FAQ"
   },
   "site": {
     "name": "Guru"
@@ -259,8 +260,8 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Anki Remote for iPhone — Free Wireless Setup | Guru: AI Flashcard Study",
-    "metaDescription": "Turn your iPhone into a wireless review remote for Anki Desktop. Free LGPL-3.0 add-on, paired in 10 seconds via QR code, supports cheap 8BitDo controllers AnkiMobile won't pair with.",
+    "metaTitle": "Anki Remote Setup: Free Wireless iPhone Remote | Guru",
+    "metaDescription": "Anki remote setup in ~10 seconds via QR code. Free LGPL-3.0 add-on—fix won't-connect issues and use 8BitDo controllers AnkiMobile rejects.",
     "hero": {
       "pill": "Free · Open source · LGPL-3.0",
       "title": "Anki Remote, on the iPhone you already have",

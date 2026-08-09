@@ -5,7 +5,8 @@
     "indexTitle": "ブログ",
     "indexSubtitle": "間隔反復、Anki の移行、学習ツールについてのノート。",
     "updatedLabel": "更新日",
-    "allPosts": "← 記事一覧"
+    "allPosts": "← 記事一覧",
+    "faqTitle": "よくある質問"
   },
   "site": {
     "name": "Guru"
@@ -259,8 +260,8 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Flashcard Guru Remote — iPhone 用の無料ワイヤレス Anki リモコン",
-    "metaDescription": "iPhone を Anki Desktop のワイヤレス復習リモコンに。無料・LGPL-3.0 アドオン、QR コードで 10 秒ペアリング、AnkiMobile が認識しない安価な 8BitDo コントローラもサポート。",
+    "metaTitle": "Ankiリモート設定：無料のiPhoneワイヤレスリモコン | Guru",
+    "metaDescription": "QRで約10秒のAnkiリモート設定。無料LGPL-3.0アドオン。接続できないときの対処と、AnkiMobileが拒否する8BitDoにも対応。",
     "hero": {
       "pill": "無料 · オープンソース · LGPL-3.0",
       "title": "あなたが既に持っている iPhone を Anki リモコンに",

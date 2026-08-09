@@ -5,7 +5,8 @@
     "indexTitle": "Blog",
     "indexSubtitle": "Notas sobre repetición espaciada, migración de Anki y herramientas de estudio.",
     "updatedLabel": "Actualizado",
-    "allPosts": "← Todos los artículos"
+    "allPosts": "← Todos los artículos",
+    "faqTitle": "Preguntas frecuentes"
   },
   "site": {
     "name": "Guru"
@@ -259,8 +260,8 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Flashcard Guru Remote — Mando Anki inalámbrico gratuito para iPhone",
-    "metaDescription": "Convierte tu iPhone en un mando de repaso inalámbrico para Anki Desktop. Complemento gratuito LGPL-3.0, emparejamiento en 10 segundos por código QR, soporta los mandos 8BitDo baratos que AnkiMobile rechaza.",
+    "metaTitle": "Configurar Anki Remote: mando iPhone gratis | Guru",
+    "metaDescription": "Configura Anki Remote en ~10 s con QR. Complemento gratis LGPL-3.0: arregla fallos de conexión y usa 8BitDo que AnkiMobile rechaza.",
     "hero": {
       "pill": "Gratis · Código abierto · LGPL-3.0",
       "title": "Un mando Anki en el iPhone que ya tienes",

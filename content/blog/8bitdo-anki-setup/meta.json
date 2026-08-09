@@ -12,27 +12,27 @@
   "image": "/assets/og/anki-remote.png",
   "i18n": {
     "en": {
-      "title": "8BitDo for Anki: Zero 2 & micro Setup (and the iPhone Fix)",
-      "description": "Set up an 8BitDo Zero 2 or micro for hands-free Anki review — button mappings, Keyboard Mode, and how to make the cheap models work that AnkiMobile won't pair with.",
-      "excerpt": "Set up an 8BitDo Zero 2 or micro for Anki — mappings, Keyboard Mode, and the trick to make the cheap models work that AnkiMobile rejects.",
+      "title": "8BitDo Micro vs Zero 2 for Anki: Setup (2026)",
+      "description": "8BitDo Micro vs Zero 2 for Anki—button maps, Keyboard Mode, and the iPhone bridge when AnkiMobile won't pair with cheap controllers in 2026.",
+      "excerpt": "Set up 8BitDo Zero 2 or Micro for Anki—mappings, Keyboard Mode, and the fix for models AnkiMobile rejects.",
       "readingTime": "7 min read"
     },
     "zh-Hant": {
-      "title": "8BitDo 搭配 Anki：Zero 2 與 micro 設定教學（以及 iPhone 的解決方案）",
-      "description": "手把手教你設定 8BitDo Zero 2 或 micro，實現免手持複習 Anki — 按鍵映射、鍵盤模式，以及讓 AnkiMobile 不支援的平價型號也能運作的技巧。",
-      "excerpt": "學習如何設定 8BitDo Zero 2 或 micro 來免手持複習 Anki — 按鍵映射、鍵盤模式，以及讓 AnkiMobile 拒絕配對的平價型號也能正常運作的密技。",
+      "title": "8BitDo Micro vs Zero 2 搭配 Anki：設定（2026）",
+      "description": "Anki 用 8BitDo Micro 與 Zero 2 比較與設定—按鍵映射、鍵盤模式，以及 AnkiMobile 無法配對平價手把時的 iPhone 解法。",
+      "excerpt": "設定 8BitDo Zero 2 或 Micro 免手持複習 Anki—映射、鍵盤模式，與 AnkiMobile 拒絕型號的解法。",
       "readingTime": "7 分鐘閱讀"
     },
     "ja": {
-      "title": "8BitDo for Anki：Zero 2・microの設定ガイド（iPhone対策も解説）",
-      "description": "8BitDo Zero 2やmicroを使ったハンズフリーAnki学習の設定方法 ― ボタン割り当て、Keyboard Mode、AnkiMobileがペアリングできない安価なモデルを回避するテクニック。",
-      "excerpt": "8BitDo Zero 2やmicroをAnkiで使うための設定方法 ― キー割り当て、Keyboard Mode、そしてAnkiMobileが拒否する格安モデルを回避するテクニックを解説。",
+      "title": "8BitDo Micro vs Zero 2 for Anki：設定（2026）",
+      "description": "Anki向け8BitDo MicroとZero 2の比較と設定。ボタン割り当て、Keyboard Mode、AnkiMobileがペアリングできない安価モデルの回避策。",
+      "excerpt": "8BitDo Zero 2/MicroをAnkiで使う設定—割り当て、Keyboard Mode、AnkiMobileが拒否するモデルの対処。",
       "readingTime": "7 分"
     },
     "ko": {
-      "title": "8BitDo for Anki: Zero 2 & micro 설정 및 iPhone 해결 방법",
-      "description": "8BitDo Zero 2 또는 micro를 Anki에서 핸즈프리 복습에 활용하는 방법 — 버튼 매핑, 키보드 모드, AnkiMobile이 거부하는 저가형 모델을 연결하는 팁.",
-      "excerpt": "8BitDo Zero 2 또는 micro를 Anki에서 설정하는 방법 — 매핑, 키보드 모드, AnkiMobile이 거부하는 저가형 모델을 작동시키는 비결.",
+      "title": "8BitDo Micro vs Zero 2 Anki 설정 (2026)",
+      "description": "Anki용 8BitDo Micro와 Zero 2 비교·설정. 버튼 매핑, 키보드 모드, AnkiMobile이 연결하지 않는 저가형 모델 해결법.",
+      "excerpt": "8BitDo Zero 2/Micro를 Anki에 쓰는 설정—매핑, 키보드 모드, AnkiMobile이 거부하는 모델 해결.",
       "readingTime": "7분"
     }
   }

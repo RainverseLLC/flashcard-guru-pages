@@ -5,7 +5,8 @@
     "indexTitle": "部落格",
     "indexSubtitle": "關於間隔重複、Anki 遷移與學習工具的筆記。",
     "updatedLabel": "更新於",
-    "allPosts": "← 所有文章"
+    "allPosts": "← 所有文章",
+    "faqTitle": "常見問題"
   },
   "site": {
     "name": "Guru"
@@ -259,8 +260,8 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Flashcard Guru Remote — 免費的 Anki 無線遙控器",
-    "metaDescription": "把 iPhone 變成 Anki Desktop 的無線複習遙控器。免費 LGPL-3.0 開源外掛,掃 QR 碼 10 秒配對,支援 AnkiMobile 不識別的廉價 8BitDo 手把。",
+    "metaTitle": "Anki 遙控器設定：免費 iPhone 無線遙控 | Guru",
+    "metaDescription": "掃碼約 10 秒完成 Anki 遙控器設定。免費 LGPL-3.0 外掛——解決連不上問題，並支援 AnkiMobile 不識別的平價 8BitDo。",
     "hero": {
       "pill": "免費 · 開源 · LGPL-3.0",
       "title": "用你已有的 iPhone 當 Anki 遙控器",

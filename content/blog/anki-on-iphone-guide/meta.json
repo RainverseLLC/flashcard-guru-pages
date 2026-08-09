@@ -12,28 +12,144 @@
   "image": "/assets/og/landing.png",
   "i18n": {
     "en": {
-      "title": "How to Use Anki on iPhone & iPad (2026): Every Option Compared",
-      "description": "AnkiMobile, AnkiWeb, or a modern alternative like Guru — how to run Anki on iPhone and iPad in 2026, what each costs, and how to keep your decks and scheduling intact.",
-      "excerpt": "AnkiMobile, AnkiWeb, or a modern alternative — the real ways to run Anki on iPhone and iPad, what each costs, and how to keep your decks intact.",
-      "readingTime": "8 min read"
+      "title": "Anki on iPhone (2026): Free Options & Full Comparison",
+      "description": "Can you use Anki on iPhone for free? Compare AnkiMobile ($24.99), free AnkiWeb, and native apps—keep decks, media, and scheduling intact in 2026.",
+      "excerpt": "AnkiMobile, free AnkiWeb, or a modern native app—real ways to run Anki on iPhone and iPad without losing your decks.",
+      "readingTime": "8 min read",
+      "faq": [
+        {
+          "q": "Can I use Anki on iPhone for free?",
+          "a": "Partly. AnkiWeb in Safari is free but limited (no solid offline review). The official native app AnkiMobile costs $24.99 one-time. Free trials or free tiers of third-party native apps also exist. Your decks stay portable via standard .apkg export."
+        },
+        {
+          "q": "Is Anki available on iPad?",
+          "a": "Yes. AnkiMobile and Guru are universal iPhone + iPad apps, and AnkiWeb works in any iPad browser. Search interest in “Anki iPad” is the same decision as iPhone: free browser vs paid native vs a modern alternative."
+        },
+        {
+          "q": "Is AnkiDroid available on iPhone?",
+          "a": "No. AnkiDroid is Android-only. On iOS your native options are AnkiMobile or an alternative that imports .apkg decks (such as Guru)."
+        },
+        {
+          "q": "Will my desktop streak and scheduling carry over?",
+          "a": "Scheduling state (intervals, ease, due dates) travels inside a full .apkg/.colpkg import. A global daily streak counter may be app-specific, but the spaced-repetition schedule that drives retention is preserved when you import correctly."
+        },
+        {
+          "q": "Which option is best for medical school decks like AnKing?",
+          "a": "All three paths can review large shared decks. Prefer exact desktop add-on parity → AnkiMobile. Prefer phone-first UI, FSRS, and hands-free remote → a native alternative. Prefer $0 → AnkiWeb with trade-offs."
+        }
+      ]
     },
     "zh-Hant": {
-      "title": "如何在 iPhone 與 iPad 上使用 Anki（2026）：所有方案完整比較",
-      "description": "AnkiMobile、AnkiWeb、或現代替代方案 Guru — 2026 年在 iPhone 與 iPad 上使用 Anki 的真實方法、各方案費用、以及如何保留牌組與排程不中斷。",
-      "excerpt": "AnkiMobile、AnkiWeb、或現代替代方案 — 在 iPhone 與 iPad 上使用 Anki 的真實方法、各方案費用、以及如何保留牌組完整無損。",
-      "readingTime": "8 分鐘"
+      "title": "Anki 在 iPhone 上怎麼用（2026）：免費與付費完整比較",
+      "description": "Anki 在 iPhone 上免費嗎？比較 AnkiMobile（$24.99）、免費 AnkiWeb 與原生替代方案，並說明如何保留牌組、媒體與排程不中斷。",
+      "excerpt": "AnkiMobile、免費 AnkiWeb 或現代原生 App——在 iPhone 與 iPad 上使用 Anki 的真實方法與費用。",
+      "readingTime": "8 分鐘",
+      "faq": [
+        {
+          "q": "Anki 在 iPhone 上可以免費使用嗎？",
+          "a": "部分可以。Safari 的 AnkiWeb 免費但離線與體驗有限；官方原生 AnkiMobile 為一次性 $24.99。第三方原生 App 可能有免費試用。牌組可透過標準 .apkg 帶走。"
+        },
+        {
+          "q": "iPad 也能用 Anki 嗎？",
+          "a": "可以。AnkiMobile 與 Guru 皆為 iPhone + iPad 通用，AnkiWeb 也可在 iPad 瀏覽器使用。"
+        },
+        {
+          "q": "iPhone 有 AnkiDroid 嗎？",
+          "a": "沒有。AnkiDroid 僅限 Android。iOS 原生選項是 AnkiMobile，或可匯入 .apkg 的替代 App。"
+        },
+        {
+          "q": "桌機的排程會一起帶過來嗎？",
+          "a": "若匯入完整 .apkg/.colpkg，間隔、難易度、到期日等排程狀態會隨卡片遷移。"
+        },
+        {
+          "q": "醫學院牌組（如 AnKing）該選哪個？",
+          "a": "三種路徑都能複習大型共享牌組。要桌面外掛相容選 AnkiMobile；要手機體驗、FSRS 與遙控選替代 App；要完全免費選 AnkiWeb。"
+        }
+      ]
     },
     "ja": {
-      "title": "iPhone・iPadでAnkiを使う方法（2026年版）：全選択肢を比較",
-      "description": "AnkiMobile、AnkiWeb、あるいはGuruのような現代的代替アプリ—2026年にiPhone/iPadでAnkiを使う方法、それぞれの費用、デッキとスケジュールを維持する方法を解説。",
-      "excerpt": "AnkiMobile、AnkiWeb、あるいは現代的代替アプリ—iPhone/iPadでAnkiを使う本当の方法、それぞれの費用、デッキをそのまま維持する方法。",
-      "readingTime": "8 分"
+      "title": "Ankiアプリ iPhone使い方（2026）：無料と有料を比較",
+      "description": "iPhoneでAnkiは無料で使える？AnkiMobile（有料）、無料のAnkiWeb、ネイティブ代替を比較。デッキとスケジュールを損なわず移行する方法も解説。",
+      "excerpt": "AnkiMobile・無料AnkiWeb・現代的な代替アプリ—iPhone/iPadでAnkiを使う現実的な選択肢と費用、デッキ維持のポイント。",
+      "readingTime": "8 分",
+      "faq": [
+        {
+          "q": "iPhoneでAnkiは無料で使えますか？",
+          "a": "部分的に可能です。SafariのAnkiWebは無料ですがオフライン復習などが弱いです。公式のAnkiMobileは一度きり$24.99。サードパーティのネイティブアプリには無料トライアル等もあります。デッキは標準の.apkgで持ち運べます。"
+        },
+        {
+          "q": "iPadでもAnkiは使えますか？",
+          "a": "はい。AnkiMobileとGuruはiPhone/iPad両対応で、AnkiWebはiPadのブラウザでも使えます。"
+        },
+        {
+          "q": "AnkiDroidはiPhoneにありますか？",
+          "a": "ありません。AnkiDroidはAndroid専用です。iOSのネイティブ選択肢はAnkiMobileか、.apkgを取り込める代替アプリです。"
+        },
+        {
+          "q": "デスクトップのスケジュールは引き継げますか？",
+          "a": "完全な.apkg/.colpkgをインポートすれば間隔・易しさ・期日などのスケジュール状態はカードと一緒に移行します。"
+        },
+        {
+          "q": "AnKingなど医学部デッキに最適なのは？",
+          "a": "大規模共有デッキはどれでも復習できます。アドオン完全互換ならAnkiMobile、スマホ向けUIとFSRS・リモートなら代替アプリ、完全無料ならAnkiWebです。"
+        }
+      ]
     },
     "ko": {
-      "title": "아이폰/아이패드에서 Anki 사용법 (2026): 모든 옵션 비교",
-      "description": "AnkiMobile, AnkiWeb, 또는 Guru 같은 현대적 대안 — 2026년에 아이폰·아이패드에서 Anki를 실행하는 방법, 각 비용, 덱과 스케줄링을 유지하는 방법.",
-      "excerpt": "AnkiMobile, AnkiWeb, 또는 현대적 대안 — 아이폰·아이패드에서 Anki를 실행하는 실제 방법, 각 비용, 덱을 그대로 유지하는 방법.",
-      "readingTime": "8분"
+      "title": "안키 아이폰 사용법 (2026): 무료·유료 옵션 비교",
+      "description": "안키 아이폰, 무료로 쓸 수 있을까? AnkiMobile($24.99), 무료 AnkiWeb, 네이티브 대안을 비교하고 덱·스케줄을 그대로 옮기는 방법을 정리합니다.",
+      "excerpt": "AnkiMobile, 무료 AnkiWeb, 현대적 대안—아이폰·아이패드에서 Anki를 쓰는 실제 방법과 비용, 덱 유지 팁.",
+      "readingTime": "8분",
+      "faq": [
+        {
+          "q": "안키 아이폰, 무료로 쓸 수 있나요?",
+          "a": "부분적으로 가능합니다. Safari의 AnkiWeb은 무료지만 오프라인 복습 등이 약합니다. 공식 AnkiMobile은 일회성 $24.99입니다. 타사 네이티브 앱은 무료 체험 등이 있을 수 있고, 덱은 표준 .apkg로 옮길 수 있습니다."
+        },
+        {
+          "q": "아이패드에서도 Anki를 쓸 수 있나요?",
+          "a": "네. AnkiMobile과 Guru는 아이폰·아이패드 공용이며, AnkiWeb은 아이패드 브라우저에서도 동작합니다."
+        },
+        {
+          "q": "AnkiDroid를 아이폰에서 쓸 수 있나요?",
+          "a": "아니요. AnkiDroid는 안드로이드 전용입니다. iOS 네이티브 옵션은 AnkiMobile 또는 .apkg를 가져오는 대안 앱입니다."
+        },
+        {
+          "q": "데스크톱 스케줄이 그대로 넘어가나요?",
+          "a": "완전한 .apkg/.colpkg를 가져오면 간격·ease·마감일 등 스케줄 상태가 카드와 함께 이전됩니다."
+        },
+        {
+          "q": "AnKing 같은 의대 덱에는 뭐가 좋나요?",
+          "a": "대형 공유 덱은 세 경로 모두 가능합니다. 애드온 호환이 최우선이면 AnkiMobile, 폰 UI·FSRS·리모컨이면 대안 앱, 완전 무료면 AnkiWeb입니다."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "Anki 在 iPhone 上怎么用（2026）：免费与付费完整比较",
+      "description": "Anki 在 iPhone 上免费吗？比较 AnkiMobile（$24.99）、免费 AnkiWeb 与原生替代方案，并说明如何保留牌组、媒体与排程不中断。",
+      "excerpt": "AnkiMobile、免费 AnkiWeb 或现代原生 App——在 iPhone 与 iPad 上使用 Anki 的真实方法与费用。",
+      "readingTime": "8 分钟",
+      "faq": [
+        {
+          "q": "Anki 在 iPhone 上可以免费使用吗？",
+          "a": "部分可以。Safari 的 AnkiWeb 免费但离线与体验有限；官方原生 AnkiMobile 为一次性 $24.99。第三方原生 App 可能有免费试用。牌组可通过标准 .apkg 带走。"
+        },
+        {
+          "q": "iPad 也能用 Anki 吗？",
+          "a": "可以。AnkiMobile 与 Guru 均为 iPhone + iPad 通用，AnkiWeb 也可在 iPad 浏览器使用。"
+        },
+        {
+          "q": "iPhone 有 AnkiDroid 吗？",
+          "a": "没有。AnkiDroid 仅限 Android。iOS 原生选项是 AnkiMobile，或可导入 .apkg 的替代 App。"
+        },
+        {
+          "q": "电脑上的排程会一起带过来吗？",
+          "a": "若导入完整 .apkg/.colpkg，间隔、难易度、到期日等排程状态会随卡片迁移。"
+        },
+        {
+          "q": "医学院牌组（如 AnKing）该选哪个？",
+          "a": "三种路径都能复习大型共享牌组。要桌面插件兼容选 AnkiMobile；要手机体验、FSRS 与遥控选替代 App；要完全免费选 AnkiWeb。"
+        }
+      ]
     }
   }
 }

@@ -12,28 +12,144 @@
   "image": "/assets/og/anki-remote.png",
   "i18n": {
     "en": {
-      "title": "Free Anki Remote: iPhone vs StudyRemote vs 8BitDo (2026)",
-      "description": "A free, open-source Anki remote that pairs in 60 seconds with the iPhone you already own. Honest comparison vs StudyRemote and the 8BitDo workaround — including the cheap controllers AnkiMobile won't pair with.",
-      "excerpt": "Hardware Anki remotes work, but the iPhone in your pocket can do the same job for free. How to set one up in 60 seconds — plus how to bridge a $25 8BitDo controller AnkiMobile rejects.",
-      "readingTime": "8 min read"
+      "title": "Anki Remote Setup (2026): Free iPhone vs 8BitDo",
+      "description": "Anki remote setup in ~60 seconds with the iPhone you already own. Fix won't-connect issues; compare StudyRemote and 8BitDo Micro vs Zero 2 for free.",
+      "excerpt": "Hardware remotes work—but your iPhone can be a free Anki remote. 60-second setup, won't-connect fixes, and 8BitDo workarounds.",
+      "readingTime": "8 min read",
+      "faq": [
+        {
+          "q": "Why won't my Anki remote connect?",
+          "a": "Almost always: phone and computer are on different Wi-Fi/VLANs, a VPN is on, the Anki add-on isn’t running, or the QR/pairing token expired. Stay on the same local network, disable VPN temporarily, reopen the add-on, and scan a fresh QR code."
+        },
+        {
+          "q": "Is the Anki remote free?",
+          "a": "Yes. The Anki Desktop add-on is free and open source (LGPL-3.0). The remote feature in Guru never costs extra and never burns AI credits. Guru itself has a free trial; the remote is not a paid unlock."
+        },
+        {
+          "q": "Do I need to be on the same Wi-Fi?",
+          "a": "Yes. The phone and desktop talk over your local network only—nothing routes through the cloud. Ethernet on the Mac plus phone on the same router works."
+        },
+        {
+          "q": "Does this work with AnkiMobile?",
+          "a": "No. It pairs Guru on iPhone with Anki Desktop via the free add-on. AnkiMobile does not speak this protocol."
+        },
+        {
+          "q": "Can I use an 8BitDo Micro or Zero 2 as an Anki remote?",
+          "a": "Yes—through the phone bridge in Keyboard Mode. Small 8BitDo models often fail AnkiMobile’s GCExtendedGamepad requirement; the iPhone remote path is the reliable workaround."
+        }
+      ]
     },
     "zh-Hant": {
-      "title": "免費 Anki 遙控器：iPhone vs StudyRemote vs 8BitDo（2026 年最新）",
-      "description": "一款免費、開源的 Anki 遙控器，60 秒內與你手邊的 iPhone 配對完成。誠實對比 StudyRemote 與 8BitDo 繞道方案——包括 AnkiMobile 無法配對的廉價控制器。",
-      "excerpt": "硬體 Anki 遙控器確實好用，但你口袋裡的 iPhone 也能免費做到相同的事。如何在 60 秒內設定完成——外加如何橋接一款 AnkiMobile 不接受的 25 美元 8BitDo 控制器。",
-      "readingTime": "8 分鐘閱讀時間"
+      "title": "Anki 遙控器設定（2026）：免費 iPhone vs 8BitDo",
+      "description": "用你手邊的 iPhone，約 60 秒完成 Anki 遙控器設定。無法連線時怎麼辦、與 StudyRemote、8BitDo Micro/Zero 2 的誠實比較。",
+      "excerpt": "硬體遙控器很好用，但口袋裡的 iPhone 就能免費當 Anki 遙控器。60 秒設定、連線排除、8BitDo 繞道方案。",
+      "readingTime": "8 分鐘閱讀時間",
+      "faq": [
+        {
+          "q": "為什麼我的 Anki 遙控器連不上？",
+          "a": "多半是手機與電腦不在同一 Wi-Fi/VLAN、開著 VPN、Anki 外掛未執行，或 QR／配對權杖過期。請待在同一區域網路、暫時關閉 VPN、重開外掛並掃描新的 QR。"
+        },
+        {
+          "q": "Anki 遙控器免費嗎？",
+          "a": "是。Anki Desktop 外掛免費且開源（LGPL-3.0）。Guru 內的遙控功能不另收費、也不消耗 AI 額度。"
+        },
+        {
+          "q": "一定要同一 Wi-Fi 嗎？",
+          "a": "要。手機與桌機只在區域網路通訊，不會走雲端。Mac 用有線、手機連同一路由器也可以。"
+        },
+        {
+          "q": "能搭配 AnkiMobile 嗎？",
+          "a": "不能。它透過免費外掛把 iPhone 上的 Guru 與 Anki Desktop 配對，AnkiMobile 不支援此協定。"
+        },
+        {
+          "q": "8BitDo Micro 或 Zero 2 能當 Anki 遙控嗎？",
+          "a": "可以——用鍵盤模式經手機橋接。小型 8BitDo 常因不符合 AnkiMobile 的 GCExtendedGamepad 而被拒，手機遙控路徑較可靠。"
+        }
+      ]
     },
     "ja": {
-      "title": "無料Ankiリモート：iPhone vs StudyRemote vs 8BitDo（2026年版）",
-      "description": "あなたがすでに持っているiPhoneと60秒でペアリングできる、無料・オープンソースのAnkiリモート。StudyRemoteや8BitDo回避策との正直な比較。AnkiMobileが拒否する格安コントローラーの話も。",
-      "excerpt": "ハードウェアのAnkiリモートも良いが、ポケットの中のiPhoneで同じことができるなら無料に越したことはない。60秒でセットアップする方法と、AnkiMobileが拒否する$25の8BitDoコントローラーを橋渡しする方法。",
-      "readingTime": "8 分で読めます"
+      "title": "Ankiリモート設定（2026）：無料iPhone vs 8BitDo",
+      "description": "手元のiPhoneで約60秒のAnkiリモート設定。接続できないときの対処、StudyRemoteや8BitDo Micro/Zero 2との正直な比較も。",
+      "excerpt": "ハードウェアも良いが、ポケットのiPhoneで無料リモートに。60秒セットアップと接続トラブル対処、8BitDo回避策。",
+      "readingTime": "8 分で読めます",
+      "faq": [
+        {
+          "q": "Ankiリモートが接続できないのはなぜ？",
+          "a": "ほとんどが別Wi-Fi/VLAN、VPN、アドオン未起動、QR/トークン期限切れです。同じローカルネットワークにし、VPNを切り、アドオンを開き直して新しいQRを読み取ってください。"
+        },
+        {
+          "q": "Ankiリモートは無料ですか？",
+          "a": "はい。Anki Desktopアドオンは無料・LGPL-3.0。Guru内のリモート機能も追加料金なしです。"
+        },
+        {
+          "q": "同じWi-Fiが必要ですか？",
+          "a": "はい。端末同士はローカルネットワークのみで通信し、クラウドは経由しません。"
+        },
+        {
+          "q": "AnkiMobileでも使えますか？",
+          "a": "いいえ。無料アドオン経由でGuru（iPhone）とAnki Desktopを繋ぎます。AnkiMobileはこのプロトコルに対応しません。"
+        },
+        {
+          "q": "8BitDo MicroやZero 2は使えますか？",
+          "a": "はい。Keyboard Modeでスマホ経由のブリッジが使えます。小型8BitDoはAnkiMobileの要件に合わず拒否されがちで、この経路が現実的です。"
+        }
+      ]
     },
     "ko": {
-      "title": "무료 Anki 리모컨: iPhone vs StudyRemote vs 8BitDo (2026)",
-      "description": "손에 든 아이폰으로 60초 만에 연결되는 무료 오픈소스 Anki 리모컨. StudyRemote 및 8BitDo 우회법과 정직한 비교 — AnkiMobile이 거부하는 저렴한 컨트롤러까지 포함.",
-      "excerpt": "하드웨어 Anki 리모컨도 훌륭하지만, 주머니 속 아이폰 하나면 같은 작업을 무료로 할 수 있습니다. 60초 만에 설정하는 방법부터 AnkiMobile이 거부하는 25달러짜리 8BitDo 컨트롤러를 연결하는 팁까지.",
-      "readingTime": "8분 읽기"
+      "title": "Anki 리모컨 설정 (2026): 무료 아이폰 vs 8BitDo",
+      "description": "이미 가진 아이폰으로 약 60초 만에 Anki 리모컨 설정. 연결 안 될 때 해결법, StudyRemote·8BitDo Micro/Zero 2 비교까지.",
+      "excerpt": "하드웨어 리모컨도 좋지만 주머니 속 아이폰이면 무료. 60초 설정, 연결 문제 해결, 8BitDo 우회법.",
+      "readingTime": "8분 읽기",
+      "faq": [
+        {
+          "q": "Anki 리모컨이 연결되지 않는 이유는?",
+          "a": "대부분 다른 Wi-Fi/VLAN, VPN 사용, 애드온 미실행, QR/페어링 토큰 만료입니다. 같은 로컬 네트워크를 쓰고 VPN을 끄고 애드온을 다시 연 뒤 새 QR을 스캔하세요."
+        },
+        {
+          "q": "Anki 리모컨은 무료인가요?",
+          "a": "네. Anki Desktop 애드온은 무료·LGPL-3.0입니다. Guru의 리모컨 기능도 추가 요금이 없습니다."
+        },
+        {
+          "q": "같은 Wi-Fi가 필요한가요?",
+          "a": "네. 폰과 PC는 로컬 네트워크로만 통신하며 클라우드를 거치지 않습니다."
+        },
+        {
+          "q": "AnkiMobile에서도 되나요?",
+          "a": "아니요. 무료 애드온으로 Guru(iPhone)와 Anki Desktop을 연결합니다. AnkiMobile은 이 프로토콜을 쓰지 않습니다."
+        },
+        {
+          "q": "8BitDo Micro/Zero 2를 Anki 리모컨으로 쓸 수 있나요?",
+          "a": "네. 키보드 모드로 폰 브리지를 거치면 됩니다. 소형 8BitDo는 AnkiMobile 요구 사항을 못 맞춰 거부되는 경우가 많아 이 경로가 안정적입니다."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "Anki 遥控器设置（2026）：免费 iPhone vs 8BitDo",
+      "description": "用你手头的 iPhone，约 60 秒完成 Anki 遥控器设置。无法连接时怎么办、与 StudyRemote、8BitDo Micro/Zero 2 的诚实比较。",
+      "excerpt": "硬件遥控器很好用，但口袋里的 iPhone 就能免费当 Anki 遥控器。60 秒设置、连接排除、8BitDo 绕道方案。",
+      "readingTime": "8 分钟阅读",
+      "faq": [
+        {
+          "q": "为什么我的 Anki 遥控器连不上？",
+          "a": "多半是手机与电脑不在同一 Wi-Fi/VLAN、开着 VPN、Anki 插件未运行，或 QR／配对令牌过期。请待在同一局域网、暂时关闭 VPN、重开插件并扫描新的 QR。"
+        },
+        {
+          "q": "Anki 遥控器免费吗？",
+          "a": "是。Anki Desktop 插件免费且开源（LGPL-3.0）。Guru 内的遥控功能不另收费、也不消耗 AI 额度。"
+        },
+        {
+          "q": "一定要同一 Wi-Fi 吗？",
+          "a": "要。手机与电脑只在局域网通信，不会走云端。Mac 用有线、手机连同一路由器也可以。"
+        },
+        {
+          "q": "能搭配 AnkiMobile 吗？",
+          "a": "不能。它通过免费插件把 iPhone 上的 Guru 与 Anki Desktop 配对，AnkiMobile 不支持此协议。"
+        },
+        {
+          "q": "8BitDo Micro 或 Zero 2 能当 Anki 遥控吗？",
+          "a": "可以——用键盘模式经手机桥接。小型 8BitDo 常因不符合 AnkiMobile 的 GCExtendedGamepad 而被拒，手机遥控路径更可靠。"
+        }
+      ]
     }
   }
 }

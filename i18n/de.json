@@ -5,7 +5,8 @@
     "indexTitle": "Blog",
     "indexSubtitle": "Notizen zu Spaced Repetition, Anki-Migration und Lern-Tools.",
     "updatedLabel": "Aktualisiert",
-    "allPosts": "← Alle Beiträge"
+    "allPosts": "← Alle Beiträge",
+    "faqTitle": "FAQ"
   },
   "site": {
     "name": "Guru"
@@ -259,8 +260,8 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Flashcard Guru Remote — Kostenlose drahtlose Anki-Fernbedienung fürs iPhone",
-    "metaDescription": "Verwandle dein iPhone in eine drahtlose Anki-Desktop-Fernbedienung. Kostenloses LGPL-3.0-Add-on, in 10 Sekunden per QR-Code gekoppelt, unterstützt günstige 8BitDo-Controller, die AnkiMobile nicht koppelt.",
+    "metaTitle": "Anki-Remote einrichten: Kostenlos per iPhone | Guru",
+    "metaDescription": "Anki-Remote in ~10 Sekunden per QR. Kostenloses LGPL-3.0-Add-on—Verbindungsfehler beheben und 8BitDo nutzen, die AnkiMobile ablehnt.",
     "hero": {
       "pill": "Kostenlos · Open Source · LGPL-3.0",
       "title": "Anki Fernbedienung — auf dem iPhone, das du schon hast",

@@ -12,28 +12,144 @@
   "image": "/assets/og/landing.png",
   "i18n": {
     "en": {
-      "title": "How to Import Your Anki Decks (.apkg) onto iPhone",
-      "description": "Move your existing Anki decks to iPhone without losing scheduling or media. How to get an .apkg or .colpkg file onto iOS, import it intact, and export it back out anytime.",
-      "excerpt": "Move your .apkg decks to iPhone without losing scheduling or media — and keep the freedom to export them back out anytime.",
-      "readingTime": "6 min read"
+      "title": "Open .apkg on iPhone: Import Anki Decks (2026)",
+      "description": "How to open an .apkg file on iPhone or iPad and import Anki decks without losing media or scheduling—Files, AirDrop, AnkiWeb, step-by-step for 2026.",
+      "excerpt": "Open .apkg on iPhone without losing scheduling or media—and export back out anytime.",
+      "readingTime": "6 min read",
+      "faq": [
+        {
+          "q": "How do I open an .apkg file on iPhone?",
+          "a": "Get the .apkg into Files (iCloud Drive, AirDrop, email, or Safari download), then open it with a native Anki app such as AnkiMobile or Guru. The app imports cards, media, and scheduling state from the package."
+        },
+        {
+          "q": "How do I open an .apkg file on iPad?",
+          "a": "Same flow as iPhone: place the file in Files, then Open In / import into AnkiMobile or Guru. iPadOS treats .apkg as a document you hand off to a supporting app."
+        },
+        {
+          "q": "What's the difference between .apkg and .colpkg?",
+          "a": ".apkg is one or more decks; .colpkg is your whole collection (all decks plus collection-level data). Both import the same way in apps that use Anki’s package format."
+        },
+        {
+          "q": "Can I import a huge deck like AnKing?",
+          "a": "Yes. Large media-heavy decks import fine—give big files a minute to unpack. If due counts look “all new,” the export may have stripped scheduling; re-export with scheduling included when you control the source."
+        },
+        {
+          "q": "Will my review history survive the import?",
+          "a": "Scheduling state inside the package (intervals, ease, due dates) carries over. A global daily streak number may reset per app, but the spaced-repetition schedule that matters for memory is preserved."
+        }
+      ]
     },
     "zh-Hant": {
-      "title": "如何在 iPhone 上匯入 Anki 牌組 (.apkg)",
-      "description": "將現有的 Anki 牌組移至 iPhone，保留排程與多媒體檔案。了解如何將 .apkg 或 .colpkg 檔案放入 iOS 裝置、完整匯入，並隨時匯出備份。",
-      "excerpt": "將您的 .apkg 牌組移至 iPhone，保留排程與多媒體檔案 — 並隨時保有匯出的自由。",
-      "readingTime": "6 分鐘"
+      "title": "在 iPhone 開啟 .apkg：匯入 Anki 牌組（2026）",
+      "description": "如何在 iPhone 或 iPad 開啟 .apkg 檔案，完整匯入 Anki 牌組且不丟失媒體與排程—Files、AirDrop 與逐步教學。",
+      "excerpt": "在 iPhone 開啟 .apkg 並匯入牌組，保留排程與媒體—隨時可再匯出。",
+      "readingTime": "6 分鐘",
+      "faq": [
+        {
+          "q": "如何在 iPhone 開啟 .apkg 檔案？",
+          "a": "先把 .apkg 放到「檔案」（iCloud Drive、AirDrop、郵件或 Safari 下載），再用 AnkiMobile 或 Guru 等原生 App 開啟匯入。卡片、媒體與排程狀態會一併帶入。"
+        },
+        {
+          "q": "如何在 iPad 開啟 .apkg？",
+          "a": "流程與 iPhone 相同：放到「檔案」後以 AnkiMobile 或 Guru 開啟。"
+        },
+        {
+          "q": ".apkg 與 .colpkg 有何不同？",
+          "a": ".apkg 是一個或多個牌組；.colpkg 是整個收藏庫。兩者匯入方式相同。"
+        },
+        {
+          "q": "能匯入 AnKing 這類超大牌組嗎？",
+          "a": "可以。媒體量大時請稍候解壓。若到期數變成「全部新卡」，多半是匯出時未包含排程。"
+        },
+        {
+          "q": "複習紀錄會保留嗎？",
+          "a": "套件內的排程狀態（間隔、難易度、到期日）會保留。App 專屬的連續天數可能重置，但真正影響記憶的間隔排程會留下。"
+        }
+      ]
     },
     "ja": {
-      "title": "Ankiデッキ(.apkg)をiPhoneにインポートする方法",
-      "description": "手持ちのAnkiデッキをiPhoneに移行。スケジュールやメディアを失わずに.apkg/.colpkgファイルをiOSに取り込み、いつでも書き出せる方法を解説。",
-      "excerpt": ".apkgデッキをiPhoneに移行してもスケジュールやメディアはそのまま。いつでも書き出せる自由も確保できます。",
-      "readingTime": "6 分"
+      "title": "iPhoneで.apkgを開く：Ankiデッキ取込（2026）",
+      "description": "iPhone/iPadで.apkgファイルを開き、メディアやスケジュールを失わずにAnkiデッキをインポート。Files・AirDropの手順を解説。",
+      "excerpt": "iPhoneで.apkgを開いてデッキ移行。スケジュールとメディアはそのまま、いつでも書き出し可能。",
+      "readingTime": "6 分",
+      "faq": [
+        {
+          "q": "iPhoneで.apkgファイルを開くには？",
+          "a": "Files（iCloud Drive、AirDrop、メール、Safariダウンロード）に.apkgを置き、AnkiMobileやGuruなどの対応アプリで開いてインポートします。カード・メディア・スケジュールが取り込まれます。"
+        },
+        {
+          "q": "iPadで.apkgを開くには？",
+          "a": "iPhoneと同じ流れです。Filesに置いてからAnkiMobileまたはGuruで開きます。"
+        },
+        {
+          "q": ".apkgと.colpkgの違いは？",
+          "a": ".apkgは1つ以上のデッキ、.colpkgはコレクション全体です。どちらも同じ手順でインポートできます。"
+        },
+        {
+          "q": "AnKingのような巨大デッキは？",
+          "a": "可能です。メディアが多いと展開に少し時間がかかります。期日が全部新規に見える場合、書き出し時にスケジュールが落ちていることがあります。"
+        },
+        {
+          "q": "復習履歴は残りますか？",
+          "a": "パッケージ内のスケジュール状態（間隔・易しさ・期日）は引き継がれます。アプリ固有の連続日数表示はリセットされることがあります。"
+        }
+      ]
     },
     "ko": {
-      "title": "Anki 덱(.apkg)을 아이폰으로 가져오는 방법",
-      "description": "기존 Anki 덱을 일정과 미디어 손실 없이 아이폰으로 옮기는 방법. iOS에서 .apkg 또는 .colpkg 파일을 가져오고, 온전히 내보내는 방법을 설명합니다.",
-      "excerpt": "일정과 미디어 손실 없이 .apkg 덱을 아이폰으로 옮기고, 언제든지 다시 내보낼 수 있는 자유를 누리세요.",
-      "readingTime": "6분"
+      "title": "아이폰에서 .apkg 열기: Anki 덱 가져오기 (2026)",
+      "description": "아이폰·아이패드에서 .apkg 파일을 열고, 미디어·스케줄 손실 없이 Anki 덱을 가져오는 방법—파일 앱, AirDrop, 단계별 안내.",
+      "excerpt": "아이폰에서 .apkg를 열어 덱을 옮기세요. 스케줄과 미디어는 그대로, 언제든 다시 내보낼 수 있습니다.",
+      "readingTime": "6분",
+      "faq": [
+        {
+          "q": "아이폰에서 .apkg 파일을 열려면?",
+          "a": "파일 앱(iCloud Drive, AirDrop, 메일, Safari 다운로드)에 .apkg를 둔 뒤 AnkiMobile 또는 Guru 같은 앱으로 열어 가져옵니다. 카드·미디어·스케줄이 함께 들어옵니다."
+        },
+        {
+          "q": "아이패드에서 .apkg를 열려면?",
+          "a": "아이폰과 동일합니다. 파일에 넣은 뒤 AnkiMobile 또는 Guru로 엽니다."
+        },
+        {
+          "q": ".apkg와 .colpkg 차이는?",
+          "a": ".apkg는 하나 이상의 덱, .colpkg는 전체 컬렉션입니다. 둘 다 같은 방식으로 가져옵니다."
+        },
+        {
+          "q": "AnKing 같은 대형 덱도 되나요?",
+          "a": "됩니다. 미디어가 많으면 풀리는 데 시간이 걸립니다. 마감이 전부 새로면 내보내기 때 스케줄이 빠진 경우가 많습니다."
+        },
+        {
+          "q": "복습 기록이 유지되나요?",
+          "a": "패키지 안의 스케줄 상태(간격·ease·마감일)는 유지됩니다. 앱별 연속 일수 표시는 초기화될 수 있습니다."
+        }
+      ]
+    },
+    "zh-Hans": {
+      "title": "在 iPhone 打开 .apkg：导入 Anki 牌组（2026）",
+      "description": "如何在 iPhone 或 iPad 打开 .apkg 文件，完整导入 Anki 牌组且不丢失媒体与排程—文件 App、AirDrop 与逐步教学。",
+      "excerpt": "在 iPhone 打开 .apkg 并导入牌组，保留排程与媒体—随时可再导出。",
+      "readingTime": "6 分钟",
+      "faq": [
+        {
+          "q": "如何在 iPhone 打开 .apkg 文件？",
+          "a": "先把 .apkg 放到“文件”（iCloud Drive、AirDrop、邮件或 Safari 下载），再用 AnkiMobile 或 Guru 等原生 App 打开导入。卡片、媒体与排程状态会一并带入。"
+        },
+        {
+          "q": "如何在 iPad 打开 .apkg？",
+          "a": "流程与 iPhone 相同：放到“文件”后以 AnkiMobile 或 Guru 打开。"
+        },
+        {
+          "q": ".apkg 与 .colpkg 有何不同？",
+          "a": ".apkg 是一个或多个牌组；.colpkg 是整个收藏库。两者导入方式相同。"
+        },
+        {
+          "q": "能导入 AnKing 这类超大牌组吗？",
+          "a": "可以。媒体量大时请稍候解压。若到期数变成“全部新卡”，多半是导出时未包含排程。"
+        },
+        {
+          "q": "复习记录会保留吗？",
+          "a": "套件内的排程状态（间隔、难易度、到期日）会保留。App 专属的连续天数可能重置，但真正影响记忆的间隔排程会留下。"
+        }
+      ]
     }
   }
 }

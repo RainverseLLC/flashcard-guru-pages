@@ -5,7 +5,8 @@
     "indexTitle": "블로그",
     "indexSubtitle": "간격 반복, Anki 마이그레이션, 학습 도구에 대한 노트.",
     "updatedLabel": "업데이트",
-    "allPosts": "← 모든 글"
+    "allPosts": "← 모든 글",
+    "faqTitle": "자주 묻는 질문"
   },
   "site": {
     "name": "Guru"
@@ -259,8 +260,8 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Flashcard Guru Remote — iPhone용 무료 무선 Anki 리모컨",
-    "metaDescription": "iPhone을 Anki Desktop의 무선 복습 리모컨으로. 무료 LGPL-3.0 애드온, QR 코드로 10초 페어링, AnkiMobile이 거부하는 저렴한 8BitDo 컨트롤러도 지원.",
+    "metaTitle": "Anki 리모컨 설정: 무료 아이폰 무선 리모컨 | Guru",
+    "metaDescription": "QR로 약 10초 Anki 리모컨 설정. 무료 LGPL-3.0 애드온—연결 안 될 때 해결, AnkiMobile이 거부하는 8BitDo도 지원.",
     "hero": {
       "pill": "무료 · 오픈 소스 · LGPL-3.0",
       "title": "이미 가지고 있는 iPhone을 Anki 리모컨으로",

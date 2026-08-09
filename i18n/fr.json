@@ -5,7 +5,8 @@
     "indexTitle": "Blog",
     "indexSubtitle": "Notes sur la répétition espacée, la migration Anki et les outils d'étude.",
     "updatedLabel": "Mis à jour",
-    "allPosts": "← Tous les articles"
+    "allPosts": "← Tous les articles",
+    "faqTitle": "FAQ"
   },
   "site": {
     "name": "Guru"
@@ -259,8 +260,8 @@
     }
   },
   "ankiRemote": {
-    "metaTitle": "Flashcard Guru Remote — Télécommande Anki sans fil gratuite pour iPhone",
-    "metaDescription": "Transformez votre iPhone en télécommande de révision sans fil pour Anki Desktop. Module gratuit LGPL-3.0, appairage en 10 secondes par QR code, prend en charge les contrôleurs 8BitDo bon marché qu'AnkiMobile refuse.",
+    "metaTitle": "Config Anki Remote : télécommande iPhone gratuite | Guru",
+    "metaDescription": "Configurez Anki Remote en ~10 s via QR. Module gratuit LGPL-3.0 : corrigez les coupures et utilisez les 8BitDo qu'AnkiMobile refuse.",
     "hero": {
       "pill": "Gratuit · Open source · LGPL-3.0",
       "title": "La télécommande Anki, sur l'iPhone que vous avez déjà",
