@@ -435,3 +435,6 @@ footer.site .container { padding-top: 40px; padding-bottom: 44px; }
 }
 .post .cta-box a.cta:hover { background: #000; text-decoration: none; }
 .post .post-foot { margin-top: 48px; font-size: 15px; }
+.post .post-faq { margin-top: 44px; }
+.post .post-faq h2 { margin-top: 0; }
+.post .post-faq .faq { margin-top: 12px; }

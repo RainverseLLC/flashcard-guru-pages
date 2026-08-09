@@ -66,6 +66,20 @@
 
         {{{post.body}}}
 
+        {{#post.hasFaq}}
+        <section class="post-faq" aria-labelledby="post-faq-heading">
+          <h2 id="post-faq-heading">{{post.faqTitle}}</h2>
+          <div class="faq">
+            {{#post.faq}}
+            <details>
+              <summary>{{q}}</summary>
+              <div class="ans">{{a}}</div>
+            </details>
+            {{/post.faq}}
+          </div>
+        </section>
+        {{/post.hasFaq}}
+
         <p class="post-foot"><a href="{{prefix}}/blog/">{{blog.allPosts}}</a></p>
       </article>
     </main>

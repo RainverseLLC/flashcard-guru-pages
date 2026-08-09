@@ -374,7 +374,10 @@ function buildBlog(posts, localeStrings, marked) {
       const canonicalUrl = SITE_ORIGIN + url;
       const ogImage = SITE_ORIGIN + post.meta.image;
 
-      const jsonLd = [
+      // Per-locale FAQ list from meta.json i18n[loc].faq — powers visible FAQ + FAQPage JSON-LD.
+      const faqItems = Array.isArray(i18n.faq) ? i18n.faq : [];
+
+      const jsonLdBlocks = [
         buildSiteJsonLd(),
         buildArticleJsonLd({
           title: i18n.title,
@@ -389,7 +392,11 @@ function buildBlog(posts, localeStrings, marked) {
           { name: strings.blog?.indexTitle || 'Blog', item: SITE_ORIGIN + blogIndexUrl(loc.code) },
           { name: i18n.title },
         ]),
-      ].join('\n');
+      ];
+      if (faqItems.length) {
+        jsonLdBlocks.push(buildFaqJsonLd(faqItems));
+      }
+      const jsonLd = jsonLdBlocks.filter(Boolean).join('\n');
 
       const data = {
         ...strings,
@@ -414,6 +421,9 @@ function buildBlog(posts, localeStrings, marked) {
           showUpdated: Boolean(post.meta.updated && post.meta.updated !== post.meta.date),
           readingTime: i18n.readingTime || '',
           body: marked.parse(post.bodies[loc.code]),
+          hasFaq: faqItems.length > 0,
+          faqTitle: strings.blog?.faqTitle || 'FAQ',
+          faq: faqItems,
         },
       };
 
