@@ -18,11 +18,22 @@
 - **電子郵件或即時通訊** — 將檔案寄給自己，然後點擊附件。
 - **直接下載** — 分享的牌組（AnKing 等）通常會在 Safari 中直接下載到檔案 App。
 
+
+![在檔案 App 中選擇 .apkg](/assets/screenshots/import-files-picker.webp)
+
 ## 第二步：匯入（保留排程狀態）
+
+![新增學習教材選單中的「匯入 .apkg/.colpkg」](/assets/screenshots/import-add-menu.webp)
+
 
 在 <a href="/zh-Hant/">Guru</a> 中，打開牌組列表並選擇匯入，然後從檔案 App 中選取 <code>.apkg</code>。由於匯入過程使用 Anki 自有引擎處理，因此卡片、多媒體檔案與排程都會完整保留 — 無需重新學習，也不會遺失歷史記錄。
 
 同樣的檔案也可以匯入 **AnkiMobile**（如果您使用的是該 App）— 在檔案 App 中點擊 <code>.apkg</code>，然後選擇「複製到 AnkiMobile」。（不確定該用哪個 App？請參閱 <a href="/zh-Hant/blog/anki-on-iphone-guide/">如何在 iPhone 與 iPad 上使用 Anki</a>。）
+
+
+![準備匯入的 Anki Import Wizard](/assets/screenshots/import-wizard.webp)
+
+![iPhone 上 Anki .apkg 匯入完成 — 新增 2,825 張卡片](/assets/screenshots/import-success.webp)
 
 ## 第三步：確認匯入正確
 

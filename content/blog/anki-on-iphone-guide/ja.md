@@ -33,6 +33,11 @@ AnkiWebは無料のWebクライアントです。Safariでankiweb.netにログ�
 - **こんな人に最適：** 高速で現代的、iPhoneファーストのアプリを求める方、カード作成をAIで支援したい方、試験前のCram Mode、内蔵の<strong>無料ワイヤレス[Ankiリモート](/ja/anki-remote)</strong>を活用したい方
 - **注意点：** AnkiMobileのスキンではなく独立したアプリであるため、AnkiWeb経由の同期ではなく、デッキをアプリにインポートします（<a href="/ja/blog/import-anki-decks-iphone/">Ankiデッキのインポート方法</a>参照）。
 
+
+![iPhoneのGuruOwlライブラリ — JLPT・USMLE・スペイン語・画像穴埋めのAnkiデッキ](/assets/screenshots/library-decks.webp)
+
+![FSRS間隔付きでAnkiカードをiPhoneでレビュー](/assets/screenshots/review-answer-fsrs.webp)
+
 ## 簡単比較表
 
 | | AnkiMobile | AnkiWeb（ブラウザ） | Guru |
@@ -54,6 +59,9 @@ AnkiWebは無料のWebクライアントです。Safariでankiweb.netにログ�
 
 どのネイティブアプリを選んでも、最初のステップは同じです。<code>.apkg</code>ファイルをスマホに転送し、スケジュール状態を保持したままインポートします。ステップバイステップのガイドを作成しました：<a href="/ja/blog/import-anki-decks-iphone/">Ankiデッキ（.apkg）をiPhoneにインポートする方法</a>。重要なのは、あなたの学習進捗は決して閉じ込められず、すべて標準の<code>.apkg</code>としてエクスポート可能だということです。
 
+
+
+![iPhoneでのAnki .apkgインポート完了 — 2,825枚のカードを追加](/assets/screenshots/import-success.webp)
 
 <div class="cta-box">
 <h3>iPhoneにぴったり合うAnkiをお求めですか？</h3>

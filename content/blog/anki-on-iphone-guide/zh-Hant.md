@@ -33,6 +33,11 @@ AnkiWeb 是免費的網頁客戶端。在 Safari 中登入 ankiweb.net，即可�
 - **最適合：** 想要快速、現代、以 iPhone 為首的 App、希望 AI 協助將筆記轉成卡片、考試前使用 Cram Mode，以及內建**免費無線 [Anki Remote](/zh-Hant/anki-remote)** 的使用者。
 - **注意：** 這是獨立的 App，而非 AnkiMobile 的換皮 — 因此你需要將牌組匯入其中（請參閱 <a href="/zh-Hant/blog/import-anki-decks-iphone/">如何匯入你的 Anki 牌組</a>），而非透過 AnkiWeb 同步。
 
+
+![iPhone 上的 GuruOwl 資料庫 — 已匯入的 JLPT、USMLE、西語與圖片遮擋 Anki 牌組](/assets/screenshots/library-decks.webp)
+
+![在 iPhone 上複習匯入的 Anki 卡片,帶 FSRS 間隔](/assets/screenshots/review-answer-fsrs.webp)
+
 ## 快速比較
 
 | | AnkiMobile | AnkiWeb（瀏覽器） | Guru |
@@ -54,6 +59,9 @@ AnkiWeb 是免費的網頁客戶端。在 Safari 中登入 ankiweb.net，即可�
 
 無論你選擇哪個原生 App，第一步都一樣：將你的 <code>.apkg</code> 檔案傳入手機，並在保留排程的狀態下匯入。我們寫了一份逐步教學：<a href="/zh-Hant/blog/import-anki-decks-iphone/">如何在 iPhone 上匯入你的 Anki 牌組 (.apkg)</a>。重點是 — 你的學習進度永遠不會被鎖死；一切都可以匯出回標準的 <code>.apkg</code>。
 
+
+
+![iPhone 上 Anki .apkg 匯入完成 — 新增 2,825 張卡片](/assets/screenshots/import-success.webp)
 
 <div class="cta-box">
 <h3>想要一款在 iPhone 上如魚得水的 Anki？</h3>

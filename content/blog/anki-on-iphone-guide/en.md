@@ -33,6 +33,11 @@ AnkiWeb is the free web client. Log in at ankiweb.net on Safari and you can revi
 - **Best for:** people who want a fast, modern iPhone-first app, AI help turning notes into cards, Cram Mode before exams, and a built-in **free wireless [Anki Remote](/anki-remote)**.
 - **Watch out for:** it's a separate app, not a skin over AnkiMobile — so you import your decks into it (see <a href="/blog/import-anki-decks-iphone/">how to import your Anki decks</a>) rather than syncing through AnkiWeb.
 
+
+![GuruOwl library on iPhone with imported Anki decks — JLPT, USMLE, Spanish and image occlusion](/assets/screenshots/library-decks.webp)
+
+![Reviewing an imported Anki card on iPhone with FSRS intervals (Again 1m · Hard 6m · Good 10m · Easy 8d)](/assets/screenshots/review-answer-fsrs.webp)
+
 ## Quick comparison
 
 | | AnkiMobile | AnkiWeb (browser) | Guru |
@@ -54,6 +59,9 @@ A lot of people searching "anki on iphone" actually want something subtler: they
 
 Whichever native app you choose, the first step is the same: get your <code>.apkg</code> files onto the phone and import them with scheduling intact. We wrote a step-by-step guide: <a href="/blog/import-anki-decks-iphone/">How to open .apkg on iPhone and import Anki decks</a>. The important part — your progress is never trapped; everything exports back to a standard <code>.apkg</code>.
 
+
+
+![Anki .apkg import finished on iPhone — 2,825 cards added with scheduling intact](/assets/screenshots/import-success.webp)
 
 <div class="cta-box">
 <h3>Want Anki that feels at home on iPhone?</h3>

@@ -18,11 +18,22 @@ You first need the <code>.apkg</code> file accessible on the phone. Any of these
 - **Email or messaging** — send it to yourself and tap the attachment.
 - **Direct download** — shared decks (AnKing, etc.) often download straight to Files in Safari.
 
+
+![Choosing the .apkg file from On My iPhone in the Files picker](/assets/screenshots/import-files-picker.webp)
+
 ## Step 2: Import it (keeping scheduling intact)
+
+![Add study material menu on iPhone with the Import .apkg/.colpkg option](/assets/screenshots/import-add-menu.webp)
+
 
 In <a href="/">Guru</a>, open the deck list and choose import, then pick the <code>.apkg</code> from Files. Because the import runs on Anki's own engine, the cards, media, and scheduling come in exactly as they were — no re-learning, no lost history.
 
 The same file imports into **AnkiMobile** too, if that's the app you're using — tap the <code>.apkg</code> in Files and choose "Copy to AnkiMobile." (Not sure which app to use? See <a href="/blog/anki-on-iphone-guide/">how to use Anki on iPhone & iPad</a>.)
+
+
+![Anki Import Wizard on iPhone ready to import the .apkg](/assets/screenshots/import-wizard.webp)
+
+![Anki .apkg import finished on iPhone — 2,825 cards added with scheduling intact](/assets/screenshots/import-success.webp)
 
 ## Step 3: Verify it came over correctly
 

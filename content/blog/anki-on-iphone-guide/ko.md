@@ -31,6 +31,11 @@ AnkiWeb은 무료 웹 클라이언트입니다. Safari에서 ankiweb.net에 로�
 - **적합한 대상:** 빠르고 현대적인 아이폰 우선 앱, 노트를 카드로 바꿔주는 AI 도움, 시험 전 벼락치기 모드(Cram Mode), 그리고 내장 **무선 [Anki 리모컨](/ko/anki-remote)** 을 원하는 사람.
 - **주의할 점:** 별도의 앱이며 AnkiMobile의 스킨이 아닙니다 — 따라서 AnkiWeb을 통한 동기화 대신 덱을 앱으로 가져옵니다(<a href="/ko/blog/import-anki-decks-iphone/">Anki 덱 가져오는 방법</a> 참조).
 
+
+![아이폰 GuruOwl 라이브러리 — JLPT·USMLE·스페인어·이미지 가림 Anki 덱](/assets/screenshots/library-decks.webp)
+
+![FSRS 간격과 함께 아이폰에서 Anki 카드 복습](/assets/screenshots/review-answer-fsrs.webp)
+
 ## 빠른 비교
 
 | | AnkiMobile | AnkiWeb (브라우저) | Guru |
@@ -52,6 +57,9 @@ AnkiWeb은 무료 웹 클라이언트입니다. Safari에서 ankiweb.net에 로�
 
 어떤 네이티브 앱을 선택하든 첫 단계는 동일합니다: <code>.apkg</code> 파일을 휴대폰으로 가져와 스케줄링을 그대로 유지한 상태로 임포트하는 것입니다. 단계별 가이드를 준비했습니다: <a href="/ko/blog/import-anki-decks-iphone/">Anki 덱(.apkg)을 아이폰으로 가져오는 방법</a>. 중요한 점은 — 진행 상황이 갇히지 않으며 모든 것을 표준 <code>.apkg</code>로 내보낼 수 있다는 것입니다.
 
+
+
+![아이폰 Anki .apkg 가져오기 완료 — 2,825장 추가](/assets/screenshots/import-success.webp)
 
 <div class="cta-box">
 <h3>아이폰에서 Anki를 더 편안하게 사용하고 싶으신가요?</h3>

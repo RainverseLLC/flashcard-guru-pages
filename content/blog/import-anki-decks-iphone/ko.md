@@ -18,11 +18,22 @@
 - **이메일 또는 메시지** — 자신에게 보내고 첨부 파일을 탭하세요.
 - **직접 다운로드** — 공유 덱(AnKing 등)은 종종 Safari에서 파일 앱으로 바로 다운로드됩니다.
 
+
+![파일 앱에서 .apkg 선택](/assets/screenshots/import-files-picker.webp)
+
 ## 2단계: 가져오기 (학습 일정 유지)
+
+![학습 자료 추가 메뉴의 .apkg/.colpkg 가져오기](/assets/screenshots/import-add-menu.webp)
+
 
 <a href="/ko/">Guru</a>에서 덱 목록을 열고 가져오기를 선택한 후, 파일에서 <code>.apkg</code>를 선택하세요. Anki 자체 엔진으로 가져오기 때문에 카드, 미디어, 학습 일정이 정확히 그대로 들어옵니다 — 다시 학습하거나 기록이 손실되지 않습니다.
 
 동일한 파일은 **AnkiMobile**에서도 가져올 수 있습니다. 파일 앱에서 <code>.apkg</code>를 탭하고 "AnkiMobile로 복사"를 선택하세요. (어떤 앱을 사용해야 할지 모르겠다면 <a href="/ko/blog/anki-on-iphone-guide/">iPhone 및 iPad에서 Anki 사용법</a>을 참조하세요.)
+
+
+![가져오기 준비가 된 Anki Import Wizard](/assets/screenshots/import-wizard.webp)
+
+![아이폰 Anki .apkg 가져오기 완료 — 2,825장 추가](/assets/screenshots/import-success.webp)
 
 ## 3단계: 올바르게 가져왔는지 확인
 

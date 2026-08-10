@@ -18,11 +18,22 @@
 - **メールまたはメッセージ** — 自分宛に送信し、添付ファイルをタップします。
 - **直接ダウンロード** — 公開デッキ（AnKingなど）はSafariで直接Filesにダウンロードされることがよくあります。
 
+
+![ファイルAppで.apkgを選択](/assets/screenshots/import-files-picker.webp)
+
 ## ステップ 2: インポートする（スケジュールをそのまま維持）
+
+![教材追加メニューの「.apkg/.colpkgをインポート」](/assets/screenshots/import-add-menu.webp)
+
 
 <a href="/ja/">Guru</a>でデッキ一覧を開き、インポートを選択してFilesから<code>.apkg</code>を選びます。インポートはAnki純正のエンジンで実行されるため、カード、メディア、スケジュールは元のまま正確に取り込まれます — 再学習は不要、履歴も失われません。
 
 同じファイルは**AnkiMobile**にもインポートできます。Filesで<code>.apkg</code>をタップし、「AnkiMobileにコピー」を選択してください。（どのアプリを使うべきか迷っていますか？ <a href="/ja/blog/anki-on-iphone-guide/">iPhone/iPadでのAnkiの使い方</a>をご覧ください。）
+
+
+![インポート準備完了のAnki Import Wizard](/assets/screenshots/import-wizard.webp)
+
+![iPhoneでのAnki .apkgインポート完了 — 2,825枚のカードを追加](/assets/screenshots/import-success.webp)
 
 ## ステップ 3: 正しくインポートされたか確認する
 
