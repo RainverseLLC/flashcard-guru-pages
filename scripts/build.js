@@ -47,7 +47,7 @@ const LOCALES = [
   { code: 'es',      name: 'Español',          hreflang: 'es' },
 ];
 const DEFAULT_LOCALE = LOCALES[0].code;
-const SITE_ORIGIN = 'https://flashcard-guru.flashify.app';
+const SITE_ORIGIN = 'https://guruowl.com/app';
 const ORG_ID = `${SITE_ORIGIN}/#org`;
 const BRAND = 'Guru';                       // short brand (nav, footer, Organization)
 const APP_NAME = 'Guru: AI Flashcard Study'; // full App Store name (titles, SoftwareApplication)

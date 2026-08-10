@@ -19,7 +19,7 @@ cd "$(dirname "$0")/.."
 
 KEY_FILE=".indexnow-key"
 SITEMAP="public/sitemap.xml"
-HOST="flashcard-guru.flashify.app"
+HOST="guruowl.com"
 
 if [ ! -f "$KEY_FILE" ]; then
   echo "ERROR: $KEY_FILE missing — can't authenticate the submission." >&2
@@ -39,7 +39,9 @@ fi
 # Verify the key file is reachable on the public site (IndexNow rejects keys
 # that don't validate over HTTP). Soft-warn if unreachable, but submit anyway —
 # could be a transient DNS/CDN issue.
-KEY_URL="https://$HOST/$KEY.txt"
+# Pages deploys under guruowl.com/app/* — the key file lives there, which per
+# IndexNow rules scopes submissions to /app/* URLs (exactly what the sitemap has).
+KEY_URL="https://$HOST/app/$KEY.txt"
 if curl -fsSL --max-time 5 "$KEY_URL" > /dev/null 2>&1; then
   echo "==> Key verified at $KEY_URL"
 else
